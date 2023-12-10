@@ -1,0 +1,6 @@
+Aendrer mit maal for kvaliteten til at vaere afstanden i baade konfigurationsrum og energi-rum.
+    Koerer en masse runs og gemme resultaterne
+Lave eksempler for: 
+    aquisition
+    bayesian
+Lave en simpel func til eksemplerne

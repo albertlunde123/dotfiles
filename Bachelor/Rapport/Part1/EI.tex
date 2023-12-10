@@ -1,0 +1,63 @@
+%\documentclass[working, oneside]{../../../Preambles/marginclass}
+%\input{../../../Preambles/colors_normal}
+%\input{../../../Preambles/preamble}
+%\input{../../../Preambles/symbols}
+%\input{../../../Preambles/theorem_styles}
+
+%\usepackage{amsmath}
+
+%\begin{document}
+% \let\cleardoublepage\clearpage
+% \thispagestyle{fancy}
+\chapter{Expected Improvement}
+For our final search method, we proceed in the following way. First we note the currently best sampled point $y_{min} = \min \left( Y = \left\{ y_1, \ldots , y_n \right\}  \right) $. This point will serve as the threshold we wish to overcome.
+Let $x \in \Omega$ be some point, we do not know $f\left( x \right) $, but given the GPR-model $\bm{G}$, we have access to an estimate of the value $\mu \left( x \right) $ and uncertainty $\sigma\left( x \right) $. We leverage these by modelling $f\left( x \right) $ with a normally distributed random variable $A$, with mean and spread given by $\bm{G}$. That is,
+ \[
+A \sim N\left( \mu, \sigma \right) \quad, \quad f_A\left( x \right) = \frac{1}{\sigma \sqrt{2\pi} }\exp\left( - \frac{\left( x - \mu  \right) ^2}{2\sigma^2} \right) 
+.\]
+To measure the improvement at $x$, we introduce $I$, which we shall define as,
+\[
+    I\left[ A\left( x \right) \right] = \max\left\{ y_{min} - A\left( x \right) , 0 \right\}
+.\]
+Given some realization of $A$, the improvement from $y_{min}$ is at minimum zero, corresponding to $A$ being greater than $y_min$. Otherwise, the improvement will be the distance $A$ lies below $y_{min}$. We now wish to calculate the expected value of the improvement, which we call the expected improvement. Which can be done in the usual way using LOTUS,
+\begin{align*}
+\mathbb{E}\left[ I \right]  &= \int\limits_{-\infty}^{\infty} I\left( z \right) f_A\left( z \right) \, dz \\
+&= \int\limits_{-\infty}^{\infty}  \max\left\{ y_{min} - z, 0 \right\} f_A\left( z \right) \, dz\\
+&= \int\limits_{-\infty}^{y_{min}} \left( y_{min}-z \right) f_A\left( z \right)\, dz + 0
+.\end{align*}
+Substituting here, we are able to recover the standard normal distribtution,
+\[
+ =   \int\limits_{-\infty}^{\frac{y_{min} - \mu }{\sigma}}\left( y_{min} - r\mu - \sigma \right) \theta \left( r \right) \, dr
+.\] 
+By some fairly tedious integration by parts this can be shown to give,
+\[
+\mathbb{E}\left[ I \right] = \left( y_{min} - \mu  \right) \Theta\left(\frac{y_{min} - \mu }{\sigma} \right) + \sigma \theta \left( \frac{y_{min} - \mu }{\sigma} \right) 
+.\] 
+where $\theta, \Theta$ are the standard normal density and distribution functions. For each $x \in  \Omega$ we can then calculate the expected improvement and select as our next point,
+\[
+x^{+} = \argmax_{x \in \Omega}\mathbb{E}\left[ I\left( x \right)  \right] 
+.\] 
+Stated less formally, what we are doing is the following. For each point $z$ below the threshold $y_min$, we calculate the improvement $I(z)$ and weight these with the probability $f_A\left( z \right) $. Keep in mind that $f_A(z)$ tends to zero, as  $z$ increases. The expected improvement will therefore be greater when $f_A$ has more of its mass concentrated below $y_{min}$.
+\marginfig[0pt]{../figures/EI/EI_explainer}
+\margintext[150pt]{Expected improvement calculated at two points. Notice, the second gaussian extends futher below the EI threshold than the first gaussian. However, the first gaussian has more of its mass concentrated below the threshold. The expected improvement is therefore greater at this point.}
+\marginfig[0pt]{../figures/EI/EI_example}
+\margintext[100pt]{EI shown for the entire space. Notice, that EI quickly approaches zero, as the surrogate model's uncertainty moves above the threshold.}
+\subsection{The $\delta$ parameter}
+
+\marginfig[0pt]{../figures/EI/EI_Threshold1}
+\marginfig[0pt]{../figures/EI/EI_Threshold2}
+\margintext[0pt]{Moving the threshold encourages exploration, as points in the vicinity of $y_{min}$ are given low uncertainties by the GP. As a result, their probability distributions tend to be tightly concentrated around $y_{min}$.}
+Our current algorithm, has a slight problem. In its current form, we are unable to steer the relationship between exploration and exploitation. We can remedy this by adding an additioal parameter $\delta$. This parameter should be interpreted as moving the threshold we wish to beat,
+\[
+    I_{\delta} [A\left( x \right) ] = \max\left\{ \left( y_{min} - \delta \right) - A\left( x \right) , 0  \right\} 
+.\] 
+Performing similar calculations as before, we can find the expected improvement to be,
+\[
+\mathbb{E}\left[ I \right] = \left( \left(y_{min} - \delta\right) - \mu  \right) \Theta\left(\frac{\left(y_{min} - \delta\right) - \mu }{\sigma} \right) + \sigma \theta \left( \frac{\left(y_{min} - \delta\right) - \mu }{\sigma} \right) 
+.\] 
+The way the parameter $\delta$ affects the relationship between exploration and exploitation, can be illustrated with the following example. Let us assume we have a situation where,
+\[
+    G^{-1}\left(y_{min}\right) = \argmin_{x \in \Omega}\left\{ \mu \left( x \right)  \right\}
+.\] 
+Corresponding to the situation, where the minimum sampled point is also the minimum of the surrogate model (As in figure [] in the previous section). In this case, points in the vicinity of $G^{-1}\left( y_{min} \right) $, are almost guranteed to have positive expected improvement, as points $x'$ in the vicinity will have values of $\mu \left( x' \right) $ close to $y_min$. This implies that $f_A\left( x' \right) $ has a lot its mass concentrated below $y_min$ Therefore, the model will heavily favor exploitation. The addition of the parameter $\delta$ (moving the threshold down) penalizes points these points as they, in general, have low uncertainty. In practice, the $\delta$ is finetuned until a good balance between exploration and exploitation is found.
+%\end{document}

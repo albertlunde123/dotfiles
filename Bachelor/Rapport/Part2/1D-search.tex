@@ -1,0 +1,30 @@
+\documentclass[working, oneside]{../../../Preambles/tuftebook}
+\input{../../../Preambles/colors}
+\input{../../../Preambles/preamble}
+\input{../../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{Testing the methods}
+We will now test the methods, that we have described in the previous section. Due to computational limitations, we will test our methods on a simple model problem, namely locating the minimum of a 1d-function $f$ defined on a closed interval $I$. 
+\subsection{Setup}
+The methods we will test are the following. The LCB-method with values of $\kappa = 2, 4$, the EI-method with values of $\delta = 0, 1$ aswell as the pure-exploitation method. As our test function, we use a sum of random sine-function,
+\[
+f_{test} = \sum_i^{n} a_i \sin(b_i x + c_i), \quad a_i, b_i, c_i \sim \mathcal{U}(0, 1).
+.\] 
+A random interval is then chosen and a few points $X = \left\{   x_1, \ldots, x_{n}\right\}$ are sampled from said interval. These points are then evaluated in the random function $f$ giving,
+\[
+\text{Data} = \left( X, Y \right) = \left( X, f\left( X \right)  \right) 
+.\] 
+The GPR-model $\bm{G}$, is then fitted to this data, 
+By brute force, the minimum of the function $x_{min}$ is recorded for comparison. A threshold, $\epsilon$, is chosen aswell, which represents the neighborhood around $x_{min}$, which we shall count as succesful. In other words, our search is succesful, if it samples a point $x^{+}$ satisfying,
+\[
+\left| x_{min} - x^{+} \right| < \epsilon
+.\]
+For each method, all of these initial conditions are held constant. The GPR-model is then fitted to the sampled points, and the search is ready to commense.
+\subsection{Search}
+The search is conducted in the following way. For a fixed number of iterations, the search method $S$ being tested probes the GPR-model and returns a point $x^{+}$ it recommends for sampling. This point is then compared to $x_{min}$ and if it lies within a distance of $\epsilon$, the search terminates. If not, $(x^{+}, f(x^{+})$ is added to the data, and the GPR-model is updated. This process repeats until the minimum is found, or the number of iterations exceeds the limit. When the process finishes, the current iteration number is stored. 
+This experiment is then repeated a number of times for each search method, the results are plotted \textit{succes-curve}
+
+\end{document}

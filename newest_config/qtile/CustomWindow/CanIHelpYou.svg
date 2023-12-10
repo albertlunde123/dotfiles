@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="84.723122mm"
+   height="11.710733mm"
+   viewBox="0 0 84.723123 11.710733"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="CanIHelpYou.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.1672135"
+     inkscape:cx="196.28212"
+     inkscape:cy="23.39255"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="2440"
+     inkscape:window-height="1450"
+     inkscape:window-x="60"
+     inkscape:window-y="90"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(119.07673,-135.93389)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;line-height:30.95000839;font-family:STIX;-inkscape-font-specification:STIX;letter-spacing:0.46566668px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#f09af7;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="-116.79678"
+       y="120.33484"
+       id="text817"><tspan
+         sodipodi:role="line"
+         id="tspan815"
+         x="-116.79678"
+         y="320.04239"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;line-height:30.95000839;font-family:STIX;-inkscape-font-specification:STIX;letter-spacing:0.46566668px;fill:none;stroke:#f09af7;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /><tspan
+         sodipodi:role="line"
+         x="-116.79678"
+         y="713.10748"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;line-height:30.95000839;font-family:STIX;-inkscape-font-specification:STIX;letter-spacing:0.46566668px;fill:none;stroke:#f09af7;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan819" /></text>
+    <text
+       id="text844"
+       y="143.39139"
+       x="-117.29801"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:30.95000839;font-family:STIX;-inkscape-font-specification:STIX;letter-spacing:0.46566668px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#c0caf5;stroke-width:0.266;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0"
+         rotate="0 0 0 0 0 0 0 0 0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:30.95000839;font-family:STIX;-inkscape-font-specification:STIX;letter-spacing:0.46566668px;fill:none;fill-opacity:1;stroke:#c0caf5;stroke-width:0.266;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         y="143.39139"
+         x="-117.29801"
+         id="tspan840"
+         sodipodi:role="line">Can i help you with anything?</tspan><tspan
+         id="tspan842"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:30.95000839;font-family:STIX;-inkscape-font-specification:STIX;letter-spacing:0.46566668px;fill:none;fill-opacity:1;stroke:#c0caf5;stroke-width:0.266;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         y="318.08701"
+         x="-117.29801"
+         sodipodi:role="line" /></text>
+    <rect
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#c0caf5;stroke-width:0.26599997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:none;marker-end:none"
+       id="rect865"
+       width="84.457123"
+       height="11.444734"
+       x="-118.94373"
+       y="136.06689"
+       ry="3.7060451e-07" />
+  </g>
+</svg>

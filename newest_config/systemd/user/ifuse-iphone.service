@@ -1,0 +1,14 @@
+[Unit]
+Description=Mount iPhone
+BindsTo=sys-devices-pci0000:00-0000:00:14.0-usb1-1\x2d2.device
+After=sys-devices-pci0000:00-0000:00:14.0-usb1-1\x2d2.device
+
+[Service]
+Type=simple
+ExecStart=/home/albert/.config/systemd/user/mount-iphone.sh /home/albert/Iphone
+# ExecStop=/usr/bin/echo "Unmounting occurred" > /tmp/unmount.log
+TimeoutStartSec=10
+
+[Install]
+WantedBy=default.target
+

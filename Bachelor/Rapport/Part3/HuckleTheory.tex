@@ -1,0 +1,127 @@
+%\documentclass[working, oneside]{../../../Preambles/tuftebook}
+%\input{../../../Preambles/colors_normal}
+%\input{../../../Preambles/preamble}
+%\input{../../../Preambles/theorem_styles}
+%
+%\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{Huckle Theory}
+In this final section of the report, we will attempt to evaluate the success of our search. What we aim to do is look at the structures we have found, and using the language of Huckle Theory, test whether their ranking in this paradigm is consistent with databased potential we have used. 
+\subsection{Method and Assumptions}
+In the Huckle framework we assume that the cluster orbitals can be described as a linear combination of atomic orbitals (LCAO), we denote these atomic orbitals $\left\{ \phi_i  \right\} $. Let us assume that we are dealing with $N$ atoms in our cluster and denote the $i$'th atom by  $A_i$. The combined molecular/cluster orbitals $\left\{ \Psi_i \right\} $ then become,
+\[
+\left| \Psi_i \right> = \sum_k c_k \left|\phi _k \right>
+.\] 
+We can substitute this equation into the Schrödinger equation obtaining,
+\begin{align*}
+    \hat{H} \left| \Psi_i \right> &= E \left|\Psi_i \right> \\
+    \sum_k \hat{H} \left|\phi _k \right> &= \sum_kE c_k\left| \phi _k\right>
+.\end{align*}
+Now, bearing in mind that our goal is to find suitable values of $E$, we construct a series of $N$ equations by multiplying both sides by $\left< \phi _i \right|$. The $i$'th equation then becomes,
+ \[
+\sum_k c_k \left( \left< \phi _i \left| \hat{H}\right|\phi _k \right> - E \left< \phi _i \mid \phi _k\right> \right) = 0
+.\] 
+In order to simplify, we use the familiar notation $H_{ik} := \left< \phi _i \right| \hat{H} \left|\phi _k \right>$ (the matrix elements of the hamiltonian) and $S_{ik} := \left<\phi _i  \mid \phi _k \right>$ (the overlap integrals). We can gather these equations in the following matrix equation,
+\[
+\begin{pmatrix}
+    H_{11} - ES_{11} & \ldots &H_{1n} - ES_{1n} \\   
+    \vdots & \ddots  &  \vdots \\
+    H_{n1} - ES_{n1} & \vdots  &  H_{nn} - ES_{nn}\\ 
+\end{pmatrix}
+\begin{pmatrix} c_1\\ \vdots\\ c_n \end{pmatrix}
+= 0
+.\] 
+Now, in theory, the $H_{ij}$ and $S_{ij}$ are all known values that can be calculated and $E$ is the only unknown. As we know from linear algebra matrix equations of the form $Ax = 0$, have non-trivial solutions so long as $\det\left( A \right) = 0 $. We can therefore have to solve the equation,
+\[
+    \det\left( \overline{H} - E \overline{S} \right) = 0
+.\] 
+for $E$ in order to obtain the orbital energies of the cluster. In practice the overlap integrals and matrix-elements of the hamiltonian can be quite cumbersome to calculate. In order to overcome this, simple Hückle theory employs the following approximations
+\subsubsection{Approximations/assumptions}
+\begin{enumerate}
+    \item The hamiltonian integrals are assumed to be,
+        \[
+        H_{ij} = \begin{cases}
+            \alpha \quad i = j \\
+            \beta \quad \text{when $A_i$ are  $A_j$ are bonded} \\
+            0 \quad \text{otherwise}
+        \end{cases}
+        .\] 
+        The assumption here, is that the energy ($H_{ii}$) of an electron in an isolated orbital is $\alpha$ and that the energy ($H_{ij}$ of interaction between electrons on bonded atoms is $\beta$. This can be viewed as an assumption of equal bond lenghts, wherever bonds occur. $\alpha$ and $\beta$ are both assumed to be negative, with $\beta > \alpha$. Finally we assume, that electrons on non-bonded atoms do not interact)
+    \item The (spatial) overlap integrals are assumed to be,
+        \[
+        S_{ij} = 0
+        .\]
+    \item We assume that the total binding energy of the system is,
+        \[
+        E_{tot}= \sum_k^{states} = n_k \epsilon_k
+        .\] 
+        In other words, the energy is the sum over the number of electrons in a given orbital multiplied by the energy of said orbital. 
+\end{enumerate}
+Note, that these assumptions disable us from making exact energy calculations. However, we should still be able to compare the predicted "energies" of distinct configurations. We are now ready to tackle a simple example.
+\subsection{Simple example - Au3}
+Lets try the method in practice on a simple system. Consider the $Au3$ system, and the two following simple configurations (figure). The first configuration is linear, and features bonds between the first and second atoms, and the second and third atoms. The second configuration is triangular, and has bonds between all the atoms. Now given the assumptions outlined in the previous sections, we can construct the following Huckle matrices,
+\[
+\hat{H}_{tri} = 
+\begin{pmatrix}
+    \alpha & \beta & \beta \\
+    \beta & \alpha & \beta \\
+    \beta & \beta & \alpha \\
+\end{pmatrix}
+\quad 
+\text{and}
+\quad
+\hat{H}_{lin} = 
+\begin{pmatrix}
+    \alpha & \beta & 0 \\
+    \beta & \alpha & \beta\\
+    0 & \beta & \alpha \\
+\end{pmatrix}
+.\] 
+Using elementary linear algebra the eigenvalues of these matrices are found to be,
+\begin{align*}
+    \epsilon_{tri} = \begin{cases}
+        \alpha + \sqrt{2} \beta \\
+        \alpha \\
+        \alpha - \sqrt{2} \beta
+    \end{cases}
+    \quad
+    \epsilon_{lin} = \begin{cases}
+        \alpha + 2\beta \\
+        \alpha - \beta 
+    \end{cases}
+.\end{align*}
+\color{foreground} 
+Now filling up the orbitals in the usual way, with 2 electrons at the lowest level and 1 at the second lowest, we obtain the following binding energies,
+\[
+E_{lin} = 3\alpha + 2\sqrt{2} \beta \quad , \quad E_{lin} = 3\alpha + 3\beta
+.\] 
+Confirming my suspicion that the triangular has the lowest energy.
+\chapter{Comparison of DFT, EMT and Huckle}
+In this section we shall compare the results from our search using EMT and DFT with the predictions our Huckle model make.
+\chapter{What graph properties lead to low energy in Huckle?}
+In the Huckle framework, the predicted energy depends on the eigenvalues (spectrum) of the adjacency matrix. In the context of Au clusters, where each atom has a single valence electron, the predicted energy will be twice the sum of the lowest eigenvalues. In this section I will study some different properties of graphs, and try to determine how these relate to the dispersion of the eigenvalues. 
+\subsection{What we are interested in.}
+Consider a graph $G$ with $n$ components and associated adjacency n-dimensional matrix $A$. Then, since A is symmetric and positive semi-definite it has real eigenvalues $\lambda_i \in \mathbb{R}$, which we shall order in the following way,
+\[
+\lambda_1 \le  \lambda_2 \le \ldots \le \lambda_n
+.\] 
+Notice also that the symmetry of $A$ implies that,
+ \[
+\sum_i \lambda_i = \text{Tr}\left( A \right) = 0
+.\] 
+As a result of this there must be some form of balance in the eigenvalues, with the positive ones being balanced out by the negative ones. Since the systems we are considering have one valence electron pr. atom, the total energy of the system will be,
+\[
+E = \sum_{i}^{n /2} 2 \cdot \lambda_i \quad n \text{  even} 
+.\] 
+Keeping this in mind, graphs with extreme eigenvalues seem to be good candidates. The first kind of graph, that we shall consider are so-called bipartite graphs.
+\subsection{Bipartite graphs}
+A bipartite graph, is a graph that can be labeled with two colors, such that no connected vertices share the same color. An example of both a bipartite and non-bipartite graph is shown in fig. Qualitatively, bipartite graphs do not appear to be good candidates. This is due to the fact that they admit heavily fluctuating wavefunctions, which naturally have large eigenvalues.\\
+Bipartite graphs also satisfy the following property,
+\[
+\lambda_1 = -\lambda_n
+.\] 
+\begin{proof}
+    
+\end{proof}
+%\end{document}

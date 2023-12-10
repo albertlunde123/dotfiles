@@ -1,0 +1,194 @@
+"Finding files:
+set nocompatible
+
+let maplocalleader = ","
+let mapleader = ","
+
+set shortmess+=c
+syntax on
+
+" set termguicolors
+set mouse=a
+" set cursorline
+
+set number
+set relativenumber
+set nospell
+
+set clipboard=unnamed
+set conceallevel=2
+
+" bind Ctrl+<movement> keys to move around the windows, instead of using Ctrl+w + <movement>
+" Every unnecessary keystroke that can be saved is good for your health :)
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
+map <c-h> <c-w>h
+
+" normal mode bindings 
+nnoremap <leader>u :UltiSnipsEdit<cr>
+nnoremap L $
+nnoremap H 0
+nnoremap <leader>s :source $MYVIMRC
+
+" insert mode bindings
+inoremap ii <Esc>
+
+" visual mode bindings
+" press a to quickly go to insert mode
+vnoremap a <Esc>a
+nnoremap <Space> @q
+
+
+" Compile python og R
+autocmd FileType python map <leader>ll :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
+autocmd FileType r map <leader>ll :w<CR>:exec '!Rscript %' shellescape(@%, 1)<CR>
+
+" farver i json-fil
+au FileType json set termguicolors
+au FileType rasi set termguicolors
+
+" Spell-check i vim
+au FileType tex setlocal spell
+set spelllang=en_gb
+
+inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
+
+"" Set hotkeys for inkscape figures
+
+inoremap <C-f> <Esc>: silent exec '.!inkscape-figures create "'.getline('.').'" "'.b:vimtex.root.'/figures/"'<CR><CR>:w<CR>
+nnoremap <C-f> : silent exec '!inkscape-figures edit "'.b:vimtex.root.'/figures/" > /dev/null 2>&1 &'<CR><CR>:redraw!<CR>
+
+
+"Search down into subfolders
+set path+=**
+
+"Display all matching files
+set wildmenu
+
+filetype plugin indent on
+
+" White-space i python
+" au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+
+" Vundle setup
+set rtp+=~/.vim/plugged
+
+" call plug#begin('~/.vim/plugged')
+call plug#begin()
+
+" Plug 'valloric/youcompleteme'
+" 	let g:ycm_filetype_blacklist = { 'tex': 1 }
+" 	let g:ycm_key_list_select_completion=[]
+" 	let g:ycm_key_list_previous_completion=[]
+
+
+"Python
+Plug 'preservim/nerdtree'
+Plug 'vim-scripts/indentpython.vim'
+Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
+    "let g:pymode_rope = 0
+    "let g:pymode_rope_completion = 0
+    "let g:pymode_rope_completion_bind = '<C-Space>'
+    "let g:pymode_rope_complete_on_dot = 0
+Plug 'vim-python/python-syntax'
+	let g:python_highlight_all = 1
+"Latex
+Plug 'lervag/vimtex'
+    let g:tex_flavor='mklatex'
+    " let g:vimtex_view_method='okular'
+    let g:vimtex_view_general_viewer = 'zathura' 
+    let g:vimtex_quickfix_mode=0
+    let g:Tex_MultipleCompileFormats='pdf,bib,pdf'
+" Plug 'gibiansky/vim-latex-objects'
+Plug 'KeitaNakamura/tex-conceal.vim'
+    set conceallevel=1
+    let g:tex_conceal='abdmg'
+    hi Conceal ctermbg=none
+" R
+Plug 'jalvesaq/Nvim-R'
+    let R_pdfviewer = 'zathura'
+    let R_openpdf = 1
+    let R_auto_start = 1
+"Snippets
+Plug 'sirver/ultisnips'
+    let g:UltiSnipsExpandTrigger = '<tab>'
+    let g:UltiSnipsJumpForwardTrigger = '<tab>'
+    let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+"Colorschemes
+Plug 'dylanaraps/wal'
+Plug 'arcticicestudio/nord-vim'
+Plug 'itchyny/lightline.vim'
+Plug 'morhetz/gruvbox'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'deviantfero/wpgtk.vim'
+"Fuzzy finder
+"syntax highlighting
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+"Additional movements
+" Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-repeat'
+Plug 'luochen1990/rainbow'
+Plug 'tpope/vim-surround'
+call plug#end()
+lua require('plugins')
+
+"spell-checking
+" setlocal spell
+" set spelllang=en_gb
+" inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
+
+" colorscheme wal
+
+let g:airline_theme='wpgtk'
+
+let g:rainbow_active = 1
+
+"Remove grey boxes in tex-conceal
+hi clear conceal
+
+"Run NERDTree on startup
+"autocmd vimenter * NERDTree
+
+
+" todo liste ting.
+au BufRead,BufNewFile ../../../tmp/todo_input.txt set filetype=todo_input
+autocmd VimLeave * silent !kitty -class 'todo_input' quit
+autocmd FileType todo_input inoremap <CR> <Esc>:w<CR>:q<CR>
+autocmd FileType todo_input setlocal noswapfile
+autocmd FileType todo_input setlocal insertmode
+autocmd FileType todo_input setlocal nolist nonumber norelativenumber
+autocmd FileType todo_input setlocal laststatus=0
+" autocmd FileType todo_input setlocal nowrap
+autocmd FileType todo_input setlocal nocursorline
+autocmd FileType todo_input setlocal nocursorcolumn
+autocmd FileType todo_input setlocal nofoldenable
+autocmd FileType todo_input setlocal noshowcmd noshowmode
+
+highlight EndOfBuffer ctermfg=yellow
+
+" shortcuts til R
+" comment out code
+" nnoremap gcc I<!-- <Esc>A --><Esc>o
+" nnoremap gcc :s/<!--\_s*\(.*\)-->/\1/gc<CR>
+" nnoremap <silent> gcc :execute "normal! I<!-- \<lt>Esc>A -->"<CR>
+
+function! ToggleComment()
+  let l = getline(".")
+  if l =~ '^\s*<!--'
+    let l = substitute(l, '^\s*<!--\s*', '', '')
+    let l = substitute(l, '\s*-->\s*$', '', '')
+    call setline(".", l)
+  else
+    call setline(".", '<!-- ' . l . ' -->')
+  endif
+endfunction
+
+au BufRead,BufNewFile *.R set filetype=R
+autocmd FileType R nnoremap <silent> gcc :call ToggleComment()<CR>
+syntax match Comment /<!--.*-->/
+hi Comment ctermbg=NONE
+hi Comment ctermfg=red
+
+let $OPENAI_API_KEY = "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"

@@ -1,0 +1,48 @@
+Expected Improvement
+    Proeve at regne ud hvornaar den bugger og fikse det... x
+    Lave en animiationsting, saa jeg kan se hvad det er der foregaar x
+
+1d - funktioner
+    Samle en masse data!
+    Behandle det.
+
+STOR SOEGNING
+-------------
+GPR.
+    Udvide til hoejere dimensioner
+
+Expected Improvement
+    Udvide til hoejere dimensioner
+    Gradient descent;
+        Sample et eller andet punkt, nok i virkeligheden rattle alle nuvaerende punkter.
+        Vaelge den mest lovende kandidat X.
+        Generer omkring X, vaelge den mest lovende kandidat, fortsaette indtil man rammer et lokalt minimum i EI.
+        Energi-beregning, tilfoeje til data.
+
+Punkt generering.
+    Givet et punkt i Omega, vil jeg gerne genererer punkter omkring som opfylder graensebetingelserne.
+        Hvis muligt skal metoden ikke genererer punkter som encoder til det samme.
+        Hvis muligt skal punkterne vaere nogenlunde jaevnt spredt, equidistant.
+    Skrive noget om LHS
+
+Encoding.
+    Finde en maade at encode rotations invarians
+
+
+Inden på mandag.
+
+- Lave grafer til EI, GPR.
+    GPR
+        Samplede funktioner
+        Fittet funktion
+    EI
+        Illustration for specifikt punkt
+        Hele landskabet
+        Opdateret model
+- Sætte dem ind.
+- Skrive EI aquisition funktionen.
+- Prøve at kører en søgning med AU10
+
+
+
+    

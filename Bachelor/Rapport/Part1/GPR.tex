@@ -1,0 +1,57 @@
+% \documentclass[working, oneside]{../../../Preambles/marginclass}
+% \input{../../../Preambles/colors_normal}
+% \input{../../../Preambles/preamble}
+% \input{../../../Preambles/theorem_styles}
+
+% % \usepackage{mathpazo}
+% % \usepackage{garamondx}
+% % \usepackage{newtxmath}
+
+% \usepackage{pgf}
+
+
+% \begin{document}
+% \let\cleardoublepage\clearpage
+% \thispagestyle{plain}
+% \pagestyle{normal}
+\chapter{Gaussian Process Regression}
+As described in the previous section, we make use of a surrogate model to give an intermediate view of the energy landscape. We construct this surrogate, using a method known as \textit{gaussian process regression} (GPR). This method has the benefits of being parameter free, simple and the ability to interpolate data perfectly. In this section I will provide a brief overview of the method aswell as some examples. We start with some definitions,
+\marginfig{../figures/GPR/GP_prior.jpg}
+% \margintext{4 randomly sampled functions from a gaussian process with the radial basis kernel. Since this kernel is differentiable, the sampled functions are smooth.}
+\subsection{Gaussian Process}
+A gaussian process is a special case of so-called random processes. A random process is an infinite collection of random variables $\left\{ X_t, t \in T \right\} $, where $T$ is some (continuous) index set. The way in which the $X_T$ relate to one another, determines the type of random process. For gaussian processes the joint distribution of any finite subset $X_{1, \ldots, n}$ is a multivariate normal gaussian,
+\[
+X_{1, \ldots, n} = \left( X_1, \ldots, X_n \right) \sim N\left( 0, \Sigma \right) 
+.\] 
+Where $\Sigma$ is the covariance matrix, which can be calculated using the GP's associated \textit{kernel} $K$ in the following way,
+\[
+\Sigma_{ij} = K\left( X_i, X_j \right) 
+.\] 
+Where the kernel is some positive function. The behaviour of a GP, is therefore completely determined by the choice of kernel. A GP, can be viewed as a distribution over functions, where the functions domain is the index set $T$ and its image, the possible realizations of the variables $X_t$. The general shape of the function, whether it is continuous, periodic and so forth, is determined by the kernel. A common choice of kernel, is the \textit{radial basis function}
+\[
+    K_{RBF}\left( X_i, X_j \right) = \exp\left(-\frac{\left| X_i - X_j \right| ^2}{\theta }\right) 
+,\] 
+which has the nice property of being infinitely differentiable. The constant $\theta $ is a hyperparameter, which is used to tune the kernel. A variety of sampled functions is shown in the FIG.
+\subsection{Regression}
+In general, we are not interested in sampling random functions. Instead we want to use our GP to make predictions. Let us assume that we want to model a real-valued function $f$, whose domain is an interval $I \subset \mathbb{R}$. Let $X = \left\{ X_1, \ldots, X_n \right\}$ be our data points and $f\left( X \right) $ their "true" values. Our goal is to use this data to predict the value of $f$ at a new point $\widetilde{x}$. The first step, is to construct the joint probability distribution,
+\marginfig{../figures/GPR/GP_posterior.jpg}
+% \margintext{A simple regression for a sine wave (shown in yellow). Notice that the fit (purple) interpolates the data! The uncertainty is displayed in green. As expected, the uncertainty tends to zero in proximity of the data points.}
+\[
+\left( X, \widetilde{x} \right) \sim N\left( 0, 
+\begin{bmatrix}
+    \Sigma_{XX} & \Sigma_{X\widetilde{x}} \\
+     \Sigma_{\widetilde{x}X}&  \Sigma_{\widetilde{x}\widetilde{x}}\\
+\end{bmatrix}\right) 
+.\]
+We can now condition on the true values of $X$, to obtain a conditional probability distribution for $\widetilde{x}$. I have chosen to leave out the derivation of this distribution as it is a bit cumbersome.
+ \[
+\left( X, \widetilde{x} \right) \mid X = f\left( X \right) \sim N\left( \mu\left( \widetilde{x}\right) , \sigma^2\left( \widetilde{x} \right)  \right) 
+.\] 
+where the mean and variance are given by,
+\begin{align*}
+    \mu \left( \widetilde{x} \right) &= \left(   \Sigma_{\widetilde{x}X}\Sigma_{XX}^{-1}\right) \cdot  f\left( X \right) \\
+    \sigma^2 \left( \widetilde{x} \right) &= \Sigma_{\widetilde{x}\widetilde{x}} - \Sigma_{\widetilde{x}X}\Sigma_{XX}^{-1}\Sigma_{X\widetilde{x}}
+.\end{align*}
+% \color{foreground} 
+We have thus obtained a prediction and uncertainty for $f\left( \widetilde{x} \right) $ given our data. FIG illustrates aan example. An important part of GPR, is the choice of kernel and hyperparameters. Since these fully determine the functions that a GP is able to reproduce, it is essential that they are chosen wisely. There exist a variety of methods that accomplish this, which I shall not delve into.
+% \end{document}

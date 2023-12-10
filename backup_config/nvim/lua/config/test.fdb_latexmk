@@ -1,0 +1,12 @@
+# Fdb version 3
+["pdflatex"] 1671639985 "test.tex" "test.pdf" "test" 1671639985
+  "/etc/texmf/web2c/texmf.cnf" 1635159711 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1635162970 8256240 e81497e6211d7c3d8e839e3c27f33a44 ""
+  "inputs/tuftebook.cls" 0 -1 0 ""
+  "test.aux" 1671639985 8 a94a2480d3289e625eea47cd1b285758 ""
+  "test.tex" 1671639985 375 4671d50f6bc61e936a039dc8a2a01498 ""
+  (generated)
+  "test.log"
+  "test.pdf"

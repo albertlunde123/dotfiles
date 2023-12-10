@@ -1,0 +1,20 @@
+\chapter{Search Methods}
+\subsection{Exploration vs. Exploitation}
+We have now constructed our surrogated model $\bm{G}$, which in theory should allow us to approximate the energy landscape. We still need to figure how to use $G$ in the most effective way. The question is, given the knowledge we can obtain from $G$, which point $x \in \Omega$, should we evaluate in $\bm{B}$ and update our model. There are a variety of methods we can employ, some of which will be explored shortly, but they all have to balance the tug and pull of exploration and exploitation. An overly exploitative method, tends to search areas where the model is already confident. This leads to quite precise predictions, but runs the risk of overlooking important areas, where the model is currently. An explorative method, prefers not to dwell in areas where the model has low uncertainty. While this reduces the chance of overlooking important areas, the model is not encouraged to explore areas in depth, even though they might contain the global minimum. A good search method balancesthe two, knowing when to explore new areas, and when to dive in and exploit the surrogate model in a specific area. 
+\subsection{Pure Exploitation}
+The simplest search method is to simply evaluate the point with the lowest predicted energy.
+\[
+\bm{x}^{+} = \argmin_{\bm{x} \in \Omega} \mu_{\bm{G}}(\bm{x})
+.\] 
+This is a purely exploitative method, as it "assumes" that the model has perfect predictive power. This 
+\subsection{Lower Confidence Bound (LCB)}
+The lower confidence bound method makes use of both mean and uncertainty provided by the GPR-model. It does this in a very simple way, by defining an aquisition function in the following way,
+\[
+aqui\left( \bm{x} \right) = \mu _{\bm{G}}\left( \bm{x} \right)  - \kappa \sigma_{\bm{G}}\left( \bm{x} \right) 
+.\] 
+Where $\kappa$ is some constant that determines the emphasis put on the uncertainty, thereby controlling the relationship between exploration and exploitation. A large value of $\kappa$, will cause the second term to dominate, leading the search to favor unexplored areas ($\sigma_{\bm{G}}$ large). Conversely, as $\kappa$ tends to zero, the LCB method approaches the purely exploitative method. \\
+This method has both clear advantages and downsides. It is unlikely to get stuck in a given area, as continued exploitation will cause the uncertainty to fall and theerby the aquisition function to rise. However, since it only cares about the sum of the mean and uncertainty, and not their ratios it is unable to determine the "likelihood" of a point being an improvement. This point is illustrated in {fig}.
+
+\[
+\bm{x}^{+} = \argmax_{\bm{x} \in \Omega} \left\{ \mu_{\bm{G}}(\bm{x}) - \kappa \sigma_{\bm{G}}(\bm{x}) \right\}
+.\] 
