@@ -1,6 +1,0 @@
-2025/01/29-16:03:49.071 ae2 Creating DB /home/albert/.config/google-chrome/Default/IndexedDB/https_mohammad-yasir.medium.com_0.indexeddb.leveldb since it was missing.
-2025/01/29-16:03:49.081 ae2 Reusing MANIFEST /home/albert/.config/google-chrome/Default/IndexedDB/https_mohammad-yasir.medium.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/01/29-16:14:48.892 ae3 Level-0 table #5: started
-2025/01/29-16:14:48.904 ae3 Level-0 table #5: 23749 bytes OK
-2025/01/29-16:14:48.918 ae3 Delete type=0 #3
-2025/01/29-16:14:48.918 ae3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

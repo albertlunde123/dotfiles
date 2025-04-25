@@ -1,6 +1,0 @@
-2025/02/13-10:18:13.614 2d4fa1 Creating DB /home/albert/.config/google-chrome/Default/IndexedDB/https_app.diagrams.net_0.indexeddb.leveldb since it was missing.
-2025/02/13-10:18:13.644 2d4fa1 Reusing MANIFEST /home/albert/.config/google-chrome/Default/IndexedDB/https_app.diagrams.net_0.indexeddb.leveldb/MANIFEST-000001
-2025/02/13-13:20:46.599 2d4fa2 Level-0 table #5: started
-2025/02/13-13:20:46.613 2d4fa2 Level-0 table #5: 559884 bytes OK
-2025/02/13-13:20:46.622 2d4fa2 Delete type=0 #3
-2025/02/13-13:20:46.624 2d4fa2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

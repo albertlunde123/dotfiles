@@ -1,6 +1,0 @@
-2025/04/23-14:52:49.636 1df4 Creating DB /home/albert/.config/google-chrome/Default/WebStorage/62/IndexedDB/indexeddb.leveldb since it was missing.
-2025/04/23-14:52:49.663 1df4 Reusing MANIFEST /home/albert/.config/google-chrome/Default/WebStorage/62/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2025/04/23-14:53:44.379 1df4 Level-0 table #5: started
-2025/04/23-14:53:44.389 1df4 Level-0 table #5: 8888 bytes OK
-2025/04/23-14:53:44.402 1df4 Delete type=0 #3
-2025/04/23-14:53:44.402 1df4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

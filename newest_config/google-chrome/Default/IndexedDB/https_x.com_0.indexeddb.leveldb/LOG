@@ -1,6 +1,0 @@
-2025/03/23-22:33:00.900 2f536c Creating DB /home/albert/.config/google-chrome/Default/IndexedDB/https_x.com_0.indexeddb.leveldb since it was missing.
-2025/03/23-22:33:00.929 2f536c Reusing MANIFEST /home/albert/.config/google-chrome/Default/IndexedDB/https_x.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/03/23-22:43:07.656 2f536d Level-0 table #5: started
-2025/03/23-22:43:07.667 2f536d Level-0 table #5: 2516 bytes OK
-2025/03/23-22:43:07.680 2f536d Delete type=0 #3
-2025/03/23-22:43:07.680 2f536d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
