@@ -1,0 +1,62 @@
+2025-04-08 16:46:02.195 [info] Getting Manifest... vscodevim.vim
+2025-04-08 16:46:03.181 [info] Installing extension: vscodevim.vim {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/albert/.cursor/extensions/extensions.json","path":"/home/albert/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.48.7","date":"2025-04-02T04:59:37.442Z","vscodeVersion":"1.96.2"}}
+2025-04-08 16:46:03.301 [info] Started downloading extension: vscodevim.vim 1.29.0 file:///home/albert/.config/Cursor/CachedExtensionVSIXs/cursor-vscodevim.vim-1.29.0
+2025-04-08 16:46:05.537 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-04-08 16:46:05.537 [info] Extension signature verification is not done: vscodevim.vim
+2025-04-08 16:46:05.693 [info] Extracted extension to file:///home/albert/.cursor/extensions/vscodevim.vim-1.29.0: vscodevim.vim
+2025-04-08 16:46:05.706 [info] Renamed to /home/albert/.cursor/extensions/vscodevim.vim-1.29.0
+2025-04-08 16:46:05.729 [info] Extension installed successfully: vscodevim.vim vscode-userdata:/home/albert/.cursor/extensions/extensions.json
+2025-04-08 16:46:05.754 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albert/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albert/.cursor/extensions/extensions.json.vsctmp'
+    at $y.create (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40451)
+    at As (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40558)
+    at ao.ib (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at ao.stat (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async hu.stat (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async ru.Ab (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)
+2025-04-08 16:47:58.255 [info] Getting Manifest... ms-python.python
+2025-04-08 16:47:59.111 [info] Installing extension: ms-python.python {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/albert/.cursor/extensions/extensions.json","path":"/home/albert/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.48.7","date":"2025-04-02T04:59:37.442Z","vscodeVersion":"1.96.2"}}
+2025-04-08 16:48:05.747 [info] Getting Manifest... ms-python.vscode-pylance
+2025-04-08 16:48:06.024 [info] Getting Manifest... ms-python.python
+2025-04-08 16:48:06.558 [info] Extension is already requested to install ms-python.python vscode-userdata:/home/albert/.cursor/extensions/extensions.json
+2025-04-08 16:48:06.578 [info] Getting Manifest... ms-python.debugpy
+2025-04-08 16:48:07.733 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/albert/.cursor/extensions/extensions.json","path":"/home/albert/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.48.7","date":"2025-04-02T04:59:37.442Z","vscodeVersion":"1.96.2"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-04-08 16:48:07.734 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/albert/.cursor/extensions/extensions.json","path":"/home/albert/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.48.7","date":"2025-04-02T04:59:37.442Z","vscodeVersion":"1.96.2"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-04-08 16:48:07.748 [info] Started downloading extension: ms-python.vscode-pylance 2024.8.1 file:///home/albert/.config/Cursor/CachedExtensionVSIXs/cursor-ms-python.vscode-pylance-2024.8.1
+2025-04-08 16:48:07.751 [info] Started downloading extension: ms-python.debugpy 2024.6.0 file:///home/albert/.config/Cursor/CachedExtensionVSIXs/cursor-ms-python.debugpy-2024.6.0-linux-x64
+2025-04-08 16:48:07.755 [info] Started downloading extension: ms-python.python 2024.12.3 file:///home/albert/.config/Cursor/CachedExtensionVSIXs/cursor-ms-python.python-2024.12.3-linux-x64
+2025-04-08 16:48:12.652 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-04-08 16:48:12.653 [info] Extension signature verification is not done: ms-python.vscode-pylance
+2025-04-08 16:48:12.662 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-04-08 16:48:12.662 [info] Extension signature verification is not done: ms-python.python
+2025-04-08 16:48:13.252 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-04-08 16:48:13.252 [info] Extension signature verification is not done: ms-python.debugpy
+2025-04-08 16:48:13.857 [info] Extracted extension to file:///home/albert/.cursor/extensions/ms-python.debugpy-2024.6.0-linux-x64: ms-python.debugpy
+2025-04-08 16:48:13.901 [info] Renamed to /home/albert/.cursor/extensions/ms-python.debugpy-2024.6.0-linux-x64
+2025-04-08 16:48:13.987 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albert/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albert/.cursor/extensions/extensions.json.vsctmp'
+    at $y.create (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40451)
+    at As (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40558)
+    at ao.ib (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at ao.stat (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async hu.stat (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async ru.Ab (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)
+2025-04-08 16:48:14.883 [info] Extracted extension to file:///home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64: ms-python.python
+2025-04-08 16:48:14.992 [info] Renamed to /home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64
+2025-04-08 16:48:15.080 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albert/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albert/.cursor/extensions/extensions.json.vsctmp'
+    at $y.create (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40451)
+    at As (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40558)
+    at ao.ib (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at ao.stat (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async hu.stat (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async ru.Ab (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)
+2025-04-08 16:48:18.601 [info] Extracted extension to file:///home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1: ms-python.vscode-pylance
+2025-04-08 16:48:18.905 [info] Renamed to /home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1
+2025-04-08 16:48:18.936 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/albert/.cursor/extensions/extensions.json
+2025-04-08 16:48:18.936 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/albert/.cursor/extensions/extensions.json
+2025-04-08 16:48:18.936 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/home/albert/.cursor/extensions/extensions.json
+2025-04-08 16:48:19.001 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albert/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albert/.cursor/extensions/extensions.json.vsctmp'
+    at $y.create (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40451)
+    at As (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40558)
+    at ao.ib (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at ao.stat (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async hu.stat (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async ru.Ab (file:///tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)

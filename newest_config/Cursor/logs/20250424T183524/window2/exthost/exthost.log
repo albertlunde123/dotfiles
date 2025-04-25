@@ -1,0 +1,47 @@
+2025-04-24 18:41:14.599 [info] Extension host with pid 615879 started
+2025-04-24 18:41:14.623 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-24 18:41:14.636 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-24 18:41:14.734 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-24 18:41:14.898 [info] Eager extensions activated
+2025-04-24 18:41:14.910 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-04-24 18:41:15.163 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-04-24 18:41:15.245 [info] Extension host with pid 615912 started
+2025-04-24 18:41:15.245 [info] Eager extensions activated
+2025-04-24 18:41:15.245 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-04-24 18:41:15.404 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-04-24 18:41:15.492 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-04-24 18:41:15.790 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-24 18:41:15.811 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-24 18:41:26.570 [info] Extension host terminating: renderer closed the MessagePort
+2025-04-24 18:41:26.575 [info] Extension host with pid 615912 exiting with code 0
+2025-04-24 18:41:26.578 [info] Extension host terminating: renderer closed the MessagePort
+2025-04-24 18:41:26.606 [info] Extension host with pid 615879 exiting with code 0
+2025-04-24 18:41:29.872 [info] Extension host with pid 616615 started
+2025-04-24 18:41:29.872 [info] Skipping acquiring lock for /home/albert/.config/Cursor/User/workspaceStorage/275494eb567bd4d79b9be6bb31a12eef.
+2025-04-24 18:41:29.915 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-24 18:41:29.933 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-24 18:41:30.050 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-24 18:41:30.332 [info] Eager extensions activated
+2025-04-24 18:41:30.365 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-04-24 18:41:30.642 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-04-24 18:41:30.754 [info] Extension host with pid 616652 started
+2025-04-24 18:41:30.754 [info] Skipping acquiring lock for /home/albert/.config/Cursor/User/workspaceStorage/275494eb567bd4d79b9be6bb31a12eef.
+2025-04-24 18:41:30.754 [info] Eager extensions activated
+2025-04-24 18:41:30.765 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-04-24 18:41:30.924 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-04-24 18:41:31.008 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-04-24 18:41:31.215 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-24 18:41:31.222 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-24 18:43:08.963 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-24 18:47:36.132 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-04-24 18:47:36.887 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-04-24 18:47:37.015 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-04-24 18:47:52.012 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-04-24 18:47:52.058 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-04-24 18:48:21.890 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-04-24 18:54:34.462 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-04-24 19:24:12.846 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2025-04-24 19:26:24.581 [info] Extension host terminating: renderer closed the MessagePort
+2025-04-24 19:26:24.586 [info] Extension host with pid 616652 exiting with code 0
+2025-04-24 19:26:24.587 [info] Extension host terminating: renderer closed the MessagePort
+2025-04-24 19:26:24.649 [info] Extension host with pid 616615 exiting with code 0

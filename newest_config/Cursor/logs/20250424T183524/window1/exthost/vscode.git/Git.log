@@ -1,0 +1,39 @@
+2025-04-24 18:35:38.908 [info] [main] Log level: Info
+2025-04-24 18:35:38.908 [info] [main] Validating found git in: "git"
+2025-04-24 18:35:38.908 [info] [main] Using git "2.34.1" from "git"
+2025-04-24 18:35:38.908 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-24 18:35:38.908 [info] > git rev-parse --show-toplevel [31ms]
+2025-04-24 18:35:38.908 [info] > git rev-parse --git-dir --git-common-dir [19ms]
+2025-04-24 18:35:38.908 [info] [Model][openRepository] Opened repository: /home/albert/Projects/pyqt-drawing-app
+2025-04-24 18:35:38.920 [info] > git config --get commit.template [25ms]
+2025-04-24 18:35:38.921 [info] > git rev-parse --show-toplevel [14ms]
+2025-04-24 18:35:38.922 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-24 18:35:38.932 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-24 18:35:38.949 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2025-04-24 18:35:38.950 [warning] [Git][getBranch] No such branch: master
+2025-04-24 18:35:39.014 [info] > git status -z -uall [47ms]
+2025-04-24 18:35:39.023 [info] > git rev-parse --show-toplevel [75ms]
+2025-04-24 18:35:39.041 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [59ms]
+2025-04-24 18:35:39.111 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [39ms]
+2025-04-24 18:35:39.111 [warning] [Git][getBranch] No such branch: master
+2025-04-24 18:35:39.112 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-04-24 18:35:39.114 [info] > git rev-parse --show-toplevel [74ms]
+2025-04-24 18:35:39.131 [info] > git config --get commit.template [33ms]
+2025-04-24 18:35:39.158 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-24 18:35:39.244 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [87ms]
+2025-04-24 18:35:39.244 [warning] [Git][getBranch] No such branch: master
+2025-04-24 18:35:39.266 [info] > git rev-parse --show-toplevel [137ms]
+2025-04-24 18:35:39.279 [info] > git status -z -uall [24ms]
+2025-04-24 18:35:39.282 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+2025-04-24 18:35:39.296 [info] > git rev-parse --show-toplevel [17ms]
+2025-04-24 18:35:39.315 [info] > git rev-parse --show-toplevel [7ms]
+2025-04-24 18:35:39.335 [info] > git rev-parse --show-toplevel [5ms]
+2025-04-24 18:35:39.353 [info] > git rev-parse --show-toplevel [6ms]
+2025-04-24 18:35:39.374 [info] > git rev-parse --show-toplevel [8ms]
+2025-04-24 18:35:39.378 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-24 18:35:43.647 [info] > git show --textconv :pyqt_drawing_app/tools/select_move_tool.py [53ms]
+2025-04-24 18:35:43.647 [info] > git ls-files --stage -- /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/select_move_tool.py [39ms]
+2025-04-24 18:35:43.962 [info] > git check-ignore -v -z --stdin [98ms]
+2025-04-24 18:35:48.698 [info] > git config --global user.name [25ms]
+2025-04-24 18:35:48.741 [info] > git config --global user.email [11ms]
+2025-04-24 18:35:48.741 [info] [main] Stored git author name in global state:  <>

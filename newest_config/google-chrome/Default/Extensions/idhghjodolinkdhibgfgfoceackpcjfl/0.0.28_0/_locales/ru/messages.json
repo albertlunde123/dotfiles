@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "Ночной режим Wikipedia позволит вам более комфотно работать на сайте Wikipedia в темное время суток или при плохом освещении"
+   },
+   "name": {
+      "message": "Ночной режим Wikipedia"
+   },
+   "short_name": {
+      "message": "Темная тема для сайта Wikipedia или Ночной режим для сайта Wikipedia"
+   }
+}

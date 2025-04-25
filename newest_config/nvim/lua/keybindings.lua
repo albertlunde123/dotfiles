@@ -40,7 +40,7 @@ map('n', 'DD', 'ddk')
 
 -- Leap up and down at a greater pace
 map('n', '<C-D>', '10j')
-map('n', '<C-D>', '10j')
+map('n', '<C-F>', '10k')
 --- remove highlight
 map('n', '<leader>h', ':noh<CR>')
 map('n', '<leader>w', ':w<CR>')
@@ -50,7 +50,7 @@ map('n', '<leader>Q', ':q!<CR>')
 ---------------------------------
 ---- open NERDTree
 
-map('n', '<C-n>', ':NERDTree %:p:h<CR>')
+map('n', '<C-n>', ':NvimTreeOpen<CR>')
 
 ------------------------------------------------
 -- Kør makroer hurtigt
@@ -81,6 +81,8 @@ map('v', '<leader>w', ':call WriteSelectionToFile()<CR>', {noremap = true, silen
 
 vim.api.nvim_set_keymap("n", "<leader>ur", ":UpdateRemotePlugins <bar> lua vim.cmd('silent! restart')<CR>", {noremap = true, silent = true})
 
+map('n', '<leader>s', ']s', {noremap = true, silent = true})
+
 -- Remove trailing whitespaces
 function remove_eol_whitespace()
   local start_line = 1
@@ -96,5 +98,17 @@ end
 
 -- Keybinding to trigger the function
 vim.api.nvim_set_keymap('n', '<leader>rw', [[<Cmd>lua remove_eol_whitespace()<CR>]], { noremap = true, silent = true })
+
+map("n", "gD",  vim.lsp.buf.definition)
+map("n", "K",  vim.lsp.buf.hover)
+map("n", "gi", vim.lsp.buf.implementation)
+map("n", "gr", vim.lsp.buf.references)
+map("n", "gds", vim.lsp.buf.document_symbol)
+map("n", "gws", vim.lsp.buf.workspace_symbol)
+map("n", "<leader>cl", vim.lsp.codelens.run)
+map("n", "<leader>sh", vim.lsp.buf.signature_help)
+map("n", "<leader>rn", vim.lsp.buf.rename)
+map("n", "<leader>f", vim.lsp.buf.format)
+map("n", "<leader>ca", vim.lsp.buf.code_action)
 
 

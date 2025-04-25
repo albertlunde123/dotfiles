@@ -1,0 +1,15 @@
+2025/04/07-13:04:12.501 ae1 Reusing MANIFEST /home/albert/.config/google-chrome/Default/IndexedDB/https_www.overleaf.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/07-13:04:12.501 ae1 Recovering log #15
+2025/04/07-13:04:12.502 ae1 Reusing old log /home/albert/.config/google-chrome/Default/IndexedDB/https_www.overleaf.com_0.indexeddb.leveldb/000015.log 
+2025/04/07-16:48:37.790 ae0 Level-0 table #20: started
+2025/04/07-16:48:37.795 ae0 Level-0 table #20: 19097 bytes OK
+2025/04/07-16:48:37.800 ae0 Delete type=0 #15
+2025/04/07-16:48:37.801 ae0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/04/07-16:48:37.801 ae0 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01(\x00f\x00d\x008\x009\x000\x008\x00c\x00a\x00e\x005\x006\x009\x001\x004\x006\x004\x007\x002\x00e\x009\x00b\x00b\x006\x00a\x00a\x009\x00d\x000\x00c\x00c\x002\x009\x00a\x002\x00a\x00b\x001\x000\x00f\x003' @ 3648 : 1
+2025/04/07-16:48:37.801 ae0 Compacting 1@1 + 1@2 files
+2025/04/07-16:48:37.806 ae0 Generated table #21@1: 55 keys, 4828 bytes
+2025/04/07-16:48:37.806 ae0 Compacted 1@1 + 1@2 files => 4828 bytes
+2025/04/07-16:48:37.811 ae0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/07-16:48:37.812 ae0 Delete type=2 #17
+2025/04/07-16:48:37.812 ae0 Delete type=2 #20
+2025/04/07-16:48:37.813 ae0 Manual compaction at level-1 from '\x00\x01\x01\x02\x01(\x00f\x00d\x008\x009\x000\x008\x00c\x00a\x00e\x005\x006\x009\x001\x004\x006\x004\x007\x002\x00e\x009\x00b\x00b\x006\x00a\x00a\x009\x00d\x000\x00c\x00c\x002\x009\x00a\x002\x00a\x00b\x001\x000\x00f\x003' @ 3648 : 1 .. (end); will stop at (end)

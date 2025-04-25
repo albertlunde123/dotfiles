@@ -1,0 +1,43 @@
+2025-04-11 16:30:57.919 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/0.48.8/749b60b0b950b0bf30c9322e46d8a00a0745c0ed898fccedde75126f9c1dc9c3/stable
+2025-04-11 16:30:57.919 [info] update#setState idle
+2025-04-11 16:31:00.114 [error] vscode-file: Refused to load resource /tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/extensions/theme-seti/icons/seti.woff from vscode-file: protocol (original URL: vscode-file://vscode-app/tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/extensions/theme-seti/icons/seti.woff)
+2025-04-11 16:31:27.633 [info] update#setState checking for updates
+2025-04-11 16:31:27.761 [info] update#setState idle
+2025-04-11 17:31:27.638 [info] update#setState checking for updates
+2025-04-11 17:31:28.027 [info] update#setState idle
+2025-04-11 18:31:27.647 [info] update#setState checking for updates
+2025-04-11 18:31:28.048 [info] update#setState idle
+2025-04-11 19:31:27.657 [info] update#setState checking for updates
+2025-04-11 19:31:28.042 [info] update#setState idle
+2025-04-11 20:31:27.666 [info] update#setState checking for updates
+2025-04-11 20:31:28.060 [info] update#setState idle
+2025-04-11 21:31:27.674 [info] update#setState checking for updates
+2025-04-11 21:31:28.091 [info] update#setState idle
+2025-04-11 22:31:27.684 [info] update#setState checking for updates
+2025-04-11 22:31:28.086 [info] update#setState idle
+2025-04-11 23:31:27.691 [info] update#setState checking for updates
+2025-04-11 23:31:28.075 [info] update#setState idle
+2025-04-12 00:31:27.696 [info] update#setState checking for updates
+2025-04-12 00:31:28.081 [info] update#setState idle
+2025-04-12 01:31:27.703 [info] update#setState checking for updates
+2025-04-12 01:31:28.103 [info] update#setState idle
+2025-04-12 02:31:27.710 [info] update#setState checking for updates
+2025-04-12 02:31:28.095 [info] update#setState idle
+2025-04-12 03:31:27.718 [info] update#setState checking for updates
+2025-04-12 03:31:28.089 [info] update#setState idle
+2025-04-12 04:31:27.725 [info] update#setState checking for updates
+2025-04-12 04:31:28.226 [info] update#setState idle
+2025-04-12 05:31:27.734 [info] update#setState checking for updates
+2025-04-12 05:31:28.132 [info] update#setState idle
+2025-04-12 06:31:27.742 [info] update#setState checking for updates
+2025-04-12 06:31:28.125 [info] update#setState idle
+2025-04-12 07:31:27.749 [info] update#setState checking for updates
+2025-04-12 07:31:28.153 [info] update#setState idle
+2025-04-12 08:31:27.757 [info] update#setState checking for updates
+2025-04-12 08:31:28.179 [info] update#setState idle
+2025-04-12 09:31:27.766 [info] update#setState checking for updates
+2025-04-12 09:31:28.151 [info] update#setState idle
+2025-04-12 10:31:27.773 [info] update#setState checking for updates
+2025-04-12 10:31:28.206 [info] update#setState idle
+2025-04-12 11:31:27.780 [info] update#setState checking for updates
+2025-04-12 11:31:28.170 [info] update#setState idle

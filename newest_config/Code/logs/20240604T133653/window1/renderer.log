@@ -1,0 +1,21 @@
+2024-06-04 13:36:54.621 [info] Started local extension host with pid 981080.
+2024-06-04 13:36:54.680 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): extensionsAny, newSymbolNamesProvider, interactive, chatProvider, codeActionAI, findTextInFiles, findFiles2, textSearchProvider, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, mappedEditsProvider, aiRelatedInformation, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, contribSourceControlInputBoxMenu, authLearnMore, testObserver, aiTextSearchProvider
+product.json (WINS): handleIssueUri, interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver
+2024-06-04 13:36:54.688 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
+2024-06-04 13:36:54.883 [info] Started local extension host with pid 981100.
+2024-06-04 13:36:55.007 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2024-06-04 13:36:56.503 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2024-06-04 13:36:57.918 [error] [Extension Host] [extension] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-06-04 13:36:58.332 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2024-06-04 13:36:59.638 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2024-06-04 13:36:59.696 [info] [perf] Render performance baseline is 55ms
+2024-06-04 13:37:05.513 [error] Cancelled: Canceled
+    at _.B (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:785:28974)
+    at async _.z (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:785:25774)
+    at async _.getExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:785:22432)
+    at async oe.getExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2909:13776)
+    at async Me.Lc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2845:25206)
+    at async Me.Uc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2845:27892)
+    at async Me.rc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2845:14713)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2845:13012

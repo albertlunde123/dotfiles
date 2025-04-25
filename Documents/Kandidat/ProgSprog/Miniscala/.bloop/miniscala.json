@@ -1,0 +1,178 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "miniscala",
+        "directory": "/home/albert/Documents/Kandidat/ProgSprog/Miniscala",
+        "workspaceDir": "/home/albert/Documents/Kandidat/ProgSprog/Miniscala",
+        "sources": [
+            "/home/albert/Documents/Kandidat/ProgSprog/Miniscala/src/main/scala",
+            "/home/albert/Documents/Kandidat/ProgSprog/Miniscala/src/main/scala-2.12",
+            "/home/albert/Documents/Kandidat/ProgSprog/Miniscala/src/main/scala-2",
+            "/home/albert/Documents/Kandidat/ProgSprog/Miniscala/src/main/java",
+            "/home/albert/Documents/Kandidat/ProgSprog/Miniscala/target/scala-2.12/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/home/albert/Documents/Kandidat/ProgSprog/Miniscala/lib/scala-parser-combinators_3-2.1.0.jar",
+            "/home/albert/.sbt/boot/scala-2.12.20/lib/scala-library.jar"
+        ],
+        "out": "/home/albert/Documents/Kandidat/ProgSprog/Miniscala/.bloop/miniscala",
+        "classesDir": "/home/albert/Documents/Kandidat/ProgSprog/Miniscala/.bloop/miniscala/scala-2.12/classes",
+        "resources": [
+            "/home/albert/Documents/Kandidat/ProgSprog/Miniscala/src/main/resources",
+            "/home/albert/Documents/Kandidat/ProgSprog/Miniscala/target/scala-2.12/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.20",
+            "options": [
+                
+            ],
+            "jars": [
+                "/home/albert/.sbt/boot/scala-2.12.20/lib/scala-library.jar",
+                "/home/albert/.sbt/boot/scala-2.12.20/lib/scala-xml_2.12-2.3.0.jar",
+                "/home/albert/.sbt/boot/scala-2.12.20/lib/scala-reflect.jar",
+                "/home/albert/.sbt/boot/scala-2.12.20/lib/scala-compiler.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/jdk-23.0.2-oracle-x64",
+                "options": [
+                    "-Duser.dir=/home/albert/Documents/Kandidat/ProgSprog/Miniscala"
+                ]
+            },
+            "mainClass": [
+                
+            ],
+            "runtimeConfig": {
+                "home": "/usr/lib/jvm/jdk-23.0.2-oracle-x64",
+                "options": [
+                    "-Duser.dir=/home/albert/Documents/Kandidat/ProgSprog/Miniscala"
+                ]
+            },
+            "classpath": [
+                "/home/albert/Documents/Kandidat/ProgSprog/Miniscala/.bloop/miniscala/scala-2.12/classes",
+                "/home/albert/Documents/Kandidat/ProgSprog/Miniscala/lib/scala-parser-combinators_3-2.1.0.jar",
+                "/home/albert/.sbt/boot/scala-2.12.20/lib/scala-library.jar"
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/albert/.sbt/boot/scala-2.12.20/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/albert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.20/scala-library-2.12.20-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.20",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/albert/.sbt/boot/scala-2.12.20/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/albert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.20/scala-library-2.12.20-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

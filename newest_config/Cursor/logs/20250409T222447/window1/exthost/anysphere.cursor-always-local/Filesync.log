@@ -1,0 +1,329 @@
+2025-04-09 22:24:59.073 [error] Failed to check if file sync is enabled for user {}
+2025-04-09 22:24:59.073 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-09 22:24:59.073 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-09 22:24:59.141 [info] [registerEventListeners] Registering event listeners
+2025-04-09 22:25:00.234 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-09 22:25:00.362 [info] Fetched fsConfig in 127.0356869999996ms
+2025-04-09 22:25:00.362 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-09 22:25:00.552 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-09 22:25:01.155 [info] Fetched fsConfig in 602.8394149999986ms
+2025-04-09 22:25:01.155 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-09 22:25:01.157 [info] File sync enabled status: true
+2025-04-09 22:25:01.157 [info] Starting sync of visible tabs
+2025-04-09 22:25:01.327 [info] Uploaded file tools/select_move_tool.py modelVersion=1 in 160.64671500000077ms
+2025-04-09 22:25:01.330 [info] Synced all visible tabs in 175.56569300000046ms
+2025-04-09 22:25:01.452 [info] Starting sync of visible tabs
+2025-04-09 22:25:01.583 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-09 22:25:01.599 [info] Uploaded file tools/select_move_tool.py modelVersion=1 in 142.90406900000016ms
+2025-04-09 22:25:01.599 [info] Synced all visible tabs in 149.59362099999998ms
+2025-04-09 22:25:01.711 [info] Fetched fsConfig in 128.62247500000012ms
+2025-04-09 22:25:01.711 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-09 22:25:48.420 [info] Synced file tools/select_move_tool.py modelVersion=2 in 137.7043049999993ms
+2025-04-09 22:25:48.849 [info] Synced file tools/select_move_tool.py modelVersion=3 in 125.32584700000007ms
+2025-04-09 22:25:49.772 [info] Synced file tools/select_move_tool.py modelVersion=5 in 229.93108300000313ms
+2025-04-09 22:26:49.214 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-09 22:26:49.356 [info] Fetched fsConfig in 140.9891490000009ms
+2025-04-09 22:26:49.356 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-09 22:26:49.356 [info] File sync enabled status: true
+2025-04-09 22:26:49.356 [info] Starting sync of visible tabs
+2025-04-09 22:26:49.356 [info] Synced all visible tabs in 0.3038090000045486ms
+2025-04-09 22:26:56.575 [info] Synced file tools/select_move_tool.py modelVersion=6 in 128.5784149999963ms
+2025-04-09 22:26:58.433 [info] Synced file tools/select_move_tool.py modelVersion=7 in 125.00117000000319ms
+2025-04-09 22:27:30.273 [info] Handled visible editors change in 1.5530849999922793ms
+2025-04-09 22:27:30.619 [info] Uploaded file tools/circle_tool.py modelVersion=1 in 147.36865300001227ms
+2025-04-09 22:27:30.620 [info] Handled visible editors change in 273.91020600000047ms
+2025-04-09 22:27:46.549 [info] Handled visible editors change in 1.2950520000013057ms
+2025-04-09 22:27:46.896 [info] Uploaded file tools/freehand_tool.py modelVersion=1 in 157.4841080000042ms
+2025-04-09 22:27:46.896 [info] Handled visible editors change in 278.694038000016ms
+2025-04-09 22:27:50.248 [info] Handled visible editors change in 1.3619940000062343ms
+2025-04-09 22:27:50.534 [info] Uploaded file tools/latex_text_tool.py modelVersion=1 in 132.00534999999218ms
+2025-04-09 22:27:50.534 [info] Handled visible editors change in 203.00099800000316ms
+2025-04-09 22:27:51.431 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-09 22:27:51.570 [info] Fetched fsConfig in 139.56841000000713ms
+2025-04-09 22:27:51.570 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-09 22:27:51.571 [info] File sync enabled status: true
+2025-04-09 22:27:51.571 [info] Starting sync of visible tabs
+2025-04-09 22:27:51.571 [info] Synced all visible tabs in 0.08989199998904951ms
+2025-04-09 22:27:53.022 [info] Handled visible editors change in 0.6719819999998435ms
+2025-04-09 22:27:53.335 [info] Uploaded file elements/polyline_element.py modelVersion=1 in 131.57815200000186ms
+2025-04-09 22:27:53.335 [info] Handled visible editors change in 240.8159919999889ms
+2025-04-09 22:28:10.318 [info] Handled visible editors change in 3.0155680000025313ms
+2025-04-09 22:28:10.366 [info] Handled visible editors change in 2.343533999985084ms
+2025-04-09 22:28:14.828 [info] Synced file tools/select_move_tool.py modelVersion=10 in 149.20796800000244ms
+2025-04-09 22:33:53.081 [info] Uploaded file tools/select_move_tool.py modelVersion=11 in 387.5176260001026ms
+2025-04-09 22:33:53.082 [info] Uploaded file tools/select_move_tool.py modelVersion=11 in 387.64608399989083ms
+2025-04-09 22:33:53.218 [info] Uploaded file tools/select_move_tool.py modelVersion=12 in 139.4283839999698ms
+2025-04-09 22:33:53.905 [info] Synced file tools/select_move_tool.py modelVersion=13 in 138.35308599995915ms
+2025-04-09 22:33:54.466 [info] Synced file tools/select_move_tool.py modelVersion=14 in 135.10926200007088ms
+2025-04-09 22:33:54.791 [info] Synced file tools/select_move_tool.py modelVersion=15 in 125.69372300000396ms
+2025-04-09 22:33:55.256 [info] Synced file tools/select_move_tool.py modelVersion=16 in 127.07419199997094ms
+2025-04-09 22:33:55.925 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-09 22:33:56.051 [info] Fetched fsConfig in 125.58387900004163ms
+2025-04-09 22:33:56.051 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-09 22:33:56.051 [info] File sync enabled status: true
+2025-04-09 22:33:56.051 [info] Starting sync of visible tabs
+2025-04-09 22:33:56.051 [info] Synced all visible tabs in 0.17378099996130913ms
+2025-04-09 22:38:10.495 [info] Synced file tools/select_move_tool.py modelVersion=17 in 423.13379400002304ms
+2025-04-09 22:38:51.748 [info] Synced file tools/select_move_tool.py modelVersion=18 in 123.15493499999866ms
+2025-04-09 22:38:53.593 [info] Synced file tools/select_move_tool.py modelVersion=19 in 143.4431049999548ms
+2025-04-09 22:38:54.918 [info] Synced file tools/select_move_tool.py modelVersion=20 in 132.29347899998538ms
+2025-04-09 22:38:56.886 [info] Synced file tools/select_move_tool.py modelVersion=21 in 125.14309299993329ms
+2025-04-09 22:39:05.820 [info] Synced file tools/select_move_tool.py modelVersion=23 in 141.79026799998246ms
+2025-04-09 22:39:07.582 [info] Synced file tools/select_move_tool.py modelVersion=25 in 130.77966800006106ms
+2025-04-09 22:39:07.914 [info] Synced file tools/select_move_tool.py modelVersion=25 in 131.9720110000344ms
+2025-04-09 22:39:24.981 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-09 22:39:25.110 [info] Fetched fsConfig in 129.14453600009438ms
+2025-04-09 22:39:25.110 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-09 22:39:25.110 [info] File sync enabled status: true
+2025-04-09 22:39:25.110 [info] Starting sync of visible tabs
+2025-04-09 22:39:25.110 [info] Synced all visible tabs in 0.1487790000392124ms
+2025-04-09 22:39:27.463 [info] Synced file tools/select_move_tool.py modelVersion=28 in 123.73960100009572ms
+2025-04-09 22:41:32.310 [info] Synced file tools/select_move_tool.py modelVersion=29 in 157.13840500009246ms
+2025-04-09 22:41:32.973 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-09 22:41:33.113 [info] Fetched fsConfig in 139.31469499995ms
+2025-04-09 22:41:33.113 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-09 22:41:33.113 [info] File sync enabled status: true
+2025-04-09 22:41:33.113 [info] Starting sync of visible tabs
+2025-04-09 22:41:33.113 [info] Synced all visible tabs in 0.2756790000712499ms
+2025-04-09 22:41:34.440 [info] Synced file tools/select_move_tool.py modelVersion=30 in 134.54856799996924ms
+2025-04-09 22:41:34.731 [info] Synced file tools/select_move_tool.py modelVersion=31 in 132.3479169999482ms
+2025-04-09 22:41:36.067 [info] Synced file tools/select_move_tool.py modelVersion=33 in 133.32591199991293ms
+2025-04-09 22:42:49.980 [info] Handled visible editors change in 1.4704579999670386ms
+2025-04-09 22:42:50.553 [info] Uploaded file utils/snapping.py modelVersion=1 in 366.1840309998952ms
+2025-04-09 22:42:50.553 [info] Handled visible editors change in 485.57497800001875ms
+2025-04-09 22:43:31.237 [info] Handled visible editors change in 0.558980000205338ms
+2025-04-09 22:43:31.270 [info] Handled visible editors change in 1.5811860000248998ms
+2025-04-09 22:43:34.065 [info] Handled visible editors change in 0.6503940001130104ms
+2025-04-09 22:43:34.380 [info] Uploaded file tools/line_tool.py modelVersion=1 in 125.81564799998887ms
+2025-04-09 22:43:34.380 [info] Handled visible editors change in 242.43144199997187ms
+2025-04-09 22:44:16.408 [info] Handled visible editors change in 1.2989300000481308ms
+2025-04-09 22:44:16.777 [info] Uploaded file tools/rectangle_tool.py modelVersion=1 in 163.19300900003873ms
+2025-04-09 22:44:16.777 [info] Handled visible editors change in 276.6042470000684ms
+2025-04-09 22:46:18.179 [info] Synced file tools/select_move_tool.py modelVersion=34 in 365.96677400008775ms
+2025-04-09 22:46:33.661 [info] Synced file utils/snapping.py modelVersion=3 in 135.5743670000229ms
+2025-04-09 22:46:33.924 [info] Synced file utils/snapping.py modelVersion=3 in 127.0206130000297ms
+2025-04-09 22:46:44.943 [info] Handled visible editors change in 0.5303849999327213ms
+2025-04-09 22:46:44.984 [info] Handled visible editors change in 3.928998999996111ms
+2025-04-09 22:46:48.818 [info] Handled visible editors change in 1.5346389999613166ms
+2025-04-09 22:46:48.861 [info] Handled visible editors change in 1.3947230000048876ms
+2025-04-09 22:48:49.157 [info] Synced file tools/select_move_tool.py modelVersion=35 in 362.95829600002617ms
+2025-04-09 22:48:49.204 [info] Synced file tools/select_move_tool.py modelVersion=36 in 125.9200299999211ms
+2025-04-09 22:49:15.474 [info] Handled visible editors change in 0.9835210000164807ms
+2025-04-09 22:49:15.501 [info] Handled visible editors change in 0.9292280001100153ms
+2025-04-09 22:50:05.477 [info] Synced file tools/select_move_tool.py modelVersion=39 in 125.96670600003563ms
+2025-04-09 22:50:05.995 [info] Synced file tools/select_move_tool.py modelVersion=41 in 135.84611899987794ms
+2025-04-09 22:50:06.044 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-09 22:50:06.177 [info] Fetched fsConfig in 133.59243199997582ms
+2025-04-09 22:50:06.177 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-09 22:50:06.178 [info] File sync enabled status: true
+2025-04-09 22:50:06.178 [info] Starting sync of visible tabs
+2025-04-09 22:50:06.260 [info] Synced file tools/select_move_tool.py modelVersion=42 in 127.30120399990119ms
+2025-04-09 22:50:06.306 [info] Uploaded file tools/select_move_tool.py modelVersion=42 in 126.4518040001858ms
+2025-04-09 22:50:06.306 [info] Synced all visible tabs in 128.24288000003435ms
+2025-04-09 22:50:07.509 [info] Synced file tools/select_move_tool.py modelVersion=44 in 148.87971500004642ms
+2025-04-09 22:50:08.547 [info] Synced file tools/select_move_tool.py modelVersion=45 in 121.26976600009948ms
+2025-04-09 22:50:09.652 [info] Synced file tools/select_move_tool.py modelVersion=47 in 123.49585499987006ms
+2025-04-09 22:50:10.888 [info] Synced file tools/select_move_tool.py modelVersion=48 in 127.83334299991839ms
+2025-04-09 22:55:32.638 [info] Handled visible editors change in 0.8902130001224577ms
+2025-04-09 22:55:33.229 [info] Uploaded file utils/snapping.py modelVersion=3 in 390.53065499989316ms
+2025-04-09 22:55:33.229 [info] Handled visible editors change in 550.1591800001916ms
+2025-04-09 22:57:01.364 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-09 22:57:01.517 [info] Fetched fsConfig in 151.83400800009258ms
+2025-04-09 22:57:01.517 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-09 22:57:01.517 [info] File sync enabled status: true
+2025-04-09 22:57:01.517 [info] Starting sync of visible tabs
+2025-04-09 22:57:01.517 [info] Synced all visible tabs in 0.2742389999330044ms
+2025-04-09 23:02:54.421 [info] Uploaded file tools/select_move_tool.py modelVersion=49 in 422.75146300019696ms
+2025-04-09 23:02:54.422 [info] Uploaded file tools/select_move_tool.py modelVersion=49 in 420.25179000012577ms
+2025-04-09 23:02:54.454 [info] Uploaded file tools/select_move_tool.py modelVersion=50 in 134.02945900009945ms
+2025-04-09 23:02:55.120 [info] Synced file tools/select_move_tool.py modelVersion=51 in 142.44319500029087ms
+2025-04-09 23:03:03.359 [info] Handled visible editors change in 0.833248000126332ms
+2025-04-09 23:03:03.399 [info] Handled visible editors change in 1.098327999934554ms
+2025-04-09 23:04:13.039 [info] Synced file tools/select_move_tool.py modelVersion=52 in 152.27183300023898ms
+2025-04-09 23:04:13.691 [info] Synced file tools/select_move_tool.py modelVersion=53 in 122.67124899988994ms
+2025-04-09 23:04:13.719 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-09 23:04:13.860 [info] Fetched fsConfig in 140.19279100000858ms
+2025-04-09 23:04:13.860 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-09 23:04:13.860 [info] File sync enabled status: true
+2025-04-09 23:04:13.860 [info] Starting sync of visible tabs
+2025-04-09 23:04:13.860 [info] Synced all visible tabs in 0.17106800014153123ms
+2025-04-09 23:04:20.221 [info] Synced file tools/select_move_tool.py modelVersion=54 in 127.81804600032046ms
+2025-04-09 23:04:20.828 [info] Synced file tools/select_move_tool.py modelVersion=55 in 125.5309409997426ms
+2025-04-09 23:04:22.749 [info] Synced file tools/select_move_tool.py modelVersion=56 in 120.82273600017652ms
+2025-04-09 23:04:23.646 [info] Synced file tools/select_move_tool.py modelVersion=59 in 125.55306500010192ms
+2025-04-09 23:04:24.419 [info] Synced file tools/select_move_tool.py modelVersion=60 in 129.39567899983376ms
+2025-04-09 23:04:25.838 [info] Synced file tools/select_move_tool.py modelVersion=61 in 124.81921699969098ms
+2025-04-09 23:04:26.829 [info] Synced file tools/select_move_tool.py modelVersion=63 in 121.6533880000934ms
+2025-04-09 23:04:27.433 [info] Synced file tools/select_move_tool.py modelVersion=65 in 123.62997999973595ms
+2025-04-09 23:08:07.450 [info] Synced file tools/select_move_tool.py modelVersion=67 in 171.5011040000245ms
+2025-04-09 23:08:08.102 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-09 23:08:08.232 [info] Fetched fsConfig in 129.99793699989095ms
+2025-04-09 23:08:08.232 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-09 23:08:08.233 [info] File sync enabled status: true
+2025-04-09 23:08:08.233 [info] Starting sync of visible tabs
+2025-04-09 23:08:08.233 [info] Synced all visible tabs in 0.08161799982190132ms
+2025-04-09 23:08:59.859 [info] Synced file tools/select_move_tool.py modelVersion=71 in 161.09665200021118ms
+2025-04-09 23:09:00.239 [info] Synced file tools/select_move_tool.py modelVersion=72 in 135.06126599991694ms
+2025-04-09 23:09:05.400 [info] Synced file tools/select_move_tool.py modelVersion=73 in 134.49226899957284ms
+2025-04-09 23:09:06.342 [info] Synced file tools/select_move_tool.py modelVersion=74 in 126.62980100000277ms
+2025-04-09 23:09:08.136 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-09 23:09:08.276 [info] Fetched fsConfig in 139.68674999987707ms
+2025-04-09 23:09:08.276 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-09 23:09:08.278 [info] File sync enabled status: true
+2025-04-09 23:09:08.278 [info] Starting sync of visible tabs
+2025-04-09 23:09:08.427 [info] Uploaded file tools/select_move_tool.py modelVersion=75 in 127.983190999832ms
+2025-04-09 23:09:08.427 [info] Synced all visible tabs in 150.68791199987754ms
+2025-04-09 23:09:09.172 [info] Synced file tools/select_move_tool.py modelVersion=78 in 129.99194600014016ms
+2025-04-09 23:09:09.498 [info] Synced file tools/select_move_tool.py modelVersion=79 in 125.6107919998467ms
+2025-04-09 23:09:10.202 [info] Synced file tools/select_move_tool.py modelVersion=80 in 125.42545700026676ms
+2025-04-09 23:09:11.303 [info] Synced file tools/select_move_tool.py modelVersion=83 in 127.9075639997609ms
+2025-04-09 23:09:15.224 [info] Synced file tools/select_move_tool.py modelVersion=86 in 148.0999869997613ms
+2025-04-09 23:09:15.572 [info] Synced file tools/select_move_tool.py modelVersion=87 in 124.08712199982256ms
+2025-04-09 23:09:17.955 [info] Synced file tools/select_move_tool.py modelVersion=88 in 123.6599920000881ms
+2025-04-09 23:09:18.264 [info] Synced file tools/select_move_tool.py modelVersion=89 in 129.12271999986842ms
+2025-04-09 23:09:19.442 [info] Synced file tools/select_move_tool.py modelVersion=92 in 130.69015699997544ms
+2025-04-09 23:09:55.753 [info] Synced file tools/select_move_tool.py modelVersion=95 in 127.71358300000429ms
+2025-04-09 23:09:56.302 [info] Synced file tools/select_move_tool.py modelVersion=97 in 125.56678500026464ms
+2025-04-09 23:09:58.130 [info] Synced file tools/select_move_tool.py modelVersion=98 in 150.3317180001177ms
+2025-04-09 23:09:59.214 [info] Synced file tools/select_move_tool.py modelVersion=102 in 124.71200399985537ms
+2025-04-09 23:10:00.178 [info] Synced file tools/select_move_tool.py modelVersion=103 in 125.13632099982351ms
+2025-04-09 23:10:00.568 [info] Synced file tools/select_move_tool.py modelVersion=104 in 127.3636219999753ms
+2025-04-09 23:10:02.658 [info] Synced file tools/select_move_tool.py modelVersion=105 in 125.93246899964288ms
+2025-04-09 23:10:03.651 [info] Synced file tools/select_move_tool.py modelVersion=106 in 124.54253599978983ms
+2025-04-09 23:10:04.050 [info] Synced file tools/select_move_tool.py modelVersion=107 in 124.97939699981362ms
+2025-04-09 23:10:04.367 [info] Synced file tools/select_move_tool.py modelVersion=108 in 125.88667500019073ms
+2025-04-09 23:10:05.838 [info] Synced file tools/select_move_tool.py modelVersion=111 in 125.24756499985233ms
+2025-04-09 23:10:06.936 [info] Synced file tools/select_move_tool.py modelVersion=112 in 128.45541500020772ms
+2025-04-09 23:10:11.593 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-09 23:10:11.721 [info] Fetched fsConfig in 127.95164399966598ms
+2025-04-09 23:10:11.721 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-09 23:10:11.722 [info] File sync enabled status: true
+2025-04-09 23:10:11.722 [info] Starting sync of visible tabs
+2025-04-09 23:10:11.943 [info] Uploaded file tools/select_move_tool.py modelVersion=113 in 133.8165090000257ms
+2025-04-09 23:10:11.943 [info] Synced all visible tabs in 221.3693500002846ms
+2025-04-09 23:10:12.186 [info] Synced file tools/select_move_tool.py modelVersion=113 in 161.31445100018755ms
+2025-04-09 23:10:13.130 [info] Synced file tools/select_move_tool.py modelVersion=115 in 129.5587090002373ms
+2025-04-09 23:10:14.556 [info] Synced file tools/select_move_tool.py modelVersion=117 in 131.9492059997283ms
+2025-04-09 23:10:16.258 [info] Synced file tools/select_move_tool.py modelVersion=121 in 123.60821700002998ms
+2025-04-09 23:10:17.300 [info] Synced file tools/select_move_tool.py modelVersion=122 in 134.1637889998965ms
+2025-04-09 23:10:24.685 [info] Synced file tools/select_move_tool.py modelVersion=124 in 130.93213299987838ms
+2025-04-09 23:10:26.678 [info] Synced file tools/select_move_tool.py modelVersion=125 in 127.10109400004148ms
+2025-04-09 23:11:34.035 [info] Synced file tools/select_move_tool.py modelVersion=128 in 127.40788000030443ms
+2025-04-09 23:14:09.951 [info] Synced file tools/select_move_tool.py modelVersion=129 in 162.08656799979508ms
+2025-04-09 23:14:10.496 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-09 23:14:10.513 [info] Synced file tools/select_move_tool.py modelVersion=130 in 121.77151700016111ms
+2025-04-09 23:14:10.648 [info] Fetched fsConfig in 151.9545990000479ms
+2025-04-09 23:14:10.648 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-09 23:14:10.649 [info] File sync enabled status: true
+2025-04-09 23:14:10.649 [info] Starting sync of visible tabs
+2025-04-09 23:14:10.777 [info] Uploaded file tools/select_move_tool.py modelVersion=131 in 127.37547000031918ms
+2025-04-09 23:14:10.778 [info] Synced all visible tabs in 128.9966700002551ms
+2025-04-09 23:14:10.851 [info] Synced file tools/select_move_tool.py modelVersion=131 in 124.96044299984351ms
+2025-04-09 23:14:11.343 [info] Synced file tools/select_move_tool.py modelVersion=133 in 125.32388099981472ms
+2025-04-09 23:14:12.421 [info] Synced file tools/select_move_tool.py modelVersion=134 in 127.51430899975821ms
+2025-04-09 23:14:13.024 [info] Synced file tools/select_move_tool.py modelVersion=135 in 141.12967499997467ms
+2025-04-09 23:14:13.932 [info] Synced file tools/select_move_tool.py modelVersion=137 in 135.53228300018236ms
+2025-04-09 23:14:14.659 [info] Synced file tools/select_move_tool.py modelVersion=138 in 138.3323800000362ms
+2025-04-09 23:14:15.213 [info] Synced file tools/select_move_tool.py modelVersion=139 in 119.34747499972582ms
+2025-04-09 23:14:18.626 [info] Synced file tools/select_move_tool.py modelVersion=141 in 123.92250999994576ms
+2025-04-09 23:14:19.828 [info] Synced file tools/select_move_tool.py modelVersion=145 in 124.98602000018582ms
+2025-04-09 23:14:22.738 [info] Synced file tools/select_move_tool.py modelVersion=146 in 129.92024100013077ms
+2025-04-09 23:16:38.430 [info] Synced file tools/select_move_tool.py modelVersion=147 in 156.48209499986842ms
+2025-04-09 23:16:39.413 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-09 23:16:39.543 [info] Fetched fsConfig in 130.11201600031927ms
+2025-04-09 23:16:39.543 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-09 23:16:39.543 [info] File sync enabled status: true
+2025-04-09 23:16:39.543 [info] Starting sync of visible tabs
+2025-04-09 23:16:39.543 [info] Synced all visible tabs in 0.22088300017639995ms
+2025-04-09 23:16:41.616 [info] Synced file tools/select_move_tool.py modelVersion=148 in 130.59868300007656ms
+2025-04-09 23:16:42.861 [info] Synced file tools/select_move_tool.py modelVersion=168 in 134.09833100019023ms
+2025-04-09 23:16:42.862 [info] Synced file tools/select_move_tool.py modelVersion=168 in 119.75208699982613ms
+2025-04-09 23:16:44.102 [info] Synced file tools/select_move_tool.py modelVersion=173 in 121.27864699997008ms
+2025-04-09 23:16:45.427 [info] Synced file tools/select_move_tool.py modelVersion=175 in 122.75794500019401ms
+2025-04-09 23:16:46.122 [info] Synced file tools/select_move_tool.py modelVersion=177 in 125.59698100015521ms
+2025-04-09 23:17:19.298 [info] Synced file tools/select_move_tool.py modelVersion=182 in 133.9351770002395ms
+2025-04-09 23:17:20.454 [info] Synced file tools/select_move_tool.py modelVersion=183 in 142.7694840002805ms
+2025-04-09 23:18:24.867 [info] Synced file tools/select_move_tool.py modelVersion=184 in 146.99860200006515ms
+2025-04-09 23:18:25.274 [info] Synced file tools/select_move_tool.py modelVersion=185 in 122.50260100001469ms
+2025-04-09 23:18:25.494 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-09 23:18:25.632 [info] Fetched fsConfig in 137.87113300012425ms
+2025-04-09 23:18:25.632 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-09 23:18:25.632 [info] File sync enabled status: true
+2025-04-09 23:18:25.632 [info] Starting sync of visible tabs
+2025-04-09 23:18:25.632 [info] Synced all visible tabs in 0.1154770003631711ms
+2025-04-09 23:18:26.231 [info] Synced file tools/select_move_tool.py modelVersion=186 in 121.03353400016204ms
+2025-04-09 23:18:26.747 [info] Synced file tools/select_move_tool.py modelVersion=189 in 117.71480600023642ms
+2025-04-09 23:18:29.457 [info] Synced file tools/select_move_tool.py modelVersion=193 in 123.07802300015464ms
+2025-04-09 23:18:29.770 [info] Synced file tools/select_move_tool.py modelVersion=194 in 135.75534799974412ms
+2025-04-09 23:18:31.164 [info] Synced file tools/select_move_tool.py modelVersion=195 in 125.21461899997666ms
+2025-04-09 23:19:26.607 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-09 23:19:26.750 [info] Fetched fsConfig in 143.6175180003047ms
+2025-04-09 23:19:26.750 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-09 23:19:26.751 [info] File sync enabled status: true
+2025-04-09 23:19:26.751 [info] Starting sync of visible tabs
+2025-04-09 23:19:26.904 [info] Uploaded file tools/select_move_tool.py modelVersion=201 in 140.869749000296ms
+2025-04-09 23:19:26.904 [info] Synced all visible tabs in 153.53629799978808ms
+2025-04-09 23:19:27.130 [info] Synced file tools/select_move_tool.py modelVersion=201 in 124.49582199985161ms
+2025-04-09 23:19:28.396 [info] Synced file tools/select_move_tool.py modelVersion=205 in 128.67956300033256ms
+2025-04-09 23:19:30.043 [info] Synced file tools/select_move_tool.py modelVersion=206 in 119.77253600023687ms
+2025-04-09 23:20:04.102 [info] Synced file tools/select_move_tool.py modelVersion=209 in 121.6072329999879ms
+2025-04-09 23:20:04.640 [info] Synced file tools/select_move_tool.py modelVersion=211 in 120.0559900002554ms
+2025-04-09 23:20:05.101 [info] Synced file tools/select_move_tool.py modelVersion=212 in 120.08293899986893ms
+2025-04-09 23:20:08.773 [info] Synced file tools/select_move_tool.py modelVersion=213 in 123.68485700013116ms
+2025-04-09 23:21:28.546 [info] Synced file tools/select_move_tool.py modelVersion=214 in 389.22381899971515ms
+2025-04-09 23:22:01.209 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-09 23:22:01.382 [info] Fetched fsConfig in 172.9421300003305ms
+2025-04-09 23:22:01.382 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-09 23:22:01.382 [info] File sync enabled status: true
+2025-04-09 23:22:01.382 [info] Starting sync of visible tabs
+2025-04-09 23:22:01.382 [info] Synced all visible tabs in 0.2352130003273487ms
+2025-04-09 23:22:02.002 [info] Synced file tools/select_move_tool.py modelVersion=215 in 192.43660000013188ms
+2025-04-09 23:22:02.581 [info] Synced file tools/select_move_tool.py modelVersion=216 in 274.3662420003675ms
+2025-04-09 23:22:03.727 [info] Synced file tools/select_move_tool.py modelVersion=232 in 157.00208899984136ms
+2025-04-09 23:22:04.022 [info] Synced file tools/select_move_tool.py modelVersion=233 in 146.3036829996854ms
+2025-04-09 23:22:06.249 [info] Synced file tools/select_move_tool.py modelVersion=234 in 150.12161500006914ms
+2025-04-09 23:22:54.465 [info] Synced file tools/select_move_tool.py modelVersion=235 in 135.14422499993816ms
+2025-04-09 23:22:57.249 [info] Synced file tools/select_move_tool.py modelVersion=236 in 130.55761499982327ms
+2025-04-09 23:22:58.438 [info] Synced file tools/select_move_tool.py modelVersion=237 in 122.64056599978358ms
+2025-04-09 23:22:58.922 [info] Synced file tools/select_move_tool.py modelVersion=238 in 132.37962400028482ms
+2025-04-09 23:22:59.201 [info] Synced file tools/select_move_tool.py modelVersion=239 in 125.27588000008836ms
+2025-04-09 23:23:01.063 [info] Synced file tools/select_move_tool.py modelVersion=240 in 133.9449320002459ms
+2025-04-09 23:23:05.286 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-09 23:23:05.429 [info] Fetched fsConfig in 142.06788499979302ms
+2025-04-09 23:23:05.429 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-09 23:23:05.429 [info] File sync enabled status: true
+2025-04-09 23:23:05.429 [info] Starting sync of visible tabs
+2025-04-09 23:23:05.429 [info] Synced all visible tabs in 0.22697800025343895ms
+2025-04-09 23:24:13.794 [info] Synced file tools/select_move_tool.py modelVersion=241 in 211.99957499979064ms
+2025-04-09 23:24:14.271 [info] Synced file tools/select_move_tool.py modelVersion=243 in 130.73315999982879ms
+2025-04-09 23:24:14.379 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-09 23:24:14.519 [info] Fetched fsConfig in 139.44614899996668ms
+2025-04-09 23:24:14.519 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-09 23:24:14.519 [info] File sync enabled status: true
+2025-04-09 23:24:14.519 [info] Starting sync of visible tabs
+2025-04-09 23:24:14.519 [info] Synced all visible tabs in 0.08851899998262525ms
+2025-04-09 23:24:16.016 [info] Synced file tools/select_move_tool.py modelVersion=244 in 148.66348000010476ms
+2025-04-09 23:24:19.001 [info] Synced file tools/select_move_tool.py modelVersion=245 in 125.23669299995527ms
+2025-04-09 23:24:38.690 [info] Synced file tools/select_move_tool.py modelVersion=246 in 265.156607999932ms
+2025-04-09 23:24:39.424 [info] Synced file tools/select_move_tool.py modelVersion=247 in 157.04513800004497ms
+2025-04-09 23:24:47.970 [info] Synced file tools/select_move_tool.py modelVersion=249 in 124.26230899989605ms
+2025-04-09 23:25:18.008 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-09 23:25:18.132 [info] Fetched fsConfig in 123.9087419998832ms
+2025-04-09 23:25:18.132 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-09 23:25:18.133 [info] File sync enabled status: true
+2025-04-09 23:25:18.133 [info] Starting sync of visible tabs
+2025-04-09 23:25:18.133 [info] Synced all visible tabs in 0.23980300035327673ms
+2025-04-09 23:26:00.988 [info] Synced file tools/select_move_tool.py modelVersion=250 in 123.86958299996331ms
+2025-04-09 23:26:02.284 [info] Synced file tools/select_move_tool.py modelVersion=253 in 127.19016000023112ms
+2025-04-09 23:26:03.886 [info] Synced file tools/select_move_tool.py modelVersion=254 in 124.44775400031358ms
+2025-04-09 23:26:04.498 [info] Synced file tools/select_move_tool.py modelVersion=255 in 123.29206999996677ms
+2025-04-09 23:26:05.728 [info] Synced file tools/select_move_tool.py modelVersion=256 in 124.98405999969691ms
+2025-04-09 23:26:06.608 [info] Synced file tools/select_move_tool.py modelVersion=257 in 121.13449399964884ms
+2025-04-09 23:26:09.445 [info] Synced file tools/select_move_tool.py modelVersion=258 in 136.59717600001022ms
+2025-04-09 23:26:10.583 [info] Synced file tools/select_move_tool.py modelVersion=259 in 128.17622399982065ms
+2025-04-09 23:26:11.355 [info] Synced file tools/select_move_tool.py modelVersion=260 in 121.65256999991834ms
+2025-04-09 23:26:11.904 [info] Synced file tools/select_move_tool.py modelVersion=261 in 131.27413499960676ms
+2025-04-09 23:26:12.196 [info] Synced file tools/select_move_tool.py modelVersion=262 in 121.58958499971777ms
+2025-04-09 23:26:12.449 [info] Synced file tools/select_move_tool.py modelVersion=263 in 120.88019199995324ms
+2025-04-09 23:26:14.876 [info] Synced file tools/select_move_tool.py modelVersion=264 in 131.36946099996567ms
+2025-04-09 23:26:17.063 [info] Synced file tools/select_move_tool.py modelVersion=265 in 135.72866100026295ms

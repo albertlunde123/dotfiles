@@ -1,0 +1,169 @@
+\documentclass[working, oneside]{../../Preambles/tuftebook}
+\input{../../Preambles/colors}
+\input{../../Preambles/preamble}
+\input{../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{Assignment 4 - 10 ECTS}
+    
+\begin{exercise}[1]
+\textbf{NGOs}
+    We once again consider a database that handles data for NGOs.
+    \begin{enumerate}
+        \item Given the following non-trivial functional dependency. What are the candidate keys for these three tables?
+        \begin{itemize}
+            \item NGO: \{Name\} $\rightarrow$ \{based\_in, cause, director, phone, revenue\}
+            \{Phone\} $\rightarrow$ \{name, based\_in, cause, director, revenue\}
+            \{director\} $\rightarrow$ \{name, based\_in, cause, phone, revenue\}
+            \item Supporter: \{id\} $\rightarrow$ \{name, email, phone, city, ngo\_name, birthday, volunteer, level\}
+            \item Donations: \{s\_id, ngo\_name, date, amount\} $\rightarrow$ \{activity\}
+        \end{itemize}
+        \item Provide an example of a superkey that is not a candidate key based on the non-trivial functional dependency we provide above.
+\end{enumerate}
+\end{exercise}
+\begin{solution}
+    The candidate keys are just the left-hand sides of the functional dependencies, as they fully determine the respective relations, and are minimal. So for NGO $\left\{ nae \right\} $, $\left\{ phone \right\} $ and $\left\{ director \right\} $ are candidate keys. For supporter $\left\{ id \right\} $ is the candidate key. For donations $\left\{ s\_id, ngo\_name, date, amount \right\} $ is the candidate key. We would need additional functional dependencies from the miniworld, to determine whether we any other candidate keys. An example of a superkey would be $\left\{ name, phone \right\}$, which is a key, but it is not minimal.
+\end{solution}
+\begin{exercise}[2]
+ \textbf{University}
+    Consider the relation R, which involves schedules of courses and sections at a university (shorthand notation written in parenthesis):
+    R = \{Course Number (C), Section Number (SN), Offering Department (D), Course Type (CT), Credit Hours (CH), Instructor ID (I), Semester (S), Year (Y), Day and Hours (DH), Room Number (R), Number of Students Enrolled (NS)\}.
+    Assume that the following set of functional dependencies F holds on R:
+    F = \{ \{C\} $\rightarrow$ \{D, CT\}, \{C, SN, S, Y\} $\rightarrow$ \{R, DH, NS\}, \{R, DH, S, Y\} $\rightarrow$ \{C, SN\}, \{I\} $\rightarrow$ \{D\}, \{CT\} $\rightarrow$ \{CH\}, \{D, CT\} $\rightarrow$ \{I\} \}
+    \begin{enumerate}
+        \item Find the 2 candidate keys of R based on F. Please give the steps and argument to find the candidate keys.
+\end{enumerate}
+\end{exercise}
+\begin{solution}
+The candidate keys are $\left\{ C, SN, S, Y \right\} $ and $\left\{ R, DH, S, Y \right\} $. To see why, we computer their closures. We will be using transitivity a bunch of times.
+\subsection*{$\left\{ R, DH, S, Y \right\}$} 
+\begin{align*}
+    \left\{ R, DH, S, Y \right\}^{+} &\sim \left\{ R, DH, S, Y, C, SN \right\}^{+} \\
+                                     &\sim \left\{ R, DH, S, Y, C, SN, NS \right\}^{+} \\
+                                     &\sim \left\{ R, DH, S, Y, C, SN, NS, D, CT \right\}^{+} \\
+                                     &\sim \left\{ R, DH, S, Y, C, SN, NS, D, CT, I \right\}^{+} \\
+                                     &\sim \left\{ R, DH, S, Y, C, SN, NS, D, CT, I, CH \right\}^{+} = R
+.\end{align*}
+Where I have the used the functional dependencies. So it is indeed a key, and a candidate key since it is minimal. We cant remove any elements.
+\subsection*{$\left\{ C, SN, S, Y \right\}$} 
+\begin{align*}
+    \left\{ C, SN, S, Y \right\} ^{+} &\sim \left\{ C, SN, S, Y, R, DH, NS \right\} ^{+}= R
+.\end{align*}
+Using the functional dependencies, and reusing the functional dependencies. This key is minimal as well, so it is candidate key.
+\end{solution}
+\begin{exercise}[3]
+    \textbf{Miniworld to Functional Dependencies}
+    Consider the following relation:
+    Order(Product\_ID, Product\_Name, Customer\_ID, Customer\_Name, Date, Item\_price, Count, Total)
+    \begin{itemize}
+        \item Product ID: Each product is assigned a unique identifier, known as the Product ID.
+        \item Product Name: Each product is given a distinct name, corresponding to its Product ID.
+        \item Customer ID: Each customer is assigned a unique identifier, referred to as the Customer ID.
+        \item Customer Name: Each customer is associated with a unique name, corresponding to their Customer ID.
+        \item Date: The date of purchase made by the customer.
+        \item Item Price: The cost of each individual product.
+        \item Count: The total quantity of items purchased by a customer on a given day.
+        \item Total: The aggregate expenditure made by a customer on a particular day.
+    \end{itemize}
+    OBS: If the same customer send multiple orders on the same day they are combined. Therefore, we only have one order per customer per day.
+    Determine all non-trivial functional dependencies of this relation and provide your reasoning.
+\end{exercise}
+\begin{solution}
+We will be arguing based on the miniworld. Since the product id determines the product, we should have that
+\[
+\left\{ product\_id \right\} \to \left\{ product\_name, item\_price\right\} 
+.\] 
+Since the product name is unique to its id, we should also have,
+\[
+\left\{ product\_name \right\} \to \left\{ product\_id, item\_price\right\} 
+.\] 
+The same logic holds for the customer id and the customer name,
+\begin{align*}
+\left\{ customer\_id \right\} &\to \left\{ customer\_name, item\_price\right\} \\
+\left\{ customer\_name \right\} &\to \left\{ customer\_id, item\_price\right\} 
+.\end{align*}
+Since count and total, refer to the order made by a customer on a given day, it should hold that given date and either customer id or name, we can infer count and total,
+\begin{align*}
+\left\{ customer\_name, date \right\} &\to \left\{ Count, Total\right\} \\
+\left\{ customer\_id, date \right\} &\to \left\{ Count, Total\right\} 
+.\end{align*}
+\end{solution}
+\begin{exercise}[4]
+Consider the relation \( R = \{A, B, C, D, E, F, G, H, I, J\} \) and the set of functional dependencies:
+
+\[
+F = 
+\begin{cases}
+\{A, B\} \to \{C\}, \\
+\{A\} \to \{D, E\}, \\
+\{B\} \to \{F\}, \\
+\{C\} \to \{B\}, \\
+\{F\} \to \{G, H\}, \\
+\{D\} \to \{I, J\}.
+\end{cases}
+\]
+\begin{itemize}
+    \item[a)] Decompose R to 2NF, and then into 3NF. Please provide your steps.
+    \item[b)] Is the 3NF decomposition dependency preserving?
+    \item[c)] Is the 3NF decomposition non-additive?
+\end{itemize}
+\end{exercise}
+\begin{solution}
+    \subsubsection*{a)} We can start by noticing that ${A, B}$ is candidate key for the relation. In order to have 2NF, no other attributes can be partially dependent on this key. This is violated since,
+\begin{align*}
+    \{B\} &\to \{F, G, H\} \\
+    \{A\} &\to \{D, E, I, J\}
+\end{align*}
+We can decompose our relation according to these partial dependencies, to get the following new relations,
+\begin{align*}
+    R_1 &= \{B, F, G, H\}\quad \{B\} \to \{F\} \to \{G, H\} \\
+    R_2 &= \{A, D, E, I, J\} \quad  \{A\} \to \{D, E\}, \left\{ D \right\}  \to \{I,J\}\\
+    R_3 &= \{A, B, C\} \quad \{A, B\} \to \{C\} \\
+.\end{align*}
+Where I have listed the functional dependencies that hold for each of these relations. Now clearly, these relations are 2NF. $R_1$ and $R_2$ have single attribute candidate keys, which implies 2NF. And $\left\{ C \right\} \in R_{3}$ depends on both $A$ and $B$. To get to 3NF, we have to get rid of the transitive dependencies, therefore we just split the relations according to these,
+\begin{align*}
+    R_1 &=  \{B, F\} \quad \{B\} \to \{F\}\\
+    R_2 &=  \{F, G, H\} \quad \{F\} \to \{G, H\}\\
+    R_3 &=  \{A, D, E\} \quad \{A\} \to \{D, E\}\\
+    R_4 &=  \{D, I, J\} \quad \{D\} \to \{I, J\}\\
+    R_5 &=  \{A, B, C\} \quad \{A, B\} \to \{C\}\\
+.\end{align*} 
+This decomposition is dependency preserving since,
+\[
+\bigcup_i F\left( R_i \right) = F 
+.\]
+I.e. if we combine the functional dependencies of the decomposed relations we get the functional dependencies of our original relation. For the decomposition to be non-additive, we have to check that differences are functionally dependent on intersections. In other words, for any two relations $R_1$ and $R_2$ it should hold that,
+\begin{align*}
+    (R_1 \cap R_2) &\to (R_1 - R_2) \in F \quad \text{or}\\
+    (R_1 \cap R_2) &\to (R_2 - R_1) \in F
+.\end{align*}
+It sufficient to check the relations that share attributes, we will go through them below,
+\begin{align*}
+    R_3 \cap R_5 &= \left\{ A \right\}  \to R_3 - R_5 = \left\{ D, E \right\} \\
+    R_1 \cap R_2 &= \left\{ B \right\} \to R_2 - R_1 = \left\{ G, H \right\} \\
+    R_3 \cap R_4 &= \left\{ D \right\} \to R_4 - R_3 = \left\{ I, J \right\} \\
+    R_1 \cap R_5 &= \left\{ B \right\} \to R_1 - R_5 = \left\{ F \right\} \\
+.\end{align*}
+So it is indeed loss-less
+\end{solution}
+\begin{exercise}[5]
+Consider the relation $R = \left\{ A, B, C, D, E \right\} $ and $F = \left\{ A \to B, A \to C, B \to CD \right\} $. Decompose this into 3NF using the synthesis algorithm.
+\end{exercise}
+Lets start by noting that $\left\{ A, E \right\} $ is a candidate key for the relation. The first step in the algorithm is to find a minimal cover. We do this by splitting up the right-hand side and eliminating redundancies,
+\begin{align*}
+    F &= \left\{ A \to B, A \to C, B \to CD \right\} \\
+      &\sim \left\{ A \to B, A \to C, B \to C, B \to D \right\} \\
+      &\sim \left\{ A \to B, B \to C, B \to D \right\} = G
+.\end{align*}
+We then decompose our relation according these FDs,
+\begin{align*}
+    D_1 = \left( A, B \right) \quad\text{and}\quad D_2=\left( B, C, D \right) 
+.\end{align*}
+Since none of these relations contain our key, we have to add an additional one,
+\[
+D_3 = \left( A, E \right) 
+.\]
+Now, this is indeed a 3NF decomposition. There are no transitive dependencies, and no partial dependencies.
+\end{document}

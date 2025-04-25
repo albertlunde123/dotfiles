@@ -1,0 +1,54 @@
+\documentclass[working, oneside]{../../Preambles/tuftebook}
+\input{../../Preambles/colors}
+\input{../../Preambles/preamble}
+\input{../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{11 - Interacting Scalar Fields}
+\begin{exercise}[2]
+Find the first order matrix element $M_{fi}$ for the decay process $\phi_3 \to \phi_1 + \phi_2$
+\end{exercise}
+These are my thoughts, the first order matrix element is essentially,
+\[
+M^{\left( 1 \right) }_{fi} = \left<f \right| H_{int}\left( 0 \right) \left|i \right>
+.\] 
+Where $H$ is the interaction part of the hamiltonian density,
+\[
+L_{int} = g\phi_1\phi_2\phi_3 = -H_{int}
+.\]
+My intuition is that my states are given in the following way,
+\begin{align*}
+    \left<f \right| &= \sqrt{2\omega_{q_1}}\sqrt{2\omega_{q_2}} \left<0_{out} \right|a_{q_1}b_{q_2}  \\
+    \left|i \right> &= \sqrt{2\omega_{q_3}} c^\dagger_{q_3} \left|0_{in} \right>
+.\end{align*}
+The field expansions at $0$ of the real scalar fields are given in the following way,
+ \[
+\phi_1\left( 0 \right) = \int \frac{d^3k_1}{\left( 2\pi \right) ^3}\frac{1}{\sqrt{2\omega_{k_1}} }\left( a_{k_1} + a_{k_1}^\dagger \right)   
+.\] 
+We can insert all of this and begin calculating the first order matrix element. We will start pulling the $\omega_{q_i}$,
+\begin{align*}
+    M^{1}_{fi} &= -g\sqrt{2\omega_{q_1}} \sqrt{2\omega_{q_2}}\sqrt{2\omega_{q_3}} \times \\
+    &\left<0 \right|a_{q_1}b_{q_2}\int \frac{d^3k_1d^3k_2d^3k_3}{\left( 2\pi \right) ^9}\frac{1}{\sqrt{2\omega_{k_1}} }\frac{1}{\sqrt{2\omega_{k_2}} }\frac{1}{\sqrt{2\omega_{k_3}} }\left( a_{k_1} + a_{k_1}^\dagger \right)   \left( b_{k_2} + b_{k_2}^\dagger \right)   \left( c_{k_3} + c_{k_3}^\dagger \right)  c_{q_3}^\dagger \left|0 \right> \\
+ &=-g \sqrt{2\omega_{q_1}} \sqrt{2\omega_{q_2}}\sqrt{2\omega_{q_3}} \times \\
+               & \int \frac{d^3k_1d^3k_2d^3k_3}{\left( 2\pi \right) ^9}\frac{1}{\sqrt{2\omega_{k_1}} }\frac{1}{\sqrt{2\omega_{k_2}} }\frac{1}{\sqrt{2\omega_{k_3}} }\left<0 \right|a_{q_1}b_{q_2}\left( a_{k_1} + a_{k_1}^\dagger \right)   \left( b_{k_2} + b_{k_2}^\dagger \right)   \left( c_{k_3} + c_{k_3}^\dagger \right)  c_{q_3}^\dagger \left|0 \right> 
+.\end{align*}
+Here we should remind ourselves that, $\left[ a, b \right]=0$. The operators corresponding to different fields commute. In our bracket, we end up with 8 terms. 7 of them end up giving zero, corresponding to those that have either $a$ or $b$ annihilation operators on the right or $c$ creation operators on the left. Therefore, the only term that survives is,
+\begin{align*}
+    M^{1}_{fi} &=-g \sqrt{2\omega_{q_1}} \sqrt{2\omega_{q_2}}\sqrt{2\omega_{q_3}} \times\int \frac{d^3k_1d^3k_2d^3k_3}{\left( 2\pi \right) ^9}\frac{1}{\sqrt{2\omega_{k_1}} }\frac{1}{\sqrt{2\omega_{k_2}} }\frac{1}{\sqrt{2\omega_{k_3}} }\left<0 \right|a_{q_1}b_{q_2} a_{k_1}^\dagger b_{k_1}^\dagger c_{k_1}c_{q_3}^\dagger \left|0 \right> 
+.\end{align*}
+To get rid of the last terms we flip the pairs of commutators using the canonical commutation relations,
+\[
+\left[ a_{q_1}, a_{k_1}^\dagger \right] = \left( 2\pi \right) ^3\delta^3\left( q_1 - k_1 \right) 
+.\] 
+These delta functions can be pulled out of the bracket and we up with $\left<0 \mid  0 \right> =1$ 
+\begin{align*}
+    M^{1}_{fi} &= -g\sqrt{2\omega_{q_1}} \sqrt{2\omega_{q_2}}\sqrt{2\omega_{q_3}} \times\\
+               &\int \frac{d^3k_1d^3k_2d^3k_3}{\left( 2\pi \right) ^9}\frac{1}{\sqrt{2\omega_{k_1}} }\frac{1}{\sqrt{2\omega_{k_2}} }\frac{1}{\sqrt{2\omega_{k_3}} }  \left( 2\pi \right) ^3\delta^3\left( q_1 - k_1 \right)  \left( 2\pi \right) ^3\delta^3\left( q_2 - k_2 \right)  \left( 2\pi \right) ^3\delta^3\left( q_3 - k_3 \right) \\
+     &= -g\sqrt{2\omega_{q_1}} \sqrt{2\omega_{q_2}}\sqrt{2\omega_{q_3}} \frac{1}{2\sqrt{\omega_{q_1}} }\frac{1}{2\sqrt{\omega_{q_2}} }\frac{1}{2\sqrt{\omega_{q_3}} } = -g
+.\end{align*}
+\begin{exercise}[3]
+Find the second order matrix element $M_{fi}^{\left( 2 \right) }$ for the decay process $\phi_1 + \phi_2 \to  \phi_1 + \phi_2$
+\end{exercise}
+\end{document}

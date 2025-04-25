@@ -1,0 +1,88 @@
+\input{setup/preamble.tex}
+\input{setup/macros.tex}
+
+\begin{document}
+    %%% Sections %%%
+    \vspace*{-1em}
+    \tcbset{colframe=white,colback=white,arc=0mm, height=0.75\textheight}
+    \begin{tcolorbox}
+        %\vspace*{-0.5em}      
+         \adjustbox{valign=t}{\begin{minipage}{0.3\textwidth} % Side Panel 
+            \begin{tcolorbox}[height=0.95\textheight, grow to left by=0.6cm, colback=backdrop,colframe=backdrop,arc=0mm]
+                %\begin{minipage}{\textwidth} % Picture Area
+                % \includegraphics[width=\textwidth]{albert.jpg} % Picture 
+                \vspace{1em}
+
+                Albert Visby Lunde
+                \vspace{0.7em}
+                
+                \email{albert.lunde@gmail.com} 
+                \vspace{0.7em}
+
+                \phone{+45 29905206} %\par 
+                \vspace{0.7em}
+                %\vspace{0.7em}
+                
+                \address{Aarhus C} \par \vspace{0.7em}
+            
+            \end{tcolorbox}
+        \end{minipage}}
+               %%% TItle %%%
+        %\tcbset{colframe=title,colback=title,arc=0mm}
+        \adjustbox{valign=t}{\begin{minipage}{0.67\textwidth} % Main Panel (e.g. Education, Work Experience)
+            \begin{tcolorbox}[grow to right by=0.75cm,height=0.06\textheight, colframe=title,colback=title,arc=0mm]
+                \name{Albert Visby Lunde}{} % Name and Profession % Name and Profession
+                %\vspace{0.5em}
+            \end{tcolorbox}
+        %\end{minipage}
+        %\begin{minipage}[b]{0.68\textwidth} % Main Panel (e.g. Education, Work Experience)
+            \begin{tcolorbox}[grow to right by=0.8cm,height=0.79\textheight,colframe=white,colback=white]
+                % Profile Section
+                %%\section*{Profile}             
+                \section*{Kort om mig}
+Hej! Mit navn er Albert Lunde, og jeg er en 25-årig mand, der netop har færdiggjort en bachelor i fysik fra Aarhus Universitet. Min plan er nu at tage en længere pause, inden jeg læser en kandidat. Jeg står dermed på tærsklen til et nyt kapitel af mit liv.
+Jeg er pligtopfyldende, detaljeorienteret og nysgerrig af natur. Jeg sætter dermed pris på en hverdag, hvor jeg har mulighed for at udfordre mig selv. I forbindelse med mit studie og tidligere arbejde, har jeg været vant til at arbejde projektorientteret som del af et team. Jeg trives i dette, og nyder at sparre med mine kollegaer, både fagligt og socialt.
+                \section*{Erfaring}
+                    \work{Rutebygger}{Okt 2019 - }{Handmade Routesetting}{ 
+I min fritid dyrker jeg bouldering på højt niveau og i forlængelse af det, arbejder jeg som rutebygger i en række klatrehaller. Vi er et lille hold af erfarne klatrere, som er ansat til at bygge de klatreproblemer som hallernes kunder bruger. \\
+I 2021 blev jeg af mine kollegaer valgt som arbejdsmiljørepræsentant.
+                    }
+                    \vspace{0.4cm}
+                    \work{Research Assistant}{Jan 2018 - }{Copenhagen Economics}{ 
+Som research assistant har jeg arbejdet på diverse projekter, hvor jeg har assisteret med litteratursøgning, databehandling og diverse programmeringsopgaver. I dette arbejde har gjort brugt af python og R på daglig basis.
+                    }
+                \section*{Uddannelse}
+                    \education{BSc. i fysik}{Sep 2020 - Jan 2024}{Aarhus Universitet}{Jeg gennemførte bacheloruddanelsen i fysik, med tilvalg i matematik og et afsluttende projekt indenfor faststoffysik. Som del af projektet konstruerede jeg en lille machine-learning model der kunne forudsige den geometriske af små klynger af atomer.} \vspace{1.5em}
+                    \education{BSc. i matematik}{Sep 2017 - Jan 2019}{Aarhus Universitet}{Jeg fulgte og bestod 3 semestre på matematik-uddannelsen, hvorefter jeg besluttede mig for at tage et sabbatår.\vspace{0.5em}
+            \end{tcolorbox}
+        \end{minipage} 
+        }
+    \end{tcolorbox}
+    %%%%%%% PAGE 2
+    
+    \begin{tcolorbox}
+        \vspace*{-0.5em}
+            \begin{minipage}[t]{0.999\textwidth} % Main Panel (e.g. Education, Work Experience)
+%% Uncomment the following line you want to change the background color
+                %\begin{tcolorbox}[grow to right by=0.75cm,height=0.8\textheight,colframe=white,colback=lightgray]
+                \subsection*{Databehandling}
+                    \skill{Analyse}{0,1,2,3}{I forbindelse med det eksperimentelle arbejde på fysik-studiet, har jeg renset og analyseret store mængder af støjfuld data. Ved Copenhagen Economics har jeg analyseret og systematiseret data scrapet fra diverse nyhedsmedier. Til disse formål, har jeg gjort brug af python, særligt pakkerne numpy, scipy og pandas.} 
+                    \skill{Visualisering af data}{0,1,2,3,4}{En ofte undervurderet del af data-analysen, er analytikerens evne til at kunne formidle resultaterne klart og tydeligt. Denne del vægter jeg personligt meget højt, og jeg er enormt stærk i matplotlib.}
+%% Uncomment the following line if uncommented above
+                %\end{tcolorbox}
+        \end{minipage}
+        \subsection*{Software}
+        \adjustbox{valign=t}{\begin{minipage}{0.46\textwidth}
+            \vspace{0.1cm}
+                \soft{Python}{0, 1, 2, 3, 4}
+                 \soft{R}{0, 1, 2}
+        \end{minipage}}  
+        \adjustbox{valign=t}{\begin{minipage}{0.03\textwidth}
+        \end{minipage}}       
+        \adjustbox{valign=t}{\begin{minipage}{0.48\textwidth} 
+            \vspace{0.1cm}
+            \soft{Bash}{0, 1, 2}
+            \soft{\LaTeX}{0, 1, 2, 3}
+        \end{minipage}}
+    \end{tcolorbox}
+\end{document}

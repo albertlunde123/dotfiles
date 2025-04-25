@@ -1,0 +1,337 @@
+\documentclass[working, oneside]{../../Preambles/tuftebook}
+\input{../../Preambles/colors}
+\input{../../Preambles/preamble}
+\input{../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{Opgave 2}
+
+% \documentclass{article}
+
+
+\begin{exercise}[2.6]
+Show that we can ensure the commutation relation $[\phi(x), \pi(x')] = i\delta^3(x - x')$ if we take the operator commutation relations to be
+\begin{align*}
+[a_{\mathbf{p}}, a_{\mathbf{p'}}^{\dagger}] &= (2\pi)^3 \delta^3(\mathbf{p} - \mathbf{p'}) \\
+[c_{\mathbf{p}}, c_{\mathbf{p'}}^{\dagger}] &= (2\pi)^3 \delta^3(\mathbf{p} - \mathbf{p'})
+\end{align*}
+\end{exercise}
+
+\begin{solution}
+Recall,
+\begin{align*}
+\phi(x) &= \int \frac{d^3p}{(2\pi)^3} \frac{1}{\sqrt{2\omega_{\mathbf{p}}}} (a_{\mathbf{p}} e^{i\mathbf{p}\cdot\mathbf{x}} + c_{\mathbf{p}}^{\dagger} e^{-i\mathbf{p}\cdot\mathbf{x}}) \\
+\pi(x') &= \int \frac{d^3p'}{(2\pi)^3} (-i) \sqrt{\frac{\omega_{\mathbf{p'}}}{2}} (a_{\mathbf{p'}} e^{i\mathbf{p'}\cdot\mathbf{x'}} - c_{\mathbf{p'}}^{\dagger} e^{-i\mathbf{p'}\cdot\mathbf{x'}})
+\end{align*}
+
+And the following rules for commutators
+\begin{align*}
+[\alpha A, B] &= \alpha [A, B] \\
+[A, B \pm C] &= [A, B] \pm [A, C]
+\end{align*}
+
+Let's take a look at the commutator
+\begin{align*}
+[\phi(x), \pi(x')] &= \left[ \int \frac{d^3p}{(2\pi)^3} \frac{1}{\sqrt{2\omega_p}} (a_p e^{ip\cdot x} + c_p^\dagger e^{-ip\cdot x}), \int \frac{d^3p'}{(2\pi)^3} i \sqrt{\frac{\omega_{p'}}{2}} (a_{p'}^\dagger e^{-ip'\cdot x'} - c_{p'} e^{ip'\cdot x'}) \right] \\
+\end{align*}
+
+For simplicity let's introduce $k = ip\cdot x$, $k' = ip'\cdot x'$
+
+\begin{align*}
+&= \frac{1}{2} \left( \frac{i}{(2\pi)^6} \right) \int d^3p \int d^3p' \left[ a_p e^k + c_p^\dagger e^{-k}, a_{p'}^\dagger e^{-k'} - c_{p'} e^{k'} \right] \\
+&= A \left( \left[ a_p e^k, a_{p'}^\dagger e^{-k'} - c_{p'} e^{k'} \right] + \left[ c_p^\dagger e^{-k}, a_{p'}^\dagger e^{-k'} - c_{p'} e^{k'} \right] \right) \\
+&= A \left( \left[ a_p e^k, a_{p'}^\dagger e^{-k'} \right] - \left[ a_p e^k, c_{p'} e^{k'} \right] + \left[ c_p^\dagger e^{-k}, a_{p'}^\dagger e^{-k'} \right] - \left[ c_p^\dagger e^{-k}, c_{p'} e^{k'} \right] \right)
+\end{align*}
+
+At this point we see that the terms with different operators definitely cancel.
+
+\begin{align*}
+&= A \left( e^{k-k'} [a_p, a_{p'}^\dagger] - e^{k'-k} [c_p^\dagger, c_{p'}] \right)
+\end{align*}
+
+Before moving on let's quickly look at the commutator,
+\begin{align*}
+[c_p, c_{p'}^\dagger]^\dagger &= \left( (2\pi)^3 \delta^3(p-p') \right)^\dagger = (2\pi)^3 \delta^3(p-p') \\
+&= [c_p, c_{p'}^\dagger]
+\end{align*}
+
+And,
+\begin{align*}
+[c_p, c_{p'}^\dagger]^\dagger &= (c_p c_{p'}^\dagger)^\dagger - (c_{p'}^\dagger c_p)^\dagger \\
+&= c_{p'}^{\dagger \dagger} c_p^\dagger - c_p^\dagger c_{p'}^{\dagger \dagger} = c_{p'} c_p^\dagger - c_p^\dagger c_{p'} = [c_{p'}, c_p^\dagger] \\
+&= -[c_p^\dagger, c_{p'}] = [c_p, c_{p'}^\dagger]
+\end{align*}
+
+We can then insert this.
+\begin{align*}
+&= A \left( e^{k-k'} [a_p, a_{p'}^\dagger] + e^{k'-k} [c_p, c_{p'}^\dagger] \right) \\
+&= A \left( e^{k-k'} (2\pi)^3 \delta^3(p-p') + e^{k'-k} (2\pi)^3 \delta^3(p-p') \right)
+\end{align*}
+
+We pull out the $(2\pi)^3$ and begin evaluating the integrals.
+\begin{align*}
+&= \frac{1}{2} \left( \frac{i}{(2\pi)^3} \right) \int d^3p \int d^3p' \left( e^{i(p\cdot x - p'\cdot x')} \delta^3(p-p') + e^{i(p'\cdot x' - p\cdot x)} \delta^3(p-p') \right)
+\end{align*}
+The innermost integral just selects the value where the delta function is 0. Therefore, we get $p' = p$.
+
+\begin{align*}
+&= \frac{1}{2} \left( \frac{i}{(2\pi)^3} \right) \int d^3p \left( e^{ip\cdot(x-x')} + e^{ip\cdot(x'-x)} \right)
+\end{align*}
+
+This is just the definition of the delta function
+
+\begin{align*}
+&= \frac{1}{2} \left( \frac{i}{(2\pi)^3} \right) \left( (2\pi)^3 \delta^3(x-x') + (2\pi)^3 \delta^3(x'-x) \right)
+\end{align*}
+
+Recall
+\[
+\delta(-x) = \delta(x) \implies \delta(x-x') = \delta(-(x-x')) = \delta(x'-x)
+.\] 
+So we get,
+\begin{align*}
+&= \frac{1}{2} i \left( \frac{1}{(2\pi)^3} \right) 2 \cdot (2\pi)^3 \delta^3(x-x') = i \delta^3(x-x')
+\end{align*}
+\end{solution}
+
+\begin{exercise}[8]
+For the field operators, the conserved charge becomes:
+
+\[
+Q = i \int d^3x \left( \phi^\dagger(x) \pi^\dagger(x) - \pi(x) \phi(x) \right)
+\]
+
+Argue that this expression makes sense when compared to the flow current of a classical scalar field.
+\end{exercise}
+
+\begin{solution} In the classical picture we have:
+
+\[
+\rho = i \left( \phi^* \frac{\partial \phi}{\partial t} - \frac{\partial \phi^*}{\partial t} \phi \right)
+\]
+
+With Lagrangian:
+
+\[
+\mathcal{L}_{KG} = (\partial^\mu \phi^*) \partial_\mu \phi - m^2 \phi^* \phi
+\]
+
+Now, we also know that:
+
+\[
+\pi = \frac{\partial \mathcal{L}_{KG}}{\partial (\partial_t \phi)} = (\partial^t \phi)^* = \frac{\partial \phi^*}{\partial t}
+\]
+
+And likewise:
+
+\[
+\pi^* = \frac{\partial \phi}{\partial t}
+\]
+
+Translating this we get a nice correspondence between:
+
+\[
+i \left( \phi^* \frac{\partial \phi}{\partial t} - \frac{\partial \phi^*}{\partial t} \phi \right) \rightarrow i \left( \phi^\dagger \pi^\dagger - \pi \phi \right)
+\]
+
+So it does make sense
+
+\end{solution}
+\begin{exercise}[2.9]
+Show that,
+\begin{align*}
+    [H, a_p^\dagger] &= \omega_p a_p^\dagger \quad \text{and} \quad [H, a_p] = -\omega_p a_p
+\end{align*}
+And assuming $a_p |0\rangle = 0$, show that the full spectrum of energy can be obtained from repeated application of the creation operator.
+\end{exercise}
+\begin{solution}
+Let's write it out,
+
+\begin{align*}
+    [H, a_p^\dagger] &= \left[ \int \frac{d^3p'}{(2\pi)^3} \omega_{p'} (a_{p'}^\dagger a_{p'} + \frac{1}{2} [a_{p'}, a_{p'}^\dagger] + c_{p'}^\dagger c_{p'} + \frac{1}{2} [c_{p'}, c_{p'}^\dagger], a_p^\dagger \right]
+\end{align*}
+
+We can move out the integrals, and also see that the terms with \(c_{p'}^\dagger c_{p'}\) will generate mixed commutators, which we know are zero.
+
+\begin{align*}
+    &= \omega_p \int \frac{d^3p'}{(2\pi)^3} [a_{p'}^\dagger a_{p'} + \frac{1}{2} [a_{p'}, a_{p'}^\dagger], a_p^\dagger] \\
+    &= \omega_p \int \frac{d^3p'}{(2\pi)^3} \left( [a_{p'}^\dagger a_{p'}, a_p^\dagger] + \frac{1}{2} [[a_{p'}, a_{p'}^\dagger], a_p^\dagger] \right)
+\end{align*}
+
+Now \( [a_{p'}, a_{p'}^\dagger] = \alpha \delta^{(3)}(0) \), i.e. is a fixed quantity, so it commutes with everything.
+
+\begin{align*}
+    &= \omega_p \int \frac{d^3p'}{(2\pi)^3} [a_{p'}^\dagger a_{p'}, a_p^\dagger]
+\end{align*}
+
+Let's stop for a while.
+
+\begin{align*}
+    [a_{p'}^\dagger a_{p'}, a_p^\dagger] &= -[a_p^\dagger, a_{p'}^\dagger a_{p'}] \\
+    &= -[a_p^\dagger, a_{p'}^\dagger] a_{p'} - a_{p'}^\dagger [a_p^\dagger, a_{p'}] \\
+    &= a_{p'}^\dagger [a_{p'}, a_p^\dagger] = a_{p'}^\dagger (2\pi)^3 \delta^{(3)}(p' - p)
+\end{align*}
+
+Insert,
+
+\begin{align*}
+    &= \omega_p \int \frac{d^3p'}{(2\pi)^3} a_{p'}^\dagger (2\pi)^3 \delta^{(3)}(p' - p) = \omega_p a_p^\dagger
+\end{align*}
+We now show, the corresponding commutator for the annihilation operator
+\begin{align*}
+    [H, a_p] &= \int \frac{d^3p}{(2\pi)^3} \omega_p [a_p^\dagger a_p + \frac{1}{2} [a_p, a_p^\dagger], a_p'] \\
+    &= \int \frac{d^3p}{(2\pi)^3} \omega_p ([a_p^\dagger a_p, a_p'] + \frac{1}{2} [[a_p, a_p^\dagger], a_p'])
+\end{align*}
+
+Now \( [a_p, a_p^\dagger] = (2\pi)^3 \delta^{(3)}(0) \). So it commutes with \( a_p' \).
+
+\begin{align*}
+    &= -\int \frac{d^3p}{(2\pi)^3} \omega_p [a_p', a_p^\dagger a_p] \\
+    &= -\int \frac{d^3p}{(2\pi)^3} \omega_p ([a_p', a_p^\dagger] a_p + a_p^\dagger [a_p', a_p]) \\
+    &= -\int \frac{d^3p}{(2\pi)^3} \omega_p (2\pi)^3 \delta^{(3)}(p' - p) a_p' \\
+    &= -\omega_p' a_p'
+\end{align*}
+We can now move on to showing that the creation operator generates the different states. Let's assume that the groundstate exists. Then it should be an eigenstate of the Hamiltonian.
+\begin{align*}
+    \hat{H} |0\rangle = E_0 |0\rangle
+\end{align*}
+We can then apply the creation operator.
+\begin{align*}
+    (\hat{H} a_p^\dagger) |0\rangle = (a_p^\dagger \hat{H} + [\hat{H}, a_p^\dagger]) |0\rangle = a_p^\dagger \hat{H} |0\rangle + \omega_p a_p^\dagger |0\rangle = a_p^\dagger (E_0 + \omega_p) |0\rangle
+\end{align*}
+Lets find out what $E_0$ is. We apply the hamiltonian operator to the ground state.
+\begin{align*}
+    \hat{H} |0\rangle &= \int \frac{d^3p}{(2\pi)^3} \omega_p \left(a_p^\dagger a_p |0\rangle + \frac{1}{2} [a_p, a_p^\dagger] |0\rangle+ c_p^\dagger c_p |0\rangle + \frac{1}{2} [c_p, c_p^\dagger] |0\rangle\right) \\
+    &= \int \frac{d^3p}{(2\pi)^3} \omega_p \left( \frac{1}{2} [a_p, a_p^\dagger] + \frac{1}{2} [c_p, c_p^\dagger] |0\rangle\right) \\
+    &= \int \frac{d^3p}{(2\pi)^3} 2 \cdot \frac{1}{2} (2\pi)^3 \delta^{(3)}(0) |0\rangle \\
+    &= \omega_0 |0\rangle
+\end{align*}
+\end{solution}
+\begin{exercise}[2.10]
+Show that $a^\dagger_{\mathbf{p}_1} a^\dagger_{\mathbf{p}_2} |0\rangle = a^\dagger_{\mathbf{p}_2} a^\dagger_{\mathbf{p}_1} |0\rangle$ and argue that this implies that these spin zero particles obey Bose-Einstein statistics.
+\end{exercise}
+\begin{exercise}[2.11]
+Apply $\phi(\mathbf{x})$ to the vacuum and show that
+\[
+\phi(\mathbf{x}) |0\rangle = \int \frac{d^3p}{(2\pi)^3} \frac{1}{\sqrt{2\omega_p}} e^{-i\mathbf{p}\cdot\mathbf{x}} |\mathbf{p}\rangle_c, \tag{29}
+.\] 
+where $|\mathbf{p}\rangle_c = \sqrt{2\omega_p} c^\dagger_{\mathbf{p}} |0\rangle$ where the subscript $c$ indicates that we are creating a $c$ particle. The factor $\sqrt{2\omega_p}$ is introduced to ensure that the states are normalized in a Lorentz invariant fashion (more precisely, $\langle \mathbf{p}|\mathbf{q} \rangle = (2\pi)^3 2\omega_p \delta^3(\mathbf{p} - \mathbf{q})$ can be shown to be Lorentz invariant, just consider a boost operation along one direction). Likewise, if we use $\phi^\dagger(\mathbf{x})$ we would be creating an $a$ particle. Argue that for small momenta, $\mathbf{p}$, $\omega_p$ is nearly constant and in that case the above expression is a linear superposition of plane wave states with well-defined momentum which is the Fourier transform of a non-relativistic basis state of position, $\mathbf{x}$. We thus interpret $\phi(\mathbf{x})$ as a field operator that creates a particle at position $\mathbf{x}$.
+\end{exercise}
+\begin{solution}
+\[
+\phi(x) | 0 \rangle = \int \frac{d^3p}{(2\pi)^3} \frac{1}{\sqrt{2\omega_p}} 
+\left( a_p e^{i\mathbf{p} \cdot \mathbf{x}} + c_p^\dagger e^{-i\mathbf{p} \cdot \mathbf{x}} \right) | 0 \rangle
+\]
+
+\[
+= \int \frac{d^3p}{(2\pi)^3} \frac{1}{\sqrt{2\omega_p}} e^{-i\mathbf{p} \cdot \mathbf{x}} c_p^\dagger | 0 \rangle
+\]
+
+Now inserting \(| \mathbf{p} \rangle_c = \sqrt{2\omega_p} c_p^\dagger | 0 \rangle\), we get:
+\[
+= \int \frac{d^3p}{(2\pi)^3} \frac{1}{2\omega_p} e^{-i\mathbf{p} \cdot \mathbf{x}} | \mathbf{p} \rangle_c
+\]
+\end{solution}
+\begin{exercise}[2.12]
+12) Show that $\langle 0| \phi(\mathbf{x}) |\mathbf{p}\rangle = e^{i\mathbf{p}\cdot\mathbf{x}}$. If we interpret this as the position-space representation of the single-particle wave function of the state $|\mathbf{p}\rangle$, then we see that $\langle \mathbf{x}|\mathbf{p}\rangle \propto e^{i\mathbf{p}\cdot\mathbf{x}}$ is the wave function just as in non-relativistic quantum mechanics.
+\end{exercise}
+\begin{solution}
+\begin{align*}
+    \langle 0 | \phi(x) | p \rangle &= \left( \langle p | \phi(x)^\dagger | 0 \rangle \right)^\dagger \\
+                                    &= \left(\langle p | \int \frac{d^3p'}{(2\pi)^3} \frac{1}{\sqrt{2\omega_{p'}}} e^{i\mathbf{p}' \cdot \mathbf{x}} | p' \rangle   \right) ^\dagger \\
+                                    &= \left(   \int \frac{d^3p'}{(2\pi)^3} \frac{1}{\sqrt{2\omega_{p'}}} e^{i\mathbf{p}' \cdot \mathbf{x}} \langle p | p' \rangle\right)^\dagger \\
+                                    &= \left(   \int \frac{d^3p'}{(2\pi)^3} \frac{1}{\sqrt{2\omega_{p'}}} e^{i\mathbf{p}' \cdot \mathbf{x}} (2\pi)^3 2\omega_{p'} \delta^3(\mathbf{p}' - \mathbf{p})\right)^\dagger \\
+                                    &= \left( e^{i\mathbf{p} \cdot \mathbf{x}} \right)^\dagger = e^{-i\mathbf{p} \cdot \mathbf{x}}
+\end{align*}
+\end{solution}
+\end{document}
+\begin{exercise}[3.1]
+The previous problem showed how to quantize the Klein-Gordon field in the 
+Schrödinger picture of quantum mechanics where the operators are independent 
+of time while the state vectors carry all the time-dependence. Here we will 
+consider the (equivalent) Heisenberg picture where the state vectors are 
+time-independent and the operators carry the time-dependence. The definition 
+of an operator in the Heisenberg picture is straightforward
+\[
+\mathcal{O}_H(x) = \mathcal{O}_H(x,t) = e^{iHt} \mathcal{O}_S(x) e^{-iHt}, \tag{30}
+.\]
+\color{foreground} 
+where $\mathcal{O}_S(x)$ is an operator in the Schrödinger picture and $H$ is the 
+Hamiltonian operator which we assume has no explicit time-dependence in this 
+problem. Assume that $\mathcal{O}$ does not have any explicit dependence on time $t$. 
+Derive the Heisenberg equation of motion
+\[
+i \frac{\partial }{\partial t} \mathcal{O}_H = \left[ \mathcal{O}_H, H \right] 
+.\] 
+\end{exercise}
+\begin{solution}
+\begin{align*}
+    i\frac{\partial}{\partial t} \left( e^{i\hat{H}t} \hat{O}(x) e^{-i\hat{H}t} \right) &= i\hat{H}e^{i\hat{H}t}\hat{O}\left( x \right) e^{-i\hat{H}t} +e^{i\hat{H}t}\hat{O}\left( x \right)\left( -i\hat{H} \right)  e^{-i\hat{H}t}  \\
+&= -i \left( \hat{H} \hat{O}_H - \hat{O}_H \hat{H} \right) \\
+&= [\hat{O}_H, \hat{H}]
+\end{align*}
+\end{solution}
+\begin{exercise}[3.2]
+The quantized version of the Hamiltonian for the Klein-Gordon field follows 
+from Eq. (8) above and is:
+\[
+H = \int d^3x \left( \pi(x, t)^\dagger \pi(x, t) 
++ \nabla \phi(x, t)^\dagger \cdot \nabla \phi(x, t) 
++ m^2 \phi(x, t)^\dagger \phi(x, t) \right). \tag{32}
+\]
+
+Calculate \( [\phi(x, t), H] \) and show that:
+\[
+i \frac{\partial}{\partial t} \phi(x, t) = i \pi(x, t)^\dagger. \tag{33}
+\]
+
+You will need the equal-time commutator in Eq. (11) and the fact that all 
+combinations like \( [\phi, \pi^\dagger] = 0 \) vanish.
+
+\end{exercise}
+\begin{solution}
+Calculate,
+\[
+[\phi(x, t), H]
+\]
+
+where
+\[
+H = \int d^3x \left( \pi^\dagger \pi + \nabla \phi^\dagger \cdot \nabla \phi + m^2 \phi^\dagger \phi \right)
+\]
+
+Step-by-step:
+\[
+[\phi, H] = \int d^3x \left( [\phi, \pi^\dagger \pi] + [\phi, \nabla \phi^\dagger \cdot \nabla \phi] + [\phi, m^2 \phi^\dagger \phi] \right)
+\]
+
+The second and third terms are zero:
+\[
+[\phi, H] = \int d^3x [\phi, \pi^\dagger \pi] = \int d^3x \left( \pi^\dagger [\phi, \pi] + [\phi, \pi^\dagger] \pi \right)
+\]
+
+Using the canonical commutation relation \( [\phi(x), \pi(x')] = i \delta^3(x - x') \), we get:
+\[
+[\phi, H] = \int d^3x \pi^\dagger i \delta^3(x - x') = i \pi^\dagger(x', t)
+\]
+
+We also know that:
+\[
+i \frac{\partial}{\partial t} \phi(x, t) = [\phi(x, t), H] = i \pi^\dagger(x', t)
+\]
+\end{solution}
+\begin{exercise}[3.3]
+3) By calculating the commutator \( [\pi(x, t), H] \), show that:
+\[
+i \frac{\partial}{\partial t} \pi(x, t) = -i \left( -\nabla^2 + m^2 \right) \phi(x, t)^\dagger. \tag{34}
+\]
+
+(Hint: You will need to do partial integration and throw away a boundary term 
+which we assume vanishes at infinity.)
+\end{exercise}
+\begin{solution}
+
+\end{solution}
+\end{document}

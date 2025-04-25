@@ -1,0 +1,376 @@
+\documentclass[working, oneside]{../../Preambles/tuftebook}
+\input{../../Preambles/colors}
+\input{../../Preambles/preamble}
+\input{../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{4 - The Time Evolution Operator and the S-matrix}
+Consider the Schrödinger equation which we write
+\begin{align*}
+&i \frac{\partial}{\partial t} |\Psi, t\rangle_S = H |\Psi, t\rangle_S, \tag{44}
+\end{align*}
+where \(H\) is the Hamiltonian and \(|\Psi, t\rangle\) is the state at time \(t\). The subscript \(S\) refers to the Schrödinger picture where operators are time-independent (except for explicit time-dependent terms) and states are time-dependent. Let us furthermore split the Hamiltonian into a free Hamiltonian (containing typically kinetic energy and mass terms) and an interacting part that contains the interactions of different particles, i.e. \(H = H_F + H_{I,S}\). Here the notation \(H_{I,S}\) means the interaction part of the Hamiltonian in the Schrödinger picture. Define the state
+\begin{align*}
+|\Psi, t\rangle_I = e^{i H_F t} |\Psi, t\rangle_S, \tag{45}
+\end{align*}
+which is called the interaction picture state and has subscript \(I\), and also define the interaction picture operators
+\begin{align*}
+O_I = e^{i H_F t} O_S e^{-i H_F t}, \tag{46}
+\end{align*}
+where \(O_S\) is a Schrödinger picture operator (typically time-independent).
+\begin{exercise}[1]
+Show that,
+\begin{align*}
+i \frac{\partial}{\partial t} |\Psi, t\rangle_I = H_I |\Psi, t\rangle_I, \tag{47}
+\end{align*}
+where $H_I = e^{i H_F t} H_{I,S} e^{-i H_F t}$, and show that 
+\[
+\frac{d}{dt} O_I = -i [O_I, H_F], \tag{48}
+.\] 
+where you assume no explicit time-dependence in \(O_S\). From now on \(H_I\) will denote the interaction part of the Hamiltonian in the interaction picture.
+\end{exercise}
+\begin{solution}
+\begin{align*}
+i \frac{\partial}{\partial t} |\Psi, t\rangle_I &= i \frac{\partial}{\partial t} e^{i H_F t} |\Psi, t\rangle_S \\
+&= i \frac{\partial}{\partial t} (e^{i H_F t}) |\Psi, t\rangle_S + e^{i H_F t} (i \frac{\partial}{\partial t} |\Psi, t\rangle_S) \\
+&= -H_F e^{i H_F t} |\Psi, t\rangle_S + e^{i H_F t} H |\Psi, t\rangle_S \\
+&= -e^{i H_F t} H_F e^{-i H_F t}|\Psi, t\rangle_I + e^{i H_F t} H e^{-i H_F t} |\Psi, t\rangle_I \\
+&= e^{i H_F t} H_{I,S} e^{-i H_F t} |\Psi, t\rangle_I = H_I |\Psi, t\rangle_I
+\end{align*}
+And now the second part,
+\begin{align*}
+\frac{d}{dt} O_I &= \frac{d}{dt} (e^{i H_F t} O_S e^{-i H_F t}) \\
+&= i H_F (e^{i H_F t} O_S e^{-i H_F t}) + e^{i H_F t} O_S (-i H_F) e^{-i H_F t} \\
+&= i H_F O_I - O_I i H_F = i [H_F, O_I].
+\end{align*}
+\end{solution}
+\begin{exercise}[2]
+Introduce the time evolution operator, \( U(t, t_0) \), that evolves states from time \( t_0 \) to time \( t \), i.e. \( |\Psi, t\rangle_I = U(t, t_0) |\Psi, t_0\rangle_I \). Clearly \( U(t_0, t_0) = 1 \). Show that
+\begin{align*}
+i \frac{\partial}{\partial t} U(t, t_0)
+&= H_I(t) U(t, t_0). \tag{49}
+\end{align*}
+Note the explicit time-dependence on \( H_I(t) \)!
+\end{exercise}
+\begin{solution}
+\begin{align*}
+|\Psi_t\rangle_I
+&= U(t, t_0) |\Psi, t_0\rangle_I
+\end{align*}
+Show that
+\begin{align*}
+i \frac{\partial}{\partial t} U(t, t_0)
+&= H_I(t) U(t, t_0)
+\end{align*}
+Let \( |\Psi, t_0\rangle_I \) be the interaction part of some state.
+\begin{align*}
+i \frac{\partial}{\partial t} (U(t, t_0) |\Psi, t_0\rangle_I)
+&= i \frac{\partial}{\partial t} (U(t, t_0) |\Psi, t_0\rangle)_I, \\
+&= i \frac{\partial}{\partial t} |\Psi, t\rangle_I, \\
+&= H_I |\Psi, t\rangle_I, \\
+&= H_I(t) U(t, t_0) |\Psi, t_0\rangle_I
+\end{align*}
+\end{solution}
+\begin{exercise}[3]
+Show that
+\begin{align*}
+U(t, t_0)
+&= 1 - i \int_{t_0}^t dt_1 H_I(t_1) U(t_1, t_0), \tag{50}
+\end{align*}
+and
+\begin{align*}
+U(t, t_0)
+&= 1 + (-i) \int_{t_0}^t dt_1 H_I(t_1) + (-i)^2 \int_{t_0}^t dt_1 \int_{t_0}^{t_1} dt_2 H_I(t_1) H_I(t_2) + \dots, \tag{51}
+\end{align*}
+where \( \dots \) denote higher-order terms containing three or more factors of \( H_I(t) \).
+\end{exercise}
+\begin{solution}
+\begin{align*}
+i \frac{\partial}{\partial t} U(t, t_0)
+&= H_I(t) U(t, t_0)
+\end{align*}
+Integrate on both sides
+\begin{align*}
+i \int_{t_0}^t \frac{\partial}{\partial t_1} U(t_1, t_0) dt_1
+&= \int_{t_0}^t H_I(t_1) U(t_1, t_0) dt_1
+\end{align*}
+Multiply by \( i \), and evaluate the left-hand side.
+\begin{align*}
+i (U(t, t_0) - U(t_0, t_0))
+&= \int_{t_0}^t H_I(t_1) U(t_1, t_0) dt_1, \\
+(-1) (U(t, t_0) - 1)
+&= i \int_{t_0}^t H_I(t_1) U(t_1, t_0) dt_1, \\
+-U(t, t_0) + 1
+&= i \int_{t_0}^t H_I(t_1) U(t_1, t_0) dt_1, \\
+U(t, t_0)
+&= 1 - i \int_{t_0}^t H_I(t_1) U(t_1, t_0) dt_1
+\end{align*}
+Alright this seems reasonable. Let's try inserting the RHS in the differential equation and see where it gets us.
+\begin{align*}
+U(t, t_0)
+&= 1 - i \int_{t_0}^t H_I(t_1) \left( 1 - i \int_{t_0}^{t_1} H_I(t_2) U(t_2, t_0) dt_2 \right) dt_1
+\end{align*}
+By letting the outermost $H\left( t_1 \right) $ integral distribute, we arrive at the expression we were looking for.
+\end{solution}
+\begin{exercise}[4]
+Now define the S-matrix for the process from initial state \( i \) to final state \( f \), i.e. \( i \rightarrow f \), by
+\begin{align*}
+S_{fi}
+&= \lim_{t_0 \rightarrow -\infty} \lim_{t \rightarrow \infty} \langle f | U(t, t_0) | i \rangle. \tag{52}
+\end{align*}
+Give a physical interpretation of this matrix element given what you know about \( U(t, t_0) \) and relate it to how experiments are done. What have we assumed about the states \( |f\rangle \) and \( |i\rangle \)? If you calculate \( S_{fi} \) in the Schrödinger picture will it be the same result?
+\end{exercise}
+
+\begin{exercise}[5]
+Show that the first order contribution to \( S_{fi} \) can be written
+\begin{align*}
+S_{fi}^{(1)}
+&= \delta_{fi} - i \int d^4x \langle f | \mathcal{H} | i \rangle, \tag{53}
+\end{align*}
+where \( H_I = \int d^3x \mathcal{H} \). \( \mathcal{H} \) is called the Hamiltonian density. Since it contains only interaction terms, it differs from the Lagrangian density only by a sign (remember the basic idea that \( L = T - V \) while \( H = T + V \)).
+
+\end{exercise}
+
+\begin{solution}
+Show that the first order contribution to \( S_{fi} \) can be written
+\begin{align*}
+S_{fi}^{(1)}
+&= \delta_{fi} - i \int d^4x \langle f | \mathcal{H} | i \rangle
+\end{align*}
+Where \( H_I = \int d^3x \mathcal{H} \). Alright, let us take a look at \( S_{fi} \)
+\begin{align*}
+S_{fi}
+&= \lim_{t_0 \rightarrow -\infty} \lim_{t \rightarrow \infty} \langle f | U(t, t_0) | i \rangle
+\end{align*}
+Here \( f \) and \( i \) are initial and final states. Let's insert \( U(t, t_0) \)
+\begin{align*}
+S_{fi}
+&= \lim_{t_0 \rightarrow -\infty} \lim_{t \rightarrow \infty} \left\langle f \left| 1 - i \int_{t_0}^t H_I(t_1) U(t_1, t_0) dt_1 \right| i \right\rangle
+\end{align*}
+I could do this expansion an indefinite amount of times. I'll do it once more and then just throw away the remaining terms.
+\begin{align*}
+S_{fi}
+&\approx \lim_{t_0 \rightarrow -\infty} \lim_{t \rightarrow \infty} \left( \langle f | i \rangle - i \int_{t_0}^t \left<f \right| H_I(t_1) dt_1 \left|i \right>\right), \\
+&= \delta_{if} - i \int_{-\infty}^\infty \left<f \right|H_I(t_1) dt_1\left|i \right>, \\
+&= \delta_{if} - i \int \int  dt d^3x \left<f \right|\mathcal{H}\left|i \right>, \\
+&= \delta_{if} - i \int d^4x\left<f \right| \mathcal{H}\left|i \right>
+\end{align*}
+\end{solution}
+
+If we assume that the interactions conserve energy and momentum, we have the commutation relation \( [P^\mu, H] = 0 \), where \( P^\mu \) is the total energy and momentum operator. This operator acts on plane wave as \( P^\mu | k \rangle = k^\mu | k \rangle \). It can also be used to generate finite translations in space and time by application of \( e^{i P^\mu a_\mu} \), where \( a^\mu \) is some space-time vector.
+\begin{exercise}[6]
+Show that \( [P^\mu, H] = 0 \) implies that \( [e^{i P^\mu a_\mu}, H] = 0 \).
+\end{exercise}
+\begin{solution}
+Show that \( [P^\mu, H] = 0 \) implies \( [e^{i P^\mu a_\mu}, H] = 0 \).
+
+There are a couple of ways to show. One is to do an expansion into a power series. But I'm going to try to use exercise 1 instead.
+\begin{align*}
+\frac{d}{dt} e^{i P_\mu a^\mu}
+&= \frac{d}{dt} (i P_\mu a^\mu) e^{i P_\mu a^\mu}, \\
+&= i a^\mu e^{i P_\mu a^\mu} \frac{d}{dt} P_\mu, \\
+&= -i [P^\mu, H] \cdot \left( ia_{\mu }e^{iP^{\mu }a_{\mu }} \right)  = 0, \\
+\Rightarrow 0
+&= -i [e^{i P^\mu a^\mu}, H] = 0
+\end{align*}
+\end{solution}
+\begin{exercise}[7]
+The Hamiltonian density depends on space-time coordinates in general, \( \mathcal{H}(x) \). Argue we can use translation operators to write \( \mathcal{H}(x) = e^{i P^\mu x_\mu} \mathcal{H}(0) e^{-i P^\mu x_\mu} \) (Hint: Consider how \( \mathcal{H}(x) \) looks when written in terms of quantum field operators and use the properties of the fields under translations in space and time).
+\end{exercise}
+\begin{solution}
+Let's recall \( \mathcal{H}(x) \) in terms of field operators
+\begin{align*}
+\mathcal{H}(x, t)
+&= \pi(x, t)^\dagger \pi(x, t) + \nabla \phi(x, t) \cdot \nabla \phi(x, t)^\dagger + m^2 \phi(x, t) \phi(x, t)
+\end{align*}
+From exercise 3.12 we know that
+\begin{align*}
+\phi(x, t)
+&= e^{i P^\mu x_\mu} \phi(0, 0) e^{-i P^\mu x_\mu}
+\end{align*}
+So we essentially need to show that this holds true for \( \pi, \pi^\dagger, \nabla \phi, \nabla \phi^\dagger \) and \( \phi^\dagger \), and then we will have shown the result.
+
+Let's start with the daggered field operator
+\begin{align*}
+\phi^\dagger(x, t)
+&= \left( e^{i P^\mu x_\mu} \phi(0, 0) e^{-i P^\mu x_\mu} \right)^\dagger
+\end{align*}
+Recall that the \( \dagger \) reorders the terms and finds complex conjugate as well
+\begin{align*}
+\Rightarrow
+&= e^{i P^\mu x_\mu} \phi(0, 0)^\dagger e^{-i P^\mu x_\mu}
+\end{align*}
+Since \( \pi \) is so similar to \( \phi \) I will just assume that it holds for it as well.
+
+Let's look at the gradient of the field operator
+\begin{align*}
+\nabla \phi(x, t)
+&= \nabla \left( e^{i P^\mu x_\mu} \phi(0, 0) e^{-i P^\mu x_\mu} \right), \\
+&= \left( \nabla e^{i P^\mu x_\mu} \right) \phi(0, 0) e^{-i P^\mu x_\mu} + e^{i P^\mu x_\mu} \phi(0, 0) \nabla \left( e^{-i P^\mu x_\mu} \right)
+\end{align*}
+The gradient just pulls down the 3-momentum \( \mathbf{p} \) and \( i \)
+\begin{align*}
+&= (i \mathbf{p}) \left( e^{i P^\mu x_\mu} \phi(0, 0) e^{-i P^\mu x_\mu} \right) + e^{i P^\mu x_\mu} \phi(0, 0) (-i \mathbf{p}) e^{-i P^\mu x_\mu}
+\end{align*}
+
+Now we can commute \( \phi(0, 0) \) and \( (-i \mathbf{p}) \) if we pick up a commutator as well. The other terms cancel, and the sign is flipped
+\begin{align*}
+&= i e^{i P^\mu x_\mu} [\phi(0, 0), \mathbf{p}] e^{-i P^\mu x_\mu}
+\end{align*}
+Let's evaluate this commutator, now we clearly want to look at equal times,
+\begin{align*}
+[\phi(0, 0), \mathbf{p}]
+&= - \left[ \phi(0, 0), \int d^3x \left\{ \pi(x, 0)^\dagger \nabla \phi(x, 0)^\dagger + \nabla \phi(x, 0) \pi(x, 0) \right\} \right]
+\end{align*}
+Now a bunch of these are zero the first terms is, and using the piano on the second term, we get a single non-zero term.
+\begin{align*}
+&= - \int d^3x \left[ \phi(0, 0), \pi(x, 0) \right] \nabla \phi(x, 0), \\
+&= - \int d^3x i \delta^3(x - 0) \nabla \phi(x, 0), \\
+&= -i \nabla \phi(0, 0)
+\end{align*}
+We can insert this commutator.
+\begin{align*}
+\nabla \phi(x, t)
+&= i e^{i P^\mu x_\mu} (-i \nabla \phi(0, 0)) e^{-i P^\mu x_\mu}, \\
+&= e^{i P^\mu x_\mu} \nabla \phi(0, 0) e^{-i P^\mu x_\mu}
+\end{align*}
+As a final note before we do the last calculation
+\begin{align*}
+\phi(x, t) \phi(x, t)^\dagger
+&= e^{i P^\mu x_\mu} \phi(0, 0) e^{-i P^\mu x_\mu} e^{i P^\mu x_\mu} \phi(0, 0)^\dagger e^{-i P^\mu x_\mu}, \\
+&= e^{i P^\mu x_\mu} \phi(0, 0) \phi(0, 0)^\dagger e^{-i P^\mu x_\mu}
+\end{align*}
+
+So now when we consider
+\begin{align*}
+\mathcal{H}(0)
+&= \pi(0, 0)^\dagger \pi(0, 0) + \nabla \phi(0, 0) \nabla \phi(0, 0)^\dagger + m^2 \phi(0, 0)^\dagger \phi(0, 0)
+\end{align*}
+We see that
+\begin{align*}
+e^{i P^\mu x_\mu} \mathcal{H}(0) e^{-i P^\mu x_\mu}
+&= \mathcal{H}(x, t)
+\end{align*}
+\end{solution}
+\begin{exercise}[8]
+Show that this implies that we can isolate the space-time dependence of \( S_{fi}^{(1)} \) through
+\begin{align*}
+\langle f | \mathcal{H}(x) | i \rangle
+&= \langle f | \mathcal{H}(0) | i \rangle e^{i (p_f^\mu - p_i^\mu) x_\mu}, \tag{54}
+\end{align*}
+where \( p_f \) and \( p_i \) are the total four-momenta of final and initial states respectively.
+
+Show that we now obtain
+\begin{align*}
+S_{fi}^{(1)}
+&= \delta_{fi} - i (2\pi)^4 \langle f | \mathcal{H}(0) | i \rangle \delta^4(p_f - p_i). \tag{55}
+\end{align*}
+\end{exercise}
+\begin{solution}
+Let's take a look at
+\begin{align*}
+\langle f | \mathcal{H}(x) | i \rangle
+&= \left\langle f \left| e^{i P^\mu x_\mu} \mathcal{H}(0) e^{-i P^\mu x_\mu} \right| i \right\rangle
+\end{align*}
+We should consider the operator acts on the state \( i \).
+\begin{align*}
+e^{-i P^\mu x_\mu} | i \rangle
+\end{align*}
+Now clearly \( P_\mu | i \rangle = p_i | i \rangle \) it just gives the momentum. And we can consider coordinates as well \( P_k^\mu | i \rangle = p_{i_k}^\mu | i \rangle \), \( k = 1, 2, 3, 4 \).
+\noindent
+Let's write it out as a power series and a sum
+\begin{align*}
+e^{-i P^\mu x_\mu} | i \rangle
+&= \prod_k^4 e^{-i P_k x_k} | i \rangle = \prod_k^4 \sum_n^\infty \frac{(-i P_k x_k)^n}{n!} | i \rangle, \\
+&= \prod_k^4 \sum_n^\infty \frac{(-i x_k)^n (P_k)^n}{n!} | i \rangle, \\
+&= \prod_k^4 \sum_n^\infty \frac{(-i x_k p_{i_k})^n}{n!} | i \rangle, \\
+&= e^{-i p_i x_\mu}
+\end{align*}
+We can do a similar trick for the left side,
+\begin{align*}
+\langle f | e^{i P^\mu x_\mu}
+&= \left( e^{-i P^\mu x_\mu} | f \rangle \right)^\dagger = \left<f \right|e^{i p_f x_\mu}
+\end{align*}
+Therefore,
+\begin{align*}
+\langle f | \mathcal{H}(x) | i \rangle
+&= \langle f | \mathcal{H}(0) | i \rangle e^{i (p_f - p_i) x_\mu}
+\end{align*}
+We can just plug this in,
+\begin{align*}
+S_{fi}^{(1)}
+&= \delta_{fi} - i \int d^4x \langle f | \mathcal{H}(0) | i \rangle e^{i (p_f - p_i) x_\mu}
+\end{align*}
+We can move the bracket outside the integral since we have isolated the space time dependence
+\begin{align*}
+&= \delta_{fi} - i \int d^4x \left( e^{i (p_f - p_i) x_\mu} \right) \langle f | \mathcal{H}(0) | i \rangle, \\
+&= \delta_{fi} + (2\pi)^4 \delta^4(p_f - p_i) \langle f | \mathcal{H}(0) | i \rangle
+\end{align*}
+I get a sign error here, we can hopefully resolve this at some point 
+\end{solution}
+\begin{exercise}[9]
+Consider now the second order contribution to the S-matrix. Show that it can we written in the form
+\begin{align*}
+S_{fi}^{(2)}
+&= (-i)^2 \int d^4 x_1 \int d^4 x_2 \theta(t_1 - t_2) \langle f | \mathcal{H}(x_1) \mathcal{H}(x_2) | i \rangle, \tag{56}
+\end{align*}
+where \( x_1^\mu = (t_1, \mathbf{x}_1) \) and \( x_2^\mu = (t_2, \mathbf{x}_2) \), while \( \theta(x) \) is the Heaviside step function which is \( \theta(x) = 1 \) for \( x > 0 \) and \( \theta(x) = 0 \) for \( x < 0 \). Finally, show that we can write this in the form
+\begin{align*}
+S_{fi}^{(2)}
+&= (-i)^2 (2\pi)^4 \delta^4(p_f - p_i) \int d^4 x \theta(t) \langle f | \mathcal{H}(x) \mathcal{H}(0) | i \rangle, \tag{57}
+\end{align*}
+where \( x = x_1 - x_2 \).
+\end{exercise}
+\begin{solution}
+The first rewrite is rather simple. Let's recall the second order term.
+\begin{align*}
+S_{fi}^{(2)}
+&= \lim_{t_0 \rightarrow -\infty} \lim_{t \rightarrow +\infty} (-i)^2 \int_{t_0}^t dt_1 \int_{t_0}^{t_1} dt_2 \int d^3x_1 \int d^3x_2 \langle f | \mathcal{H}(x_1) \mathcal{H}(x_2) | i \rangle
+\end{align*}
+Where I have inserted the hamiltonian densities. We can evaluate the limits.
+\begin{align*}
+S_{fi}^{(2)}
+&= (-i)^2 \int_{-\infty}^\infty dt_1 \int_{-\infty}^{t_1} dt_2 \int d^3x_1 \int d^3x_2 \langle f | \mathcal{H}(x_1) \mathcal{H}(x_2) | i \rangle
+\end{align*}
+Where we can rewrite the innermost integral using a heaviside function
+\begin{align*}
+\int_{-\infty}^{t_1} dt_2
+&= \int_{-\infty}^\infty \theta(t_1 - t_2) dt_2, \quad \theta(t_1 - t_2) = \begin{cases} 0 & t_2 > t_1 \\ 1 & t_1 > t_2 \end{cases}
+\end{align*}
+Inserting this and collecting the integrals we get
+\begin{align*}
+S_{fi}^{(2)}
+&= (-i)^2 \int d^4x_1 \int d^4x_2 \theta(t_1 - t_2) \langle f | \mathcal{H}(x_1) \mathcal{H}(x_2) | i \rangle
+\end{align*}
+At this point we should make a substitution
+\begin{align*}
+X&= x_2, \quad x = x_1 - x_2, \\
+dX &= dx_2 \quad x_1 = x + x_2 = x + X, \\
+dx_1 &= dx
+\end{align*}
+Also note that in this substitution \( t_1 - t_2 \rightarrow t \).
+\begin{align*}
+S_{fi}^{(2)}
+&= (-i)^2 \int d^4x \int d^4X \theta(t) \langle f | \mathcal{H}(x + X) \mathcal{H}(X) | i \rangle
+\end{align*}
+At this point we can employ the relations we showed in 4.8. We shall expand the hamiltonian densities.
+\begin{align*}
+S_{fi}^{(2)}
+&= (-i)^2 \int d^4x \int d^4X \theta(t) \left\langle f \left| e^{i P^\mu X_\mu} \mathcal{H}(x) e^{-i P^\mu X_\mu} e^{i P^\mu X_\mu} \mathcal{H}(0) e^{-i P^\mu X_\mu} \right| i \right\rangle
+\end{align*}
+The middle terms cancel and we can pull out the exponents by letting them act on the states.
+\begin{align*}
+&= (-i)^2 \int d^4x \int d^4X \theta(t) \langle f | \mathcal{H}(x) \mathcal{H}(0) | i \rangle e^{i (p_f - p_i) X}
+\end{align*}
+We can pull out the bracket,
+\begin{align*}
+&= (-i)^2 \int d^4x \langle f | \mathcal{H}(x) \mathcal{H}(0) | i \rangle \int d^4\overline{X} \theta(t) e^{i (p_f - p_i) X}
+\end{align*}
+We can also pull out the heaviside step-function and evaluate the integral
+\begin{align*}
+&= (-i)^2 (2\pi)^4 \delta^4(p_f - p_i) \int d^4x \langle f | \mathcal{H}(x) \mathcal{H}(0) | i \rangle
+\end{align*}
+\end{solution}
+\end{document}

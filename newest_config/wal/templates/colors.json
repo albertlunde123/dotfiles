@@ -1,0 +1,6 @@
+{{
+    "background": "{background}",
+    "foreground": "{foreground}",
+    "highlight": "{color1}",
+    "highlight2": "{color3}"
+}}

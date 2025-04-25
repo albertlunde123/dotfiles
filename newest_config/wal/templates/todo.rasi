@@ -110,7 +110,7 @@ element normal.active {{
 }}
 element selected.normal {{
     background-color: 				{foreground};
-    text-color:       				{color2};
+    text-color:       				{color1};
 }}
 element selected.urgent {{
     background-color: 				{background};

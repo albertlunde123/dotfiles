@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'vedtÃ¦gter.blg'
+[70] biber:340> INFO - === Sat Sep  7, 2024, 15:12:51
+[188] Biber.pm:418> INFO - Reading './vedtægter.bcf'
+[246] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[258] bbl.pm:654> INFO - Writing 'vedtÃ¦gter.bbl' with encoding 'UTF-8'
+[258] bbl.pm:757> INFO - Output to vedtÃ¦gter.bbl
+[258] Biber.pm:130> WARN - The file './vedtægter.bcf' does not contain any citations!
+[258] Biber.pm:132> INFO - WARNINGS: 1

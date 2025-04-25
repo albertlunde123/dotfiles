@@ -1,0 +1,157 @@
+2024-06-04 14:14:50.931 [info] Extension host with pid 1033901 started
+2024-06-04 14:14:51.192 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-04 14:14:51.205 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-04 14:14:51.252 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-04 14:14:51.548 [info] Extension host with pid 1033958 started
+2024-06-04 14:14:51.552 [info] Eager extensions activated
+2024-06-04 14:14:51.582 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: 'onStartupFinished'
+2024-06-04 14:14:51.844 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-04 14:14:51.879 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-04 14:14:51.912 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-04 14:14:52.014 [info] Eager extensions activated
+2024-06-04 14:14:52.082 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-04 14:14:52.084 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-04 14:14:52.096 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-06-04 14:14:52.274 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-06-04 14:14:52.642 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-06-04 14:14:53.232 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-04 14:14:53.281 [info] Extension host with pid 1033958 exiting with code 0
+2024-06-04 14:14:53.602 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-04 14:14:53.752 [error] ProxyResolver#addCertificatesV1 Canceled: Canceled
+    at new O (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:47131)
+    at c.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:5542)
+    at Proxy.F.<computed>.z.charCodeAt.F.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:2993)
+    at C.loadCertificates (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:41276)
+    at Object.loadAdditionalCertificates (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:34340)
+    at /usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:475:53
+    at Generator.next (<anonymous>)
+    at /usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:35:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:31:12)
+    at /usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:474:43
+    at /usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:476:16
+    at Generator.next (<anonymous>)
+    at /usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:35:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:31:12)
+    at getOrLoadAdditionalCertificates (/usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:472:12)
+    at addCertificatesV1 (/usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:456:9)
+    at resolveProxy (/usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:112:9)
+    at /usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:303:77
+    at new Promise (<anonymous>)
+    at _PacProxyAgent.resolveP (/usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:303:54)
+    at _PacProxyAgent.<anonymous> (/usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/agent.js:70:37)
+    at Generator.next (<anonymous>)
+    at /usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/agent.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/agent.js:4:12)
+    at _PacProxyAgent.connect (/usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/agent.js:52:16)
+    at /usr/share/code/resources/app/node_modules.asar/agent-base/dist/index.js:73:30
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-06-04 14:14:54.787 [error] Canceled: Canceled
+    at new O (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:47131)
+    at c.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:5542)
+    at Proxy.F.<computed>.z.charCodeAt.F.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:2993)
+    at r.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188926)
+    at r.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at k.registerCommand.description (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:187688)
+    at r.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:189465)
+    at r.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188457)
+    at r.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at Object.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:22673)
+    at /home/albert/.vscode/extensions/github.copilot-1.198.0/extension/src/auth.ts:138:18
+    at new Promise (<anonymous>)
+    at handleAuthenticationError (/home/albert/.vscode/extensions/github.copilot-1.198.0/extension/src/auth.ts:122:12)
+    at attemptAuthentication (/home/albert/.vscode/extensions/github.copilot-1.198.0/extension/src/auth.ts:86:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) setContext undefined
+2024-06-04 14:14:54.787 [error] Canceled: Canceled
+    at new O (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:47131)
+    at c.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:5542)
+    at Proxy.F.<computed>.z.charCodeAt.F.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:2993)
+    at r.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188926)
+    at r.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at k.registerCommand.description (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:187688)
+    at r.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:189465)
+    at r.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188457)
+    at r.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at Object.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:22673)
+    at RR (/home/albert/.vscode/extensions/github.copilot-chat-0.15.2/dist/extension.js:1142:13206)
+    at /home/albert/.vscode/extensions/github.copilot-chat-0.15.2/dist/extension.js:1142:9517
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at vct (/home/albert/.vscode/extensions/github.copilot-chat-0.15.2/dist/extension.js:1142:8716)
+    at h.n (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:6281)
+    at h.m (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:6244)
+    at h.l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:5701) setContext undefined
+2024-06-04 14:14:54.788 [error] Canceled: Canceled
+    at new O (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:47131)
+    at c.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:5542)
+    at Proxy.F.<computed>.z.charCodeAt.F.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:2993)
+    at r.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188926)
+    at r.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at k.registerCommand.description (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:187688)
+    at r.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:189465)
+    at r.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188457)
+    at r.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at Object.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:22673)
+    at RR (/home/albert/.vscode/extensions/github.copilot-chat-0.15.2/dist/extension.js:1142:13206)
+    at /home/albert/.vscode/extensions/github.copilot-chat-0.15.2/dist/extension.js:1142:9517
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at vct (/home/albert/.vscode/extensions/github.copilot-chat-0.15.2/dist/extension.js:1142:8716)
+    at h.n (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:6281)
+    at h.m (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:6244)
+    at h.l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:5701) setContext undefined
+2024-06-04 14:14:54.788 [error] Canceled: Canceled
+    at new O (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:47131)
+    at c.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:5542)
+    at Proxy.F.<computed>.z.charCodeAt.F.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:2993)
+    at r.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188926)
+    at r.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at k.registerCommand.description (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:187688)
+    at r.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:189465)
+    at r.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188457)
+    at r.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at Object.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:22673)
+    at RR (/home/albert/.vscode/extensions/github.copilot-chat-0.15.2/dist/extension.js:1142:13206)
+    at /home/albert/.vscode/extensions/github.copilot-chat-0.15.2/dist/extension.js:1142:9517
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at vct (/home/albert/.vscode/extensions/github.copilot-chat-0.15.2/dist/extension.js:1142:8716)
+    at h.n (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:6281)
+    at h.m (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:6244)
+    at h.l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:5701) setContext undefined
+2024-06-04 14:14:54.788 [error] Canceled: Canceled
+    at new O (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:47131)
+    at c.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:5542)
+    at Proxy.F.<computed>.z.charCodeAt.F.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:2993)
+    at r.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188926)
+    at r.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at k.registerCommand.description (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:187688)
+    at r.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:189465)
+    at r.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188457)
+    at r.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at Object.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:22673)
+    at RR (/home/albert/.vscode/extensions/github.copilot-chat-0.15.2/dist/extension.js:1142:13206)
+    at /home/albert/.vscode/extensions/github.copilot-chat-0.15.2/dist/extension.js:1142:9517
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at vct (/home/albert/.vscode/extensions/github.copilot-chat-0.15.2/dist/extension.js:1142:8716)
+    at h.n (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:6281)
+    at h.m (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:6244)
+    at h.l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:5701) setContext undefined
+2024-06-04 14:14:54.788 [error] Canceled: Canceled
+    at new O (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:47131)
+    at c.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:5542)
+    at Proxy.F.<computed>.z.charCodeAt.F.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:2993)
+    at r.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188926)
+    at r.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at k.registerCommand.description (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:187688)
+    at r.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:189465)
+    at r.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188457)
+    at r.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at Object.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:22673)
+    at a (/home/albert/.vscode/extensions/github.copilot-chat-0.15.2/dist/extension.js:1142:9051)
+    at /home/albert/.vscode/extensions/github.copilot-chat-0.15.2/dist/extension.js:1142:9525
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at vct (/home/albert/.vscode/extensions/github.copilot-chat-0.15.2/dist/extension.js:1142:8716)
+    at h.n (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:6281)
+    at h.m (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:6244)
+    at h.l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:5701) setContext undefined
+2024-06-04 14:14:54.793 [info] Extension host with pid 1033901 exiting with code 0

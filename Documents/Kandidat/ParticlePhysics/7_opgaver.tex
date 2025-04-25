@@ -1,0 +1,88 @@
+\documentclass[working, oneside]{../../Preambles/tuftebook}
+\input{../../Preambles/colors}
+\input{../../Preambles/preamble}
+\input{../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{7 - Green's Function for Scalar Fields in Momentum Space}
+
+Let us now consider what happens to Eq. (70) if we switch to momentum space.  
+To avoid confusion, here we use the following Fourier transforms and definitions:
+\begin{align*}
+f(x) &= \int_{-\infty}^\infty \frac{dk}{2\pi} e^{ikx} f(k), \\
+f(k) &= \int_{-\infty}^\infty dx \, e^{-ikx} f(x), \\
+\delta(x) &= \int_{-\infty}^\infty \frac{dk}{2\pi} e^{ikx},
+\end{align*}
+where we use the (slightly sloppy) convention of using the same symbol $f$ for both the function $f(x)$ and its transform $f(k)$.
+
+\begin{exercise}[1]
+Consider
+\begin{align*}
+\Delta(x_1, t_1; x_2, t_2) := \langle 0 | T \left[ \hat{\phi}(x_1, t_1) \hat{\phi}(x_2, t_2) \right] | 0 \rangle
+\end{align*}
+from Eq. (70), but now we evaluate it in the vacuum ($| 0 \rangle$). This means that we now have a number and not an operator to deal with. This function is called the \textit{propagator}. Argue that
+\begin{align*}
+\left( \frac{\partial^2}{\partial t_1^2} - \frac{\partial^2}{\partial x_1^2} + m^2 \right) \Delta(x_1, t_1; x_2, t_2) = -i \delta(x_1 - x_2) \delta(t_1 - t_2).
+\end{align*}
+\end{exercise}
+\begin{solution}
+We can just work on our definition of $\Delta$, since the bra-ket notation is linear, we can move the differential operators and the mass term inside.
+\begin{align*}
+    \left( \frac{\partial^2}{\partial t_1^2} - \frac{\partial^2}{\partial x_1^2} + m^2 \right) \Delta(x_1, t_1; x_2, t_2) &= \langle 0 |\left( \frac{\partial^2}{\partial t_1^2} - \frac{\partial^2}{\partial x_1^2} + m^2 \right) T \left[ \hat{\phi}(x_1, t_1) \hat{\phi}(x_2, t_2) \right] | 0 \rangle \\
+    &= \left<0 \right| -i \delta(x_1 - x_2) \delta(t_1 - t_2)\left|0 \right> \\
+    &= \left<0 |0 \right>(-i \delta(x_1 - x_2) \delta(t_1 - t_2))  \\
+    &=-i \delta(x_1 - x_2) \delta(t_1 - t_2)
+.\end{align*}
+Where we have used the fact that bra-ket is a momentum integral, which allows us to move the delta-functions outside.
+\color{foreground} 
+\end{solution}
+\begin{exercise}[2]
+Use Eq. (74) to argue $\Delta(x_1, t_1; x_2, t_2)$ can only depend on the differences of time and space, i.e., $\Delta = \Delta(x_1 - x_2, t_1 - t_2)$. Thus we have
+\begin{align*}
+\left( \frac{\partial^2}{\partial t^2} - \frac{\partial^2}{\partial x^2} + m^2 \right) \Delta(x, t) = -i \delta(x) \delta(t),
+\end{align*}
+where $x = x_1 - x_2$ and $t = t_1 - t_2$.
+\end{exercise}
+Since the right-hand side only depends on differences, we can redefine $\Delta$ to be a function of the differences, the rest is just a change of variables.
+\begin{exercise}[3]
+Do the Fourier transform to derive the momentum-space expression
+\begin{align*}
+\Delta(k, \omega) = \frac{i}{\omega^2 - k^2 - m^2},
+\end{align*}
+and generalize to three spatial dimensions and express the result using 4-vectors.
+\end{exercise}
+We will be doing two fourier transforms, from position to momentum space and from time to energy space. We need to do these fourier transforms on both sides, lets start with the lefthand side,
+\begin{align*}
+    \left( -i \right) \int_{-\infty}^{\infty} dx \int_{-\infty}^{\infty} dt e^{-i \omega t}e^{-ikx}\delta\left( x \right) \delta\left( t \right) = \left( -i \right)  
+.\end{align*}
+And now the lefthand side, where will be doing partial integration, and using the following
+\[
+\int_{-\infty}^{\infty} dx e^{-ikx}\int_{-\infty}^{\infty} dte^{-i\omega t} \Delta\left( x,t \right) = \Delta \left( k, \omega \right)   
+.\] 
+Alright, lets proceed,
+\begin{align*}
+    F_{k, \omega} \left( \left( \frac{\partial ^2}{\partial t^2} - \frac{\partial ^2}{\partial x^2} +m^2 \right) \Delta\left( x, t \right)  \right) &=  \int_{-\infty}^{\infty} dx e^{-ikx}\int_{-\infty}^{\infty} dte^{-i\omega t} \left( \frac{\partial ^2}{\partial t^2} - \frac{\partial ^2}{\partial x^2} +m^2 \right) \Delta\left( x,t \right) \\
+    &=\int_{-\infty}^{\infty} dx e^{-ikx}\int_{-\infty}^{\infty} dte^{-i\omega t} \left( \frac{\partial ^2}{\partial t^2} - \frac{\partial ^2}{\partial x^2} \right) \Delta\left( x,t \right) + m^2\Delta\left( k, \omega \right)
+.\end{align*}
+At this point we have to do partial integration, so lets focus on one integral at a time, we start with the one the time derivatives,
+\begin{align*}
+    &=\int_{-\infty}^{\infty} dxe^{-ikx}\int_{-\infty}^{\infty} dte^{-it\omega}\frac{\partial ^2}{\partial t^2} \Delta\left( x,t \right) \\
+    &=\int_{-\infty}^{\infty} dxe^{-ikx}\left(\left[ e^{-it\omega} \frac{\partial ^2}{\partial t^2} \Delta\left( x,t \right)  \right]^{\infty}_{\infty} -  \int_{-\infty}^{\infty} dt \frac{\partial }{\partial t} e^{-it\omega}\frac{\partial }{\partial t} \Delta\left( x,t \right) \right)\\
+    &=\int_{-\infty}^{\infty} dxe^{-ikx}\left(-\int_{-\infty}^{\infty} dt \left( -i\omega \right) e^{-it\omega}\frac{\partial }{\partial t} \Delta\left( x,t \right) \right)\\
+    &= \left( -i\omega \right)^2\int_{-\infty}^{\infty} dxe^{-ikx}\left(\int_{-\infty}^{\infty} dt e^{-it\omega} \Delta\left( x,t \right) \right) = -\omega^2 \Delta\left( k, \omega \right) 
+.\end{align*}
+Where the second integration by parts has been omitted. If we apply the same method to the spatial derivative we get, 
+\begin{align*}
+    \int_{-\infty}^{\infty} dx e^{-ikx}\int_{-\infty}^{\infty} dte^{-i\omega t} \left( \frac{\partial ^2}{\partial t^2} - \frac{\partial ^2}{\partial x^2} +m^2 \right) \Delta\left( x,t \right) = \left( -\omega^2 + k^2 + m^2 \right) \Delta\left( k, \omega \right) = \left( -i \right) 
+.\end{align*}
+Now rearranging,
+\begin{align*}
+    \Delta\left( k, \omega \right) = \frac{i}{\omega^2 - k^2 + m^2}
+.\end{align*}
+Generalizing this to 3 spatial dimensions, is just $k \to \vec{p}$ and $x \to \vec{x}$, aswell integrating over the 3 spatial dimensions. If we write our four vector $p^{\mu }$ in terms of differences as $p^{\mu } = \left( \omega, \vec{p} \right) $ , then the denominator is simply a contraction,
+\[
+\Delta\left( p^{\mu } \right) = \frac{i}{p^{\mu }p_{\mu } + m^2}
+.\] 
+\end{document}

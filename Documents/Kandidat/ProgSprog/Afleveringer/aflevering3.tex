@@ -1,0 +1,37 @@
+\documentclass[working, oneside]{../../../Preambles/tuftebook}
+\input{../../../Preambles/colors}
+\input{../../../Preambles/preamble}
+\input{../../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{Aflevering 3 - Programmerinssprog}
+\begin{exercise}[67 - a]
+Adapt your implementation of function calls from MiniScala v4 to higher-order functions.
+\end{exercise}
+\begin{solution}
+    The code for higher-order functions, is not much different from the last handin. The main difference is that closures are now \texttt{closureVal}s. We can then create maps between identifiers and these \texttt{closureVal}s, and define how they should be evaluated in \texttt{CallExp}. This allows for higher-order functions, since a higher order function, is essentially just a function that takes a \texttt{closureVal} as an argument. In other words, since functions are treated as values, and functions take values as arguments, we can create functions that take functions as arguments.\\
+When evaluating a \texttt{CallExp(funexp, args)}, we evaluate the \texttt{funexp}. As \texttt{funexp} is an identifiere we get some \texttt{Val}. We then ensure that this is specifically a \texttt{ClosureVal}. We then use the same method from last week, where we check that the arguments are the right types, and then bind them to the parameters. To allow for mutual recursion, we create \texttt{closureVal}s for any defintions in the functions scope. We then type-check the return value, before evaluating the function.
+\end{solution}
+\begin{exercise}[67 - b]
+Implement anonymous functions (lambdas)
+\end{exercise}
+\begin{solution}
+Lambdas are easy! Given our current environment and a \texttt{LambdaExp}, we have everything we need to make a \texttt{ClosureVal}. Since we dont type-check the return values we just pass \texttt{None} as the \texttt{optrestype}, and similarly \texttt{List.empty} as we dont have mutual recursion for lambdas.  \texttt{CallExp} doesnt even require any changes! Calling a lambda expression just returns a \texttt{ClosureVal}, and assigning the lambda an identifier doesnt change this.
+\end{solution}
+\begin{exercise}[68 - a]
+Adapt your implementation of type-checking for function calls to higher-order functions. (Hint: you may find the makeFunType function useful.)
+\end{exercise}
+\begin{solution}
+As functions are now values, their types \texttt{FunType} live in the same type environment as the other types. We make use of the \texttt{makeFunType} function, to extend the type environment with maps of the identifiers to the their associated FunType. As before, we typecheck the body and the parameters. Since the parameters can be of FunType now, we allow for higher-order functions
+When we call a function, we fetch its \texttt{FunType}, by typechecking the id. We then check that the parameters passed, have the correct types and finally return the return type.
+\end{solution}
+\begin{exercise}[68 - b]
+Implement type-checking for anonymous functions (lambdas). (Hint: see the video for slide 35.)
+\end{exercise}
+When type-checking a lambda we return its \texttt{FunType}. We construct this by creating a \texttt{List[Type]} and populating it with the parameter types. We then type-check the body, in an environemt including these types. We then combine the parameter types and body type and return this. 
+\begin{exercise}[68 - d]
+Make sure that your tests from week 4 still run. Extend your test suite with at least 5 tests that properly test your implementation of higher-order functions. Here is a stub you may use for your tests.
+\end{exercise}
+\end{document}

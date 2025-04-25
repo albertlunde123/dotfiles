@@ -1,0 +1,2 @@
+Loading treesitter.lua
+vim.tbl_add_reverse_lookup is deprecated. Run ":checkhealth vim.deprecated" for more information

@@ -6,8 +6,8 @@ local o = vim.o
 
 
 vim.api.nvim_command('syntax enable')
--- vim.api.nvim_command('filetype plugin indent on')
-
+vim.api.nvim_command('filetype plugin indent on')
+-- o.guifont = 'Hack Nerd Font:h12'
 o.termguicolors = true
 o.background = 'dark'
 
@@ -95,7 +95,8 @@ g.maplocalleader = ','
 
 -- disable highlightserach
 
-o.hlsearch = 'false'
+o.hlsearch = false
+
 
 ------- Things that dont require let.
 

@@ -6,29 +6,29 @@
 [global]
     # Make the width 3740 (3840 - 100), have 50 left margin and 95 above
     # Show multiple notifications in the same box
-    width = 350
-    separator_height = 1
-    separator_color = foreground
+# width = 350
+geometry = "600x5-50+20"
+separator_height = 1
+separator_color = "{foreground}"
 
     # Add vertical padding to the inside of the notification
-    padding = 24
-
-    origin = top-right
-    offset = 450x20
+padding = 24
+origin = top-right
+offset = 450x20
 
     # Add horizontal padding for when the text gets long enough
-    horizontal_padding = 24
+horizontal_padding = 24
 
     # The frame color and width of the notification
-        frame_color = "{color3}"
+        frame_color = "{color1}"
         frame_width = 1
-        foreground = foreground
+        foreground = "{foreground}"
 
         # How long a user needs to be idle for sticky notifications
         idle_threshold = 120
 
         # Font and typography settings
-        font = Hack Nerd Font Mono 14
+        font = Hack Nerd Font Mono 8
         alignment = center
         word_wrap = no
 

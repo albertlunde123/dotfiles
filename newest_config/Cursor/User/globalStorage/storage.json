@@ -1,0 +1,76 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "749b60b0b950b0bf30c9322e46d8a00a0745c0ed898fccedde75126f9c1dc9c3",
+    "telemetry.macMachineId": "6309e40b229e8c0d83e96255ebefd09b2caf386abf08b6d2cce1cbc7a81121ec",
+    "telemetry.devDeviceId": "3ce400d7-5c57-4d89-a298-3718735c67ae",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app"
+            },
+            {
+                "folderUri": "file:///home/albert/Documents/Kandidat/MoleculeOptimization"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1745512870316"
+            }
+        ]
+    },
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app": "__default__profile__",
+            "file:///home/albert/Documents/Kandidat/MoleculeOptimization": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1745512870316": "__default__profile__"
+        }
+    },
+    "windowControlHeight": 46,
+    "theme": "hc-black",
+    "themeBackground": "#0a0a0a",
+    "windowSplash": {
+        "zoomLevel": 1.5,
+        "baseTheme": "hc-black",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#0a0a0a",
+            "editorBackground": "#0a0a0a",
+            "titleBarBackground": "#0a0a0a",
+            "titleBarBorder": "rgba(255, 255, 255, 0.05)",
+            "activityBarBackground": "#0a0a0a",
+            "activityBarBorder": "#6fc3df",
+            "sideBarBackground": "#0a0a0a",
+            "sideBarBorder": "rgba(255, 255, 255, 0.05)",
+            "statusBarBackground": "#0a0a0a",
+            "statusBarBorder": "rgba(42, 42, 42, 0)",
+            "statusBarNoFolderBackground": "#0a0a0a",
+            "windowBorder": "#6fc3df"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 248,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/albert/Documents/Kandidat/MoleculeOptimization",
+            "backupPath": "/home/albert/.config/Cursor/Backups/260435d8718d2821722b486a7cfcaeaf",
+            "uiState": {
+                "mode": 1,
+                "x": 50,
+                "y": 80,
+                "width": 2588,
+                "height": 1382
+            }
+        },
+        "openedWindows": []
+    }
+}

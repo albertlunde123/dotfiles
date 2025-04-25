@@ -1,0 +1,42 @@
+http://dx.doi.org/10.1016/j.tcs.2024.114563
+https://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html
+
+60) What is the environment at each step in the execution of the following program (most importantly, right before z(x) is executed)? What is the resulting value?
+
+{ val x = 1;
+  val z = {
+    val x = 21;
+    def f(a) = {
+      val x = a + x;
+      (x, a)
+    };
+    n => f(n + 1)
+  };
+  z(x)
+}
+
+Ans. 60)
+{ val x = 1;		<- [x -> 1, []]
+  val z = {
+    val x = 21;		<- [x -> 21, []]
+    def f(a) = {
+      val x = a + x;	
+      (x, a)		
+    };			<- [x -> 21, f -> (a, (a + x, a), [x -> 21])]
+    n => f(n + 1)	<- [x -> 1, z -> (n, f(n + 1), []), f -> (a, (a + x, a), [x -> 21])]
+  };
+  z(x)			z(1)=f(2)|_{x=21}=(23, 2)
+}
+
+61)
+Assume ρ is the environment [x ↦ 41, foo ↦ (x, x + y, [y ↦ 1])]. (We here use the simple form of closures that ignore type annotations.) Show using the operational semantics of MiniScala v5 that each of the following judgements hold:
+a) ρ ⊢ { def bar(a) = a * 2; foo(1) + bar(1) } ⇒ 4
+b) ρ ⊢ { def baz(f) = f(x); baz(foo) } ⇒ 42
+c) [optional] ρ ⊢ { val x = 1; { def qux(y) = y + x; qux(1) } } ⇒ 2
+d) [optional] ρ ⊢ (x => x(5))(x => x + 1) ⇒ 6
+
+Ans. 61) 
+ans. a) LHS = eval(x + 1, x = 1) + 1 * 2 = 2 + 2 = 4
+ans. b) baz(foo) = eval(foo(x), x = 41) = eval(41 + y, y = 1) = 42
+ans. c) qux(1) = eval(1 + x, x = 1) = 2
+ans. d) (x => x(5))(x => x + 1) = eval(x => x + 1, x = 5) = 5 + 1 = 6 

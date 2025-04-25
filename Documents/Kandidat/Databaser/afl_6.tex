@@ -1,0 +1,174 @@
+\documentclass[working, oneside]{../../Preambles/tuftebook}
+\input{../../Preambles/colors}
+\input{../../Preambles/preamble}
+\input{../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{Assignment 6 - 10 ECTS}
+\textit{We have used Generative Artificial Intelligence tools in doing this
+assignment, for the following legitimate use cases only: to get background
+information or understand the topic / problem, to improve writing of own
+text, to find gaps in our knowledge. The solution of the assignment is
+entirely our own.}
+\subsection*{1 - SQL injection attacks}
+\begin{subexercise}{a}
+A product page displays items for sale based on a category ID passed in the URL
+as a query parameter (e.g., `?category=1`). The SQL query used to retrieve the
+data from the database is given below. Can you use SQL injection to retrieve all
+products, regardless of their category? Please give the SQL injection statement
+and explain how it works.
+\begin{lstlisting}
+SELECT * FROM product WHERE category_id = \$category_id;
+\end{lstlisting}
+\end{subexercise}
+\begin{solution}
+I would something like the following into the URL,
+\[
+\texttt{?category=1 OR 1=1; --}
+\] 
+When this is passed to the SQL query, the first statement might fail, but the OR statement always evaluates to true. This results in all products being retrieved. We have abused the fact, that the developer didn't expect an \texttt{OR} statement in the URL.
+\end{solution}
+\begin{subexercise}{b}
+Your website features an article commenting system that allows users to leave
+comments on articles. All your comments are stored in a database in the
+Comments table. These comments are inserted into the database using the
+following SQL command. Can you exploit an SQL injection vulnerability to
+execute an additional SQL command to remove the entire Comments table?
+Please give the SQL injection statement and explain how it works.
+\begin{lstlisting}
+INSERT INTO comments (article_id, user_id, comments)
+VALUES (article_id, user_id, comments);
+\end{lstlisting}
+\end{subexercise}
+\begin{solution}
+The following SQL injection will probably results in all the comments being deleted,
+\[
+    \texttt{"hello"); DROP TABLE comments; --}
+.\] 
+Assuming that the comment a user leaves is inserted on the \texttt{comments} fields in \texttt{VALUES}, my code terminates the tuple, and then deletes the table with the \texttt{DROP} command. The added  \texttt{--} comments out any code there might be at the end.
+\end{solution}
+\subsection*{2. Authorization}
+Please write SQL authorization statements to solve the following tasks.
+\begin{subexercise}{a}
+You have a database for a web application that includes a table named Users
+and a table named Reports.
+\begin{enumerate}
+    \item  You want to grant the user Ira permission to read from and add data
+into table Users and allow her to pass on this permission to other
+users.
+    \item After a security review, you’ve decided that a certain user, Cheng,
+should no longer be allowed to add data into the Reports table, but
+you also want to make sure that this decision does not have an impact
+on other users.
+\end{enumerate}
+\end{subexercise}
+\begin{solution}
+I use the following command,
+\[
+\texttt{GRANT INSERT, SELECT ON Users TO "Ira" WITN GRANT OPTION;}
+.\]
+\texttt{INSERT, SELECT} gives read and write privileges, while \texttt{GRANT OPTION} allows Ira to pass her privileges on. To remove privileges from Cheng I use the following command,
+\[
+\texttt{REVOKE INSERT ON Reports FROM "Cheng";}
+\] 
+This removes his permission to add data, and should not affect other users.
+\end{solution}
+\begin{subexercise}{b}
+You are managing a large database with multiple users who need similar
+permissions. To simplify permission management, you decide to use roles. You
+want to create a role named Data\_analyst that can read from the Sales\_data and name and address from Customer\_info tables.
+\begin{enumerate}
+\item Establish a Data\_analyst role.
+\item Make sure any Data\_analyst can read from Sales\_data, and name and address from Customer\_info tables.
+\item We hire a new Data\_analyst named Pernille who should have the corresponding role.
+\end{enumerate}
+\end{subexercise}
+\begin{solution}
+We establish the role using \texttt{CREATE ROLE},
+\[
+\texttt{CREATE ROLE "Data\_analyst";}
+\]
+We can add privileges in the same way we add privileges to users,
+\begin{lstlisting}
+GRANT SELECT ON Sales_data TO "Data_analyst";
+\end{lstlisting}
+To grant access to part of the Customer\_info table we can create a view,
+\begin{lstlisting}
+CREATE VIEW Data_analyst_customer_info AS
+SELECT name, address
+FROM Customer_info;
+GRANT SELECT ON Data_analyst_customer_info TO "Data_analyst";
+\end{lstlisting}
+We could actually also have done the following,
+\begin{lstlisting}
+GRANT SELECT (name, address) ON Customer_info TO "Data_analyst";
+\end{lstlisting}
+Having hired Pernille we can create a user for here and grant her the role of Data\_analyst,
+\begin{lstlisting}
+CREATE USER "Pernille";
+GRANT ROLE "Data_analyst" TO "Pernille";
+\end{lstlisting}
+\end{solution}
+\subsection*{NoSQL systems}
+We want to create a database on NGO supporters using a NoSQL database, specifically
+MongoDB. If you wish to test your code interactively you can
+use https://mongoplayground.net/, else you are welcome to write them in an editor of your
+choice. You insert data in the leftmost pane, write a query in the middle pane and the result
+is shown in the rightmost pane. We provide a json file ‘supporter.json’ with the necessary
+data for the supporters. Please provide MongoDB queries that do the following:
+\begin{subexercise}{a}
+Retrieve all the supporters of KDG
+\end{subexercise}
+\begin{solution}
+I use the following command,
+\begin{lstlisting}
+db.supporter.find({
+  "NGO_name": "KDG"
+})
+\end{lstlisting}
+\end{solution}
+\begin{subexercise}{b}
+Retrieve only the name and email of all supporters who are volunteers.
+\end{subexercise}
+\begin{solution}
+I use the following command,
+\begin{lstlisting}
+db.supporter.find({
+  "volunteer": true
+},
+{
+  "name": 1,
+  "email": 1
+})
+\end{lstlisting}
+\end{solution}
+\begin{subexercise}{c}
+Update the NGO\_name for the supporter with \texttt{sid = 1} to Amnesty International
+\end{subexercise}
+\begin{solution}
+And for this one I use the following \texttt{update} command,
+\begin{lstlisting}
+db.supporter.update({
+  "sid": "1"
+},
+{
+  $set: {
+    "NGO_name": "Amnesty International"
+  }
+})
+\end{lstlisting}
+\end{solution}
+\begin{subexercise}{d}
+We here reconsider the previously used Movie dataset, this time in a graph based model in the NoSQL DBMS Neo4j. Please write to find the name of directors and the title of movies they directed, by using PERSON and MOVIE nodes, and the DIRECTED relationship between them.
+\end{subexercise}
+\begin{solution}
+And lastly I use this command,
+\begin{lstlisting}
+MATCH (n:Person)-[r:DIRECTED]->(m:Movie) RETURN n.name as Director, m.title as Movie
+\end{lstlisting}
+This commands for relations \texttt{person -> directed -> movie} in the graph, and then returns the name of the person and the title of the movie.
+\end{solution}
+\end{document}
+

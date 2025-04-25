@@ -17,11 +17,9 @@ return require('packer').startup({
         ---------------------
 
         use('wbthomason/packer.nvim')
---install telescope.nvim
         --
 
      -- Toggle Term
-        -- Added this plugin.
         use({
             'akinsho/toggleterm.nvim',
             tag = "*",
@@ -40,25 +38,25 @@ return require('packer').startup({
         })
         ----------------------
         -- Required plugins --
-        ----------------------
+        --------------------
+        ---
 
         use('nvim-lua/plenary.nvim')
 
-
-        use({
-            '~/.config/nvim/plugin-gpt4',
-        })
         ----------------------
         -- File Tree ---------
         ----------------------
 
-        use('preservim/nerdtree')
-
+        use({
+            'kyazdani42/nvim-tree.lua',
+            config = get_config('nvim-tree'),
+            requires = 'kyazdani42/nvim-web-devicons'
+        })
         ----------------------
         -- Github Copilot ----
         ----------------------
 
-        use('github/copilot.vim')
+        -- use('github/copilot.vim')
 
         ----------------------
         -- Movement ----------
@@ -83,18 +81,30 @@ return require('packer').startup({
         -- syntax highlighting --
         -------------------------
 
+
         use({
-           "nvim-treesitter/nvim-treesitter",
-            config = get_config("treesitter"),
-            requires = {"latex-lsp/tree-sitter-latex"},
-            -- run = ":TSUpdate",
+            'nvim-treesitter/nvim-treesitter',
+            run = ':TSUpdate', -- Automatically update parsers
+            config = function()
+                require('nvim-treesitter.configs').setup({
+                    ensure_installed = { -- List of languages to install parsers for
+                        "lua", "python", "javascript", "html", "css", "bash", "json", "markdown", "latex", "scala"
+                    },
+                    highlight = {
+                        enable = true, -- Enable syntax highlighting
+                        disable = {"latex"},
+                        additional_vim_regex_highlighting = false, -- Disable Vim's regex-based highlighting
+                    },
+                    indent = {
+                        enable = true, -- Enable tree-sitter-based indentation
+                    },
+                })
+            end,
         })
-        use('sheerun/vim-polyglot')
-        -- use({
-        --     'quarto-dev/quarto-nvim',
-        --     config = get_config("quarto-nvim"),
-        --     requires = {'neovim/nvim-lspconfig'}
-        -- })
+
+        -------------------------
+        ----- LSP ---------------
+        -------------------------
 
         -------------------------
         -- Latex ----------------
@@ -108,12 +118,10 @@ return require('packer').startup({
         -------------------------
         ----- Pywal -------------
         -------------------------
-        -- use({'AlphaTechnolog/pywal.nvim',
-        --     config = get_config("pywal"),
-        --     as = 'pywal' })
-        use({'folke/tokyonight.nvim',
-            config = get_config("tokyonight")})
-        -- use { "ellisonleao/gruvbox.nvim" }
+        use({'AlphaTechnolog/pywal.nvim',
+            config = get_config("pywal"),
+            as = 'pywal' })
+
         -------------------------
         ------ Lightline --------
         -------------------------
@@ -157,5 +165,8 @@ return require('packer').startup({
         -------------------------
 
         use({'smithbm2316/centerpad.nvim'})
+
+
+
     end})
 

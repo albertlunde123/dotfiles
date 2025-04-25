@@ -1,0 +1,48 @@
+2025-04-08 16:44:43.054 [info] Extension host with pid 504677 started
+2025-04-08 16:44:43.085 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-08 16:44:43.138 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-08 16:44:43.156 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-08 16:44:43.279 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-08 16:44:43.821 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-08 16:44:43.833 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-08 16:44:43.973 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-08 16:44:44.109 [info] Eager extensions activated
+2025-04-08 16:44:44.126 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-04-08 16:44:44.424 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-04-08 16:44:44.910 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-04-08 16:44:45.005 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-04-08 16:44:45.273 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-08 16:44:45.280 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-08 16:46:05.815 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-04-08 16:46:06.993 [error] Error: ENOENT: no such file or directory, open '/home/albert/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-04-08 16:46:39.887 [info] Extension host terminating: renderer closed the MessagePort
+2025-04-08 16:46:39.937 [error] Error: ENOENT: no such file or directory, open '/home/albert/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-04-08 16:46:39.938 [info] Extension host with pid 504677 exiting with code 0
+2025-04-08 16:46:44.179 [info] Extension host with pid 506475 started
+2025-04-08 16:46:44.179 [info] Skipping acquiring lock for /home/albert/.config/Cursor/User/workspaceStorage/d009f5bce0e440a888bc5c5cb89b8814.
+2025-04-08 16:46:44.239 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-08 16:46:44.273 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-08 16:46:44.419 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-08 16:46:44.562 [info] Eager extensions activated
+2025-04-08 16:46:44.603 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-04-08 16:46:44.850 [info] Extension host with pid 506508 started
+2025-04-08 16:46:44.850 [info] Skipping acquiring lock for /home/albert/.config/Cursor/User/workspaceStorage/d009f5bce0e440a888bc5c5cb89b8814.
+2025-04-08 16:46:44.850 [info] Eager extensions activated
+2025-04-08 16:46:44.850 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-04-08 16:46:44.934 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-04-08 16:46:45.127 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-04-08 16:46:45.203 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-04-08 16:46:45.398 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-08 16:46:45.402 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-08 16:46:45.859 [error] Error: ENOENT: no such file or directory, open '/home/albert/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-04-08 16:46:59.642 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-08 16:47:27.189 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-08 16:47:27.228 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-08 16:47:27.341 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-08 16:48:19.351 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-04-08 16:48:20.298 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-04-08 16:48:20.401 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-04-08 21:52:26.602 [info] Extension host terminating: renderer closed the MessagePort
+2025-04-08 21:52:26.613 [info] Extension host with pid 506508 exiting with code 0
+2025-04-08 21:52:26.615 [info] Extension host terminating: renderer closed the MessagePort
+2025-04-08 21:52:26.821 [info] Extension host with pid 506475 exiting with code 0

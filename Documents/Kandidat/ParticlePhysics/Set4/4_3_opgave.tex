@@ -1,0 +1,329 @@
+\documentclass[working, oneside]{../../../Preambles/tuftebook}
+\input{../../../Preambles/colors}
+\input{../../../Preambles/preamble}
+\input{../../../Preambles/theorem_styles}
+\usepackage{slashed}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{3 - Quantum Electrodynamics with Electrons}
+\begin{exercise}[1]
+Consider the Lagrangian for electrons, which is the Dirac Lagrangian:
+\[
+ \mathcal{L} = \bar{\psi} (i\slashed{\partial} - m) \psi, \qquad (1)
+.\]
+where \( \slashed{\partial} = \gamma^\mu \partial_\mu \) and \( \gamma^\mu \) are the Dirac 4x4 matrices. Consider the transformation \( \psi \rightarrow e^{-ie\theta(x)}\psi \), where \( e \) is the electron charge and \( \theta(x) \) is a scalar function that depends on space and time (denoted collectively by the coordinate \( x = (\mathbf{x}, t) \)). Use minimal substitution for a charge \( q = -e \) field:
+\[
+\partial^\mu \rightarrow D^\mu = \partial^\mu - ieA^\mu, \qquad (2) 
+.\] 
+in the Dirac Lagrangian and show that we obtain a gauge-invariant Lagrangian. What is the necessary transformation law for \( A^\mu \)?
+\end{exercise}
+
+\begin{solution}
+Lets start by noting that $A_{\mu }$ should transform in the following way,
+\[
+A_{\mu }' \to A_{\mu } - \partial_{\mu }\theta \left( x \right) 
+.\] 
+Our modified lagrangian becomes,
+\[
+L = \overline{\Psi}\left( i \gamma_{\mu } \left( \partial^{\mu } - iqA^{\mu } \right) - m \right) \Psi
+.\] 
+And if we apply the gauge transformation we get,
+\begin{align*}
+    L' &= \overline{\Psi}'\left( i \gamma_{\mu } \left( \partial^{\mu } - iqA^{\mu }' \right) - m \right) \Psi'\\
+    L' &= \overline{\Psi}'\left( i \gamma_{\mu } \left( \partial^{\mu } - iq\left( A^{\mu } - \partial^{\mu }\theta \left( x \right)  \right)  \right) - m \right) \Psi'\\
+    L' &= \overline{\Psi}e^{iq\theta \left( x \right) }\left( i \gamma_{\mu } \left( \partial^{\mu } - iq\left( A^{\mu } - \partial^{\mu }\theta \left( x \right)  \right)  \right) - m \right) e^{-iq\theta \left( x \right)}\Psi
+.\end{align*}
+Lets by calculating by calculating the derivate of the transformed field,
+\[
+\partial_{\mu }e^{-iq\theta \left( x \right) }\Psi = e^{-iq\theta \left( x \right) }\partial_{\mu }\Psi - iq\partial_{\mu }\left[ \theta \left( x \right)  \right] e^{-iq\theta \left( x \right)}\Psi
+.\] 
+Lets write out the transformed lagrangian explicitly and insert this. We can see whether we obtain the original lagrangian.
+\begin{align*}
+    L' &= \overline{\Psi}e^{iq\theta \left( x \right) }i\gamma_{\mu }\partial^{\mu }e^{-iq\theta \left( x \right) }\Psi + \overline{\Psi}e^{iq\theta \left( x \right) }i\gamma_{\mu }\left( -iq\left( A^{\mu }-\partial^{\mu }\theta \left( x \right)  \right)  \right)e^{-iq\theta \left( x \right) }\Psi - \overline{\Psi}e^{iq\theta \left( x \right) }me^{-iq\theta \left( x \right) }\Psi  \\
+     &= \overline{\Psi}e^{iq\theta \left( x \right) }i\gamma_{\mu }\partial^{\mu }e^{-iq\theta \left( x \right) }\Psi + \overline{\Psi}i\gamma_{\mu }\left( -iq\left( A^{\mu }-\partial^{\mu }\theta \left( x \right)  \right)  \right)\Psi - \overline{\Psi}m\Psi \\
+     &= \overline{\Psi}e^{iq\theta \left( x \right) }i\gamma_{\mu }\left(   e^{-iq\theta \left( x \right) }\partial_{\mu }\Psi - iq\partial_{\mu }\left[ \theta \left( x \right)  \right] e^{-iq\theta \left( x \right)}\right)\Psi + \overline{\Psi}i\gamma_{\mu }\left( -iq\left( A^{\mu }-\partial^{\mu }\theta \left( x \right)  \right)  \right)\Psi - \overline{\Psi}m\Psi \\
+     &= \overline{\Psi}i\gamma_{\mu }\left(   \partial_{\mu }\Psi - iq\partial_{\mu }\left[ \theta \left( x \right)  \right] \right)\Psi + \overline{\Psi}i\gamma_{\mu }\left( -iq\left( A^{\mu }-\partial^{\mu }\theta \left( x \right)  \right)  \right)\Psi - \overline{\Psi}m\Psi \\
+     &= \overline{\Psi}i\gamma_{\mu }\left(   \partial_{\mu }\Psi - iq\partial_{\mu }\left[ \theta \left( x \right)  \right] \right)\Psi + \overline{\Psi}i\gamma_{\mu }\left( \left( -iqA^{\mu }+iq\partial^{\mu }\theta \left( x \right)  \right)  \right)\Psi - \overline{\Psi}m\Psi \\
+.\end{align*}
+Notice that the terms with $\partial^{\mu }\theta \left( x \right) $ cancel, so we end up with,
+\[
+\overline{\Psi}\left( i\gamma_{\mu }\left( \partial_{\mu } - iqA^{\mu } \right) -m  \right) \Psi
+.\] 
+Which is the original lagrangian.
+\end{solution}
+\begin{exercise}[2]
+In mathematics, the complex numbers on the unit circle (modulus 1) are denoted collectively by \( U(1) \) (the 1x1 unitary matrix group). Explain why it makes sense to call the gauge transformation in 1) and the corresponding theory of Quantum EletroDynamics (QED) a \( U(1) \)-gauge theory.
+\end{exercise}
+\begin{solution}
+The points on the unit circle, or in other words, the elements of $U\left( 1 \right) $ are given by $e^{-iq\theta \left( x \right) }$, assuming that $\theta $ is surjective on $\left[ 0, 2\pi \right] $. So it makes sense to say that the lagrangian under actions from  $U\left( 1 \right) $.
+\end{solution}
+
+\begin{exercise}[3]
+Show that the interaction Lagrangian we obtain from using the principle of gauge invariance is of the current-vector field form
+\begin{align*}
+\mathcal{L}_I
+&= e \overline{\psi} \gamma_\mu \psi A^\mu = -J_\mu A^\mu. \tag{18}
+\end{align*}
+Show furthermore that \( J_\mu(x) = -e \overline{\psi}(x) \gamma_\mu \psi(x) \) is a conserved current in the sense that\( \partial^\mu J_\mu(x) = 0 \). How does the interaction Lagrangian transform under a gauge transformation? Does this transformation allow the theory to remain gauge invariant? (Hint: Consider the action that is generated by the interaction Lagrangian).
+\end{exercise}
+\begin{solution}
+Lets have a look at our lagrangian again,
+\[
+L = \overline{\Psi}\left( i\gamma_{\mu }\left( \partial^{\mu } - ieA^{\mu } \right) - m \right) \Psi
+.\] 
+We can expand this into two terms,
+\[
+L = \overline{\Psi}\left( i\slashed \partial - m \right) \Psi + \overline{\Psi}\gamma_{\mu }eA^{\mu }\Psi = \overline{\Psi}\left( i\slashed \partial - m \right) \Psi + e\overline{\Psi}\gamma_{\mu }\Psi A^{\mu }
+.\] 
+Where the first term is just the dirac equation for a free particle, so it makes sense that the second term is an interaction term. Let's now show that current defined is conserved,
+\begin{align*}
+    \partial^{\mu }J_{\mu } = \partial^{\mu }\left( -e \overline{\Psi}\gamma_{\mu }\Psi \right) = -e\left( \partial^{\mu } \left( \overline{\Psi} \right) \gamma_{\mu }\Psi + \overline{\Psi}\gamma_{\mu }\partial^{\mu }\left(   \Psi  \right)\right) 
+.\end{align*}
+I'll introduce some notation here,
+\[
+   \Psi \overleftarrow{\partial^{\mu }} := \partial^{\mu }\Psi
+.\] 
+Which allows us to rewrite the equation above,
+\begin{align*}
+    \label{eq:current1}
+    \partial^{\mu }J_{\mu } =  -e\left( \left( \overline{\Psi} \right) \gamma_{\mu }\overleftarrow{\partial^{\mu }}\Psi + \overline{\Psi}\gamma_{\mu }\partial^{\mu }\left(   \Psi  \right)\right) 
+.\end{align*}
+At this point we would like to use the Dirac equation,
+\[
+i\gamma^{\mu }\partial_{\mu }\Psi - m\Psi = 0
+.\] 
+And we can, for the second term in \ref{eq:current1}, but since we're also doing the derivative of $\overline{\Psi}$ we have the find the hermitian adjoint of the dirac equation. We will find this by using the Euler-Lagrange equations for $\Psi$.
+\begin{align*}
+    \frac{\partial L}{\partial \Psi} = \partial_{\mu }\frac{\partial L}{\partial \left( \partial_{\mu }\Psi \right) }
+.\end{align*}
+We calculate these, 
+\begin{align*}
+    \frac{\partial L}{\partial \Psi} &= \frac{\partial}{\partial \Psi} \left( \overline{\Psi} \left( i\slashed \partial - m \right) \Psi \right) = -\overline{\Psi}m\\
+\partial_{\mu }\frac{\partial L}{\partial \left( \partial_{\mu }\Psi \right) } &= \partial_{\mu }\frac{\partial }{\partial \left( \partial_{\mu }\Psi \right) }  \left( \overline{\Psi} \left( i\slashed \partial - m \right) \Psi \right)\\
+                                                                               &= \partial_{\mu }\frac{\partial }{\partial \left( \partial_{\mu }\Psi \right) }  \left( \overline{\Psi}i\gamma^{\nu } \partial_{\nu } \Psi \right)\\
+                                                                               &= \partial_{\mu } \left( \overline{\Psi}i\gamma^{\nu } \delta^{\mu }_{\nu} \right) = \partial_{\mu }\overline{\Psi}i\gamma^{\mu } = \overline{\Psi} i \gamma^{\mu }\overleftarrow{\partial_{\mu }} \\
+.\end{align*}
+Setting these equal we get,
+\hline
+EDIT THIS
+\begin{align*}
+    \overline{\Psi}\left( i \gamma^{\mu }\partial_{\mu } + m \right) = 0
+.\end{align*}
+\begin{align*}
+0&= \left(   i\gamma^{\mu }\partial_{\mu }\Psi - m\Psi \right)^\dagger \\
+ &= \Psi^\dagger\left( -i\gamma^{\mu \dagger} \partial_{\mu}^\dagger - m^\dagger\right)\\
+ &= \Psi^\dagger\left( i\partial_{\mu }\gamma^{\mu \dagger} - m\right)\\
+.\end{align*}
+Where we have used that $\partial_\mu $ is anti-hermitian. Now let's find an expression for $\gamma^{\mu \dagger} = \left( \gamma^{0}, \vec{\gamma^{i}} \right)^{\dagger} = \left( \gamma^{0}, - \vec{\gamma^{i}} \right)^{T}  $. I postulate that $\gamma^{0}\gamma^{\mu }\gamma^{0}$ works. Lets check by looking at it index wise,
+\begin{align*}
+    \gamma^{0}\gamma^{0}\gamma^{0} &= \gamma^{0}\left( \gamma^{0} \right) ^2 = \gamma^{0} \\
+    \gamma^{0}\gamma^{i}\gamma^{0} &= \gamma^{0}\left( -\gamma^{0}\gamma^{i} \right) = -\gamma^{i}  \\
+.\end{align*}
+Where we have used the anti-commutation relations,
+\[
+\left\{ \gamma^{i}, \gamma^{0} \right\} = 2g^{0i} = 0\quad\quad\text{for }i \neq 0
+.\] 
+So it does hold that 
+\[
+\gamma^{\mu \dagger} =\gamma^{0}\gamma^{\mu }\gamma^{0}
+.\] 
+At this point we are almost homefree, we just have one final issue to address. When we took hermitian conjugate we moved $\Psi$ to the left of $\partial_\mu $, but we do want to have $\partial_\mu $ acting on $\Psi$. We can move the derivative to left once more, using integration by parts, and assuming the boundary terms vanish this will just give a sign. Lets do this and insert $\gamma^{\mu  \dagger}$ 
+\begin{align*}   
+\Psi^\dagger\left( i\partial_{\mu }\gamma^{\mu \dagger} - m\right) &= -\partial_{\mu }\Psi^{\dagger}i\gamma^{0}\gamma^{\mu }\gamma^{0} - \Psi^{\dagger} m \\
+&= -\partial_{\mu }\Psi^{\dagger}i\gamma^{0}\gamma^{\mu }\gamma^{0}\gamma^{0} - \Psi^{\dagger}\gamma^{0} m \\
+&= -\partial_{\mu }\Psi^{\dagger}i\gamma^{0}\gamma^{\mu }- \Psi^{\dagger}\gamma^{0} m \\
+&= -\partial_{\mu }\overline{\Psi}i\gamma^{\mu }- \overline{\Psi} m =0\\
+\implies & \overline{\Psi} \left(   i\gamma^{\mu }\overleftarrow{\partial_{\mu }} + m\right) =0\\
+.\end{align*}
+Using the dirac equation and its hermitian adjoint in $\partial_{\mu }J^{\mu }$ we immediately see that it is conserved,
+\begin{align*}
+    \partial^{\mu }J_{\mu } =  -e\left( \left( \overline{\Psi} \right) \gamma_{\mu }\overleftarrow{\partial^{\mu }}\Psi + \overline{\Psi}\gamma_{\mu }\partial^{\mu }\left(   \Psi  \right)\right) 
+    &= -e\left( \overline{\Psi}\left( im \Psi \right) + \overline{\Psi}\left( -im  \right) \Psi  \right) = 0 \\
+.\end{align*} 
+As we have seen this interaction lagrangian is not invariant under a gauge transformation, but this is alright, as the important question is whether the action the invariant. Lt's quickly recall the transformation of the interaction lagrangian,
+\[
+L_{I}' = e \overline{\Psi}\gamma^{\mu }\Psi\left( A^{\mu }- \partial^{\mu }\theta \left( x \right)  \right) = -J^{\mu }\left( A_{\mu } - \partial_{\mu }\theta \left( x \right)  \right) 
+.\] 
+We can calculate the action generated by this,
+\begin{align*}
+    S_{I}' = \int d^{4}x L_{I}' &=  \int d^{4}x \left( -J^{\mu }\left( A_{\mu } - \partial_{\mu }\theta \left( x \right)  \right)  \right)  
+.\end{align*}
+\end{solution}
+Where we have to check that the second term vanishes.
+\begin{align*}
+    \partial S_{I} &= \int d^{4}x J^{\mu }\partial_{\mu }\theta \left( x \right) \\
+                   &= \int d^{4}x \partial_{\mu }\left( J^{\mu }\theta \left( x \right)  \right) - \int d^{4}x \partial_{\mu }\left( J^{\mu } \right) \theta \left( x \right) &\text{(integration by parts)}\\
+                   &= \oint ds J^{\mu }\theta \left( x \right)  &\text{(divergence theorem)}=0
+.\end{align*}
+Where I have assumed that the current vanishes at infinity. This shows that the action is invariant under the gauge transformation.
+\begin{exercise}[4]
+The Dirac field can be expanded in normal modes according to
+\begin{align*}
+\psi_\alpha(x)
+&= \sum_\lambda \int \frac{d^3p}{(2\pi)^3} \frac{1}{\sqrt{2E_p}} \left( b_{\mathbf{p}, \lambda} u(\mathbf{p}, \lambda)_\alpha e^{-i p x} + d_{\mathbf{p}, \lambda}^\dagger v(\mathbf{p}, \lambda)_\alpha e^{i p x} \right), \tag{19}
+\end{align*}
+where \( \lambda \) is the helicity and \( px = p_\mu x^\mu \). \( b \) and \( d \) are operators that create fermionic particles and antiparticles respectively with given momentum, \( \mathbf{p} \), and helicity, \( \lambda \). Show that one can write
+\begin{align*}
+-e \overline{\psi} \gamma_\mu \psi
+&= \sum_{\mathbf{p}, \mathbf{p}', \lambda, \lambda'} \sum_{n=1}^4 j_\mu^{(n)} (\mathbf{p}, \lambda, \mathbf{p}', \lambda', x) = \sum_{n=1}^4 j_\mu^{(n)}(x), \tag{20}
+\end{align*}
+and find the four terms \( j_\mu^{(n)} \) explicitly.
+\end{exercise}
+\begin{solution}
+We have only option, which is to calculate,
+\begin{align*}
+    \overline{\Psi_{\beta}\left( x \right) }
+&= \sum_{\lambda'} \int \frac{d^3p'}{(2\pi)^3} \frac{1}{\sqrt{2E_{p'}}} \left( b_{\mathbf{p'}, \lambda'}^\dagger \overline{ u(\mathbf{p}, \lambda)_\beta} e^{i p x} + d_{\mathbf{p}, \lambda} \overline{v(\mathbf{p'}, \lambda')_\beta} e^{-i p x} \right), \tag{19}
+\end{align*}
+We can insert these,
+\begin{align*}
+    -e \overline{\Psi}\gamma_{\mu }\Psi &= -e\sum_\lambda \int \frac{d^3p}{(2\pi)^3} \frac{1}{\sqrt{2E_p}} \left( b_{\mathbf{p}, \lambda} u(\mathbf{p}, \lambda)e^{-i p x} + d_{\mathbf{p}, \lambda}^\dagger v(\mathbf{p}, \lambda) e^{i p x} \right) \gamma_{\mu } \\
+&\times \sum_{\lambda'} \int \frac{d^3p'}{(2\pi)^3} \frac{1}{\sqrt{2E_{p'}}} \left( b_{\mathbf{p'}, \lambda'}^\dagger \overline{ u(\mathbf{p}, \lambda)} e^{i p' x} + d_{\mathbf{p}, \lambda} \overline{v(\mathbf{p'}, \lambda')} e^{-i p' x} \right)\\
+&= -e\sum_{\lambda, \lambda'} \int \frac{d^3pd^3p'}{\left( 2\pi \right) ^{6}}\frac{1}{2 \sqrt{E_p E_{p'}}} \left( b_{\mathbf{p}, \lambda} u(\mathbf{p}, \lambda) e^{-i p x} + d_{\mathbf{p}, \lambda}^\dagger v(\mathbf{p}, \lambda) e^{i p x} \right) \gamma_{\mu } \\
+&\times \left( b_{\mathbf{p'}, \lambda'}^\dagger \overline{ u(\mathbf{p}, \lambda)} e^{i p' x} + d_{\mathbf{p}, \lambda} \overline{v(\mathbf{p'}, \lambda')} e^{-i p' x} \right)\\
+.\end{align*}
+Lets multiply through the parenthesis, we get a bunch of terms. We'll also reverse the wrong order that we had,
+\begin{align*}
+    = -e\sum_{\lambda, \lambda'}& \int \frac{d^3pd^3p'}{\left( 2\pi \right) ^{6}}\frac{1}{2 \sqrt{E_p E_{p'}}}\big(  b_{\mathbf{p'}, \lambda'}^\dagger \overline{ u(\mathbf{p}', \lambda')} e^{i p' x} \gamma_{\mu } b_{\mathbf{p}, \lambda} u(\mathbf{p}, \lambda) e^{-i p x} + \\
+    +&  b_{\mathbf{p'}, \lambda'}^\dagger \overline{ u(\mathbf{p}', \lambda')} e^{i p' x} \gamma_{\mu } d_{\mathbf{p}, \lambda}^\dagger v(\mathbf{p}, \lambda) e^{i p x} \\
+    +&  d_{\mathbf{p'}, \lambda'} \overline{ u(\mathbf{p}', \lambda')} e^{-i p' x} \gamma_{\mu } d_{\mathbf{p}, \lambda}^\dagger v(\mathbf{p}, \lambda) e^{i p x} \\
+    +&  d_{\mathbf{p'}, \lambda'} \overline{ u(\mathbf{p}', \lambda')} e^{-i p' x} \gamma_{\mu } b_{\mathbf{p}, \lambda} u(\mathbf{p}, \lambda) e^{-i p x} \big) 
+.\end{align*}
+So we get the following four terms,
+\begin{align*}
+    j_{\mu }^{\left( 1 \right) }\left( x \right) =-e\sum_{\lambda, \lambda'}& \int \frac{d^3pd^3p'}{\left( 2\pi \right) ^{6}}\frac{1}{2 \sqrt{E_p E_{p'}}} b_{\mathbf{p'}, \lambda'}^\dagger \overline{ u(\mathbf{p}', \lambda')} e^{i p' x} \gamma_{\mu } b_{\mathbf{p}, \lambda} u(\mathbf{p}, \lambda) e^{-i p x}\\
+    j_{\mu }^{\left( 2 \right) }\left( x \right) =-e\sum_{\lambda, \lambda'}& \int \frac{d^3pd^3p'}{\left( 2\pi \right) ^{6}}\frac{1}{2 \sqrt{E_p E_{p'}}} b_{\mathbf{p'}, \lambda'}^\dagger \overline{ u(\mathbf{p}', \lambda')} e^{i p' x} \gamma_{\mu } d_{\mathbf{p}, \lambda}^\dagger v(\mathbf{p}, \lambda) e^{i p x}\\
+    j_{\mu }^{\left( 3 \right) }\left( x \right) =-e\sum_{\lambda, \lambda'}& \int \frac{d^3pd^3p'}{\left( 2\pi \right) ^{6}}\frac{1}{2 \sqrt{E_p E_{p'}}} d_{\mathbf{p'}, \lambda'} \overline{ u(\mathbf{p}', \lambda')} e^{-i p' x} \gamma_{\mu } d_{\mathbf{p}, \lambda}^\dagger v(\mathbf{p}, \lambda) e^{i p x}\\
+    j_{\mu }^{\left( 4 \right) }\left( x \right) =-e\sum_{\lambda, \lambda'}& \int \frac{d^3pd^3p'}{\left( 2\pi \right) ^{6}}\frac{1}{2 \sqrt{E_p E_{p'}}} d_{\mathbf{p'}, \lambda'} \overline{ u(\mathbf{p}', \lambda')} e^{-i p' x} \gamma_{\mu } b_{\mathbf{p}, \lambda} u(\mathbf{p}, \lambda) e^{-i p x}
+.\end{align*}
+\end{solution}
+\begin{exercise}[5]
+Derive the following matrix elements using the current from 4)
+\begin{align*}
+\langle e^{-}, \mathbf{p}', \lambda' | j_\mu^{(1)}(x) | e^{-}, \mathbf{p}, \lambda \rangle
+&= - \overline{u}(\mathbf{p}', \lambda') \gamma_\mu u(\mathbf{p}, \lambda) e^{i (p' - p) x} \tag{21} \\
+\langle e^{+}, \mathbf{p}', \lambda' | j_\mu^{(2)}(x) | e^{+}, \mathbf{p}, \lambda \rangle
+&= \overline{v}(\mathbf{p}, \lambda) \gamma_\mu v(\mathbf{p}', \lambda') e^{i (p' - p) x} \tag{22} \\
+\langle 0 | j_\mu^{(3)}(x) | e^{-}, \mathbf{p}, \lambda ; e^{+}, \mathbf{p}', \lambda' \rangle
+&= - \overline{v}(\mathbf{p}', \lambda') \gamma_\mu u(\mathbf{p}, \lambda) e^{-i (p + p') x} \tag{23} \\
+\langle e^{-}, \mathbf{p}', \lambda' ; e^{+}, \mathbf{p}, \lambda | j_\mu^{(4)}(x) | 0 \rangle
+&= - \overline{u}(\mathbf{p}', \lambda') \gamma_\mu v(\mathbf{p}, \lambda) e^{i (p + p') x} \tag{24}
+\end{align*}
+Give a physical interpretation of the four terms (you may even like to draw a picture of each term as a subpart of a Feynman diagram).
+\end{exercise}
+The particle state $\left|e^{-}, \mathbf{p}, \lambda \right>$ and its dual are defined as,
+\[
+&=  \left|e^{-}, \mathbf{p}, \lambda \right> = \sqrt{2E_\mathbf{p}} b_{\mathbf{p},\lambda}^{\dagger} \left|0 \right>\quad,\quad \left<e^{-}, \mathbf{p}, \lambda \right| = \left<0 \right|b_{\mathbf{p}, \lambda} \sqrt{2E_{\mathbf{p}}} 
+.\] 
+Using this we can derive the matrix element for $j^{\left( 1 \right) }_{\mu }\left( x \right) $,
+\begin{align*}
+\langle e^{-}, q_1, \lambda_1 | -e\sum_{\lambda, \lambda'}& \int \frac{d^3pd^3p'}{\left( 2\pi \right) ^{6}}\frac{1}{2 \sqrt{E_p E_{p'}}} b_{\mathbf{p'}, \lambda'}^\dagger \overline{ u(\mathbf{p}', \lambda')} e^{i p' x} \gamma_{\mu } b_{\mathbf{p}, \lambda} u(\mathbf{p}, \lambda) e^{-i p x} | e^{-}, q_2, \lambda_2 \rangle \\
+  -e\sum_{\lambda, \lambda'}& \int \frac{d^3pd^3p'}{\left( 2\pi \right) ^{6}}\frac{1}{2 \sqrt{E_p E_{p'}}} \overline{ u(\mathbf{p}', \lambda')} e^{i \left( p' - p \right)  x} \gamma_{\mu }  u(\mathbf{p}, \lambda)  \langle e^{-}, q_1, \lambda_1 |b_{\mathbf{p'}, \lambda'}^\dagger b_{\mathbf{p}, \lambda}| e^{-}, q_2, \lambda_2 \rangle
+.\end{align*}
+Lets have a look at the inner-product by itself,
+\begin{align*}
+    \langle e^{-}, q_1, \lambda_1 |b_{\mathbf{p'}, \lambda'}^\dagger b_{\mathbf{p}, \lambda}| e^{-}, q_2, \lambda_2 \rangle &=  2\sqrt{E_{q_1}E_{q_2}} \left<0 \right|b_{q_1, \lambda_1} b_{\mathbf{p'}, \lambda'}^\dagger b_{\mathbf{p}, \lambda} b_{q_2, \lambda_2}^{\dagger}\left|0 \right>
+.\end{align*}
+We can use the anti-commutation relations, flipping terms will give 0 plus some delta functions,
+\begin{align*}
+    &= 2\sqrt{E_{q_1}E_{q_2}}\left( 2\pi \right)^{3} \delta^{3}\left( \mathbf{p'}-q_1\right) \delta_{\lambda_1, \lambda'} \left<0 \right| b_{\mathbf{p}, \lambda} b_{q_2, \lambda_2}^{\dagger}\left|0 \right> \\
+    &= 2\sqrt{E_{q_1}E_{q_2}}\left( 2\pi \right)^{6} \delta^{3}\left( \mathbf{p'}-q_1\right) \delta_{\lambda_1, \lambda'} \delta^{3}\left( \mathbf{p}-q_2\right) \delta_{\lambda_2, \lambda}
+.\end{align*}
+We can insert this in the integral, the delta-functions will then kill both integrals and flip the momenta to $q_1, q_2$, which allows the energies to cancel. I'll work from there,
+\begin{align*}
+\langle e^{-}, \mathbf{p}', \lambda' | j_\mu^{(1)}(x) | e^{-}, \mathbf{p}, \lambda \rangle &=
+-e \sum_{\lambda, \lambda'}\overline{u\left( q_1, \lambda' \right) }\gamma_{\mu } u\left( q_2, \lambda \right) e^{i\left( q_1-q_2 \right) x}\delta_{\lambda_1, \lambda'}\delta_{\lambda_2, \lambda} \\
+&=-e \overline{u\left( q_1, \lambda_1 \right) }\gamma_{\mu } u\left( q_2, \lambda_2 \right) e^{i\left( q_1-q_2 \right) x} \\
+.\end{align*}
+\begin{exercise}[6]
+The matrix elements in 5) are called transition currents, \( J_\mu^{fi}(x) \). Show explicitly that they are conserved current by applying the gradient operator \( \partial^\mu \) to each of them.
+\end{exercise}
+Let's start by applying the gradient,
+\begin{align*}
+    \partial^{\mu }\left(   -e \overline{u\left( q_1, \lambda_1 \right) }\gamma_{\mu } u\left( q_2, \lambda_2 \right) e^{i\left( q_1-q_2 \right) x} \right) &=
+    \left(   -e \overline{u\left( q_1, \lambda_1 \right) }\gamma_{\mu } i\left(q_1 - q_2  \right)  u\left( q_2, \lambda_2 \right) e^{i\left( q_1-q_2 \right) x} \right) 
+.\end{align*}
+As the differential operator only acts on the exponential function, and the signs from the metric functions cancel. This expression can be expanded,
+\begin{align*}
+    &=    -ei \left(\overline{u\left( q_1, \lambda_1 \right) }\gamma_{\mu }q_1 u\left( q_2, \lambda_2 \right) - \overline{u\left( q_1, \lambda_1 \right) }\gamma_{\mu }q_2 u\left( q_2, \lambda_2 \right)\right)e^{i\left( q_1-q_2 \right) x}
+.\end{align*}
+At this point, we can use the dirac equation to obtain some relations for $\overline{u\left( q_1, \lambda_1 \right)} $ and $u\left( q_2, \lambda_2 \right) $. Let's recall the dirac equation,
+\[
+\left( i \gamma^{\mu } \partial_{\mu } - m  \right)\Psi = 0 
+.\] 
+We can insert a solution,
+\begin{align*}
+0 &=  \left( i \gamma^{\mu } \partial_{\mu } - m  \right)u\left( q, \lambda \right) e^{-iqx} \\
+ &=  \left( \gamma^{\mu } q_{\mu } - m  \right)u\left( q, \lambda \right) e^{-iqx}\\
+ &=  \left( \gamma^{\mu } q_{\mu } - m  \right)u\left( q, \lambda \right) \\
+\implies \quad \gamma^{\mu }q_{\mu } u\left( q, \lambda \right) &= m u\left( q, \lambda \right) 
+.\end{align*}
+We can take the hermitian conjugate of this,
+\begin{align*}
+    u\left( q, \lambda \right)^{\dagger} \gamma^{\mu \dagger}q_{\mu } &= u\left( q,\lambda \right) ^{\dagger}m \\
+    u\left( q, \lambda \right)^{\dagger} \gamma^{0}\gamma^{\mu}\gamma^{0}q_{\mu } &= u\left( q,\lambda \right) ^{\dagger}m \\
+    u\left( q, \lambda \right)^{\dagger}q_{\mu } \gamma^{0}\gamma^{\mu}\gamma^{0}\gamma^{0} &= u\left( q,\lambda \right) ^{\dagger}\gamma^{0}m\\
+    \overline{u\left( q, \lambda \right)}q_{\mu } \gamma^{\mu} &= \overline{u\left( q,\lambda \right)}m
+.\end{align*}
+We can insert these relations,
+\begin{align*}
+  &=  -ei \left(\overline{u\left( q_1, \lambda_1 \right) }\gamma_{\mu }q_1 u\left( q_2, \lambda_2 \right) - \overline{u\left( q_1, \lambda_1 \right) }\gamma_{\mu }q_2 u\left( q_2, \lambda_2 \right)\right)e^{i\left( q_1-q_2 \right) x} \\
+  &=-ei \left(\overline{u\left( q_1, \lambda_1 \right) }m\left( q_2, \lambda_2 \right) - \overline{u\left( q_1, \lambda_1 \right) }m u\left( q_2, \lambda_2 \right)\right)e^{i\left( q_1-q_2 \right) x} = 0
+.\end{align*}
+Which shows that the current is conserved. Showing that (22) is conserved, is completely analogous, so we shall skip to (23). We apply the gradient once more,
+\begin{align*}
+    &\partial^{\mu }\left(   -e \overline{v\left( q_1, \lambda_1 \right) }\gamma_{\mu } u\left( q_2, \lambda_2 \right) e^{-i\left( q_1+q_2 \right) x} \right) \\
+    &= \left(   -e \overline{v\left( q_1, \lambda_1 \right) }\gamma_{\mu } (-i\left(q_1 + q_2  \right) ) u\left( q_2, \lambda_2 \right) e^{i\left( q_1-q_2 \right) x} \right)  \\
+      &= ie \left(\overline{v\left( q_1, \lambda_1 \right) }\gamma_{\mu }q_1u\left( q_2, \lambda_2 \right)+ \left(\overline{v\left( q_1, \lambda_1 \right) }\gamma_{\mu }q_2u\left( q_2, \lambda_2 \right) \right) \right)e^{i\left( q_1-q_2 \right) x}  
+.\end{align*}
+Now clearly $\overline{v\left( q_1, \lambda_1 \right) }$ will have the same relation as $\overline{u\left( q_1, \lambda_1 \right) }$, but with a sign-difference, so this current is also conserved.
+\begin{exercise}[7]
+Argue that in QED with interaction Lagrangian Eq. (18), when we calculate physical processes we will always have terms of the form \( J_\mu^{fi}(0) e^\mu(\sigma) \), where \( e^\mu(\sigma) \) is a photon polarization state indexed by \( \sigma \). Furthermore, argue that when we square the amplitude for a given process we get an expression like
+\begin{align*}
+| J_\mu^{fi}(0) e^\mu(\sigma) |^2
+&= e^{\mu}(\sigma)^* e^{\nu}(\sigma) J_{\mu}^{fi}(0)^* J_{\nu}^{fi}(0). \tag{25}
+\end{align*}
+\end{exercise}
+If we calculate some process dependent on the interaction lagrangian,
+\[
+    L_{I} = J_{\mu }A^{\mu }
+,\] 
+Then the interaction hamiltonian $(H_I = -L_I)$ will appear when we calculate the matrix-element. If we write $A^{\mu }$ in terms of normal modes, it becomes clear that the given terms have to appear,
+\[
+A_{\mu } = \sum_{\sigma}\int \frac{d^3p}{\left( 2\pi \right) ^{3}}\frac{1}{\sqrt{2E_p} }\left( a_{p, \sigma}\epsilon_{\mu }\left( \sigma \right) e^{-ipx}+a_{p,\sigma}^{\dagger}\epsilon_{\mu }\left( \sigma \right) ^{*}e^{ipx} \right) 
+.\] 
+The matrix element we calculate will be of the form,
+\[
+-\left<f \right|J_{\mu }A^{\mu }\left|i \right>
+.\] 
+And from the definition of $A^{\mu }$ and $J_\mu^{fi} $ we get terms of the form,
+\[
+J^{fi}_{\mu }\left( x \right) \epsilon_{\mu }\left( \sigma \right) 
+.\] 
+And we should be able to translate to a system where $J_{\mu }^{fi}\left( x \right) \to J_{\mu }^{fi}\left( 0 \right) $. The norm-squared is typically defined as,
+\[
+\left|   J_{\mu }^{fi}\left( 0 \right) e^{\mu }\left( \sigma \right) \right|^2 = \left(J_{\mu }^{fi}\left( 0 \right) e^{\mu }\left( \sigma \right)   \right)^{*}J_{\mu }^{fi}\left( 0 \right) e^{\mu }\left( \sigma \right)
+.\] 
+\begin{exercise}[8]
+Often we need to sum over unobserved polarization states, i.e. we sum over \( \sigma \)
+\begin{align*}
+\left[ \sum_{\sigma} e^{\mu}(\sigma)^* e^{\nu}(\sigma) \right] J_{\mu}^{fi}(0)^* J_{\nu}^{fi}(0). \tag{26}
+\end{align*}
+Assume that the momentum transfer of the current \( J_\mu^{fi} \) is along the z-direction, i.e. \( q = (q_0, 0, 0, q_0) \). Show that for real photons we have
+\begin{align*}
+\sum_{\sigma} e^{\mu}(\sigma)^* e^{\nu}(\sigma)
+&= \delta_1^\mu \delta_1^\nu + \delta_2^\mu \delta_2^\nu, \tag{27}
+\end{align*}
+where we use the convention that \( \mu = 0 \) is the time-direction and \( \mu = 1, 2, 3 \) the \( x \), \( y \), and \( z \) space-directions respectively.
+\end{exercise}
+
+\begin{exercise}[9]
+Show that for a real photon we have
+\begin{align*}
+\left[ \sum_{\sigma} e^{\mu}(\sigma)^* e^{\nu}(\sigma) \right] J_{\mu}^{fi}(0)^* J_{\nu}^{fi}(0)
+&= -g^{\mu \nu} J_{\mu}^{fi}(0)^* J_{\nu}^{fi}(0). \tag{28}
+\end{align*}
+\end{exercise}
+\end{document}

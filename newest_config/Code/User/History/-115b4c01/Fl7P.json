@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "Tokyo Night",
+    "editor.cursorStyle": "block",
+    "editor.lineNumbers": "relative",
+    "editor.fontFamily": "'Hack Nerd', 'Regular'",
+    "editor.fontLigatures": true,
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": false,
+    "files.autoSave": "onFocusChange",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.smoothScrolling": true,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "editor.fontSize": 20
+    // Removes the close tab button. Use Control + W instead.
+    "workbench.editor.tabCloseButton": "off",
+// Removes the useless "breadcrumbs" tree below our tabs
+    "breadcrumbs.enabled": false,
+    "editor.overviewRulerBorder": false,
+// Add some padding to the top and bottom of our file
+    "editor.padding.bottom": 14,
+    "editor.padding.top": 14,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.codeLens": false,
+// OPTIONAL: Removes the glyph margin for breakpoints
+// and other symbols that most people don't use.
+// If you use those things, feel free to enable this!
+    "editor.glyphMargin": false,
+}

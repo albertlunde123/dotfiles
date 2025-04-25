@@ -1,0 +1,21 @@
+Loading treesitter.lua
+vim.tbl_add_reverse_lookup is deprecated. Run ":checkhealth vim.deprecated" for more information
+E382: Cannot write, 'buftype' option is set
+1 change; before #7  4 seconds ago
+1 more line; before #6  25 seconds ago
+1 more line; before #5  33 seconds ago
+14 fewer lines; before #4  82 seconds ago
+1 line less; before #11  1 second ago
+1 line less; before #10  2 seconds ago
+1 line less; before #10  2 seconds ago
+14 more lines
+E382: Cannot write, 'buftype' option is set
+E382: Cannot write, 'buftype' option is set
+11 lines >ed 1 time
+3 lines >ed 1 time
+3 lines >ed 1 time
+E382: Cannot write, 'buftype' option is set
+E382: Cannot write, 'buftype' option is set
+18 more lines
+18 more lines
+19 lines >ed 1 time

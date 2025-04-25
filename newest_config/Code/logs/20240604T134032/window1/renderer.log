@@ -1,0 +1,32 @@
+2024-06-04 13:40:33.502 [info] Started local extension host with pid 984032.
+2024-06-04 13:40:33.614 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.15.2]: Extension is not compatible with Code 1.88.0. Extension requires: ^1.89.0-20240424.
+2024-06-04 13:40:33.617 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.4.0-linux-x64]: Extension is not compatible with Code 1.88.0. Extension requires: ^1.89.0.
+2024-06-04 13:40:33.620 [error] [/home/albert/.vscode/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.0. Extension requires: ^1.89.0-20240415.
+2024-06-04 13:40:33.653 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): extensionsAny, newSymbolNamesProvider, interactive, chatProvider, codeActionAI, findTextInFiles, findFiles2, textSearchProvider, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, mappedEditsProvider, aiRelatedInformation, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, contribSourceControlInputBoxMenu, authLearnMore, testObserver, aiTextSearchProvider
+product.json (WINS): handleIssueUri, interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver
+2024-06-04 13:40:33.654 [error] Extension 'ms-python.debugpy' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): portsAttributes, contribIssueReporter, debugVisualization
+product.json (WINS): portsAttributes, contribIssueReporter
+2024-06-04 13:40:33.968 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2024-06-04 13:40:34.756 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2024-06-04 13:40:36.013 [error] [Extension Host] [extension] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-06-04 13:40:37.151 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2024-06-04 13:40:38.497 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2024-06-04 13:40:38.735 [info] [perf] Render performance baseline is 74ms
+2024-06-04 13:40:52.749 [info] Started local extension host with pid 984308.
+2024-06-04 13:40:54.929 [error] [Extension Host] [extension] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-06-04 13:44:27.818 [error] Cancelled: Canceled
+    at _.B (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:785:28974)
+    at async _.z (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:785:25774)
+    at async _.z (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:785:26717)
+    at async Z (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:785:24704)
+    at async _.query (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:785:25002)
+    at async oe.queryGallery (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2909:13350)
+    at async Te.Hc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2845:23086)
+    at async Te.rc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2845:14713)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2845:13012
+2024-06-04 13:45:09.445 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because extension host(s) are already running. Reload window.
+2024-06-04 13:45:10.581 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2024-06-04 13:46:09.382 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2024-06-04 13:52:55.238 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings

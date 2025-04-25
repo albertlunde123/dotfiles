@@ -1,0 +1,39 @@
+2024-06-04 13:37:01.529 [info] Getting Manifest... asvetliakov.vscode-neovim
+2024-06-04 13:37:01.532 [info] Getting Manifest... github.copilot
+2024-06-04 13:37:01.534 [info] Getting Manifest... github.copilot-chat
+2024-06-04 13:37:01.536 [info] Getting Manifest... ms-python.debugpy
+2024-06-04 13:37:01.538 [info] Getting Manifest... ms-python.python
+2024-06-04 13:37:01.539 [info] Getting Manifest... ms-python.vscode-pylance
+2024-06-04 13:37:01.541 [info] Getting Manifest... ms-toolsai.jupyter
+2024-06-04 13:37:01.558 [info] Installing extension: github.copilot
+2024-06-04 13:37:01.695 [info] Installing extension: github.copilot-chat
+2024-06-04 13:37:01.768 [info] Installing extension: ms-toolsai.jupyter
+2024-06-04 13:37:01.777 [info] Installing extension: ms-python.vscode-pylance
+2024-06-04 13:37:01.779 [info] Installing extension: ms-python.python
+2024-06-04 13:37:01.780 [info] Installing extension: ms-python.debugpy
+2024-06-04 13:37:01.784 [info] Installing extension: asvetliakov.vscode-neovim
+2024-06-04 13:37:03.351 [info] Getting Manifest... ms-python.python
+2024-06-04 13:37:03.449 [info] Waiting for already requested installing extension ms-python.python ms-python.debugpy
+2024-06-04 13:37:04.157 [info] Getting Manifest... ms-python.python
+2024-06-04 13:37:04.282 [info] Waiting for already requested installing extension ms-python.python ms-python.vscode-pylance
+2024-06-04 13:37:09.624 [info] Extension signature is verified: github.copilot-chat
+2024-06-04 13:37:09.702 [info] Extension signature is verified: asvetliakov.vscode-neovim
+2024-06-04 13:37:09.740 [info] Extension signature is verified: github.copilot
+2024-06-04 13:37:10.385 [info] Extension signature is verified: ms-toolsai.jupyter
+2024-06-04 13:37:10.851 [info] Extracted extension to file:///home/albert/.vscode/extensions/asvetliakov.vscode-neovim-1.15.0: asvetliakov.vscode-neovim
+2024-06-04 13:37:10.942 [info] Renamed to /home/albert/.vscode/extensions/asvetliakov.vscode-neovim-1.15.0
+2024-06-04 13:37:10.973 [info] Extracting extension completed. asvetliakov.vscode-neovim
+2024-06-04 13:37:11.026 [info] Extension installed successfully: asvetliakov.vscode-neovim
+2024-06-04 13:37:11.039 [info] Marked extension as uninstalled asvetliakov.vscode-neovim-1.8.1
+2024-06-04 13:37:11.089 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
+2024-06-04 13:37:11.674 [info] Extracted extension to file:///home/albert/.vscode/extensions/github.copilot-chat-0.14.1: github.copilot-chat
+2024-06-04 13:37:11.694 [info] Renamed to /home/albert/.vscode/extensions/github.copilot-chat-0.14.1
+2024-06-04 13:37:11.765 [info] Extracting extension completed. github.copilot-chat
+2024-06-04 13:37:11.798 [info] Extension installed successfully: github.copilot-chat
+2024-06-04 13:37:11.809 [info] Marked extension as uninstalled github.copilot-chat-0.14.0

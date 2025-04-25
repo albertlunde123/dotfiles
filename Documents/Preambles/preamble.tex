@@ -1,0 +1,238 @@
+%%%%%%%%%%%%%%%%%%%%
+%% SUPER PREAMBLE %%
+%%%%%%%%%%%%%%%%%%%%
+
+% \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} % Fonts and stuff
+\usepackage{amsmath, amsfonts, mathtools, amsthm, amssymb} % math
+
+\usepackage{fancyhdr} % Header, Footer etc.
+\usepackage{adforn}
+\usepackage{efbox}
+\usepackage{lastpage}
+\usepackage{marvosym}
+\usepackage{pict2e}
+\usepackage{caption}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{sidecap}
+% \usepackage{mathpazo} 
+% \usepackage{cmbright}
+\usepackage{mathptmx}
+
+\usepackage[
+    sorting=nyt,
+    style=alphabetic
+]{biblatex}
+\addbibresource{references.bib}
+\usepackage[noabbrev]{cleveref}
+
+\pagestyle{fancy}
+\fancyhead[R]{}
+\fancyhead[L]{}
+\fancyfoot[C]{\efbox[margin = 10pt,
+                    topline = false,
+                    leftline = false,
+                    rightline = false,
+                    backgroundcolor = background,
+                    linewidth = 1pt,
+                    linecolor = foreground]{\thepage\ of \pageref{LastPage}}}
+% \fancyfoot[C]{\color{foreground} \thepage}
+
+% \renewcommand{\headrule}{%
+% 	\hrulefill
+% }
+% \renewcommand{\footrulewidth}{0pt}
+\renewcommand{\headrulewidth}{0pt}
+
+% \setlength{\headheight}{15pt}
+% \setlength{\footheight}{15pt}
+
+%% Margin Control %%
+
+% \def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+% \let\endchangemargin=\endlist
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% figure support
+
+\usepackage{import}
+\usepackage{transparent}
+
+
+\newcommand{\incfig}[2][1]{%
+    \def\svgwidth{#1\columnwidth}
+    \import{figures/}{#2.pdf_tex}
+}
+
+% \pdfsuppresswarningpagegroup=1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{tikzsymbols} % Symbols
+\usepackage[framemethod=TikZ]{mdframed} % Boxes around theorem environments
+\usepackage{thmtools}
+
+
+
+
+% \everymath{\color{math}}
+% \everydisplay{\color{math}}
+% \def\m@th{\normalcolor\mathsurround\z@}
+
+\color{foreground}
+
+	% \end{changemargin}
+	% } 
+
+ % \newenvironment{subexercise}[1]
+ % {\noindent
+	 % \textbf{(#1)} \quad \adforn{10} \quad \em
+ % }{}
+
+% Mathematical typesetting stuff.
+
+ % \newcommand{\dd}{\mathrm{\textbf{d}}}
+
+ % Change font
+
+% \usepackage{tgadventor}
+% \usepackage{cmbright}
+% \usepackage{bm}
+
+% \usepackage{microtype} % Microtypography
+% \usepackage{fontspec}% Hyperlinks
+% \usepackage{fouriernc}
+
+% \def\MT@set@inh@list#1#2{%
+%   \MT@ifempty\MT@inh@feat{%
+%     \MT@map@clist@c\MT@features{\begingroup % <--
+%       \MT@ifstreq{##1}{tr}\relax{\MT@declare@char@inh{##1}{#1}{#2}}%
+%     \endgroup}% <--
+%   }{%
+%     \MT@map@clist@c\MT@inh@feat{\begingroup % <--
+%       \KV@@sp@def\@tempa{##1}%
+%       \MT@ifempty\@tempa\relax{%
+%         \edef\@tempa{\csname MT@rbba@\@tempa\endcsname}%
+%         \MT@ifstreq\@tempa{tr}\relax{%
+%           \MT@exp@one@n\MT@declare@char@inh{\@tempa}{#1}{#2}}}%
+%     \endgroup}% <--
+%   }%      
+% \DeclareCaptionFormat{custom}{\bfseries#1#2\itshape#3}%   \MT@end@catcodes
+\DeclareCaptionFormat{custom}{\bfseries\itshape#1#2\normalfont\small#3}
+\captionsetup{
+    format=custom,
+    labelsep=space,
+    width=\textwidth, % Set the caption width to be 80% of the text width
+    % justification=jusitified, % Center-align the caption
+    % font=it % Italicize the caption text
+}
+% }
+\usepackage{setspace}
+\DeclareCaptionFormat{margin}{\small\bfseries#1#2#3}
+
+\usepackage{xparse} % For advanced command definitions with optional arguments
+
+\NewDocumentCommand{\marginfig}{O{0cm} m m m}{%
+  % #1 = optional padding (default 0cm), #2 = filename, #3 = label, #4 = caption
+  \marginpar{%
+    \includegraphics[width=\marginparwidth]{#2}%
+    \captionsetup{format=custom, labelsep=space, width=\marginparwidth, justification=raggedright, font=small}
+    \captionof{figure}{#4}%
+    \label{fig:#3}%
+    % \rule{\marginparwidth}{0.4pt} % Adds a line below the caption
+    \vspace{#1} % Adds the specified padding below the caption
+  }%
+}
+
+\NewDocumentCommand{\maintextfig}{O{0cm} m m m}{
+  % #1 = optional vertical adjustment for the caption (default 0cm)
+  % #2 = filename for the figure
+  % #3 = label for the figure
+  % #4 = caption text
+
+  % Place the figure in the text
+  \begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{#2}
+    \marginnote{\captionsetup{format=custom, labelsep=space, width=\marginparwidth, justification=fill, font={stretch=1}}
+        \captionof{figure}[#4]{#4}\label{fig:#3}}[#1]
+    \label{fig:#3}
+  \end{figure}
+
+  % Place the caption in the margin
+  % \marginnote{\captionsetup{format=custom, labelsep=space, width=\marginparwidth, justification=raggedright, font={stretch=1}}
+  %   \captionof{figure}[#4]{#4}\label{fig:#3}}[#1]
+}
+% \NewDocumentCommand{\marginfig}{m m m}{
+%   % #1 = filename, #2 = label, #3 = caption
+%   \begin{wrapfigure}{r}{5cm} % "r" for right side, and "5cm" for the width of the figure
+%       \centering
+%       \includegraphics[width=5cm]{#1}
+%      \captionsetup{format=custom, labelsep=space, width=6cm, justification=raggedright, font={stretch=1}}
+%       \captionof{figure}{#3}%
+%       \label{fig:#2}
+%   \end{wrapfigure}
+% }{}
+% \newcommand{\marginfig}[3]{%
+%   \marginpar{%
+%     \includegraphics[width=\marginparwidth]{#1}%
+%     \captionsetup{format=custom, labelsep=space, width=\marginparwidth, justification=raggedright, font={stretch=1}}
+%     \captionof{figure}{\fontsize{11pt}{11pt}\selectfont #3}%
+%     \label{fig:#2}%
+%     % \rule{\marginparwidth}{0.4pt}
+%   }%
+% }
+% \newcommand{\marginfig}[4][0pt]{%
+%   \marginpar{%
+%     \raisebox{#1}{%
+%       \includegraphics[width=\marginparwidth]{#2}%
+%       \captionsetup{format=margin, labelsep=space, justification=raggedright}
+%       \captionof{figure}{#4}%
+%       \label{fig:#3}%
+%     }%
+%   }%
+% }
+% \newcommand{\marginfig}[2][0pt]{%
+%   \marginpar{\raisebox{#1}{%
+%       \includegraphics[width=1.0\marginparwidth]{#2}
+%       % \label{fig:#3}
+%       % \caption{#4}
+%       % \parbox{\marginparwidth}{\smaller \textbf{figure:} #3}%
+%   }}%
+% }
+\newcommand{\margintext}[2][0pt]{%
+  \marginpar{\raisebox{#1}{%
+    \parbox{\marginparwidth}{\smaller \textbf{figure:} #2}%
+    }}%
+}
+
+\newcommand{\marginmath}[2][0pt]{%
+  \marginpar{\raisebox{#1}{%
+    \parbox{1.2\marginparwidth}{#2}%
+    }}%
+}
+\pagecolor{background}
+\usepackage{listings}
+\definecolor{commentsColor}{rgb}{0.497495, 0.497587, 0.497464}
+\definecolor{keywordsColor}{rgb}{0.000000, 0.000000, 0.635294}
+\definecolor{stringColor}{rgb}{0.558215, 0.000000, 0.135316}
+\renewcommand*\ttdefault{txtt}
+\lstset{
+  basicstyle=\ttfamily\small,                   % the size of the fonts that are used for the code
+  breakatwhitespace=false,                      % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                              % sets automatic line breaking
+  frame=tb,                                     % adds a frame around the code
+  commentstyle=\color{commentsColor}\textit,    % comment style
+  keywordstyle=\color{keywordsColor}\bfseries,  % keyword style
+  stringstyle=\color{stringColor},              % string literal style
+  numbers=left,                                 % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=5pt,                                % how far the line-numbers are from the code
+  numberstyle=\tiny\color{commentsColor},       % the style that is used for the line-numbers
+  showstringspaces=false,                       % underline spaces within strings only
+  tabsize=2,                                    % sets default tabsize to 2 spaces
+  language=Scala
+}
+

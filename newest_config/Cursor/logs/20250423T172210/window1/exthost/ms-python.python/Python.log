@@ -1,0 +1,33 @@
+2025-04-23 17:22:18.371 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-04-23 17:22:18.371 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/.pixi/envs'
+	at Object.readdirSync (node:fs:1507:26)
+	at t.readdirSync (node:electron/js2c/node_init:2:13703)
+	at /home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:586747
+	at /home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:586938
+	at Array.map (<anonymous>)
+	at d.initWatchers (/home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:586656)
+	at async d.ensureWatchersReady (/home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:543067)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/.pixi/envs'
+}
+2025-04-23 17:22:18.371 [error] Dir "/home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/.pixi/envs" is not watchable (directory does not exist)
+2025-04-23 17:22:19.598 [info] Default formatter is set to null for workspace /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app
+2025-04-23 17:22:19.641 [info] Python interpreter path: /bin/python3
+2025-04-23 17:22:20.184 [info] > pyenv which python
+2025-04-23 17:22:20.184 [info] cwd: .
+2025-04-23 17:22:21.502 [info] > pixi --version
+2025-04-23 17:22:21.504 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2025-04-23 17:22:21.504 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2025-04-23 17:22:23.550 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2025-04-23 17:22:25.070 [info] Starting Pylance language server.

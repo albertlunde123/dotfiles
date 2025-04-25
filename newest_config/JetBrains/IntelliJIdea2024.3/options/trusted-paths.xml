@@ -1,0 +1,13 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/FirstProject" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/MiniScalaOld8" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/Miniscala" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/MiniscalaOld5" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/SecondProject" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

@@ -104,11 +104,6 @@ _G.packer_plugins = {
     path = "/home/albert/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
-  ["copilot.vim"] = {
-    loaded = true,
-    path = "/home/albert/.local/share/nvim/site/pack/packer/start/copilot.vim",
-    url = "https://github.com/github/copilot.vim"
-  },
   ["indent-blankline.nvim"] = {
     config = { 'require("config.indent-blankline")' },
     loaded = true,
@@ -120,11 +115,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/albert/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
-  },
-  nerdtree = {
-    loaded = true,
-    path = "/home/albert/.local/share/nvim/site/pack/packer/start/nerdtree",
-    url = "https://github.com/preservim/nerdtree"
   },
   ["nvim-cmp"] = {
     config = { 'require("config.nvim-cmp")' },
@@ -143,16 +133,21 @@ _G.packer_plugins = {
     path = "/home/albert/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-tree.lua"] = {
+    config = { 'require("config.nvim-tree")' },
+    loaded = true,
+    path = "/home/albert/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/kyazdani42/nvim-tree.lua"
+  },
   ["nvim-treesitter"] = {
-    config = { 'require("config.treesitter")' },
+    config = { "\27LJ\2\2›\2\0\0\4\0\f\0\0156\0\0\0'\1\1\0B\0\2\0029\0\2\0005\1\4\0005\2\3\0=\2\5\0015\2\6\0005\3\a\0=\3\b\2=\2\t\0015\2\n\0=\2\v\1B\0\2\1K\0\1\0\vindent\1\0\1\venable\2\14highlight\fdisable\1\2\0\0\nlatex\1\0\2&additional_vim_regex_highlighting\1\venable\2\21ensure_installed\1\0\0\1\v\0\0\blua\vpython\15javascript\thtml\bcss\tbash\tjson\rmarkdown\nlatex\nscala\nsetup\28nvim-treesitter.configs\frequire\0" },
     loaded = true,
     path = "/home/albert/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
-    loaded = false,
-    needs_bufread = false,
-    path = "/home/albert/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons",
+    loaded = true,
+    path = "/home/albert/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   ["packer.nvim"] = {
@@ -165,15 +160,16 @@ _G.packer_plugins = {
     path = "/home/albert/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  ["plugin-gpt4"] = {
-    loaded = true,
-    path = "/home/albert/.local/share/nvim/site/pack/packer/start/plugin-gpt4",
-    url = "/home/albert/.config/nvim/plugin-gpt4"
-  },
   ["popup.nvim"] = {
     loaded = true,
     path = "/home/albert/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
+  },
+  pywal = {
+    config = { 'require("config.pywal")' },
+    loaded = true,
+    path = "/home/albert/.local/share/nvim/site/pack/packer/start/pywal",
+    url = "https://github.com/AlphaTechnolog/pywal.nvim"
   },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
@@ -192,17 +188,6 @@ _G.packer_plugins = {
     path = "/home/albert/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
   },
-  ["tokyonight.nvim"] = {
-    config = { 'require("config.tokyonight")' },
-    loaded = true,
-    path = "/home/albert/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
-    url = "https://github.com/folke/tokyonight.nvim"
-  },
-  ["tree-sitter-latex"] = {
-    loaded = true,
-    path = "/home/albert/.local/share/nvim/site/pack/packer/start/tree-sitter-latex",
-    url = "https://github.com/latex-lsp/tree-sitter-latex"
-  },
   ultisnips = {
     config = { 'require("config.ultisnips")' },
     loaded = true,
@@ -213,11 +198,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/albert/.local/share/nvim/site/pack/packer/start/vim-commentary",
     url = "https://github.com/tpope/vim-commentary"
-  },
-  ["vim-polyglot"] = {
-    loaded = true,
-    path = "/home/albert/.local/share/nvim/site/pack/packer/start/vim-polyglot",
-    url = "https://github.com/sheerun/vim-polyglot"
   },
   ["vim-surround"] = {
     loaded = true,
@@ -233,6 +213,26 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: nvim-treesitter
+time([[Config for nvim-treesitter]], true)
+try_loadstring("\27LJ\2\2›\2\0\0\4\0\f\0\0156\0\0\0'\1\1\0B\0\2\0029\0\2\0005\1\4\0005\2\3\0=\2\5\0015\2\6\0005\3\a\0=\3\b\2=\2\t\0015\2\n\0=\2\v\1B\0\2\1K\0\1\0\vindent\1\0\1\venable\2\14highlight\fdisable\1\2\0\0\nlatex\1\0\2&additional_vim_regex_highlighting\1\venable\2\21ensure_installed\1\0\0\1\v\0\0\blua\vpython\15javascript\thtml\bcss\tbash\tjson\rmarkdown\nlatex\nscala\nsetup\28nvim-treesitter.configs\frequire\0", "config", "nvim-treesitter")
+time([[Config for nvim-treesitter]], false)
+-- Config for: nvim-cmp
+time([[Config for nvim-cmp]], true)
+require("config.nvim-cmp")
+time([[Config for nvim-cmp]], false)
+-- Config for: nvim-colorizer.lua
+time([[Config for nvim-colorizer.lua]], true)
+require("config.colorizer")
+time([[Config for nvim-colorizer.lua]], false)
+-- Config for: indent-blankline.nvim
+time([[Config for indent-blankline.nvim]], true)
+require("config.indent-blankline")
+time([[Config for indent-blankline.nvim]], false)
+-- Config for: toggleterm.nvim
+time([[Config for toggleterm.nvim]], true)
+require("config.toggleterm")
+time([[Config for toggleterm.nvim]], false)
 -- Config for: lualine.nvim
 time([[Config for lualine.nvim]], true)
 require("config.lualine")
@@ -241,38 +241,22 @@ time([[Config for lualine.nvim]], false)
 time([[Config for vimtex]], true)
 require("config.vimtex")
 time([[Config for vimtex]], false)
--- Config for: telescope.nvim
-time([[Config for telescope.nvim]], true)
-require("config.telescope")
-time([[Config for telescope.nvim]], false)
--- Config for: toggleterm.nvim
-time([[Config for toggleterm.nvim]], true)
-require("config.toggleterm")
-time([[Config for toggleterm.nvim]], false)
--- Config for: nvim-colorizer.lua
-time([[Config for nvim-colorizer.lua]], true)
-require("config.colorizer")
-time([[Config for nvim-colorizer.lua]], false)
--- Config for: tokyonight.nvim
-time([[Config for tokyonight.nvim]], true)
-require("config.tokyonight")
-time([[Config for tokyonight.nvim]], false)
--- Config for: nvim-cmp
-time([[Config for nvim-cmp]], true)
-require("config.nvim-cmp")
-time([[Config for nvim-cmp]], false)
--- Config for: indent-blankline.nvim
-time([[Config for indent-blankline.nvim]], true)
-require("config.indent-blankline")
-time([[Config for indent-blankline.nvim]], false)
--- Config for: nvim-treesitter
-time([[Config for nvim-treesitter]], true)
-require("config.treesitter")
-time([[Config for nvim-treesitter]], false)
+-- Config for: pywal
+time([[Config for pywal]], true)
+require("config.pywal")
+time([[Config for pywal]], false)
+-- Config for: nvim-tree.lua
+time([[Config for nvim-tree.lua]], true)
+require("config.nvim-tree")
+time([[Config for nvim-tree.lua]], false)
 -- Config for: ultisnips
 time([[Config for ultisnips]], true)
 require("config.ultisnips")
 time([[Config for ultisnips]], false)
+-- Config for: telescope.nvim
+time([[Config for telescope.nvim]], true)
+require("config.telescope")
+time([[Config for telescope.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

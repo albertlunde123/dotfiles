@@ -4,13 +4,8 @@ x-scheme-handler/http=google-chrome.desktop
 x-scheme-handler/https=google-chrome.desktop
 x-scheme-handler/about=google-chrome.desktop
 x-scheme-handler/unknown=google-chrome.desktop
-x-scheme-handler/mailto=google-chrome.desktop
-text/x-csharp=nvim.desktop
-text/plain=nvim.desktop
+x-scheme-handler/webcal=google-chrome.desktop
+x-scheme-handler/discord-455712169795780630=discord-455712169795780630.desktop
 
 [Added Associations]
-text/x-tex=vim.desktop;
-application/x-shellscript=nvim_nvim.desktop;
-
-[Removed Associations]
-text/x-chdr=nvim_nvim.desktop;
+video/mp4=mpv.desktop;

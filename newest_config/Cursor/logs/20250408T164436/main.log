@@ -1,0 +1,17 @@
+2025-04-08 16:44:37.706 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/0.48.7/749b60b0b950b0bf30c9322e46d8a00a0745c0ed898fccedde75126f9c1dc9c3/stable
+2025-04-08 16:44:37.707 [info] update#setState idle
+2025-04-08 16:45:07.709 [info] update#setState checking for updates
+2025-04-08 16:45:07.851 [info] update#setState idle
+2025-04-08 16:46:39.945 [info] Extension host with pid 504677 exited with code: 0, signal: unknown.
+2025-04-08 17:45:07.715 [info] update#setState checking for updates
+2025-04-08 17:45:08.092 [info] update#setState idle
+2025-04-08 18:45:07.722 [info] update#setState checking for updates
+2025-04-08 18:45:08.122 [info] update#setState idle
+2025-04-08 19:45:07.728 [info] update#setState checking for updates
+2025-04-08 19:45:08.151 [info] update#setState idle
+2025-04-08 20:45:07.734 [info] update#setState checking for updates
+2025-04-08 20:45:08.140 [info] update#setState idle
+2025-04-08 21:45:07.740 [info] update#setState checking for updates
+2025-04-08 21:45:08.116 [info] update#setState idle
+2025-04-08 21:52:26.699 [info] Extension host with pid 506508 exited with code: 0, signal: unknown.
+2025-04-08 21:52:26.822 [info] Extension host with pid 506475 exited with code: 0, signal: unknown.

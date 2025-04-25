@@ -1,0 +1,148 @@
+\documentclass[working, oneside]{../../../Preambles/tuftebook}
+\input{../../../Preambles/colors}
+\input{../../../Preambles/preamble}
+\input{../../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{Free gauge fields Lagrangian}
+In this exercise we wish to show that the free Lagrangian of the gauge fields \( \mathbf{A}_\mu \),
+\begin{align*}
+\mathcal{L}_A &= -\frac{1}{16\pi} \mathbf{F}^{\mu\nu} \cdot \mathbf{F}_{\mu\nu}, \tag{9}
+\end{align*}
+is invariant under a local gauge transformation. Note that the field tensor in Yang-Mills theory takes the form
+\begin{align*}
+\mathbf{F}^{\mu\nu} &= \partial^\mu \mathbf{A}^\nu - \partial^\nu \mathbf{A}^\mu + 2g (\mathbf{A}^\mu \times \mathbf{A}^\nu). \tag{10}
+\end{align*}
+
+\begin{exercise}[1]
+Show that the commutator of the covariant derivative is
+\begin{align*}
+[D_\mu, D_\nu] &= -ig \mathbf{F}_{\mu\nu} \cdot \boldsymbol{\sigma}. \tag{11}
+\end{align*}
+Hint: You might find the following identity for the Pauli matrices useful: \( (\boldsymbol{\sigma} \cdot \mathbf{a})(\boldsymbol{\sigma} \cdot \mathbf{b}) = \mathbf{a} \cdot \mathbf{b} + i \boldsymbol{\sigma} \cdot (\mathbf{a} \times \mathbf{b}) \), where \( \mathbf{a} \) and \( \mathbf{b} \) are vectors.
+\end{exercise}
+
+Lets start by recalling the covariant derivative,
+\[
+D_{\mu } = \partial_{\mu } - i g\mathbf{A}_{\mu }\cdot \mathbf{\sigma}
+.\] 
+The following commutator will be useful,
+\begin{align*}
+    \left[ \partial_\mu , \mathbf{A_v} \right] 
+.\end{align*}
+Let's see how it acts on a test function $\Psi$,
+\begin{align*}
+\left[ \partial_\mu, \mathbf{A}_{v}  \right] \Psi &= \partial_\mu \left( \mathbf{A}_v \Psi \right) - \mathbf{A}_v \left( \partial_\mu \Psi \right)  \\
+ &= \left(   \partial_\mu \mathbf{A}_v \right)\Psi +\mathbf{A_v}\partial_\mu \Psi - \mathbf{A}_v \left( \partial_\mu \Psi \right)  \\
+ &= \left( \partial_\mu \mathbf{A}_v \right) \Psi 
+.\end{align*}
+Therefore,
+\[
+\left[ \partial_\mu , \mathbf{A}_v \right] = \partial_{\mu }\mathbf{A}_v
+.\] 
+Using this, we can calculate the commutator of the covariant derivative,
+\begin{align*}
+    \left[ D_\mu , D_v \right] &= \left[ \partial_\mu  - ig \mathbf{A}_{\mu }\cdot\mathbf{\sigma}, \partial_v  - ig \mathbf{A}_{v}\cdot\mathbf{\sigma} \right] \\
+    &= \left[ \partial_\mu , \partial_v \right] + \left[ \partial_\mu , -ig\mathbf{A_v}\cdot \mathbf{\sigma} \right] + \left[ -ig\mathbf{A_\mu }\cdot \mathbf{\sigma} , \partial_v\right]  + \left[ -ig\mathbf{A}_{\mu }\cdot \mathbf{\sigma}, -ig\mathbf{A}_v\cdot \mathbf{\sigma} \right] \\
+    &=  -ig\left[ \partial_\mu , \mathbf{A_v}\right] \cdot \mathbf{\sigma} -ig\left[ \mathbf{A_\mu }, \partial_v \right] \cdot \mathbf{\sigma} -g^2 \left[ \mathbf{A}_{\mu }\cdot \mathbf{\sigma}, \mathbf{A}_v\cdot \mathbf{\sigma} \right] \\
+    &=  -ig\left(\partial_\mu \mathbf{A_v}\right) \cdot \mathbf{\sigma} + ig\left(  \partial_v\mathbf{A_\mu } \right) \cdot \mathbf{\sigma} -g^2 \left[ \mathbf{A}_{\mu }\cdot \mathbf{\sigma}, \mathbf{A}_v\cdot \mathbf{\sigma} \right] \\
+    &=  -ig\left(\partial_\mu \mathbf{A_v}-  \partial_v\mathbf{A_\mu } \right) \cdot \mathbf{\sigma} -g^2 \left[ \mathbf{A}_{\mu }\cdot \mathbf{\sigma}, \mathbf{A}_v\cdot \mathbf{\sigma} \right] \\
+.\end{align*}
+Now we just need to calculate the final commutator,
+\begin{align*}
+    \left[ \mathbf{A}_{\mu }\cdot \mathbf{\sigma}, \mathbf{A}_v \cdot \mathbf{\sigma} \right] &= 
+    \left( \mathbf{A}_{\mu }\cdot \mathbf{\sigma}\right)\cdot \left(    \mathbf{A}_v \cdot \mathbf{\sigma} \right) -
+     \left(    \mathbf{A}_v \cdot \mathbf{\sigma} \right)\cdot\left( \mathbf{A}_{\mu }\cdot \mathbf{\sigma}\right) \\
+     &= \mathbf{A_\mu }\cdot \mathbf{A_v} + \left( \mathbf{A_\mu }\times \mathbf{A_v} \right) \cdot i\mathbf{\sigma}  -
+\left(    \mathbf{A }_v\cdot \mathbf{A}_{\mu } + \left( \mathbf{A_v }\times \mathbf{A_\mu } \right) \cdot i\mathbf{\sigma}  \right)\\
+     &=  \left( \mathbf{A_\mu }\times \mathbf{A_v} \right) \cdot i\mathbf{\sigma}  -
+\left(   \left( \mathbf{A_v }\times \mathbf{A_\mu } \right) \cdot i\mathbf{\sigma}  \right)\\
+     &=2\left( \mathbf{A}_{\mu }\times \mathbf{A}_{v} \right) \cdot i\mathbf{\sigma}
+.\end{align*}
+we can insert this,
+\begin{align*}
+     \left[ D_\mu , D_v \right] &=  
+     -ig\left(\partial_\mu \mathbf{A_v}-  \partial_v\mathbf{A_\mu } \right) \cdot \mathbf{\sigma} -g^2 \left[ \mathbf{A}_{\mu }\cdot \mathbf{\sigma}, \mathbf{A}_v\cdot \mathbf{\sigma} \right] \\
+    &=  -ig\left(\partial_\mu \mathbf{A_v}-  \partial_v\mathbf{A_\mu } \right) \cdot \mathbf{\sigma} -g^2 2\left( \mathbf{A}_{\mu }\times \mathbf{A}_{v} \right) \cdot i\mathbf{\sigma} \\
+    &=  -ig\left(\partial_\mu \mathbf{A_v}-  \partial_v\mathbf{A_\mu }  +2g\left( \mathbf{A}_{\mu }\times \mathbf{A}_{v} \right) \right)\cdot \mathbf{\sigma} = -ig\mathbf{F}_{\mu v}\cdot \mathbf{\sigma}
+.\end{align*}
+\begin{exercise}[2]
+Argue that the transformation law of the covariant derivative in eq. (7) implies that
+\begin{align*}
+[D_\mu, D_\nu]\psi &\rightarrow V(x)[D_\mu, D_\nu]\psi, \tag{12}
+\end{align*}
+and show that this implies that
+\begin{align*}
+\mathbf{F}_{\mu\nu} \cdot \boldsymbol{\sigma} &\rightarrow V(x) \mathbf{F}_{\mu\nu} \cdot \boldsymbol{\sigma} V^\dagger(x). \tag{13}
+\end{align*}
+\end{exercise}
+We have the following transformation law,
+\[
+D_\mu\Psi \to V\left( x \right) \left( D_\mu \Psi \right) 
+.\] 
+Applying this this to commutator,
+\begin{align*}
+    \left[ D_\mu , D_v \right] \Psi = D_\mu \left( D_v \Psi \right) - D_v\left( D_\mu \Psi \right)\to   D_\mu \left(V\left( x \right)  D_v \Psi \right) - D_v\left( V\left( x \right) D_\mu \Psi \right)
+    &=  V\left( x \right) \left[ D_\mu , D_v \right] \Psi
+.\end{align*} 
+Lets show that this implies (13). From the previous exercise we know,
+\[
+\left[ D_\mu , D_v \right] = -ig \mathbf{F}_{\mu v}\cdot \mathbf{\sigma}
+.\] 
+And therefore,
+\[
+\left[ D_\mu , D_v \right]' = -ig \mathbf{F}_{\mu v}'\cdot \mathbf{\sigma}
+.\] 
+We can insert this,
+\begin{align*}
+    \left( -ig\mathbf{F}_{\mu  v}' \cdot  \mathbf{\sigma} \right) \Psi' &= V\left( x \right) \left( -ig \mathbf{F}_{\mu  v}\cdot \mathbf{\sigma} \right) \Psi\\
+    \left( \mathbf{F}_{\mu  v}' \cdot  \mathbf{\sigma} \right) \Psi' &= V\left( x \right) \left( \mathbf{F}_{\mu  v}\cdot \mathbf{\sigma} \right) \Psi \\
+    \left( \mathbf{F}_{\mu  v}' \cdot  \mathbf{\sigma} \right) V\left( x \right) \Psi &= V\left( x \right) \left( \mathbf{F}_{\mu  v}\cdot \mathbf{\sigma} \right) \Psi
+.\end{align*}
+This will have to hold for any field $\Psi$, so we can equate the operators,
+\begin{align*}
+    \left( \mathbf{F}_{\mu  v}' \cdot  \mathbf{\sigma} \right) V\left( x \right)  &= V\left( x \right) \left( \mathbf{F}_{\mu  v}\cdot \mathbf{\sigma} \right) \\
+    \left( \mathbf{F}_{\mu  v}' \cdot  \mathbf{\sigma} \right) V\left( x \right) V^{-1}\left( x \right)  &= V\left( x \right) \left( \mathbf{F}_{\mu  v}\cdot \mathbf{\sigma} \right) V^{-1}\left( x \right) \\
+    \left( \mathbf{F}_{\mu  v}' \cdot  \mathbf{\sigma} \right) &= V\left( x \right) \left( \mathbf{F}_{\mu  v}\cdot \mathbf{\sigma} \right) V\left( x \right)^{\dagger} \\
+.\end{align*}
+\begin{exercise}[3]
+Using the transformation of eq. (13) to show that
+\begin{align*}
+\text{Tr} \left[ (\mathbf{F}^{\mu\nu} \cdot \boldsymbol{\sigma}) (\mathbf{F}_{\mu\nu} \cdot \boldsymbol{\sigma}) \right], \tag{14}
+\end{align*}
+is invariant.
+\end{exercise}
+We show this by applying the transformation, and asserting that the resulting is unchanged,
+\begin{align*}
+    \text{Tr}\left[\left( \mathbf{F^{\mu  v}}\cdot \mathbf{\sigma} \right) \left( \mathbf{F_{\mu v}}\cdot \mathbf{\sigma} \right) \right]' &=
+    \text{Tr}\left[\left( \mathbf{F^{\mu  v}}'\cdot \mathbf{\sigma} \right) \left( \mathbf{F_{\mu v}}'\cdot \mathbf{\sigma} \right) \right] \\
+&= \text{Tr}\left[\left(V\left( x \right)  \mathbf{F^{\mu  v}}\cdot \mathbf{\sigma}V\left( x \right)^{\dagger}  \right) \left(V\left( x \right)  \mathbf{F_{\mu v}}'\cdot \mathbf{\sigma}V\left( x \right) ^{\dagger} \right) \right] \\
+&= \text{Tr}\left[\left(V\left( x \right)  \mathbf{F^{\mu  v}}\cdot \mathbf{\sigma}  \right)   \mathbf{F_{\mu v}}'\cdot \mathbf{\sigma}V\left( x \right) ^{\dagger}  \right] \\
+.\end{align*}
+The trace is invariant under circular shifts,
+\begin{align*}
+ \text{Tr}\left[\left(V\left( x \right)  \mathbf{F^{\mu  v}}\cdot \mathbf{\sigma}  \right)   \mathbf{F_{\mu v}}'\cdot \mathbf{\sigma}V\left( x \right) ^{\dagger}  \right] =
+ \text{Tr}\left[  \mathbf{F^{\mu  v}}\cdot \mathbf{\sigma}     \mathbf{F_{\mu v}}'\cdot \mathbf{\sigma}V\left( x \right) ^{\dagger}  V\left( x \right)\right] =
+ \text{Tr}\left[  \mathbf{F^{\mu  v}}\cdot \mathbf{\sigma}     \mathbf{F_{\mu v}}'\cdot \mathbf{\sigma}\right] 
+.\end{align*}
+\begin{exercise}[4]
+Show that the trace in eq. (14) is equal to \( 2 \mathbf{F}^{\mu\nu} \cdot \mathbf{F}_{\mu\nu} \).
+\end{exercise}
+We do this by expanding the dot-product within the trace.
+\[
+\mathbf{F}^{\mu  v}\cdot \sigma =  \sum_\alpha \mathbf{F}^{\mu v}_\alpha \mathbf{\sigma}_\alpha
+.\] 
+We can insert these,
+\[
+\text{Tr}\left[\left( \mathbf{F}^{\mu  v}\cdot  \mathbf{ \sigma} \right) \left( \mathbf{F}_{\mu  v}\cdot \mathbf{\sigma} \right) \right] = \text{Tr}\left[\left( \mathbf{F}^{\mu v}\cdot \mathbf{F}_{\mu v} \right)\mathbb{I}_{2\times 2} + i\mathbf{\sigma} \cdot \left( \mathbf{F}^{\mu v}\times \mathbf{F}_{\mu  v} \right)  \right]
+.\] 
+Since everything here is index-wise, and we are implicitly performing sums, we can move the the field-strength tensors outside of the trace,
+\[
+= \left( \mathbf{F}^{\mu v}\cdot \mathbf{F}_{\mu  v} \right) \text{Tr}\left[\mathbb{I}_{2\times 2}\right] + i  \sum_k\text{Tr}\left[\mathbf{\sigma}_{k}\right]\left( \mathbf{F^{\mu v}}\times \mathbf{F}_{\mu v} \right) _k = 2\mathbf{F}^{\mu v}\cdot \mathbf{F}_{\mu v}
+.\] 
+\begin{exercise}[5]
+Combine 3) and 4) to show that the Lagrangian in eq. (9) is invariant.
+\end{exercise}
+\end{document}

@@ -1,0 +1,209 @@
+\documentclass[working, oneside]{../../Preambles/tuftebook}
+\input{../../Preambles/colors}
+\input{../../Preambles/preamble}
+\input{../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{10 - LSZ reduction formulas}
+
+Calculating $S$-matrix elements is essential to quantum field theory since they can be used to find cross-section and decay rates. In general one can write the transition of an $m$-particle in-state to a $n$ particle out-state as
+\begin{align*}
+S_{fi}^\dagger = \langle \mathbf{q}_1, \dots, \mathbf{q}_n; \text{out} | \mathbf{p}_1, \dots, \mathbf{p}_m; \text{in} \rangle. \tag{87}
+\end{align*}
+
+\begin{exercise}[1]
+Argue that this definition is equivalent to the one in Eq. (52). Note that the above definition is the complex conjugate.
+\end{exercise}
+
+However, this definition is quite abstract, and not immediately useful for practical calculations. We therefore derive the Lehmann-Symanzik-Zimmermann (LSZ) reduction formulas, which connects the $S$ matrix element to the $n$-particle Green's function (or $n$-point function)
+\begin{align*}
+\Delta^{(n)}(x_1, \dots, x_n) = \langle 0 | T \left[ \phi(x_1) \dots \phi(x_n) \right] | 0 \rangle. \tag{88}
+\end{align*}
+
+In order to simplify the calculations we consider first the transition amplitude between two single particle states ($\mathbf{q}_{\text{out}} | \mathbf{p}_{\text{in}}$) and then generalize to more particles. We use the field expansion of an real scalar field in Eq. (78).
+
+\begin{exercise}[2]
+Show that the inversion formulas for the creation and annihilation operators are
+\begin{align*}
+a_\mathbf{p}^\dagger &= \frac{-i}{\sqrt{2}} \int d^3x e^{-ipx} \left[ \frac{\pi(x)}{\sqrt{\omega_\mathbf{p}}} + i \sqrt{\omega_\mathbf{p}} \phi(x) \right] = \frac{-i}{\sqrt{2}} \int \frac{d^3x}{\sqrt{\omega_\mathbf{p}}} e^{-ipx} \overleftrightarrow{\partial_0} \phi(x), \tag{89a} \\
+a_\mathbf{p} &= \frac{+i}{\sqrt{2}} \int d^3x e^{+ipx} \left[ \frac{\pi(x)}{\sqrt{\omega_\mathbf{p}}} - i \sqrt{\omega_\mathbf{p}} \phi(x) \right] = \frac{+i}{\sqrt{2}} \int \frac{d^3x}{\sqrt{\omega_\mathbf{p}}} e^{+ipx} \overleftrightarrow{\partial_0} \phi(x), \tag{89b}
+\end{align*}
+where we have defined the operator
+\begin{align*}
+A \overleftrightarrow{\partial_0} B = A (\partial_0 B) - (\partial_0 A) B. \tag{90}
+\end{align*}
+\end{exercise}
+
+\begin{exercise}[3]
+Argue that we can write
+\begin{align*}
+\langle \mathbf{q}_{\text{out}} | \mathbf{p}_{\text{in}} \rangle = \lim_{x_0 \to -\infty} \left( -i \int d^3x e^{-ipx} \langle \mathbf{q}_{\text{out}} | \left[ \pi(x) + i \omega_\mathbf{p} \phi(x) \right] | 0_{\text{in}} \rangle \right). \tag{91}
+\end{align*}
+\end{exercise}
+\begin{solution}
+Lets work on the right-hand side,
+\begin{align*}
+    &= \lim_{x_0 \to -\infty} \left( -i\int d^{3}x e^{-ipx}\left<q_{out} \right|\left[ \pi\left( x \right) + i\omega_p \phi \left( x \right) \right] \left|0_{in} \right> \right)  \\
+    &= \lim_{x_0 \to -\infty} \left( -i\left<q_{out} \right|\left[ \int d^{3}x e^{-ipx}\pi\left( x \right) + i\omega_p \phi \left( x \right) \right] \left|0_{in} \right> \right)  \\
+    &= \lim_{x_0 \to -\infty} \left( -i\left<q_{out} \right|i\sqrt{2\omega_p} a^\dagger_{p} \left|0_{in} \right> \right)  = \left<q_{out} \mid p_{in} \right>
+.\end{align*}
+Where we have used the inversion fomula for the creation operator and the assumption that,
+\[
+\lim_{x_0 \to -\infty} a_p^\dagger = a_{p_{in}}^\dagger
+.\] 
+\end{solution}
+
+\begin{exercise}[4]
+Using the following identity from the fundamental theorem of calculus
+\begin{align*}
+\lim_{t \to -\infty} F(t) = \lim_{t \to \infty} F(t) - \int_{-\infty}^{\infty} dt \partial_t F(t), \tag{92}
+\end{align*}
+show that
+\begin{align*}
+\langle \mathbf{q}_{\text{out}} | \mathbf{p}_{\text{in}} \rangle = \sqrt{2 \omega_\mathbf{p}} \sqrt{2 \omega_\mathbf{q}} \langle 0_{\text{out}} | a_{\mathbf{q}_{\text{out}}} a_{\mathbf{p}_{\text{out}}}^\dagger | 0_{\text{in}} \rangle + i \int d^4x \partial_0 e^{-ipx} \langle \mathbf{q}_{\text{out}} | \left[ \pi(x) + i \omega_\mathbf{p} \phi(x) \right] | 0_{\text{in}} \rangle. \tag{93}
+\end{align*}
+\end{exercise}
+Let,
+\[
+F\left( x_0 \right)  =  -i\int d^{3}x e^{-ipx}\left<q_{out} \right|\left[ \pi\left( x \right) + i\omega_p \phi \left( x \right) \right] \left|0_{in} \right> 
+.\] 
+Lets calculate the two terms,
+\begin{align*}
+    -\int_{-\infty}^{\infty} dt \partial_0 F\left( x_0 \right) &= -\int_{-\infty}^{\infty} dt \partial_0 -i\int d^{3}x e^{-ipx}\left<q_{out} \right|\left[ \pi\left( x \right) + i\omega_p \phi \left( x \right) \right] \left|0_{in} \right> \\
+                                                               &=i\int d^{4}x \partial_0e^{-ipx}\left<q_{out} \right|\left[ \pi\left( x \right) + i\omega_p \phi \left( x \right) \right] \left|0_{in} \right>   
+.\end{align*}
+And the other term,
+\begin{align*}
+    \lim_{x_0 \to -\infty} F\left( x_0 \right) &= -i \lim_{x_0 \to -\infty} \int d^{3}x e^{-ipx}\left<q_{out} \right|\left[ \pi\left( x \right) + i\omega_p \phi \left( x \right) \right] \left|0_{in} \right>  \\
+    &= \left<q_{out} \right| a_{p_{out}}^\dagger \sqrt{2\omega_p} \left|0_{in} \right> \\
+    &= \left<0_{out} \right|a_{q_{out}}\sqrt{2\omega_{q}}  a_{p_{out}}^\dagger \sqrt{2\omega_p} \left|0_{in} \right> 
+.\end{align*}
+\begin{exercise}[5]
+We are only interested in interactions. Argue that we can throw away the first term of the above equation.
+\end{exercise}
+
+\begin{exercise}[6]
+Show that by explicitly performing the time derivative we obtain
+\begin{align*}
+\langle \mathbf{q}_{\text{out}} | \mathbf{p}_{\text{in}} \rangle = i \int d^4x e^{-ipx} (\partial_\mu \partial^\mu + m^2) \langle \mathbf{q}_{\text{out}} | \phi(x) | 0_{\text{in}} \rangle. \tag{94}
+\end{align*}
+\end{exercise}
+\begin{solution}
+lets go ahead and begin,
+\begin{align*}
+  \left<\mathbf{q}_{out} \mid \mathbf{p}_{in} \right> &= i \int d^4x \partial_0 e^{-ipx} \langle \mathbf{q}_{\text{out}} | \left[ \pi(x) + i \omega_\mathbf{p} \phi(x) \right] | 0_{\text{in}} \rangle.\\
+  &=   i \int d^4x \left(   \left( -i\omega_p \right)  e^{-ipx} \langle \mathbf{q}_{\text{out}} | \left[ \partial_0\phi \left( x \right)  + i \omega_\mathbf{p} \phi(x) \right] | 0_{\text{in}} \rangle +  e^{-ipx} \langle \mathbf{q}_{\text{out}} | \left[ \partial^2_{0}\phi \left( x \right)  + i \omega_\mathbf{p} \partial_0\phi(x) \right] | 0_{\text{in}} \rangle \right)
+.\end{align*}
+Collect the terms, and note that the $\partial_0\phi \left( x \right) $ terms cancel,
+\begin{align*}
+  &=   i \int d^4x \left( e^{-ipx} \langle \mathbf{q}_{\text{out}}  |\left[\omega_\mathbf{p}^2 \phi(x) +   \partial^2_{0}\phi \left( x \right) \right] | 0_{\text{in}} \rangle \right) \\
+  &=   i \int d^4x \left( e^{-ipx} \langle \mathbf{q}_{\text{out}}  |\left[\left( \mathbf{p}^2 + m^2 \right)  \phi(x) +   \partial^2_{0}\phi \left( x \right) \right] | 0_{\text{in}} \rangle \right) \\
+  &=   i \int d^4x \left( e^{-ipx} \langle \mathbf{q}_{\text{out}}  |\left[  m^2\phi(x) +   \partial^2_{0}\phi \left( x \right) \right] | 0_{\text{in}} \rangle +   \langle \mathbf{q}_{\text{out}}  |\left[\left( \mathbf{p}^2 e^{-ipx} \right)  \phi(x) \right] | 0_{\text{in}} \rangle  \right) \\
+  &=   i \int d^4x \left( e^{-ipx} \langle \mathbf{q}_{\text{out}}  |\left[  m^2\phi(x) +   \partial^2_{0}\phi \left( x \right) \right] | 0_{\text{in}} \rangle +   \langle \mathbf{q}_{\text{out}}  |\left[\left( -\nabla^2  e^{-ipx} \right)  \phi(x) \right] | 0_{\text{in}} \rangle  \right) \\
+  &=   i \left(   \int d^4x  e^{-ipx} \langle \mathbf{q}_{\text{out}}  |\left[  m^2\phi(x) +   \partial^2_{0}\phi \left( x \right) \right] | 0_{\text{in}} \rangle +   \langle \mathbf{q}_{\text{out}}  |\left[\int d^4x\left( -\nabla^2  e^{-ipx} \right)  \phi(x) \right] | 0_{\text{in}} \rangle   \right)
+.\end{align*}
+Lets take a look at integral on the right by itself for a moment, we will be doing integration by parts in three dimensions, to move the laplacian onto the field.
+\begin{align*}
+    \int d^4x\left( -\nabla^2  e^{-ipx} \right)  \phi(x)  &= \int dt \int d^3x\left( -\nabla^2  e^{-ipx} \right)  \phi(x)  \\
+    &= -\int dt \left( \oint_{\Omega} dS \nabla e^{-ipx} \phi \left( x \right) \hat{n}- \int d^{3}x \nabla e^{-ipx}\cdot \nabla \phi \left( x \right) \right) \\
+    &= \int dt \left(  \int d^{3}x \nabla e^{-ipx}\cdot \nabla \phi \left( x \right) \right) \\
+    &= \int dt \left( \oint_{\Omega} dS  e^{-ipx} \nabla \phi \left( x \right) \hat{n}- \int d^{3}x e^{-ipx}\cdot \nabla^2 \phi \left( x \right) \right) \\
+    &= -\int dt \left(  \int d^{3}x e^{-ipx}\cdot \nabla^2 \phi \left( x \right) \right) \\
+    &= - \int d^{4}x e^{-ipx}\cdot \nabla^2 \phi \left( x \right) 
+.\end{align*}
+We can insert this, move the integral out again and collect the terms touch $\phi \left( x \right) $,
+\begin{align*}
+    i  \int d^{4}x \left<\mathbf{q}_{out} \right| \left[ \left( m^2 + \partial_0^2 - \nabla ^2 \right) \phi \left( x \right)  \right] \left|0_{in} \right> =i  \int d^{4}x \left<\mathbf{q}_{out} \right| \left[ \left( m^2 +\partial_{\mu }\partial^{\mu } \right) \phi \left( x \right)  \right] \left|0_{in} \right>
+.\end{align*}
+\end{solution}
+\begin{exercise}[7]
+Using the same procedure on the out-state show that we obtain
+\begin{align*}
+\langle \mathbf{q}_{\text{out}} | \mathbf{p}_{\text{in}} \rangle = i \int d^4x e^{-ipx} (\Box_x + m^2) \\ \left[ \sqrt{2 \omega_\mathbf{q}} \langle 0_{\text{out}} | a_{\mathbf{q}_{\text{in}}} \phi(x) | 0_{\text{in}} \rangle + i \int d^4y \partial_{y_0} e^{iqy} \langle 0_{\text{out}} | \left[ \pi(y) - i \omega_\mathbf{q} \phi(y) \right] \phi(x) | 0_{\text{in}} \rangle \right], \tag{95}
+\end{align*}
+where we have used $\Box = \partial_\mu \partial^\mu$ with subscript $x$ to denote to which variable the derivation is with respect to.
+\end{exercise}
+\begin{solution}
+We can write,
+\begin{align*}
+    \left<\mathbf{q}_{out} \mid \mathbf{p}_{in} \right> &= \left<0_{out} \right|\sqrt{2 \omega_{q}} a_{q_{out}} \left|\mathbf{p}_{in} \right> \\
+    &= \lim_{y_0 \to \infty} \sqrt{2\omega_q} \int d^{3}y \left< 0_{out} \right| \left( \frac{i}{\sqrt{2} } \right) e^{ipy} \left[ \frac{\pi\left( y \right) }{\sqrt{\omega_p} } - i\sqrt{\omega_p} \phi \left( y \right)  \right] \left|\mathbf{p}_{in} \right> \\
+    &= \lim_{y_0 \to \infty}  \int d^{3}y\, i e^{ipy} \left< 0_{out} \right|  \left[ \pi\left( y \right)  - i\omega_p \phi \left( y \right)  \right] \left|\mathbf{p}_{in} \right> \\
+.\end{align*}
+We will use the identify from above again,
+\[
+\lim_{x_0 \to \infty} F\left( t \right) = \lim_{x_0 \to -\infty} F\left( t \right) + \int_{-\infty}^{\infty} dt \partial_t F\left( t \right) 
+.\] 
+And we get,
+\begin{align*}
+    &= \sqrt{2\omega_{q}} \left<0_{out} \right| a_{\mathbf{q}_{in}} \left|\mathbf{p}_{in} \right>+ i \int d^{4}y\, \partial_{y_{o}}e^{ipy} \left< 0_{out} \right|  \left[ \pi\left( y \right)  - i\omega_p \phi \left( y \right)  \right] \left|\mathbf{p}_{in} \right> \\
+.\end{align*}
+The calculation we did before was essentially just a rewrite of $\left|\mathbf{p}_{in} \right>$, so we can do this rewrite again to obtain the desired expression.
+\begin{align*}
+\langle \mathbf{q}_{\text{out}} | \mathbf{p}_{\text{in}} \rangle = i \int d^4x e^{-ipx} (\Box_x + m^2) \\ \left[ \sqrt{2 \omega_\mathbf{q}} \langle 0_{\text{out}} | a_{\mathbf{q}_{\text{in}}} \phi(x) | 0_{\text{in}} \rangle + i \int d^4y \partial_{y_0} e^{iqy} \langle 0_{\text{out}} | \left[ \pi(y) - i \omega_\mathbf{q} \phi(y) \right] \phi(x) | 0_{\text{in}} \rangle \right]
+.\end{align*}
+\end{solution}
+
+\begin{exercise}[8]
+Argue that we are free to insert a time-ordering product in both terms and argue that this means that we can drop the first term, which leaves
+\begin{align*}
+\langle \mathbf{q}_{\text{out}} | \mathbf{p}_{\text{in}} \rangle = i^2 \int d^4x d^4y e^{-ipx} (\Box_x + m^2) \partial_{y_0} e^{iqy} \langle 0_{\text{out}} | T \left[ \left( \pi(y) - i \omega_\mathbf{q} \phi(y) \right) \phi(x) \right] | 0_{\text{in}} \rangle. \tag{96}
+\end{align*}
+\end{exercise}
+\begin{solution}
+We want the fields to interact in the right order, so we are free to insert time-orering operators.. Lets first rewrite the left term,
+\begin{align*}
+    \left<0_{out} \right|a_{\mathbf{q}_{in}} \phi \left( x \right)  \left|0_{in} \right> &= \lim_{y_0 \to \infty} \left<0_{out} \right| a_{\mathbf{q}}\phi \left( x \right) \left|0_{out} \right> \\
+    &=\lim_{y_0 \to -\infty} \left<0_{out} \right| T\left[   a_{\mathbf{q}}\phi \left( x \right) \right]\left|0_{out} \right> \\
+    &=\lim_{y_0 \to -\infty} \left<0_{out} \right|  \theta \left( y_0 - x_0 \right)   a_{\mathbf{q}}\phi \left( x \right) + \theta \left( x_0 - y_0 \right) \phi \left( x \right)a_{\mathbf{q}}\left|0_{out} \right> \\
+    &=\lim_{y_0 \to -\infty} \left<0_{out} \right|  \theta \left( y_0 - x_0 \right)   a_{\mathbf{q}}\phi \left( x \right)\left|0_{out} \right> = 0
+.\end{align*}
+
+\end{solution}
+
+\begin{exercise}[9]
+Do the derivative with respect to time $y^0$, as in part 6), to arrive at
+\begin{align*}
+\langle \mathbf{q}_{\text{out}} | \mathbf{p}_{\text{in}} \rangle = i^2 \int d^4x d^4y e^{-i(px - qy)} (\Box_x + m^2) (\Box_y + m^2) \langle 0_{\text{out}} | T \left[ \phi(y) \phi(x) \right] | 0_{\text{in}} \rangle. \tag{97}
+\end{align*}
+\end{exercise}
+\begin{solution}
+We start by splitting up the time-ordering operator,
+\begin{align*}
+    \left<\mathbf{q}_{out} \mid \mathbf{p}_{in} \right> = i^2 \int d^{4}xd^{4}y e^{ipx} \left( \Box_x + m^2 \right) \partial_{y_{0}}e^{iqy}\left<0_{out} \right| T \left[ \pi\left( y \right) \phi \left( y \right)  \right] - i\omega_qT\left[ \phi \left( y \right) \phi \left( x \right)  \right] \left|0_{in} \right>
+.\end{align*}
+For now we will just look at the $y$-part of the integral, we'll leave out the bra-ket, and just do the derivation, and then fetch the integral when we need it.
+\begin{align*}
+&= \partial_{y_{0}}e^{iqy} (T \left[\partial_{y_0} \phi\left( y \right) \phi \left( y \right)  \right] - i\omega_qT\left[ \phi \left( y \right) \phi \left( x \right)  \right])   \\
+&= \partial_{y_{0}}e^{iqy} (\partial_{y_0}T \left[ \phi\left( y \right) \phi \left( y \right)  \right] - i\omega_qT\left[ \phi \left( y \right) \phi \left( x \right)  \right])   \\
+&= \partial_{y_{0}}e^{iqy}\partial_{y_0}T \left[ \phi\left( y \right) \phi \left( y \right)  \right] - \partial_{y_{0}}e^{iqy}i\omega_qT\left[ \phi \left( y \right) \phi \left( x \right)  \right]   \\
+&= i\omega_qe^{iqy}\partial_{y_0}T \left[ \phi\left( y \right) \phi \left( y \right)  \right] + e^{iqy}\partial^2_{y_0}T\left[ \phi \left( y \right) \phi \left( x \right)  \right]   \\
+&- i\omega_{q} e^{iqy}\partial_{y_0}T \left[ \phi\left( y \right) \phi \left( y \right)  \right]  + \omega_q^2 e^{iqy}T\left[ \phi \left( y \right) \phi \left( x \right)  \right]   \\
+&=  e^{iqy}\partial^2_{y_0}T\left[ \phi \left( y \right) \phi \left( x \right)  \right] + \omega_q^2 e^{iqy}T\left[ \phi \left( y \right) \phi \left( x \right)  \right]   \\
+&=  e^{iqy}\partial^2_{y_0}T\left[ \phi \left( y \right) \phi \left( x \right)  \right] + \left( p^2 + m^2 \right)  e^{iqy}T\left[ \phi \left( y \right) \phi \left( x \right)  \right]   \\
+&=  e^{iqy}\partial^2_{y_0}T\left[ \phi \left( y \right) \phi \left( x \right)  \right] + \left( -\nabla ^2 + m^2 \right)  e^{iqy}T\left[ \phi \left( y \right) \phi \left( x \right)  \right]   \\
+.\end{align*}
+At this point we have something that looks very amenable, we can do integration by parts to move things around, and we'll end up with what we need.
+\end{solution}
+
+\begin{exercise}[10]
+Using the method above argue that for a general transition, not involving spectators, the $S$ matrix element is
+\begin{align*}
+    S_{fi} = \langle \mathbf{q}_1, \dots, \mathbf{q}_n; \text{out} | \mathbf{p}_1, \dots, \mathbf{p}_m; \text{in} \rangle &= i^{n+m} \int \prod_{i=1}^m d^4x_i e^{-ip_i x_i} (\Box_{x_i} + m^2) \\ \int \prod_{j=1}^n d^4y_j e^{ip_j y_j} (\Box_{y_j} + m^2) &\langle 0_{\text{out}} | T \left[ \phi(y_1) \dots \phi(y_n) \phi(x_1) \dots \phi(x_m) \right] | 0_{\text{in}} \rangle. \tag{98}
+\end{align*}
+\end{exercise}
+
+\begin{exercise}[11]
+Consider the Fourier transform of the $n$-particle Green's function
+\begin{align*}
+\Delta^{(n)}(k_1, \dots, k_n) = \int d^4x_1 \dots d^4x_n e^{i(k_1 x_1 + \dots + k_n x_n)} \langle 0 | T \left[ \phi(x_1) \dots \phi(x_n) \right] | 0 \rangle, \tag{99}
+\end{align*}
+and show that the LSZ reduction formula in momentum space takes the form
+\begin{align*}
+S_{fi} = (-i)^{n+m} \prod_{i=1}^m (p_i^2 - m^2) \prod_{j=1}^n (q_j^2 - m^2) \Delta^{(n+m)}(-p_1, \dots, -p_n, q_1, \dots, q_m). \tag{100}
+\end{align*}
+Up to a phase factor.
+\end{exercise}
+\end{document}

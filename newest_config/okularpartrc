@@ -1,0 +1,5 @@
+[PageView]
+MouseMode=TextSelect
+
+[Reviews]
+AnnotationContinuousMode=false

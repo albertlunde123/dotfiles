@@ -2,7 +2,7 @@
 
 # Connect or Disconnect from Powerbeats Pro
 
-device="50:DE:06:E9:28:3E"
+device="AC:80:0A:1B:9F:6E"
 notification_id=9999 # Arbitrary ID to update the notification
 
 # Check if the device is already connected
@@ -10,7 +10,8 @@ connected=$(bluetoothctl info $device | grep 'Connected: yes')
 
 if [ -z "$connected" ]; then
     # Device is not connected; connect it
-    dunstify "Bluetooth connecting"
+    #dunstify "Bluetooth connecting"
+    dunstify -h string:x-dunst-fullscreen:false "Bluetooth connecting"
     bluetoothctl << EOF
     connect $device
 EOF

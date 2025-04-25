@@ -1,0 +1,14 @@
+\renewcommand{\thesection}{\arabic{section}}
+\newcommand{\subpoint}[1]{%
+    \begin{list}{}{%
+        \setlength{\leftmargin}{1em} % Set the indentation width
+    }
+    \item § \thesubsection \hspace{0.5em} #1
+    \end{list}
+    \vspace*{-0.6cm}
+    \addtocounter{subsection}{1}
+}
+% \newcommand{\subpoint}[1]{%
+%     \hspace{1em} \textbf{§ \thesubsection } #1 \newline
+%     \addtocounter{subsection}{1}
+% }

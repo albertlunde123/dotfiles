@@ -1,0 +1,1126 @@
+{
+   "checksum": "d6a90e29bfa5afa7b1c8724bfe7923ce",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "12983290834385998",
+            "date_last_used": "0",
+            "guid": "1f6d08bf-f6b8-f791-bfff-c55026904b2c",
+            "id": "111",
+            "name": "Google",
+            "type": "url",
+            "url": "https://www.google.dk/"
+         }, {
+            "date_added": "13347412742528833",
+            "date_last_used": "0",
+            "guid": "1bd67f68-da35-47de-b2c2-444beb832d95",
+            "id": "112",
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService"
+         }, {
+            "date_added": "13235143886596556",
+            "date_last_used": "0",
+            "guid": "77a892c5-69b8-4a32-92ed-6fb0cc9a54e6",
+            "id": "114",
+            "name": "Maps",
+            "type": "url",
+            "url": "https://maps.google.com/"
+         }, {
+            "date_added": "13279793136107212",
+            "date_last_used": "0",
+            "guid": "367a214f-a3b0-4c47-81e6-779194648b0a",
+            "id": "115",
+            "name": "How to change pulseaudio sink with \"pacmd set-default-sink\" during playback? - Ask Ubuntu",
+            "type": "url",
+            "url": "https://askubuntu.com/questions/71863/how-to-change-pulseaudio-sink-with-pacmd-set-default-sink-during-playback"
+         }, {
+            "date_added": "13283348728468492",
+            "date_last_used": "0",
+            "guid": "d9f9c953-a584-4460-820f-3bf8314e59c1",
+            "id": "116",
+            "name": "[KDE] Pixarch : unixporn",
+            "type": "url",
+            "url": "https://www.reddit.com/r/unixporn/comments/r5ot7x/kde_pixarch/"
+         } ],
+         "date_added": "13347412710218277",
+         "date_last_used": "0",
+         "date_modified": "13347412742530047",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13179321822366973",
+            "date_last_used": "0",
+            "guid": "d879bdc6-8fbe-4a8c-9155-1bc02fb88919",
+            "id": "14",
+            "name": "Reading PDF files into R for text mining | University of Virginia Library Research Data Services + Sciences",
+            "type": "url",
+            "url": "https://data.library.virginia.edu/reading-pdf-files-into-r-for-text-mining/"
+         }, {
+            "date_added": "13192030718692683",
+            "date_last_used": "0",
+            "guid": "ec49e372-dc3a-42b7-9e56-a84e444c3140",
+            "id": "15",
+            "name": "Climbing in Japan",
+            "type": "url",
+            "url": "https://www.mountainproject.com/area/106103884/japan"
+         }, {
+            "date_added": "13192030730993311",
+            "date_last_used": "0",
+            "guid": "07724b9d-60d6-4b18-acc8-c98d2f953ae5",
+            "id": "16",
+            "name": "Camping · Outdoor Goods Rentals | Used Outdoor Equipment · Used Climbing Equipment Specialty Store: maunga (Maunga)",
+            "type": "url",
+            "url": "https://www.maunga.jp/?mode=f5"
+         }, {
+            "children": [ {
+               "date_added": "13195399469798003",
+               "date_last_used": "0",
+               "guid": "9374dda1-2da4-47c1-bee3-d6786efde8d8",
+               "id": "18",
+               "name": "Nalle Hukkataival: Bouldering grades: Everything is average nowadays",
+               "type": "url",
+               "url": "http://nalle-hukkataival.blogspot.com/2010/03/bouldering-grades-everything-is-average.html"
+            }, {
+               "date_added": "13195435302749928",
+               "date_last_used": "0",
+               "guid": "be20638e-1629-4939-bbad-de4ce28187c1",
+               "id": "19",
+               "name": "Topic: The very best climbers are around 179 cm - 8a.nu Forums",
+               "type": "url",
+               "url": "https://www.8a.nu/forum/editorial/the-very-best-climbers-are-taller-i-e-179-cm"
+            }, {
+               "date_added": "13196094160578842",
+               "date_last_used": "0",
+               "guid": "5279a481-931d-4464-8c70-b963f0dcff08",
+               "id": "20",
+               "name": "How to Build a Home Climbing Wall | REI Co-op Journal",
+               "type": "url",
+               "url": "https://www.rei.com/blog/climb/build-home-climbing-wall"
+            }, {
+               "date_added": "13196251924186056",
+               "date_last_used": "0",
+               "guid": "1e69dfa4-6450-4704-8bd0-271dd7c3c319",
+               "id": "21",
+               "name": "Sale : La Sportiva - Pump online shop",
+               "type": "url",
+               "url": "http://pump.ocnk.net/product-group/37"
+            }, {
+               "date_added": "13197631359784185",
+               "date_last_used": "0",
+               "guid": "6c8eb450-f967-49d2-948d-7c673c50d32b",
+               "id": "22",
+               "name": "How I'm able to take notes in mathematics lectures using LaTeX and Vim | Gilles Castel",
+               "type": "url",
+               "url": "https://castel.dev/post/lecture-notes-1/?fbclid=IwAR1uJ7iEp6Qcn6frQnL82sujuXL1nLCzypN9PrxnBZEt_UVAOfUp5epEjaM"
+            }, {
+               "date_added": "13236627327768639",
+               "date_last_used": "0",
+               "guid": "d67071e9-d279-41ae-9e27-d14219a63582",
+               "id": "23",
+               "name": "Amazon.com: efluky 3 Speeds Mini Desk Fan, Rechargeable Battery Operated Fan with LED Light and 2200mAh Battery, Portable USB Fan Quiet for Home, Office, Travel, Camping, Outdoor, Indoor Fan, 4.9-Inch, Black: Home & Kitchen",
+               "type": "url",
+               "url": "https://www.amazon.com/Handheld-Portable-Electric-Rechargeable-handheld/dp/B00Y1VZ00E?ref_=fsclp_pl_dp_3"
+            } ],
+            "date_added": "13244282426190146",
+            "date_last_used": "0",
+            "date_modified": "13244282426190146",
+            "guid": "d73f9d6a-69e7-430e-8b9b-c42d177aaf43",
+            "id": "17",
+            "name": "Klatring",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13233071018951297",
+               "date_last_used": "0",
+               "guid": "e7bfb357-138c-4427-9d9a-f3bd52a755ca",
+               "id": "25",
+               "name": "(1) How can I make Vim look nice? - Quora",
+               "type": "url",
+               "url": "https://www.quora.com/How-can-I-make-Vim-look-nice"
+            }, {
+               "date_added": "13233071033443452",
+               "date_last_used": "0",
+               "guid": "6fd41a31-cd2a-4e8a-aa76-2ff3193bf2c4",
+               "id": "26",
+               "name": "gvim - Change menu/ui language of vim to english - Super User",
+               "type": "url",
+               "url": "https://superuser.com/questions/746387/change-menu-ui-language-of-vim-to-english"
+            }, {
+               "date_added": "13233071037678087",
+               "date_last_used": "0",
+               "guid": "ebeeb9f1-53e0-4876-b278-c2cdbc3965b2",
+               "id": "27",
+               "name": "GitHub - KeitaNakamura/tex-conceal.vim",
+               "type": "url",
+               "url": "https://github.com/KeitaNakamura/tex-conceal.vim"
+            }, {
+               "date_added": "13233071041382684",
+               "date_last_used": "0",
+               "guid": "d3539a4c-6292-4f9d-95fb-d28b94bf0702",
+               "id": "28",
+               "name": "How can I disable bells/visualbells in vim? - Unix & Linux Stack Exchange",
+               "type": "url",
+               "url": "https://unix.stackexchange.com/questions/5310/how-can-i-disable-bells-visualbells-in-vim"
+            }, {
+               "date_added": "13233259808518628",
+               "date_last_used": "0",
+               "guid": "be7be903-ac00-48c9-913f-628d8e089578",
+               "id": "29",
+               "name": "university-setup/preamble.tex at master · gillescastel/university-setup · GitHub",
+               "type": "url",
+               "url": "https://github.com/gillescastel/university-setup/blob/master/preamble.tex"
+            }, {
+               "date_added": "13234351711786025",
+               "date_last_used": "0",
+               "guid": "6e8bdc90-95a7-47e0-9bc1-429f32fd5d35",
+               "id": "30",
+               "name": "A-A-P downloading",
+               "type": "url",
+               "url": "http://www.a-a-p.org/download.html#AapWindows"
+            }, {
+               "date_added": "13234367644522032",
+               "date_last_used": "0",
+               "guid": "45a14ba8-1408-49db-a1fc-e61fe60d7a02",
+               "id": "31",
+               "name": "How to generate SPL-files from Myspell's DIC- and AFF-files? – Google Grupper",
+               "type": "url",
+               "url": "https://groups.google.com/forum/#!msg/vim_use/ff8xSrjl9tg/32BCCQwiJUEJ"
+            }, {
+               "date_added": "13234953641550191",
+               "date_last_used": "0",
+               "guid": "144a8365-caf3-4266-a842-701420f7ccdf",
+               "id": "32",
+               "name": "(1) The Best Kitchen Cleaner - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=6haQYDyL7K4"
+            }, {
+               "date_added": "13234957389661789",
+               "date_last_used": "0",
+               "guid": "265bee58-4961-449b-9fac-395c51c1d43d",
+               "id": "33",
+               "name": "(1) Damian Conway, \"More Instantly Better Vim\" - OSCON 2013 - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=aHm36-na4-4"
+            }, {
+               "date_added": "13234971059542295",
+               "date_last_used": "0",
+               "guid": "10f275d2-1ca8-4865-8048-df44baf6cfe4",
+               "id": "34",
+               "name": "Changing system date from Terminal - OS X recovery | Thomas Bensmann",
+               "type": "url",
+               "url": "https://bensmann.no/changing-system-date-from-terminal-os-x-recovery/"
+            }, {
+               "date_added": "13235047171273144",
+               "date_last_used": "0",
+               "guid": "6b04fb94-8455-4b30-beb2-37373eccdba0",
+               "id": "35",
+               "name": "Vim 101: Buffers - usevim - Medium",
+               "type": "url",
+               "url": "https://medium.com/usevim/vim-101-buffers-cf22c0cc37df"
+            }, {
+               "date_added": "13235053447768943",
+               "date_last_used": "0",
+               "guid": "527910c2-2af9-4f06-8b11-5ad4726fad96",
+               "id": "36",
+               "name": "GitHub - gillescastel/inkscape-figures: Inkscape figure manager",
+               "type": "url",
+               "url": "https://github.com/gillescastel/inkscape-figures"
+            }, {
+               "date_added": "13235054204585070",
+               "date_last_used": "0",
+               "guid": "10be662c-ec22-4247-b79e-2db71a0c6423",
+               "id": "37",
+               "name": "GitHub - gibiansky/vim-latex-objects: Text objects and motions for Latex editing in Vim.",
+               "type": "url",
+               "url": "https://github.com/gibiansky/vim-latex-objects"
+            }, {
+               "date_added": "13235054246872174",
+               "date_last_used": "0",
+               "guid": "a98951ee-f8e7-4524-b8e0-8199f6675901",
+               "id": "38",
+               "name": "GitHub - chipsenkbeil/choose: Fuzzy matcher for OS X that uses both std{in,out} and a native GUI",
+               "type": "url",
+               "url": "https://github.com/chipsenkbeil/choose"
+            }, {
+               "date_added": "13235054796623990",
+               "date_last_used": "0",
+               "guid": "0d00aafe-848c-42ae-bc94-eb8a78e73f52",
+               "id": "39",
+               "name": "Installation · dylanaraps/pywal Wiki · GitHub",
+               "type": "url",
+               "url": "https://github.com/dylanaraps/pywal/wiki/Installation"
+            }, {
+               "date_added": "13235057078515147",
+               "date_last_used": "0",
+               "guid": "91a12a20-4e1c-4317-b852-2ce4d6dbc8de",
+               "id": "40",
+               "name": "autocompletion - Easiest way to insert LaTeX matrix? - Vi and Vim Stack Exchange",
+               "type": "url",
+               "url": "https://vi.stackexchange.com/questions/17439/easiest-way-to-insert-latex-matrix"
+            }, {
+               "date_added": "13235217373758537",
+               "date_last_used": "0",
+               "guid": "c83805b6-4b71-4bdf-8400-beda9bd044c9",
+               "id": "41",
+               "name": "vim - Zathura with Latexmk on MacOS - Super User",
+               "type": "url",
+               "url": "https://superuser.com/questions/1267399/zathura-with-latexmk-on-macos"
+            }, {
+               "date_added": "13235219517537921",
+               "date_last_used": "0",
+               "guid": "87f33f1a-e866-4f17-9bad-58456b7d0045",
+               "id": "42",
+               "name": "New Tab",
+               "type": "url",
+               "url": "chrome://newtab/"
+            }, {
+               "date_added": "13235244739064036",
+               "date_last_used": "0",
+               "guid": "ba5b5403-7a27-4bab-9971-a1e9f1ef1a45",
+               "id": "43",
+               "name": "Vim + vimtex + Zathura on MacOS : vim",
+               "type": "url",
+               "url": "https://www.reddit.com/r/vim/comments/7c7wd9/vim_vimtex_zathura_on_macos/"
+            }, {
+               "date_added": "13235317964373607",
+               "date_last_used": "0",
+               "guid": "efa5450e-5e30-48dc-933e-81d6e77643fc",
+               "id": "44",
+               "name": "Using Latexmk — homepage",
+               "type": "url",
+               "url": "https://mg.readthedocs.io/latexmk.html"
+            }, {
+               "date_added": "13235388280949952",
+               "date_last_used": "0",
+               "guid": "d21bba5b-b588-469c-b88e-cb9a3c22eda3",
+               "id": "45",
+               "name": "Terminal",
+               "type": "url",
+               "url": "https://github.com/Rigellute/spotify-tui"
+            }, {
+               "date_added": "13235389753830564",
+               "date_last_used": "0",
+               "guid": "89552d25-a0a2-4a85-9199-f75bb7f6aa70",
+               "id": "46",
+               "name": "dotvim/tex-templates.snippets at master · lervag/dotvim · GitHub",
+               "type": "url",
+               "url": "https://github.com/lervag/dotvim/blob/master/UltiSnips/tex-templates.snippets"
+            }, {
+               "date_added": "13235661939300387",
+               "date_last_used": "0",
+               "guid": "8aa30380-051d-47b6-9e2d-fe0ecc4c15c2",
+               "id": "47",
+               "name": "unblevable/quick-scope: Lightning fast left-right movement in Vim",
+               "type": "url",
+               "url": "https://github.com/unblevable/quick-scope"
+            }, {
+               "date_added": "13235662013692515",
+               "date_last_used": "0",
+               "guid": "8048c15b-83fe-4e29-84ff-0c66a8606f89",
+               "id": "48",
+               "name": "terryma/vim-multiple-cursors: True Sublime Text style multiple selections for Vim",
+               "type": "url",
+               "url": "https://github.com/terryma/vim-multiple-cursors"
+            }, {
+               "date_added": "13235662109152742",
+               "date_last_used": "0",
+               "guid": "6214a686-c89f-490f-9f51-c5d464f442a9",
+               "id": "49",
+               "name": "You don’t need more than one cursor in vim - Christoph Hermann - Medium",
+               "type": "url",
+               "url": "https://medium.com/@schtoeffel/you-don-t-need-more-than-one-cursor-in-vim-2c44117d51db"
+            }, {
+               "date_added": "13235671913400764",
+               "date_last_used": "0",
+               "guid": "ff97081f-908d-4f23-8d79-33c7895c6f76",
+               "id": "50",
+               "name": "The 15 Best Vim Plugins for Programmers and Developers in 2020",
+               "type": "url",
+               "url": "https://www.ubuntupit.com/best-vim-plugins-for-programming/"
+            } ],
+            "date_added": "13233077049941169",
+            "date_last_used": "0",
+            "date_modified": "13235671913400764",
+            "guid": "a181e225-9a83-4ee9-9682-8b39dc224b4b",
+            "id": "24",
+            "name": "Vim",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13235388295610316",
+               "date_last_used": "0",
+               "guid": "8bf0dbee-ae14-4f28-a4ea-ad71af4ca210",
+               "id": "52",
+               "name": "GitHub - hnarayanan/shpotify: A command-line interface to Spotify",
+               "type": "url",
+               "url": "https://github.com/hnarayanan/shpotify"
+            }, {
+               "date_added": "13235575530980634",
+               "date_last_used": "0",
+               "guid": "f6c2f621-69fe-4f93-b5a5-2571d65fe0d3",
+               "id": "53",
+               "name": "Amethyst | ianyh",
+               "type": "url",
+               "url": "https://ianyh.com/amethyst/"
+            }, {
+               "date_added": "13235581163475508",
+               "date_last_used": "0",
+               "guid": "c9c5d57e-dcff-4d51-9ae1-559d88e3a09e",
+               "id": "54",
+               "name": "How to manage windows on MacOs using Amethyst - devnotes - Medium",
+               "type": "url",
+               "url": "https://medium.com/devnotes/manage-windows-on-macos-using-amethyst-3817b2804f29"
+            }, {
+               "date_added": "13235658045775403",
+               "date_last_used": "0",
+               "guid": "a70fe4ad-063f-4aae-a6fb-13f8637a5d9a",
+               "id": "55",
+               "name": "Installing and configuring Mutt on OSX",
+               "type": "url",
+               "url": "https://gist.github.com/facundofarias/4cd548ea81e4edbeabf045f01bbad39c"
+            }, {
+               "date_added": "13235665057991922",
+               "date_last_used": "0",
+               "guid": "5c8a078f-85e8-4f4a-8959-9e21edcff120",
+               "id": "56",
+               "name": "koekeishiya/skhd: Simple hotkey daemon for macOS",
+               "type": "url",
+               "url": "https://github.com/koekeishiya/skhd"
+            }, {
+               "date_added": "13235665070649990",
+               "date_last_used": "0",
+               "guid": "a046ddfb-241e-4614-9ef3-325a74a014da",
+               "id": "57",
+               "name": "Karabiner-Elements",
+               "type": "url",
+               "url": "https://karabiner-elements.pqrs.org/"
+            }, {
+               "date_added": "13235665337122378",
+               "date_last_used": "0",
+               "guid": "8b0d56f8-84d5-4082-8dbd-0033eb65a4b8",
+               "id": "58",
+               "name": "Potpourri · the missing semester of your cs education",
+               "type": "url",
+               "url": "https://missing.csail.mit.edu/2020/potpourri/#keyboard-remapping"
+            }, {
+               "date_added": "13236790818047530",
+               "date_last_used": "0",
+               "guid": "e96fe1d5-65fe-4daf-8ac6-b3c3ab5e8227",
+               "id": "59",
+               "name": "Launch executable from shell command · Issue #1573 · pqrs-org/Karabiner-Elements",
+               "type": "url",
+               "url": "https://github.com/pqrs-org/Karabiner-Elements/issues/1573"
+            }, {
+               "date_added": "13236792850339236",
+               "date_last_used": "0",
+               "guid": "a7e79074-c82b-4e36-b141-a0874487d649",
+               "id": "60",
+               "name": "Mac Automation Scripting Guide: Creating a Script",
+               "type": "url",
+               "url": "https://developer.apple.com/library/archive/documentation/LanguagesUtilities/Conceptual/MacAutomationScriptingGuide/CreateaScript.html"
+            }, {
+               "date_added": "13236792854778036",
+               "date_last_used": "0",
+               "guid": "3020c6e3-6b54-4ef1-912f-777f1202524e",
+               "id": "61",
+               "name": "iTerm2, AppleScript, and Jumping Quickly into Your Workflow",
+               "type": "url",
+               "url": "https://medium.com/@beyondborders/iterm-applescript-and-jumping-quickly-into-your-workflow-1849beabb5f7"
+            } ],
+            "date_added": "13235476115811927",
+            "date_last_used": "0",
+            "date_modified": "13236792854778036",
+            "guid": "882262f7-e08d-4e4e-8108-f560f1def519",
+            "id": "51",
+            "name": "Terminal",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13235913218366091",
+               "date_last_used": "0",
+               "guid": "8b87a8df-6d98-40b6-ac29-9eabf2662cf3",
+               "id": "63",
+               "name": "Mac - ArchWiki",
+               "type": "url",
+               "url": "https://wiki.archlinux.org/index.php/Mac"
+            }, {
+               "date_added": "13235913844060384",
+               "date_last_used": "0",
+               "guid": "525ba11d-f2e0-42e8-a213-60eaf66457a1",
+               "id": "64",
+               "name": "Arch Linux on a MacBook Pro Part 2: Preparing for Dual-Boot - Zanshin.net",
+               "type": "url",
+               "url": "https://zanshin.net/2015/02/05/arch-linux-on-a-macbook-pro-part-2-preparing-for-dual-boot/"
+            }, {
+               "date_added": "13237931848770462",
+               "date_last_used": "0",
+               "guid": "557e083d-a86c-4c22-8901-077162b3ca8b",
+               "id": "65",
+               "name": "MacBookPro11,x - ArchWiki",
+               "type": "url",
+               "url": "https://wiki.archlinux.org/index.php/MacBookPro11,x"
+            }, {
+               "date_added": "13237932722900341",
+               "date_last_used": "0",
+               "guid": "b4734510-c77a-450b-a224-8145f3496a85",
+               "id": "66",
+               "name": "General recommendations - ArchWiki",
+               "type": "url",
+               "url": "https://wiki.archlinux.org/index.php/General_recommendations"
+            }, {
+               "date_added": "13237988909498575",
+               "date_last_used": "0",
+               "guid": "b66b27e1-4693-45db-b9c5-90ab143540b1",
+               "id": "67",
+               "name": "How to Install and Dual-Boot Ubuntu on Mac - Make Tech Easier",
+               "type": "url",
+               "url": "https://www.maketecheasier.com/install-dual-boot-ubuntu-mac/"
+            }, {
+               "date_added": "13237988917503804",
+               "date_last_used": "0",
+               "guid": "be0af1e5-0b4b-451c-8057-ea8db535bc51",
+               "id": "68",
+               "name": "Five Free Backup Applications for Mac - Make Tech Easier",
+               "type": "url",
+               "url": "https://www.maketecheasier.com/five-free-backup-applications-for-mac/"
+            }, {
+               "date_added": "13238175193839719",
+               "date_last_used": "0",
+               "guid": "9ca60137-d94a-4d7f-b5df-c0a352993cb9",
+               "id": "69",
+               "name": "Install and Use i3 Window Manager on Ubuntu - Make Tech Easier",
+               "type": "url",
+               "url": "https://www.maketecheasier.com/install-use-i3-window-manager-ubuntu/"
+            }, {
+               "date_added": "13240182663559663",
+               "date_last_used": "0",
+               "guid": "9bab0214-8b79-4354-99cd-56b24e8d6f97",
+               "id": "70",
+               "name": "[Awesome] More rice to eat nom nom : unixporn",
+               "type": "url",
+               "url": "https://www.reddit.com/r/unixporn/comments/hxjtsi/awesome_more_rice_to_eat_nom_nom/"
+            } ],
+            "date_added": "13235926684844648",
+            "date_last_used": "0",
+            "date_modified": "13240182663559663",
+            "guid": "041d8e80-eed8-41a3-8917-bb7b4da41309",
+            "id": "62",
+            "name": "Linux Partition",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13236012934369343",
+               "date_last_used": "0",
+               "guid": "1410d7a0-ad4e-4723-987d-3402163eee9d",
+               "id": "72",
+               "name": "thought u guys might like it : FirefoxCSS",
+               "type": "url",
+               "url": "https://www.reddit.com/r/FirefoxCSS/comments/g8gsu2/thought_u_guys_might_like_it/"
+            } ],
+            "date_added": "13236025617132087",
+            "date_last_used": "0",
+            "date_modified": "13236025617132087",
+            "guid": "0c8c53fe-0d7c-4895-83c6-fbcb08d049eb",
+            "id": "71",
+            "name": "Firefox",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13237020785778621",
+               "date_last_used": "0",
+               "guid": "02566eb8-eaa9-43a4-b33a-d902161c4224",
+               "id": "74",
+               "name": "How to run a python script inside Applescript? - Stack Overflow",
+               "type": "url",
+               "url": "https://stackoverflow.com/questions/23108335/how-to-run-a-python-script-inside-applescript"
+            }, {
+               "date_added": "13288573669072981",
+               "date_last_used": "0",
+               "guid": "e53d9b20-2677-4c2d-8602-90301b608262",
+               "id": "75",
+               "name": "seaborn.heatmap — seaborn 0.11.2 documentation",
+               "type": "url",
+               "url": "https://seaborn.pydata.org/generated/seaborn.heatmap.html"
+            }, {
+               "date_added": "13289519945122563",
+               "date_last_used": "0",
+               "guid": "f7179605-45b5-45d9-b466-830849de6016",
+               "id": "76",
+               "name": "boxes - Attractive Boxed Equations - TeX - LaTeX Stack Exchange",
+               "type": "url",
+               "url": "https://tex.stackexchange.com/questions/20575/attractive-boxed-equations"
+            }, {
+               "date_added": "13311101696107468",
+               "date_last_used": "0",
+               "guid": "6101a775-51d4-4818-b299-0c09004dab36",
+               "id": "77",
+               "name": "(34) dumb home screen - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=hFape3DLMdg"
+            }, {
+               "date_added": "13313195524824473",
+               "date_last_used": "0",
+               "guid": "ba3b212a-2a8f-42e6-be80-6eeba820975d",
+               "id": "78",
+               "name": "Gauge Fields, Knots and Gravity (Knots and Everything): Baez, John, Muniain, Javier P: 9789810220341: Amazon.com: Books",
+               "type": "url",
+               "url": "https://www.amazon.com/GAUGE-FIELDS-KNOTS-GRAVITY-Everything/dp/9810220340"
+            }, {
+               "date_added": "13313289819819166",
+               "date_last_used": "0",
+               "guid": "62f1b8b5-9f55-4870-9b41-e04f705b2ef5",
+               "id": "79",
+               "name": "Redshift - ArchWiki",
+               "type": "url",
+               "url": "https://wiki.archlinux.org/title/redshift#Use_real_screen_brightness"
+            }, {
+               "date_added": "13313436742614896",
+               "date_last_used": "0",
+               "guid": "4559eb4a-3429-4443-b2ec-534ae9b7a3d8",
+               "id": "80",
+               "name": "Crontab.guru - The cron schedule expression editor",
+               "type": "url",
+               "url": "https://crontab.guru/#0_17_*_*_5"
+            }, {
+               "date_added": "13313770293129774",
+               "date_last_used": "0",
+               "guid": "14229c88-695b-49be-81d6-3cc4f637ba77",
+               "id": "81",
+               "name": "Climbing Chalk Bucket Handmade Bucket Bagchalk Bucket - Etsy Denmark",
+               "type": "url",
+               "url": "https://www.etsy.com/dk-en/listing/995733667/climbing-chalk-bucket-handmade-bucket?click_key=a5f706d9f8176d9d3aff3ce1328cb889e6f3d6d3%3A995733667&click_sum=cf9a7b20&ref=related-5&pro=1"
+            }, {
+               "date_added": "13315571428090601",
+               "date_last_used": "0",
+               "guid": "e389b690-2eac-4d01-aa44-ef26d3c72dac",
+               "id": "82",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "3 Scientifically-Proven Methods to Build Raw Strength | TrainHeroic",
+               "type": "url",
+               "url": "https://www.trainheroic.com/blog/3-scientifically-proven-methods-to-build-raw-strength/"
+            } ],
+            "date_added": "13237054777759455",
+            "date_last_used": "0",
+            "date_modified": "13315571428090601",
+            "guid": "229f55eb-0560-4d64-a52e-91865e30c5a6",
+            "id": "73",
+            "name": "Python picture",
+            "type": "folder"
+         }, {
+            "date_added": "13239968748134415",
+            "date_last_used": "0",
+            "guid": "829eab98-be14-4bb0-88ce-554bd62462cc",
+            "id": "83",
+            "name": "Why Nerds are Unpopular",
+            "type": "url",
+            "url": "http://www.paulgraham.com/nerds.html?mc_cid=c32168984f&mc_eid=367b11ac3e"
+         }, {
+            "date_added": "13316871885043243",
+            "date_last_used": "0",
+            "guid": "506d53bf-3169-44cc-a131-5d30e487acee",
+            "id": "84",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "No bake cheesecake - nem og lækker opskrift uden husblas",
+            "type": "url",
+            "url": "https://anna-mad.dk/no-bake-cheesecake/"
+         }, {
+            "date_added": "13316947237754081",
+            "date_last_used": "0",
+            "guid": "131983ed-92f2-48af-9dfe-7bb233197970",
+            "id": "85",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "CIDOO V65 – epomaker",
+            "type": "url",
+            "url": "https://epomaker.com/products/cidoo-v65?variant=40342576103497"
+         }, {
+            "date_added": "13317400796494016",
+            "date_last_used": "0",
+            "guid": "dc6ec78b-3c12-4850-b556-e59efa386170",
+            "id": "86",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "anufrievroman/calcure: Modern TUI calendar and task manager with minimal and customizable UI.",
+            "type": "url",
+            "url": "https://github.com/anufrievroman/calcure"
+         }, {
+            "date_added": "13318181394970789",
+            "date_last_used": "0",
+            "guid": "92a407f2-fb17-498a-96e8-2b9803e0fbeb",
+            "id": "87",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "[OC]: tempy: render beautiful weather data to your terminal : unixporn",
+            "type": "url",
+            "url": "https://www.reddit.com/r/unixporn/comments/10b4i66/oc_tempy_render_beautiful_weather_data_to_your/"
+         }, {
+            "date_added": "13318292066725508",
+            "date_last_used": "0",
+            "guid": "45260cac-bbad-44eb-b7bf-e355d3aab9dc",
+            "id": "88",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "(314) Tools & Tips For Learning A New Keyboard Layout (Or How To Type Faster!) - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=sI-a64EVPPU"
+         }, {
+            "date_added": "13318622477832661",
+            "date_last_used": "0",
+            "guid": "4a8ad10f-3438-4627-8070-29475fe1c636",
+            "id": "89",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "No option to select qtile in Ubuntu 20.04 fresh install · Issue #1849 · qtile/qtile · GitHub",
+            "type": "url",
+            "url": "https://github.com/qtile/qtile/issues/1849"
+         }, {
+            "date_added": "13323614008079902",
+            "date_last_used": "0",
+            "guid": "336bb1b9-bdf9-42bf-b130-0e48ffa8bf3b",
+            "id": "90",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Numerical methods for partial differential equations — Solving Partial Differential Equations - MOOC",
+            "type": "url",
+            "url": "https://aquaulb.github.io/book_solving_pde_mooc/solving_pde_mooc/notebooks/01_Introduction/01_00_Preface.html"
+         }, {
+            "children": [ {
+               "date_added": "13337612061108572",
+               "date_last_used": "0",
+               "guid": "ef0c5de4-2061-4fe6-97fe-fd5834659aef",
+               "id": "92",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "1.7. Gaussian Processes — scikit-learn 1.3.0 documentation",
+               "type": "url",
+               "url": "https://scikit-learn.org/stable/modules/gaussian_process.html"
+            }, {
+               "date_added": "13339516544570518",
+               "date_last_used": "0",
+               "guid": "913e403e-1b90-441b-9ecd-bb7fb32636f4",
+               "id": "93",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Coulomb Matrix — DScribe 2.1.x documentation",
+               "type": "url",
+               "url": "https://singroup.github.io/dscribe/latest/tutorials/descriptors/coulomb_matrix.html"
+            }, {
+               "date_added": "13343480213315768",
+               "date_last_used": "0",
+               "guid": "f16d387f-305a-4366-a43b-4c88c7e89141",
+               "id": "94",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "4.13C: Hückel MO Theory - Chemistry LibreTexts",
+               "type": "url",
+               "url": "https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Map%3A_Inorganic_Chemistry_(Housecroft)/04%3A_Experimental_Techniques/4.13%3A_Computational_Methods/4.13C%3A_Huckel_MO_Theory"
+            }, {
+               "date_added": "13344978820484379",
+               "date_last_used": "0",
+               "guid": "e47efa6b-8211-4cc8-b14d-7315e9d902fd",
+               "id": "95",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "(141) The iconic Shaq vs. Da Bomb meme that will NEVER get old 💀 - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/shorts/tgxe-zKvCDk"
+            }, {
+               "date_added": "13345734994017677",
+               "date_last_used": "0",
+               "guid": "219ef81e-3e9b-4b6a-9dd1-f36235264700",
+               "id": "96",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Spectral radius - Wikipedia",
+               "type": "url",
+               "url": "https://en.wikipedia.org/wiki/Spectral_radius"
+            }, {
+               "date_added": "13345735270829412",
+               "date_last_used": "0",
+               "guid": "e2d004c8-7ea8-4c3b-9044-831e2acee461",
+               "id": "97",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Spectral_Graph_Theory.pdf",
+               "type": "url",
+               "url": "https://www.cl.cam.ac.uk/~lc647/drafts/Spectral_Graph_Theory.pdf"
+            }, {
+               "date_added": "13345735274241292",
+               "date_last_used": "0",
+               "guid": "da72a797-195e-46f0-b1b5-4f6cb5cf0b90",
+               "id": "98",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "cbms.pdf",
+               "type": "url",
+               "url": "https://mathweb.ucsd.edu/~fan/research/cbms.pdf"
+            }, {
+               "date_added": "13346174720644072",
+               "date_last_used": "0",
+               "guid": "73ada88d-56b6-48ce-a7d6-15d90202d0e8",
+               "id": "99",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Til salg - Nordre Ringgade 106, 2. th, 8200 Aarhus N - Nybolig",
+               "type": "url",
+               "url": "https://www.nybolig.dk/ejerlejlighed/8200/nordreringgade/250072/23299?utm_source=boligsiden.dk&utm_campaign=boligsiden&utm_medium=exitlinks"
+            }, {
+               "children": [  ],
+               "date_added": "13346175160993903",
+               "date_last_used": "0",
+               "date_modified": "13346175160993903",
+               "guid": "711405cc-8b8d-4e91-a81f-63ce381cefde",
+               "id": "100",
+               "name": "New folder",
+               "type": "folder"
+            } ],
+            "date_added": "13337612076918408",
+            "date_last_used": "0",
+            "date_modified": "13346174720644072",
+            "guid": "5774c174-c6bc-421b-a64e-e68d4ba8cf21",
+            "id": "91",
+            "name": "Bachelor",
+            "type": "folder"
+         }, {
+            "date_added": "13339877095283052",
+            "date_last_used": "0",
+            "guid": "596360df-c4cc-4afb-9394-1db181639e36",
+            "id": "101",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "jamessawyer.co.uk/pub/gpt_jb.html",
+            "type": "url",
+            "url": "http://www.jamessawyer.co.uk/pub/gpt_jb.html"
+         }, {
+            "date_added": "13340210318077291",
+            "date_last_used": "0",
+            "guid": "bbe79b7e-bf51-4f47-b80e-d630ecb2b372",
+            "id": "102",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Gaussian processes - Martin Krasser's Blog",
+            "type": "url",
+            "url": "http://krasserm.github.io/2018/03/19/gaussian-processes/"
+         }, {
+            "date_added": "13340213808842327",
+            "date_last_used": "0",
+            "guid": "733f980e-7464-4d6f-a54c-b8e187a49fa2",
+            "id": "103",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Chapter 5 Gaussian Process Regression | Surrogates",
+            "type": "url",
+            "url": "https://bookdown.org/rbg/surrogates/chap5.html"
+         }, {
+            "date_added": "13340215660396300",
+            "date_last_used": "0",
+            "guid": "5b5fd98d-3547-406e-b097-e6d358f66644",
+            "id": "104",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "(PDF) Gaussian Processes for Regression and Classification: A Quick Introduction",
+            "type": "url",
+            "url": "https://www.researchgate.net/publication/276296816_Gaussian_Processes_for_Regression_and_Classification_A_Quick_Introduction"
+         }, {
+            "children": [ {
+               "date_added": "13342789695634743",
+               "date_last_used": "0",
+               "guid": "2d7915c7-925d-46d6-8e05-d8389bd84afc",
+               "id": "106",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "(64) The PERFECT Bench Press (5 Steps) - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/shorts/0cXAp6WhSj4"
+            } ],
+            "date_added": "13342789706070380",
+            "date_last_used": "0",
+            "date_modified": "13342789706070380",
+            "guid": "6b47a863-8235-4582-928f-e92199a3551a",
+            "id": "105",
+            "name": "Træning",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13346175148466965",
+               "date_last_used": "0",
+               "guid": "b4cc1e49-2e40-4f6c-a2f0-9d993ebf30db",
+               "id": "108",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Til salg - Jens Baggesens Vej 110, 4. tv, 8200 Aarhus N - Nybolig",
+               "type": "url",
+               "url": "https://www.nybolig.dk/ejerlejlighed/8200/jensbaggesensvej/250072/23287?utm_source=boligsiden.dk&utm_campaign=boligsiden&utm_medium=exitlinks"
+            } ],
+            "date_added": "13346175160994288",
+            "date_last_used": "0",
+            "date_modified": "13346175160994288",
+            "guid": "5161e104-118c-4cfe-9691-ec84a9f13dea",
+            "id": "107",
+            "name": "lejligheder",
+            "type": "folder"
+         }, {
+            "date_added": "13348705592834638",
+            "date_last_used": "0",
+            "guid": "d9468f67-6e01-4657-8db1-82aeeb4ac636",
+            "id": "118",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "All Links at One Place",
+            "type": "url",
+            "url": "https://www.links2leaks.com/"
+         }, {
+            "date_added": "13348952440504644",
+            "date_last_used": "0",
+            "guid": "8f1dafb1-5cdc-475f-8d20-b09fbd67fe04",
+            "id": "120",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Get Carter - Wikipedia",
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Get_Carter#Critical_response"
+         }, {
+            "date_added": "13355525350766010",
+            "date_last_used": "0",
+            "guid": "6c870415-ef57-4128-bc3c-267e2708486f",
+            "id": "122",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "GitHub - madox2/vim-ai: AI-powered code assistant for Vim. OpenAI and ChatGPT plugin for Vim and Neovim.",
+            "type": "url",
+            "url": "https://github.com/madox2/vim-ai"
+         }, {
+            "date_added": "13355525354598625",
+            "date_last_used": "0",
+            "guid": "3e8e5673-7d4e-4d34-ad77-42ddefaef405",
+            "id": "123",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "GitHub - ggandor/leap.nvim: Neovim's answer to the mouse 🦘",
+            "type": "url",
+            "url": "https://github.com/ggandor/leap.nvim"
+         }, {
+            "date_added": "13355878816733298",
+            "date_last_used": "0",
+            "guid": "92b42610-8719-4e2c-8efc-8fbd142fbbd1",
+            "id": "125",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "The Searchers - Wikipedia",
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/The_Searchers#Critical_interpretations"
+         }, {
+            "date_added": "13355879178562665",
+            "date_last_used": "0",
+            "guid": "10266b4e-45fc-4f4b-be49-1f5cd040f1cd",
+            "id": "126",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Field of Dreams - Wikipedia",
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Field_of_Dreams#Reception"
+         }, {
+            "date_added": "13355879189227610",
+            "date_last_used": "0",
+            "guid": "d63250a9-31c3-4d5e-95db-01afc46d47ec",
+            "id": "127",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Spartacus (film) - Wikipedia",
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Spartacus_(film)"
+         }, {
+            "date_added": "13355879219264074",
+            "date_last_used": "0",
+            "guid": "1ca1e9bd-f16e-4fc9-8044-fa14b3996d80",
+            "id": "128",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Moonstruck - Wikipedia",
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Moonstruck#Critical_response"
+         }, {
+            "date_added": "13355879377460778",
+            "date_last_used": "0",
+            "guid": "3734c870-63f4-4266-b28f-db5d461691c5",
+            "id": "129",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "The Wild Bunch - Wikipedia",
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/The_Wild_Bunch#Critical_reception"
+         }, {
+            "date_added": "13355879452579574",
+            "date_last_used": "0",
+            "guid": "f7586772-e4a1-4314-9efb-8c9883b05f2e",
+            "id": "130",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "The Bridge on the River Kwai - Wikipedia",
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/The_Bridge_on_the_River_Kwai"
+         }, {
+            "date_added": "13356376990954254",
+            "date_last_used": "0",
+            "guid": "cfa8844c-187a-4804-b60b-fcf7519bbc94",
+            "id": "132",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Vi søger en deltids It-supporter til Human IT! | Academic Work",
+            "type": "url",
+            "url": "https://www.academicwork.dk/ledige-stillinger/j/vi-sger-en-deltids-itsupporter-til-human-it/J0593S?i=0"
+         }, {
+            "date_added": "13357259073034260",
+            "date_last_used": "0",
+            "guid": "e7636309-5e21-43a3-a07d-19cf53351598",
+            "id": "134",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "(5) Building a neural network FROM SCRATCH (no Tensorflow/Pytorch, just numpy & math) - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=w8yWXqWQYmU"
+         }, {
+            "date_added": "13366151365559664",
+            "date_last_used": "0",
+            "guid": "1ed70055-f917-4d7b-9b49-04615738081b",
+            "id": "136",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Watch RKPrime - Kali Roses - Kali's Rose | Perverzija.com",
+            "type": "url",
+            "url": "https://tube.perverzija.com/rkprime-kali-roses-kalis-rose/"
+         }, {
+            "date_added": "13383912641613015",
+            "date_last_used": "0",
+            "guid": "a47da107-db79-4a23-9857-95ddc407130b",
+            "id": "138",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "NGO.drawio - draw.io",
+            "type": "url",
+            "url": "https://app.diagrams.net/"
+         }, {
+            "date_added": "13387122081294265",
+            "date_last_used": "0",
+            "guid": "53e996fa-2538-4e7e-bed0-1b15c95df32a",
+            "id": "140",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Netflix",
+            "type": "url",
+            "url": "https://www.netflix.com/watch/80058424?trackId=14170035&tctx=1%2C3%2C902e67ed-222b-4773-9548-e8fe990ebb13-59551594%2CNES_5248934392E345AD24C82EFA900174-1D364BE54DB1AF-0133CDC932_p_1742570473313%2CNES_5248934392E345AD24C82EFA900174_p_1742570473313%2C%2C%2C%2C80058424%2CVideo%3A80058424%2CminiDpPlayButton"
+         } ],
+         "date_added": "13347412710218279",
+         "date_last_used": "0",
+         "date_modified": "13387122081294265",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13238784563271774",
+            "date_last_used": "0",
+            "guid": "1c991da4-4a03-4d85-b139-184872859403",
+            "id": "8",
+            "name": "GitHub - deviantfero/wpgtk: a colorscheme, wallpaper and template manager for *nix",
+            "type": "url",
+            "url": "https://github.com/deviantfero/wpgtk"
+         }, {
+            "date_added": "13239571826752886",
+            "date_last_used": "0",
+            "guid": "1b771e55-833c-4b48-97c7-25616fe1bb79",
+            "id": "9",
+            "name": "GitHub - moneymanagerex/moneymanagerex: Money Manager Ex is an easy to use, money management application built with wxWidgets",
+            "type": "url",
+            "url": "https://github.com/moneymanagerex/moneymanagerex"
+         }, {
+            "date_added": "13257187420911089",
+            "date_last_used": "0",
+            "guid": "0047a8fd-dd2a-4243-8f76-228c1b4b1bc1",
+            "id": "10",
+            "name": "iwctl and previous iso wifi-menu didn't work. wlan0 was missing. / Installation / Arch Linux Forums",
+            "type": "url",
+            "url": "https://bbs.archlinux.org/viewtopic.php?id=257544"
+         }, {
+            "date_added": "13261756287237788",
+            "date_last_used": "0",
+            "guid": "cbe86587-477c-41e1-96f8-60e2ca0b8d33",
+            "id": "11",
+            "name": "[GRUB2] Had some fun with GRUB...: unixporn",
+            "type": "url",
+            "url": "https://www.reddit.com/r/unixporn/comments/m5522z/grub2_had_some_fun_with_grub/"
+         }, {
+            "date_added": "13264378388602305",
+            "date_last_used": "0",
+            "guid": "4461e506-b35d-4808-ada7-63b4735ae4e8",
+            "id": "12",
+            "name": "Fancy boxes for theorem, lemma, and proof with mdframed – texblog",
+            "type": "url",
+            "url": "https://texblog.org/2015/09/30/fancy-boxes-for-theorem-lemma-and-proof-with-mdframed/"
+         }, {
+            "date_added": "13264378916654777",
+            "date_last_used": "0",
+            "guid": "2b207b3f-b2d7-4653-9281-7b1872429e31",
+            "id": "13",
+            "name": "Build a Python Directory Tree Generator for the Command Line – Real Python",
+            "type": "url",
+            "url": "https://realpython.com/directory-tree-generator-python/"
+         } ],
+         "date_added": "13347412710218280",
+         "date_last_used": "0",
+         "date_modified": "13264378916654777",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CmEKQQiIgQISOyAAkgE2CjQKDmNocm9tZV9zeW5jX2JtEgU1MSFibRoSCYvybFqsMgYAEYvybFqsMgYAKWnMbVqsMgYAEgAqGG9FTEF2VWo2ekNYSjFWNUVFY0RQb2c9PUgDEqsBCAESpgEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0STlo6QURxdEFaejRhbXJrYkVUdWN5Y1NVNFRtTHZDdWEvWExZRW1ZQnNYS2NkODN3VWZ5bm1FUS9QUm5yR1k0ekVXL20zK04wZ2JTTlU0MBgAIAAoADCKhYrlhpqDAzgAQABKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAEvMBCGsS7gEKHFFJVEJHZUZMTTR3MHVYY284S0Jiak1wa0xZYz0SZlo6QURxdEFaeTlzVXJraWpkaEZZWHZ2bHFJQmNPWlFKRE5ROUFycEtmOUltZ0NYbzFqdFU0eXdpbXdKcXpWQncrYkI1YUtybUVlYUhDM0hadGRuWU0vajdVeUcreEFrUldmbVE9PRgAIAAoADDho7aphPaCAzii1cSqwzFAotXEqsMxShxkSW00dldnUE5Ed0krUjVlTE84Uk1UR2FoZzg9WiYiJP////8AAAAEdnZ2N29XNUV4MXJEeHAyUyswTU0vWS9DaG0wPWUAAAAAEvUBCIoBEu8BChxUV2x6VjJ0RmlCcXpmYUcwU1VNS2dCc2xSTzQ9EmZaOkFEcXRBWnk5c1Vya2lqZGhGWVh2dmxxSUJjT1p1YThBWkFrVEtnZkxIOWRWYzF2VEFPdVVHeGljR1doRzBkNnZkUS8reVJWUEhyQmY0U0VSM2hVRm1VclBhbHcyK2JFRXlBPT0YACACKAIw45a/sqvAiwM4zdiV9c8yQOHYlfXPMkocWDZrVGQwRmt0TnJKOXl1RXVVWXVPUENLMWtjPVonIiX/////AAAABf1KWnhGSnVGc1ZvM0w3bmNtQlo4dG0zOTQwYVU9ZclZYAUS7AEIURLnAQocdTFiRUJpQUdJMklDQXVaZWVFdWUzRXIxbmJ3PRJmWjpBRHF0QVp5OXNVcmtpamRoRllYdnZscUlCY09aR1lxYXZqcWk3dXNhblcwQ3h0eWJ6S28yVkg5b3phM1JCU3JJQ2doREsybXlPeDZGWmxjUUQ4MXZQR2I0aGVtbVFyQzc4QT09GAAgACgAMIWKqeT2xvsCOIq/2M7KMECKv9jOyjBKHDgrNnRDRTVhc1VNMWtoektqL1dOL3NDS1lVaz1aHyId/kRlQ0w4Z2dnT3plVEZyd1pKWXpIbW5PdkZjcz1l1vlD9BKtAghEEqgCChxSR3JKZStkUlZvcTRJYmpxcTlzZWxaVWZvdmc9EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCdW43bWpTMUJUNkJDYVUwS25ZMFF3YTdySHhKaUFIelhMQlBWY0dPQzYxZzVSTDlwWFBHVnNPM3JMYk9JaDVOWXIxN1dObzAxVDVxWGJTdTdqeGxNS3NScTRXNVpyZzA1Q1FTem5ubzlBT3E0akxhYWpxZ2xvS1I0ZTlkNUowSk9STXV1U3c9PRgAIAAoADDpk8PW86n0Ajj/sainsC5A/7Gop7AuShxjcnJvYXU2cHU1dStTTkdBTDR5ekcxSCtzdVk9Wh8iHftkNmFFMW5TNGhGVG9LQ1hPL3ozOHVDY3pNN1k9Zbo/gVIS7QEIVBLoAQocOG5WRnBEeDBHeGZLbFpaT1pUaGpxT1BrL2YwPRJmWjpBRHF0QVp5OXNVcmtpamRoRllYdnZscUlCY09aZ29qbTFMZFJLTUNQVXpGQ2crSXNmL3NKZ2lRaHF3ZjVTdk0zRC9XRWt3cTNSUUloaHh1ck01eTNtWVlqRGVselN3bitjQT09GAAgACgAML6t5+fluP8COPPR0pXWMEDz0dKV1jBKHEppNlFLeFYreGh2WUsvaTN4NGE3MytCSEU2Zz1aICIe//5LQnFSVWpodkJzU3NGbmZQZDZCQ0NFMWVXVHc9ZbLqr1QS8wEIaRLuAQocTnFhSEpPdTUzWlcxdkZCUDBCeFJYcEpHYWY4PRJmWjpBRHF0QVp5OXNVcmtpamRoRllYdnZscUlCY09acXUwSlNaZzBLMzhia3paL2VUS21YTVBzaTdxUGpnNW1XaWJWMEVLQlp2cnI4TzN0dHNtQ3M3RHJuZUFsMWdkZW9RWno2Zz09GAAgACgAMLLK5sLAk4IDONbynNy2MUDW8pzctjFKHFMxQnVzMUpuNWFMRk9GL3p2OXQ3U3lxcW1adz1aJiIk/////wAAAARpYVdtNHpLOStVNTd5Z041STBtMjdwM3N2YmM9ZQAAAAAS9QEIhgES7wEKHC9rRWlvUENabWNwbWJjNWNRZ2VRWVVtNGxWMD0SZlo6QURxdEFaeTlzVXJraWpkaEZZWHZ2bHFJQmNPWmpVZitvK2pZMWpQb3Q4STFKSGRQRVNHR3ZSQnRkMkxjcFVrcWFnVVg3WEpiN1ZKdklxVTBvZ0x2WVNTRHp6KzVXWGsxNVE9PRgAIAIoAjCBxciOz7iFAziL/ODP7DFAofzgz+wxShxESkd5d21pWk5XNHE0bjhJRjMva3NNMGwvTlU9WiciJf////8AAAAF901QZWFuNmxUWGdYN1NTTzFON3BMT3l2MEwwRT1lOPk5MxKvAggwEqoCChxBMmZWTkw5TjcyR2hndHdzR0g3SlBPdE9BdWs9EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCdW43bWpTMUJUNkJDYVUwS25ZMFF3WFVULzRtbHRBUk5paGxXRTBONHY4UXJrSEorU1lvcmdNN1FyZHYybWxGQ2dySWtCVGlleWhucHM1aFMxa290TDJUWFJ2MXNHUEVmM0EyQWw1Z2JVbmRzc1o1aWJncTNqdGF5ZDJ1Z3k2dEV2Rm5hd2c9PRgAIAAoADDpk8PW86n0Ajj8ueHRpy5A/Lnh0acuShxCVkJpU1ZrOEhiSkd6TEhhcEZnWWRTNmNyUnM9WiEiH///93ZzWFNpU1RQYzFLdmdaY2w2WkcyN2g2YlFVbz1lCAxKLhL0AQh/Eu8BChxPMWZPYzhWb2FQZ1V3VEF1TnhmK3YvWEFjek09EmZaOkFEcXRBWnk5c1Vya2lqZGhGWVh2dmxxSUJjT1pwWExjS01WQnpOeUVwVXE5OFB5LzQ5VFFuZE5FOHZvZWFWaXlvSFdJemdaR3lNN2tsbXVnRy9TcmFCZGNHUXVpdVY0d0h3PT0YACACKAIw06TW0rqQhQM468XjvecxQPXF473nMUocSHQxVFV1dm1LeGxVbDFOdUt0a3p6NlpUZEs4PVonIiX/////AAAABP4vMngyTlRKZVlCMys4eE1SaW9XeEpTN21GckE9ZeEuWRAS6wEIbBLmAQocRnNQT3dUVmR0aVk4UWQ4bVNJUU9IZG5CVEJVPRJmWjpBRHF0QVp5OXNVcmtpamRoRllYdnZscUlCY09aNUdGa3FEZk8rdDZtRjZQOHU0VUZzNHZUN1owcTNIc1Bta3hNbURTQ1VRN3BMcTdBYVZ0YzNucFRlUkhRUDNHRWJjQWdZUT09GAAgACgAMOGjtqmE9oIDOLTzw6rDMUC088OqwzFKHGphYTZMR2N0M1FQeDNiWm1yTFhlVmZsdVEzRT1aHiIccEMvaEZibVBnckFzKzNNSUtzWnVxaGRETStZPWWP97EMEuwBCGMS5wEKHFlPRFRyeWNvcUZtZHRFM21NR3NNa1kybE43WT0SZlo6QURxdEFaeTlzVXJraWpkaEZZWHZ2bHFJQmNPWjdCQStOWFNPcm1Sak1taHlHRGo3RnpZSHU2Nkdlb0thcjFheGlmbnhwMVNIUkhjdWZEVjVEeCs4Q0lkd1A1eVBSWHR4QkE9PRgAIAAoADD+kL3XgvaCAziE5amqwzFAhOWpqsMxShxXQVF4VU5YRzVLOEtzRHNBejVrZ3lhREFYbzQ9Wh8iHf5PZ3g1MnlYNmU1NnkwcFVCRGZyNmxHNFZ3VTg9ZY/3sQwS8wEIaBLuAQocb3ZWbTk4TmY3ZG5ISXVxU2Y4TGdwL1I1b09BPRJmWjpBRHF0QVp5OXNVcmtpamRoRllYdnZscUlCY09aVnAxSXlOdUVBL2EwbGx1YmJsNUlhVnhSMmhrQXV6M1lKbEdaTUVBdzg3eTdNWm8ybENiR0w3UkdWUytLOXNrVDB2aW1kQT09GAAgASgBMKO49r2WuoUDOOzO6ZCtMUDLuaPp7DFKHG5PdjdERVgvY0pNNFNTaGNuOS9CL3hSNVBVST1aJiIk/////wAAAAQ1TDFLZnRPWGF1aVNSUVVZRmZxb3E1OENOUUU9ZXWgWoYS9AEIeBLvAQocbWFrbWorOWZBN0doQW1HcUJOUVNtRlR0U25FPRJmWjpBRHF0QVp5OXNVcmtpamRoRllYdnZscUlCY09aQU5ZM1p3cTdRNUM0ZmN5RHRWOUxPQVlxVU9hSjlPRmxSTGVNRVJkYjlSbFRJSm5VOXJHYUZUQVM0bVNGZStjV29mcmtnQT09GAAgAigCMJeawL/uxoMDOLmt7NbNMUDErezWzTFKHFlKM2UraU1hakZCWDdKUm1BZ1pubS9GWEJKWT1aJyIl/////wAAAATdOXZNWEhtU3ZKWkFqZjM1TEpET2pEclJZYWVzPWXhLlkQEq0CCEASqAIKHGpZaXBqYVYxcGlrQkMvdUQwK2Ftc2lEOVhacz0SpgFaOkFEcXRBWnprbnFsV01UUUNEMkpXY2xJMyszQkJ1bjdtalMxQlQ2QkNhVTBLblkwUXdheHNIYUZHRzdRWVZWVU9Lb3ZZNHJZd3BSN3h3SHE2K3EzQ28xRzJlRExMRjk0QjlYVE5OVXJ1WGtiYXdNRUhLd28zZW5tZ0ttd2VwUDdRaklpRHpHR1Q5b2lKRE4xZHBTNWdPbjJJVXpJVXVDa0VRQT09GAAgACgAMOmTw9bzqfQCONz668moLkDc+uvJqC5KHGhwWWVkOWlHcGJOaXU1R2UzVkhhVjF3aTFtYz1aHyIdsi9HWWNrMmhXSnpmNkdYeDI5aVdpclY5ektaND1l7PUaoRL0AQh9Eu8BChxxYkVQemZBN285L2VDVzdWUWdDazd1M2JMM1U9EmZaOkFEcXRBWnk5c1Vya2lqZGhGWVh2dmxxSUJjT1ptN0g5azFaU2I3WGxCUlZrM3BBb2FrTW1nalBFa1huZDNFQ2pkTUdadkh4MEtXVkdpejdTQ1pKSkl0aGE5T25PcXNsekZ3PT0YACACKAIwm+mJobmQhQM43efMvecxQPbnzL3nMUoceGdFS1VzSUFHWk5XNkY5dUFnd2JOL1VsWUZjPVonIiX/////AAAABPtNSURoN1k3Z0NrV0gzUThYYzk5ZDFWYjBTSkk9ZeEuWRAS7AEIYRLnAQocTmpKWHNwV2JRenAybW5WSU9JbG5WS1hXanJnPRJmWjpBRHF0QVp5OXNVcmtpamRoRllYdnZscUlCY09aT0lNNzBkbEpCZUNqUzkybzlkUEpjNm91Q2xmc2Q0bnhTb01JOGN5aHFsQ3M5OTFqT3BGeTkxTXE1Q21tUzJReU02OFZ0QT09GAAgACgAMO+6vc2d6YIDOK3z49jBMUCt8+PYwTFKHFJYMFV3QkJwUDJqeS9XYUFPTS9sWTFJMzhGMD1aHyId+nkrRitUZ1dVRURhc3doQ09EUWorcTJBZ05Hbz1lap8Z4hKtAggKEqgCChxGTURoNys0cjE0SHJtWVp5Z3FyVk1HemttMjQ9EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCcjl3TDF0QjhGcUxWTXJYcEpBc2dTSnlNa3J4S1lBNDlYUTZUREs1VWIrOUh1TzdySE1SMis5NVI2SkhZZVpvUStzalN1WGZWQjZuamJHcEpzaTYyYlMyQ1Zoa0o1Y2JGVld3TEorNm9MZHJXQ2tMNEZtdEpWMWgwNUZ5VmVsb1RNby9lM2c9PRgAIAAoADDpk8PW86n0AjjzhfDp9y5A84Xw6fcuShxST1hUK0IxY3lySUNVN2l3NFYyWXJxelhLakk9Wh8iHd5vY2hSYVpTN0pVcHZGSWROVDdycERVTmplNmc9ZUthCrsSrgIIRxKpAgocYXFLckZRaDhvZ2tVOWZyVm9WZ1IwWndib2RBPRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQnVuN21qUzFCVDZCQ2FVMEtuWTBRd2RsTFNreTlSckxqZnUyajF6T0QvUEs1WTlBNFpjWkQ1bTlnbllVSDJzelE2TGpJUW9pbGZDeCsxK1UrV1NzbnoxVkdHRkhqcXIvV0ZkTjVDdUJodVU2Qzk2UjVBK1czMHAxZHE5RDM3b1VlQ0d2cGh3PT0YACAAKAAwsLmm1vOp9AI4mNWM+aguQJjVjPmoLkoccWYyQllSTytWZ1ZSYUxpbnQzOHVxMWhYZ25NPVogIh7/91RTQXVJbkNxMmNjNkM4WjFnSHZrcXA0eHREYz1lAAAAABLsAQhgEucBChxmY0lScXVYNmJLRUNWV09YK1N0TVpyeFVPemc9EmZaOkFEcXRBWnk5c1Vya2lqZGhGWVh2dmxxSUJjT1ozTTVNOHJFenlRNmtaa0t2OEl0Qzltc1VneitEbEZPME1ZbGxLT0FCYm5HNUpEUEdCTm8vTGJWME1RaU5kSTIxWmVvc0F3PT0YACAAKAAwlODQyJzpggM44oDT2MExQOKA09jBMUocQ3dGSDl0S2ZkbWYzZXpxbXVqRVU4M3dzT0xvPVofIh31OWE0WFZmcTRKSWFVOG9QU1hNNjJRY1Q3cVhrPWXhLlkQEq0CCHISqAIKHEdGMnN5ejFJYW5zWko3ZmpLRzVqMVBNcGN1ST0SpgFaOkFEcXRBWnprbnFsV01UUUNEMkpXY2xJMyszQkJ1bjdtalMxQlQ2QkNhVTBLblkwUXdjU3pmS3ltRWVuVGMxSUExRWdWZTBjNEU5aFgyZlZyMkNZUnQvc0xINnBaVkVkTUx2cWEyemQ0a3ZHem1ydm92WkpDcFdaOGxQVWMzc1hQTG1iVzF0dGVmNFhWVHJXbVFtUmJPZ25MM2dTRVp1ZEFOZz09GAAgECgQMJ61tL7x24sDOPvk3tqlLkCO+7640zJKHHo2S0MwRVdnS1EzRVJqWEUzMDRZSTRNcFJzaz1aHyId/29HNm9vemZTNDZ6N2hkWUN5R1ZFZ3UrRk5LND1lPWyFERL1AQiIARLvAQocUVNZYUhJNVF1aFpxM3FoVngvT1M2Wi96QWtFPRJmWjpBRHF0QVp5OXNVcmtpamRoRllYdnZscUlCY09aMFBHbjFYUFllZVFxbnBQNU1nZXlRZUNFbHQ1QWhIbyt0a25wSXF2UllZaEkzNVp0UWs1ZVJFY1RlaXgrQlpGdjhVeXI5Zz09GAAgAigCMN6Jhb61u4cDOLi399+NMkDDt/ffjTJKHDIweVpQK3dOMDBYdk5aNFhPM2gyS3BMMWFoaz1aJyIl/////wAAAAX7SjZXK2FlZWZGOHpoTk8vczZnNDhaa0p0TWk0PWW8K+uzEuwBCF8S5wEKHE9tK3dNM0NpWnA1R3d4Z3hJVU9tUjRra3prcz0SZlo6QURxdEFaeTlzVXJraWpkaEZZWHZ2bHFJQmNPWmpUTlQvTGtGOXlVdnZGTVF2Lzc0Nm5EVDRITC9iVVdaWU1tak85aUVDZGxsbDJYa0RCd0cvZ0Y1dXFod0xWa1dja0FNanc9PRgAIAAoADCHsejNm9OCAziG64nwvjFAhuuJ8L4xShwxcjdRbk1Oc25iNWV4MjA5RmVrVFVEVFRLQWM9Wh8iHes5U0hmWUtPQ1hYNWNJWmdzd1pNcUxrTithQ289ZdjWavQS7AEITBLnAQocTkd2SlAwZ0VTd2tHOVZaVUUxU2ZIdk5aTTJvPRJmWjpBRHF0QVp5OXNVcmtpamRoRllYdnZscUlCY09aSk9EUVZGeVdRVjRzbXFwK0Z5MjI0c3RwNXpucytlQXNIQzU3dEhJSWlpWkY1c0tKaURJdisxRmVuZGJnSm5XUm0rRTlvZz09GAAgACgAMKepppmThfYCOKLbnKPwL0Ci25yj8C9KHGdFck10clgya2s1UVdPbWx4WXp5UVZnSDMrMD1aHyId3U9uQ1dDQU5ISkJ1UllBVlRqbDQ3UVM5cW1vQT1l7Ets7RKtAggXEqgCChxyQTFUcDN0YUFvQldoU2dRaDZLUkx6bDlQY3c9EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCdW43bWpTMUJUNkJDYVUwS25ZMFF3U0syOFRrOVMwL29HcjRQc3gydWlrNzRQR2JoOFVxRCtEYzFCRm5KTU5sZUhRMjBBM3V1dC9SNG1zTWgzdUhkeWw0THE5U25oOC9uRHIvQ29ySy9NY2ZWbmthREZPYUY5eXV5bnFra3VZdzVhVUJsVVE9PRgAIAEoATCH046DwKmEAziaxoeeqy5AooH1ptoxShxZZDhqelVBdDRaU0tBenR1VEtDc3BnOTZLaE09Wh8iHfpXYlo3bGJxMllLZ2dySk1FdmZyVy9xV0JCbDQ9ZXW+NVIS9QEIgQES7wEKHEhpQy81elp4VmxiRFFRdzUzV09qaDNhc0VKST0SZlo6QURxdEFaeTlzVXJraWpkaEZZWHZ2bHFJQmNPWkNFWXd6cXl0UENwVVRtYTA5K0xaQ0VJUW9tdkVDeFZEODk0V3JFTlh4dTNyZXV5UnRRZEJ3NnAwWGNjbWNQaGVjS3ZyT3c9PRgAIAIoAjCg4busu5CFAzi1hO+95zFAv4TvvecxShxVbWpzbHplWXdRYmd3NGRwK0Y0dU5jeVgrS009WiciJf////8AAAAFumN6NW5EeXZ3cFpRUzg1dUhxUUc2OGQ2MjBUUT1l4S5ZEBLuAQhYEukBChwvVFNBY2EyMDZCS0JQZzFkUG1aM25ZTWVBVTg9EmZaOkFEcXRBWnk5c1Vya2lqZGhGWVh2dmxxSUJjT1pZWWx6UEo2enhKOGJ5K3RVbmVud3BoZVo1WGpaK1d6UzFCUVdKVGpER0ZiSDhnZHAycXlBSXQwV21wWFNPZytHREJJYVVnPT0YACAAKAAwvq3n5+W4/wI4pdPrutswQKXT67rbMEoccTBtT0h5T2FvVXdWSktsR0JVVURxdkIvaDNzPVohIh///+16OVlCY0x1cHNTT1o5QVRnMW11VUZRZzdDWjQ9ZTj5OTMS9QEIggES7wEKHEFlZkE1cmtZdlNLV0NYbVRXNzJQNml0WEY3ND0SZlo6QURxdEFaeTlzVXJraWpkaEZZWHZ2bHFJQmNPWjVsdVpSbnU5c25pQTRtb1ZqQm56SjN5cjlsOGZycXJhWitGY2VqQU1uVmliS01Nazduemd0WVoyeksxRUM3amYxYzdSSnc9PRgAIAIoAjCQx6DQu5CFAzijz/O95zFArM/zvecxShxDd1JwalRWT0h3bk5SU2c2emRBZm1VVVF1QWM9WiciJf////8AAAAF3UlVVkZUUDhkZkFrMnJYVkdNQWllc01vWEZrMD1l4S5ZEBLuAQhZEukBChwxTFVZZ1laR0NETVB3RUJtUUZxbVg0NkVvNEk9EmZaOkFEcXRBWnk5c1Vya2lqZGhGWVh2dmxxSUJjT1pzYm8xVXFxQ0h6STh2Qkd6U1ZTNHFWaEpRUWZmZ040NmVMMjBrTGRydzRSR3NQYjdXeExjTWorOXhCejBWQXdqT3grN1ZRPT0YACABKAEw0OXVgd31gwM4iKyy2NwwQN2G1NbTMUocV1JUUHJ3c0M5V29BR3ovNWpsS2pwNUYzUS9rPVohIh////ZLZlNHSmFoMEY5QlpMUGNXcHA4Y2tKQ1krUFU9ZZNUQ8IS7gEIWhLpAQocem1HQStUUzZINE5zNjJaMWZZdGR2L3NEVUJnPRJmWjpBRHF0QVp5OXNVcmtpamRoRllYdnZscUlCY09aSTcrTklFNnIxL0RZQXBtY1ZuaEZtT3dSWCsxQkJldjRKR1o1ZVk2ZEtoc1BRbTM1WmdwSkp1TEwvRGtxYlJNMzVpOXNndz09GAAgACgAMLb68bq15f0COJCWxaTvMECQlsWk7zBKHFliQVMxSS9rN1UvdG05bXhDZExPT2RoRmtXZz1aISIf///9YnE3Zy9zR1B5WGI1V2VMUmpLMEtyY3NQUzMwPWUAAAAAEq0CCEYSqAIKHE9PcHdLUGZDOW5RK2tBVG51QVlUMngyQlFwQT0SpgFaOkFEcXRBWnprbnFsV01UUUNEMkpXY2xJMyszQkJ1bjdtalMxQlQ2QkNhVTBLblkwUXdVWEl5UjhCSlZjcm1CMjNMQ3hlUHFXUVBLajRmV29seTZEUFVHWUM0U0RBUm5wVmxMSlAwRjZTQ01VTjA3Z1Y2Yzd3Z0V2MDBLU1VWNmRKaHNVWjA4U1ZyWFVNMnV5ZU8zRi9ZYmp2TFlIdkNjUWF0QT09GAAgASgBMK3amInAqYQDOIeDsL24LkDx5PWm2jFKHDR4ZllqeDhkclErUjR2QXZCdXdWNEw2c3QvMD1aHyId/lpaeW9kYzNxWUY2TTVGQ2xQZ0d0UkxacllKWT1l7BvmSRLsAQhQEucBChwwME42V1J5Q1hMa1Qwa1BCbUV2OHNTRTZlcjA9EmZaOkFEcXRBWnk5c1Vya2lqZGhGWVh2dmxxSUJjT1pNZ2s4aWQ5dGNUS0ZzanRzN3E4T01jVTBEd2FrUWd4NTY5NnB3dE5mOE1aMEtydTN6azFpMzc4aWFieGE2VWw0V29tQ3hnPT0YACAAKAAwxO6Em5y9+wI415fSr8kwQNeX0q/JMEocQzFENkRRa0piNmExSDMrRHZ6UkxKeVVtbVRjPVofIh39bzhLekU0a2FMQnBtR0JqMWFFK2dTa0RzZ053PWUhtiDBEuwBCGIS5wEKHFlUZnp1NHZaWC9XRDlYcmhrR0RLT3JncStDWT0SZlo6QURxdEFaeTlzVXJraWpkaEZZWHZ2bHFJQmNPWjIyZk1UR2FpSGZXQVJZVndwYVJVa0g4RjJwN002dkpFMzFsU1QrMEJWVXovQjRUZ0hsaDJ0VGkvSnp0eW1HQVZuZ3pNUEE9PRgAIAAoADDDpInPnemCAziBjuTYwTFAgY7k2MExShxaMDNkWXdpQXNtakI3WHVzK3pRd2lRNGJENHc9Wh8iHf1TMFVvQlYyN0ZMNlMyQ2ZYRHdHKzdqSXR5aDg9ZQAAAAASrgIISRKpAgocYi9LUGQ3MHRMTWZiTHM5WXdMVy9ucjNzdmFzPRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQnVuN21qUzFCVDZCQ2FVMEtuWTBRd1dHNXFoR2lZcVhjWXdqUlNPd251azRHbnJIQmpFUWd3cUREdittV054R0IyQzErWkZSbGlheWpWamRxSnFpdkErS1ZXeXZhallGaUwwOTRhc1poVnJadXRBZFRvd2xPdkdrQ3RBMWp6dWpzV1ZqcUVBPT0YACAAKAAwsLmm1vOp9AI4ia3X2awuQImt19msLkocR1UzdXg5L0xGNGJvWVFuZ2VQeEcyR2paK1BVPVogIh7/+05mSVEydTJPcVlETkRKV0R3YURISFJXOTRWRT1lAAAAABKtAggJEqgCChxOZysxeUFHeFZmN1NXTUQwZFRYcnJpZWtqY2s9EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCcjl3TDF0QjhGcUxWTXJYcEpBc2dTTU4razZRUEhqdU5RTVdTVk9QSkppYk45R3dWS0hVdEp3YzM5SmpwUkFNRHlCbzJVZXBGRkUzdVUzYWFybnNzVUFaK25nZTFiTmZScmlPN3FmeE1QaS9BdlZDRTNFVm5SenlwT05GT05oNEtjcUh4VkE9PRgAIAEoATDsv6ryhpqDAzjEwI2ati5A+vvW+McxShxlTUloUXphZnArMmJGbDhWdHN0UDFWczhReGM9Wh8iHbxSY2FGNjNnUDNZUi9lNFdrMzVBZ1NTVTB0ODQ9ZV1Hj4MS7gEIVxLpAQocRStQY2xBUWxYYUhUU2ZzaU05TnZpU0laTGhBPRJmWjpBRHF0QVp5OXNVcmtpamRoRllYdnZscUlCY09abkw5QVp0MjMyUHlhQmVrbk8wbXRoU3hOU0tNRVUrcUthSndGTWJIMzZ4NC9RM2xhZ0w2aU15NVB4eThRRlFMTVg4Q21HQT09GAAgASgBMNDl1YHd9YMDOJvkiIbbMEDchtTW0zFKHGJneWRMYjlGV3lNMzk1MFd1cnhEeFh0aDNiUT1aISIf//+1ZHJ2ZXBIU1hHVVhNTlBaVzBqK1V2YWtUUE9JPWXsG+ZJEq4CCCUSqQIKHDgvL0NNQk1Xc0ZmdGRqUTdCZkZZdDhZeGF0dz0SpgFaOkFEcXRBWnprbnFsV01UUUNEMkpXY2xJMyszQkJMSk5yZlA5TWxqWXRVeElHcW9iMWEzNGZiQmdFcUZieG54dlFYYXNBbzJkbCtLd2s0MmFRWmZvcGZLQ1JVRU1vb0JNRGhhMWljdzFRZEdwU0RVbzhjSStDbTRMSkh3SjRnK0toWEY2L3dqMHhSQWFWMlNWODJkTDk3K01vck1BLzZ0WXJxdz09GAAgACgAMOmTw9bzqfQCOKnd96+lLkCp3fevpS5KHHIwWlJMbUcrdVF4alRQTnRTd0hyZ1FFREdNbz1aICIe/+wvSVliaVNGY25qN2VCem8xVXJxajRENkdJS289ZQgMSi4S7AEITRLnAQocOW05WllnMTJPbjNuQlFvUGtYUWQwN1JpWTc0PRJmWjpBRHF0QVp5OXNVcmtpamRoRllYdnZscUlCY09abTY4WGxoOFRFWm4xYmk3SEwrb3h3a0JRaE1zMUkzamNtd3h6c3BwdWRZMHl2VUU5dXRmZHJ2TFJnQ2YzTVVKT3RWQjdmQT09GAAgAygDMKWRx4Gv1IwDOOygmtbAMECprbvu4jJKHGJKV3hINnlwMEFhMDl5d2s0eWowNldYODNRaz1aHyId7nl6S3dPSmpRMVRjeXg1d3NoY3Q0dFplK0NEWT1l/ZyMShKvAggyEqoCChxRMU4ybHhKQjFuV1dqb096bjFXUDFXU0pseFk9EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCdW43bWpTMUJUNkJDYVUwS25ZMFF3VEVCOGtZNnFJRE9PTVlESnloaW9xbFhsakcxMURud3gzSTZCZ3c1K245OGxBelBIWlhrWXdMbzF6VFFCQURmRUxDTGNuOStvUlhhUWdEYW8vbjdHcGxlWDE5Y2xQR29nakViRUxtOGxOWHpTMW5Sc2c9PRgAIAAoADDpk8PW86n0Aji5173Wpy5Aude91qcuShwycVFPT3ZKZmllVyt4VFYwdktsS0t5Z0g0amc9WiEiH////UNkcU8vOTljOVlzQ09WNnk3Qk5pQ2NXMGZ5ST1l14rDMxLsAQheEucBChxSQ1JCT0l2S0U3dEZXZ2x2VnQrSDc1bTVXMzQ9EmZaOkFEcXRBWnk5c1Vya2lqZGhGWVh2dmxxSUJjT1pEV2NnWDVKQzk2ZHRzeXVYZkJTME9EZzNGSTFsMW83TFVqZ0RHazJ1ZTB0NTgreHBNLzl3ZDg1WC9vcjBSeklHdzZFK1NnPT0YACAAKAAwu4SP8MynggM4xI6+pbkxQMSOvqW5MUocYW13azFsQXgzWjFYSnRUb0dwMGhlazI3RkdJPVofIh3WMm16dWc4dkQxVWpseTFjTlFHbFV2eWJwSkVRPWVAYOsyEu0BCHQS6AEKHEZXcXJkZ0tCNDVNcXZPcTNzQmFMU3A5YzhWYz0SZlo6QURxdEFaeTlzVXJraWpkaEZZWHZ2bHFJQmNPWjR5ZXArY2VLVEcvdndvK0M2UFRTRkhCVVJXNjlyNWpOWWRPTDBSbFU0OElqcjVTc2tvOUc5eStMbjdUdmpmbTNkY3R4cUE9PRgAIBQoFDCetbS+8duLAziVxcek2S9AkPu+uNMyShxxby9Bdm5BcE1PZTBubFpYNjVrbnBSS21hNGc9WiAiHv/bTnRxVEFXcjBtb3BvalZuckpCUlMvNk9DdnhvPWXAK/TwEu0BCFUS6AEKHGdKQkpZZEVOUGRzMGNTVmhqMjdXRkdkM3QwUT0SZlo6QURxdEFaeTlzVXJraWpkaEZZWHZ2bHFJQmNPWkdXdEx4WTBTWExMTWpSblVxTTBFTnZjeEMvcWRPUmpFU3pIT1pDZ1liVk9TMGVzdUZqUXkyTVM2WUx2RDBrT25hbXhTQ0E9PRgAIAAoADC+refn5bj/Ajj65sm51jBA+ubJudYwShw5dXJQc25sWWQzYVpzTUd1OUR6Y0tpU1FzTXc9WiAiHv//TnFVUzNtZG1GR2srYXpLdGJXUmtTMXVMUmJvPWXRYVu6EsMBCAISvgEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SZlo6QURxdEFaekpEcWpPanZVeTRHR01kS1cyVDNBNXNpSzY4SDV1c1ZERCtENzQvQ1hRWjNqQ2Rxb3BpYWRSWmJjWExPZjNVd24xN1pDVlJXcHhMdVRNYWNlQUl6QVdDdHh0aHc9PRgAIAAoADCKhYrlhpqDAzgAQABKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAEu0BCHMS6AEKHFhlbjFXRFpTRkZoSFRudkFjaDdYdXczQmFURT0SZlo6QURxdEFaeTlzVXJraWpkaEZZWHZ2bHFJQmNPWklhVG0wNkNHL0JVeUpxTy91emIxVjdHSldyVjFmcDNlL3hvbCt4ZGVGUzFwWGxKY254U0owdU9VS0dhWG9IZ3VDRUNZSEE9PRgAIBIoEjCetbS+8duLAzjss4+FzC9Aj/u+uNMyShxVT2ZXbjBia011aHErVit1MTRhaTd5ei9DYkU9WiAiHv+3VzYzV0taS25TTFZMNmtNcnlhRlBJWDUxdXlRPWWVfKbEEvQBCHYS7wEKHHd1VTl2MG8rd2F0cVVPbDRrQnFOT2xXb0hCWT0SZlo6QURxdEFaeTlzVXJraWpkaEZZWHZ2bHFJQmNPWmRsT24vRTJQL2hFbmVCbDBhMnh2bFBla0dWTVR5SUlXYUZpcHlTYlk2U3VvVloxK2w4YWRaaTlUeHZzK0tCMUtkTXZlY1E9PRgAIAEoATD056311r+DAziC/JHhzDFAgvyR4cwxShw0aTFISzVpUkFlUzRQMkZyenFoQ2tIaUlFdkU9WiciJf////8AAAAEu2h6Nk1DZzlaMHc0RDJLN25raDdwcTFUTGFwdz1lAAAAABKtAghDEqgCChwrSDJsa2JlQVZUdzFMa2NTeG1ZV2JuV2RaeG89EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCdW43bWpTMUJUNkJDYVUwS25ZMFF3WXBZc3VjNExJRzhpQTdRdVJtWmFWMzBMVXdQNnZ4MVNPMDBNQnk5MEhlSHNJUlkwNzJlQ3o5b1dubGE2dndUSVA2SU1pT1RUMnJ0MmFwUjJxdFpib2RGTE5jMWRoMWoxaDhnZG5tMG5vMXZqVzZVL0E9PRgAIAAoADDpk8PW86n0Aji686ensC5AuvOnp7AuShxWOEx2TTRsNWxNc0xnUVQ5amZPckthSHl3QjQ9Wh8iHfZ4S2dZdUsraXJkL0RNR0l1TXFJejVraGNPdEk9Zbo/gVIShwIIbxKCAgocNWVSbWNiU3kzWFRZMnJRVmlrWjk4aUpoN3VvPRJ6WjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCZFRsd2YySTlUZXF5M01lSFJlVlVRZDFqVTh5c09uNmN4L1EwdzZwd3p1WmI0aGprcFR5cE4zam5FazlUN3o1Znp3U2p2ZkszYnlLUU1VL3JUaWVFSkIwK29BOD0YACAQKBAwnrW0vvHbiwM40YvnvfsmQI37vrjTMkocRCtGOVVhRDJWK1lTZWZ3Yy8zZEFQQUpsYUdVPVomIiSAAAAAAEQAAFJvTi9POUc0MkoxL2k1MitrdjRqbnhadEh4UT1lEDD/5BLsAQhLEucBChxDWDRtMEVQYzRneVowdngxWXdFNi9LS3I4dDQ9EmZaOkFEcXRBWnk5c1Vya2lqZGhGWVh2dmxxSUJjT1pzNkZxdnZLM1VzT0N0ajdqTWMyU2paNk5ZSmFnaUszeU11SHBqRjRGMEw1SDh4L3RyTGZlZjBLM0JRWUZQdDh6em85RFRBPT0YACAAKAAwipnBh87p9QI40s2A4OwvQNLNgODsL0ocdUlaNlN2UDYxMEJwZUN3SGdmMHduZG1PK1FjPVofIh26QVo5VDRGVHllby93Vk1SaG1INDFrU0ova3p3PWUIK4MqEq4CCD4SqQIKHHBVZ29xU25CVGlHT243bEZycVNhRXVVMkZEYz0SpgFaOkFEcXRBWnprbnFsV01UUUNEMkpXY2xJMyszQkJ1bjdtalMxQlQ2QkNhVTBLblkwUXdiRThWekFTNnpscUZWeW5QZTU5WWxCbWlyeXZlcFRQUXlvaHBmb3AwNktOYVJReHQyNzUyUjdPazl2M0pGWnJMZFFxV0hpMlZkY3dBZjhTVHhJTGhXQUNSQ1doc2I3cGk1TXc2S2NuVzJKTFp0ZVY3UT09GAAgACgAMLC5ptbzqfQCOJfoxsmoLkCX6MbJqC5KHHlXN2VPdWhPQWkrR09YNXBJc0M2WmZEdnc3TT1aICIe/+5mRmI5amZna1dCcFNBNFAyeDN1Z3lobCtmanM9ZQAAAAASrQIIDRKoAgocN2t5TjFaUEZyKzk1elV5YWVSOEFMK3dLMjVzPRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQnI5d0wxdEI4RnFMVk1yWHBKQXNnU002eHdlSERaSmFsT01idTJLcmFWSCtiaURWNU9FRnM5c1RjQVA4VGZGR3kzcTkxRUpYeGdMVlo0NUVJNTE5TUZDTmE2SHZOeWliSkRsMTRWSmNmd1NKMW05VUJDcmw1clFJaTlsSGNMeTliOGIraGhnPT0YACAAKAAw6ZPD1vOp9AI4sY6Gz5IvQLGOhs+SL0ocOXZmcUFNbWxiUVZQRTF0Ym1BNGM4TWxiRjRvPVofIh37SE9VVFN1S0ZCRUZEcGlJSW5SUTF5SitFNFJBPWUAWQm8Eq8CCC0SqgIKHDVRV0FjbHhJRS9JejdXcWFSdGRIUXlJazROWT0SpgFaOkFEcXRBWnprbnFsV01UUUNEMkpXY2xJMyszQkJ1bjdtalMxQlQ2QkNhVTBLblkwUXdZcUwrektpanZBU2szcGlzZWpBR0NqK0ZSanZlLzFtMzd4Z2JOWFl2WW5YdXRuOFZNb3NITk05Wm1hNmN1NGJVVVhTT09jR1FjdVgxbVY3TlhMcWpheUlSQlpBR0psS0l3WDJpaXI1eE93bktuNzd0UT09GAAgACgAMOmTw9bzqfQCOPaQns+mLkD2kJ7Ppi5KHC9ESXZoM1dHc2JwV2ZzZTYyZGtrZFhvZU5BRT1aISIf//+8MzdZQU1xOUZ2L1VrQ3M1RGdTRnFxbnFMVFZrPWUIDEouEu8BCGUS6gEKHGlIaU1pUlVnVEZOQVFlU3NwZnluRzYxTCtMTT0SZlo6QURxdEFaeTlzVXJraWpkaEZZWHZ2bHFJQmNPWlNvTTNOMjJWVWg4dUFqUmIyQ3VZN0xQcHlBSFgzcC84b3dHek5qYjBDdmNZMFI0dnhiSnhoWDBnOGFjckhSRTQ4d1BLMHc9PRgAIAAoADDrstaZ3r6BAzjznrHvqzFA856x76sxShxIQXpFYWp4SDdiZFRHd2toRm5WbnVyZlkwb1U9WiIiIP////Y0TU91djhwTlZnRGFuTzN1SGhzaUVWK2QxRTQ9ZQAAAAAS7AEIThLnAQoccmxMeDVTVk16STFlalFMZHp3clJYeHBqY1BFPRJmWjpBRHF0QVp5OXNVcmtpamRoRllYdnZscUlCY09aSEZOL21kSUFkZ2gyOHgyZjNwTGlsT1MrZkNDUzVQSDFWRXVUNnNHWWNLRmJOdGd5T09tc1NMdzhLVzkvaWRkMTJNNURDUT09GAAgASgBMPHroIrAqYQDONi1z7zIMEDHhfam2jFKHDV1TDdpMVJhMEdVOVFDRUhnRnpBTGgwQW9rYz1aHyId91ZQQlROV1RqajIzc3Y2NWxEZ0RhTWRSL3VzUT1ldb41UhLsAQhPEucBChw2aGhZb25ZYnNpUTl3VW9FeHVGbEU3bEdsYjg9EmZaOkFEcXRBWnk5c1Vya2lqZGhGWVh2dmxxSUJjT1pVeXhiZThsblhNRkdPYW56ak9remh0Vy9FdHA5Z1M3Y3B6RjhzcXZodUdOc2FXb2dsU3RSbGd3dFB3bTRQb3hCZW9wejVnPT0YACAAKAAwn5Hl8Pi4+wI4q93K6cgwQKvdyunIMEocZWJ1QmFYU2pZRjArbCtNU1l5dUN5dzFmRTM4PVofIh37S3V0WC9VcTcrVFFRWWJ5VmVBTnRUYlFtcE9JPWVLYQq7Eq0CCBYSqAIKHFE4eFhYd2tid2RlL1hkamNqaWZZS1liRGFvdz0SpgFaOkFEcXRBWnprbnFsV01UUUNEMkpXY2xJMyszQkJjQ3k2Q3d6VnR6cDBoaHErU3pzRldqWmFZUzJiWVhvRTUrUU0yK3NvWFJ0eWdteGUrY0loT0s5S01Hb2luWU1XZXZyWkg0S1lCME1ybmNIRExVRGlCeVlRRjdPVFM5djBQNkVzMkYyRzJiWnBXbVhNeG5OU1h1dzU4S09zajBXODZxaTh3Zz09GAAgACgAMMr5mInR+/sCOMmoxqCNLkDJqMagjS5KHFZTV25NN080V3ZlSi9iS2dFT1F3WWFqTzMxMD1aHyId9G5wcnk2cTFxSHRCQjE0cURGdGMzaHpFN0g0Yz1lftugJhKtAghCEqgCChxKZm5SV2FXSXdsbmZLa2hhOE1RNzlnK3BjdjQ9EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCdW43bWpTMUJUNkJDYVUwS25ZMFF3UmV4NzAvWUE2eWFuaDJQeGY3UlFMZDlpeE5pL1Bya05rUDRQZUpIdmoxOFNoUldCamJVd2NXNEVYa2FISTFYUGVKdFZPaFh4T0hDSlNPTTg1azVFUG10WnlaVFJlenM1ZXZQSmw5a3pBWTNnajBKUEE9PRgAIAAoADDpk8PW86n0AjjUxcKMsC5A1MXCjLAuShxnUm1OSExPdDEveU5mV1pkYlVKTUdNcTRjSzg9Wh8iHewrQ1B0TVdQbXlqYXR0a1RXNXJvbzFLcXdZYTQ9ZUthCrsSrQIIPBKoAgocYVZnZFd1d0hsdC9zQzlxTzY5RDlOc09QQnBRPRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQnVuN21qUzFCVDZCQ2FVMEtuWTBRd1l4WFF4cktDaWEyc1lnQ1Bhd3RZZXpwWTh3aGp2U3R1eE1yQlVxcG91bERubWswT0xXbFpmVWw0cThyZnNCZ1RkRmpCcE5VTG9vNk02a1ZpdGk2Z0NOLzVmemtWb3hhZHFUODMyQXBjL3R4eS8xaVl3PT0YACAAKAAw6ZPD1vOp9AI4o5/+7KsuQKOf/uyrLkocUDRiNXdsRVF4UnpabVp0Uys1RTVsSnJZL2lJPVofIh3/TS9vOCtDMFV6UVhoUWNVWXVUdzB5WnZUMndRPWWPsjeZEq0CCEESqAIKHGxwOWt4T0NSWHlvdk0xOHpBU05BVzBudUN1Zz0SpgFaOkFEcXRBWnprbnFsV01UUUNEMkpXY2xJMyszQkJ1bjdtalMxQlQ2QkNhVTBLblkwUXdVOHAvTmJnak5VNXRtN1VHcDRkeXpYeDFmclJML0tWZFhMejYvNk51Z2NVVDRZcm1VL2QwamhMT3RadjZpOVdLaUVwQ2E0b1UyS1pZc3VNQnhqUEZEMmM3bE5IdkQ3VEhUM29NSEZUMXkxMW9qckYwZz09GAAgACgAMOmTw9bzqfQCOMKYjYywLkDCmI2MsC5KHGNOZ0dDekcyYkMvK0tUMFBCa0xJVVdSN0lWTT1aHyId2XBNY1BGOS9NblRPYVoyK3Y5MmZxK0xrdE1uND1lS2EKuxLrAQhqEuYBChxmSmZmSlkrMmdjT0xGa0dhSmRneThZZHo3cW89EmZaOkFEcXRBWnk5c1Vya2lqZGhGWVh2dmxxSUJjT1pmNTFuVnZPQ001UTVrenBUMTcyQjljSmpjci84dVZ5emRwV1JHWkpHWDlGYStxOHkwb291V09ONGFhaHdvdzc2MUV2azVBPT0YACAAKAAwssrmwsCTggM4k6Gc3LYxQJOhnNy2MUocTGRwRGFkTDhXa0FBamVKUTRXUE0zbzBja0VZPVoeIhw2NEN0M0dwRmEwUGViVkkxMVBjR0VXWE55dTA9ZTj5OTMSrAIIPxKnAgoccHZEUFFuZEJKdklaMjBsV2RUTE40NGdKVVZJPRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQnVuN21qUzFCVDZCQ2FVMEtuWTBRd1ZWbEZtdkk4UHNLVFJYWWtnTVdTdmx0N0F2dE0wR2w5QlU4Mjg0d0s1Qk9tRE1jWjlUUEZvYmhvMi9zRkQ0NThQK0xCeU8yU0FRcTZwa1V3LzJrOFBtbE04SFNWRzlVdG50eGZWajRQdWdwdzFUZFF3PT0YACAAKAAw6ZPD1vOp9AI4vuLFyaguQL7ixcmoLkocMDdqVTB6ZE0yOEE2SWNzNlg5d2tBRlRvKzdNPVoeIhxkVENGdnFSaUVIdzRKalRaQmUyUVE5bEVpVEk9ZUthCrsSrAIIGhKnAgocNmwwNFR3ZzQrdGtWRWJzTzhjV2lDUEd0QUFNPRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQkxKTnJmUDlNbGpZdFV4SUdxb2IxYXk1NU5oOFN6SjN4OEJtM1d3eEhnU2NjSm9WKzZpWlhxem1tN29TRFpobEZkTjBhQWQ4ZFdMWFZjYXJ2b1F4VTREaVVLNlJJWCtyUW9salV2SEVjaTJwRHpwb3JFdDcyOWUxa0RVaUlLUHZZMHVtZEZRPT0YACAAKAAw6ZPD1vOp9AI448ik/p0uQOPIpP6dLkocZU1OaFBZK3g1ZDk0NS9VOGtmQUl2eVFZdzE0PVoeIhxWSkYvdnk0MGRIc3U5TVVyaFE4U0w4MFlvMTA9Zbkt0gkSrQIIOxKoAgocbndVZW4zOGpJalRxZG1jL3ZRcDUxTEV2TVhjPRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQnVuN21qUzFCVDZCQ2FVMEtuWTBRd1d5dnpITVc1QWd2QVJUMmR4SnpGRml4d1ZMVGxGNWhRU0t1NE45L1VuSGd6MDZ3cXl4RS9YWFZEbFI2bk9sejdYYWo0UllLVDNZaklKZmIzbEZ6VGtHdFVsU1hLVHhVR0FJTmJFQzdRM1dIaWlCeURRPT0YACAAKAAw6ZPD1vOp9AI4gJqC7KsuQICaguyrLkocTjRjME9rQStISDZ6ZGZvQ3J2N3dNMHZ0RmNRPVofIh3+SEJwT3cwU0pxUUx1OGk4ZHQvRzBsZjI4dG44PWUIDEouEq0CCDkSqAIKHGVNaHBIK1FsR2VaZGVHN3M0YjdCQ3NyczVXaz0SpgFaOkFEcXRBWnprbnFsV01UUUNEMkpXY2xJMyszQkJ1bjdtalMxQlQ2QkNhVTBLblkwUXdVTWdYY3IvNFEwSjA2TXZ2cDd4WU4yWG1oQzRzRmdrWXdKQ01Lb3lZVUdDaUVIcmVSSHJFYm5KTUVndkdGQzI3bUZpYThXdXA4eXFIeUxpNVRjZkdOYWhnZXh1Q0JyQmVOc2tlZ3l5MjZZOHZpQ21udz09GAAgACgAMOmTw9bzqfQCOLqEnNOnLkC6hJzTpy5KHHcwbzV4M2FuRjFLZk5reUpGRVl0UnFaSmlyVT1aHyId+zVVK2pOVzF1TmdSNlI5dnMrL1Q1cE1hcE00Yz1lTG0OORKtAgg3EqgCChxWWUNxOUg3SU1KZ1g4bTNDNG8vdDllWTRQNk09EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCdW43bWpTMUJUNkJDYVUwS25ZMFF3YlVod1c4bVA5U0hQakdoVENHUFFiRk0xbkhqNUFvOGN4MUdWOTNhWGM0VzZDUXUxNXJDckViWFRoQ1FRVzVlTHZkbjJpOGRrNzdDS3lGRHQvTGFhd3JDZmRtVUI0M0NaVFhLblBLSno5MXhGdWFRQ2c9PRgAIAAoADDpk8PW86n0AjjPou/Ppy5Az6Lvz6cuShxCUWV0aHdUdVFLVXJ2bFAwU0o0WVZSVlZhd0k9Wh8iHe5yYWVMR0FnclFOWmNIL0t4VWpPWTZSRlFWU3c9ZQgMSi4SrAIICBKnAgocL2hkamdZQkxabGVwZUorMElnTDNoL3pxNzB3PRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQnI5d0wxdEI4RnFMVk1yWHBKQXNnU0NwS1BVOTMySDVFYkZReE10YnNVdTNlcVBGcWptZDFQZUU2bHVuUmFITEN1NXFZbUNMZE85UGFMd29iamtic2F2ckw5Unl4RWpGN09HRzlVSStXamR3aTcxL3ZwYVJkRDRjZlFYcTE3T0ZSRlNkSFlnPT0YACABKAEw7L+q8oaagwM4yuDaorMuQPn71vjHMUocc0psS3UreE9aVDc3MzJCTWRvOVhPSXlEVlN3PVoeIhx5NnFUZ1NEZXdodEcwVEpnRUZRS1FYeFVoZXc9ZV1Hj4MS7wEIZxLqAQocNVVHZ3ViTWg5dkxzQUYvRGpwZ2ZuTzlxM2VBPRJmWjpBRHF0QVp5OXNVcmtpamRoRllYdnZscUlCY09aSlRkZW1XSTRPTDl6TkkwWTFLeVFhMUVVaDdFUHBMZTBPTE1zU21ya2E2RGQyUWRtY0pnT1BnbHNxamZJc0ZSZzQyTjlkQT09GAAgACgAMJSqn8fEyIEDOMrN+I+tMUDKzfiPrTFKHGlpOGR1dU9xOXlrYmRNR1czZGwrVHJxZjZiND1aIiIg/////itwb0oyN09PVGxpNjRUQk15dDBhVFpVV2JBbz1lAAAAABKtAggMEqgCChxoUHdranJ3RlVwUzJpVHhNQzhpSXdycnZyM2c9EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCcjl3TDF0QjhGcUxWTXJYcEpBc2dTSi9mdFFDRkNnOHlFb2F4R3k0YWpLSVhRV3F6aC9VdUgrQnU1a3h4eFNpLzZNcFdoaGp5K1FCcTlRUS9Ic3h3cXpaRVV1YTAvcFJkN2J6QmIyaVJlRmhZR2pSc2ZzMWIxYkhkU0Q3elVSWGNUMVltWGc9PRgAIAAoADDpk8PW86n0Ajj88OXOki9A/PDlzpIvShwvazlXSUhSRk1Oam9hRkFuT3BxK3VaMTJqYzA9Wh8iHfdiQ2lYR3V4aGJ4UENHUWxHeG1OOGx4TXlNZVk9ZQRDjT4SrgIIKhKpAgocOGNjMWhqbEdUZ2NRQjZiMFhZeEJIS2IrZ1dNPRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQnVuN21qUzFCVDZCQ2FVMEtuWTBRd2M1VzJUdXZRMEt6cVNNMFdJUzFvOWllUkllQ1Y0MGpOKzRTejFybFZScVdxdHN0aG5sSTVuVDhrNVZIWjliQVpOMHdpeS94aUhpNE93OWxRT1JvNG0xN2NmcmROcmVWOGN0dmh3NTJXK2I5eUV4NFFRPT0YACAAKAAw6ZPD1vOp9AI44tDh/qUuQOLQ4f6lLkocMWJCOWMzaC9mZTF6MXNNR0JOa2NPKzRYUTY4PVogIh7//0NPcHk5V1VubkI2eWZ6bXBybXE2L0pjaFJUaz1lAAAAABKtAgg1EqgCChxHdWxHenl6Tm5zalNZTE52TkMzcG4vWEVYa2c9EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCdW43bWpTMUJUNkJDYVUwS25ZMFF3UTRNNnd2UWtQK0kzbDJ0aVJmTjFXY1RJSUtPVng2R05KM0Exc3hLZ1hXb0k4cnpTQlpFUGxJalErRGhOZ1pNUkUzYTNvYmt2ZGFBL3k2ZHFOY3YxZEQzemNUa0JKQ0t0Q1FSWkpJWUMwaWV1ZDZiNmc9PRgAIAAoADDpk8PW86n0Ajjl+8Kopy5A5fvCqKcuShxKM2wwNTZrQTFKNnluZDl3c0FJVkZLeVluU289Wh8iHbs0SHFHNnB3R0tTZS8zZVBPMWtaOWdiNE1ZK0E9ZQAAAAASrQIIDxKoAgocQk1FU1NTMFhEcVhQYkRTbGFZNWo3T2U3eXpnPRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQmNDeTZDd3pWdHpwMGhocStTenNGV2dkcUNkNXpmWllEbjFQRmhVNmNWQjFIbWNwWEhCRDZhUzlLSFNWSVlTdmlpQm50dGg4TjRZL25hZTZacXd0RTducC9RWUVuOTYrVG1Ndjl2TC82bURmbEdxVGQwUDBvVG5nQ2J1MFlwTm5IdTlCdzdBPT0YACABKAEw8szKgtLRiQM4yajGoI0uQLaZq66xMkocUmpHa1UxN2IrYXpiODZRUWVDSXA4eDhWWTRrPVofIh3uQlJ2VDYvYzFsV3VLdU5iVDduL3ZSazNSOXhjPWVga8sPEqwCCDQSpwIKHDlrbmh2UTlRY0NOOHpTWXBDajlTMmkxRG9Ldz0SpgFaOkFEcXRBWnprbnFsV01UUUNEMkpXY2xJMyszQkJ1bjdtalMxQlQ2QkNhVTBLblkwUXdVSXNsN1J3R0lXTUdLM3FmcmZvTFcyUWwwNzhLZXV1Zk0zMUoyL0pCQ21Ka0gvNFlLc2tzVGh0K0VPWGc0VUQ4RHEyYnlJVnBoRGNCa2ZlT3lJWkRtRmRwaWFDbmw5NXNvZFJQVjVyYU9sYksxY3ZLUT09GAAgACgAMOmTw9bzqfQCOLqDn8+mLkC6g5/Ppi5KHGkzRGxoNWdmY3RTNGRCOVhvZ1Bic0RRZ25ndz1aHiIcd1V4azcxRG1nMmxZbTBOZTJkOFlzREVHcllJPWUIDEouEq0CCDgSqAIKHG1Qei8rOFh3K01VaU5SS0tJY2lRaG14VzQxWT0SpgFaOkFEcXRBWnprbnFsV01UUUNEMkpXY2xJMyszQkJ1bjdtalMxQlQ2QkNhVTBLblkwUXdaa2oxUVc2Z205RU9HdFFMbkpFL3JPOWppOW1mYmJhcVo5eHhwc0taTVN5cGlGUkNPdm9KZnE2ZC85V2lhVEt2RkowdGpRazA3bW0zcllrNm02MytUd3U5cEcwekY3Z0ErTHBTWDZsc2plOTdobkdJdz09GAAgACgAMOmTw9bzqfQCOMihm9OnLkDIoZvTpy5KHGx3azdxaXkxWUZ0dlNCa0ZuWlRLaXhyWkhkUT1aHyId9zJvTEhaTlZROEpFUFFMVFF6YnJndCtXUlNQST1lCAxKLhKvAggxEqoCChxuUnZ3OTBuQ2NkaDlSUUx0U0M0bzN5UG9kanc9EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCdW43bWpTMUJUNkJDYVUwS25ZMFF3VllKdDFCbWRQVUlqUCtueDVtSFZIcGpQNk81SjFTMWZoWlJXbm95QWZoOXRiRW5jNktURFplYVNJTTMrdmwvd1NFamlBUmUwNEdpL3FLdkV6SXVaT2RIbzVJbHUrckx3WjZBZ3RJR3VBQTErbUE3MFE9PRgAIAAoADDpk8PW86n0Ajjgo+fRpy5A4KPn0acuShxOdWkzRFBwN2MwRmVzYkkzRXRPK3dRZmZwb009WiEiH///+3o2cnFXWkJiT2YrSS9xZDJxam5IV3FpMlQrYz1lgLAidhKuAggzEqkCChwzYnF0N2l3YXNDNEFFK3VkejdONUFxSWd0UDA9EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCdW43bWpTMUJUNkJDYVUwS25ZMFF3YWlOR3QrY3BndnNONkFCNFRRZmNTY3NqeVIxRDdZeU1GWjczNkZCSWRGRUpHZWMrcmhPN0lGVEhZTmwzWGVDRERxSmszTThqbzhzcFJ6Um9YOVZ0QW9iZnVKOFAzMzNBekZxb2J0TVpTWVNKVkh5Tmc9PRgAIAAoADCwuabW86n0AjiY9KLPpi5AmPSiz6YuShxNNzFKQjAvbTVTRzl3elpXNTZvd2drekJjNDg9WiAiHv/dd25IcHExRHlyVGNaV21URU1Cc1hoSDdHR0s0PWUAAAAAEq4CCCsSqQIKHFNXQkQ5NitIRXZ2dHMyNS9sZWFFT1hrbmhQST0SpgFaOkFEcXRBWnprbnFsV01UUUNEMkpXY2xJMyszQkJ1bjdtalMxQlQ2QkNhVTBLblkwUXdmWGhpMi9qOE9ienlCQlEwK2VWcGNSMmtiMjJkZXVERmxNQ0kwNGM0c1kvUHRsNk5uTHlJNGRrRmFsbnlIVXZzcGI5K29VeVExREZQY1J0WkYyS3lVdDVvK2M4SXNYYW95Q0JEbWUxL202K05FRXpkZz09GAAgASgBMInIxIbAqYQDOPiD5YqmLkCuufWm2jFKHFF2T2d0b3Z5RkM5RWtDWnVKY1UvUnIrSXdkdz1aICIe//9iZ3VxMzhzNmtWWWVaWDVCMTNRaEM0cFJGNnM9Zewb5kkSrQIIExKoAgocSnZISXpWN2FQYU14ejlPb001RkE3YU5DdlZRPRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQmNDeTZDd3pWdHpwMGhocStTenNGV3B1bmp6TVNhaFRBNDdrSlpMblJ2U3lsTzJGeDB4VkNnWFZic2FEOERITUFQaEpldC8vY1ZJcU9zWEtzWjkwclVjNDRhN0pxc0VnY0I4MGh5ZEZsM2kreWlTZW93Z1hWYURqUG9zWDZOSnJjeHJiYkx3PT0YACAAKAAw6ZPD1vOp9AI4yajGoI0uQMmoxqCNLkocaWpYR3cxRzRWd2syN1kxQktSSDZUNTk1c3I0PVofIh2lSVMvVkFGR0wrRWZFQUliNStPMG9nbGJacFlZPWUhbHpIEqwCCEoSpwIKHExsbGV3aEZxM3QyL0Q3c3k1NlpMaloyR3F5az0SpgFaOkFEcXRBWnprbnFsV01UUUNEMkpXY2xJMyszQkJ1bjdtalMxQlQ2QkNhVTBLblkwUXdVTkNMbmxDenU2UEZydmNFS09Fd2N4L05YQXh3MzZtelFRRVZFbjNWRXl6a24vK0psVy84bzc4Y1JRdHBkWnZLcWJTN1JPcjAveC9vVm02THBRZEplR3ZHWWFKeDVQQkFLaTd0K0FKczBRbk9VYjlRQT09GAAgACgAMOmTw9bzqfQCOPOo1tmsLkDzqNbZrC5KHFBZU2tjVkRUQ1BsakYzRDIyMkJnZXhOREZ0bz1aHiIcdWEvdU1WSFJ4QlFBSm9YNC9VR1FqZ2MwTHA0PWUPzDQUEq0CCD0SqAIKHFZRKzBkU3EzSWZXTWwwdWtHSG1uR0N1b2FkND0SpgFaOkFEcXRBWnprbnFsV01UUUNEMkpXY2xJMyszQkJ1bjdtalMxQlQ2QkNhVTBLblkwUXdiallhSlZPOFVjS0tUM3FDTW9ha2o1SjlIbDVudC8vUlk0b0VEeEZ0NjUyZzdVdkN1c09UVVpnbmZEQktrR2Zhd29TVG82UWJkWlVuY2RTWmdpMElkM0c5NjNOZjQ3S2oyNTZIek1KL0ZoUFB3NlRiUT09GAAgACgAMOmTw9bzqfQCOPrB/uyrLkD6wf7sqy5KHFJ5c3FJbjJjdTVsMDZ6N2I3eUF3aU5WNjhUMD1aHyId/1hCeVFxckxlZUoyaW5rV1grVG95WVA4dC83cz1lgLAidhKtAghwEqgCChxJcElUTVZVZ3ovWmI5a0hwMjZMZFBON1NvL2c9EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCdW43bWpTMUJUNkJDYVUwS25ZMFF3YVhpN1pNWklNQXJOdFZZdVVNZHc3WXd0Q1Jkd2RzdUtVZHMzZFVKU1NkNS9tek40MWpYbGRXRng1cFU1REJxSGpVRGhzNWM1a2xjYVErVFdtV2xNQldQZWFNRTVDUTNvQ0g3ZDVoVXBOWUN6SkRSRUE9PRgAIBEoETCetbS+8duLAzj75N7apS5Ajfu+uNMyShxPVnRVc3c3MVF3SVFHcmRQcXFkczFUeFZ5UGc9Wh8iHf85aHJzZHlXWmJRankzU2JnQmtHMTVPQ0x2ZGs9ZZs9hbYSrgIILBKpAgocRG16TlNBUFRBL2V6S0h5QTdCY3dJUnZhZ3c0PRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQnVuN21qUzFCVDZCQ2FVMEtuWTBRd1kyVkU2VHFxRzgzM0RqaE5FRlN4VEV0KzRCNnhiOTI2c2JLZmJnNVpZa1M1UWQ1VCtyUGxCdVo3WU5oTXhsV1FTMHd0eWFrTlArSTVzNWpPWFlnQ0NYdC9ScFFPUXR2Z3RmcGtnckVhZE1ubkdTQ21nPT0YACAAKAAw6ZPD1vOp9AI41azaraYuQNWs2q2mLkocL05ybWhrY1hQaFovUlFWbjFrSWhjN3hFZWljPVogIh7//3lqR2g3Q1RxeXBqR2J0RmVTMCtFMWZuNDQ2bz1l56elzBKtAggLEqgCChxqQWlHdnVTWnRzTnM3YTdIelowUzJ0NFh2NHM9EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCcjl3TDF0QjhGcUxWTXJYcEpBc2dTTnpSSXI3c3RJM21ybStkaDM4M09mT1dVQ1hJQmhIejArdldQeFAySm1mcFRiRmd4MGNLQkRBaXpCOGhtZitYWm1iNGh6aExzeWxua05BSUJtVEtLSHpoZlVoYi9TZG1zL2x6RmpKMWVCbnpRd1A5dnc9PRgAIAAoADDpk8PW86n0AjiJwr3siC9AicK97IgvShwvcFBkN2RtazhwdEFqTm5BaWxaTjVXTUVoTE09Wh8iHe9vb2VwSU9sdUczVGVpYWRFRmxiOVVvQWhOTFE9ZVI8NDsSrQIIOhKoAgocS2QxMmRaUEx6R3p2YVQ2ai9scjZwak5oNE0wPRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQnVuN21qUzFCVDZCQ2FVMEtuWTBRd1RjQUJiODJLMVh6d2NyL1Z3a1hERFh0OG9kVWFqMUxuUEZ4MnExSEhEVDFoSE10eWVmMU0rWFRMcVpoeWRTeEpvdURnYnJWTWlaUWVxTHdYdVkrNEZxdXlYTGtLcXVEdlc1aHJNdHpJOUQ2Rk9pZTZnPT0YACAAKAAw6ZPD1vOp9AI4oqas06cuQKKmrNOnLkocejBEV09xeXFHTkdrUVA1SjlQaXd6RkRlWStFPVofIh39N2JNbFFpZFN0MFZPb0lIUXo5cEhFa1RqTEpVPWWr1B2JEq4CCCgSqQIKHGgxM0RjNVRNQi9aandxdHZjVTh5OTdRZDZSZz0SpgFaOkFEcXRBWnprbnFsV01UUUNEMkpXY2xJMyszQkJMSk5yZlA5TWxqWXRVeElHcW9iMWE1dWYxaHp1bmx0UUxUUG9qR2Y0ak9jbmhTbVFNVHZpNUtqQTZvdWRka3N3Q1BOVGlPN3BoMzBoVEZnYnZlcElBZlczRFFmbTlLWnc4ekZhOXNleUJYNUJ5M2lDQTZ1aTRsOURjeDkxWEJXUUxhTWFaQT09GAAgACgAMOmTw9bzqfQCOPORp7GlLkDzkaexpS5KHEhnRHNIVFl6bHFVVVduOEJlN2dSUm56NHZ4cz1aICIe//00ZTBuK2xPVG10d0ZCTm1hZ0tCRkJFWm5XZXM9ZQRHmzkS9AEIgAES7gEKHGVnbGhaSEMzZGdHZENMME9lVDBDVThKZzhrMD0SZlo6QURxdEFaeTlzVXJraWpkaEZZWHZ2bHFJQmNPWmJjZEZ4eVV5UDVpMWFraU9ZTSs5dnFxUFg0L3VmUG04TkpOcUU3NVhUMU0vazl4Q0pmRC9COEZTNmxucUJ6ZlZ4UWplUXc9PRgAIAIoAjCq/P/gupCFAzjAsOW95zFAyLDlvecxShxXUkM3OUZtMjFvSjBhZnZBNHZhaUdqeWF6c0U9WiYiJP////8AAAAFdTFnaTBSU1RDK2k1MjVNZmtTbzU3aUZnak9NPWXhLlkQEqwCCEgSpwIKHFp5RTBQQXZPS2VKN3lwQlZyeHRkdUg3NER5TT0SpgFaOkFEcXRBWnprbnFsV01UUUNEMkpXY2xJMyszQkJ1bjdtalMxQlQ2QkNhVTBLblkwUXdZY3FlQ3ZQMXN5MERBaUZuaE9jVWZwK0JIL1Z5ZzJnTTUrM2dZemlZNVE0WU9GdlArYUE5TXc2YXBLK0M0V0VkZjJKL25neGlFQUZ5V2MzSk9PMjVKaHVrd2tuOGtseVlDMER6cHF1Kzc1L0Q2RTBZQT09GAAgASgBMPHroIrAqYQDOOL5i/moLkCn9vWm2jFKHDhmTndDZnMxZTBheStkUE95ZFVIRE92VW1WYz1aHiIcSWtzaFc3VGxMWWRJQlFqL3Z5dkd1WlF4WlJNPWXsG+ZJEq0CCBwSqAIKHE8wZ1dGNUxzTTI1TTZzdjRmTU5OUGhhVGVhZz0SpgFaOkFEcXRBWnprbnFsV01UUUNEMkpXY2xJMyszQkJMSk5yZlA5TWxqWXRVeElHcW9iMWF3SkR4U21SRVNxVXBrSllnY0dRSUtHWUdNWVZHRUxGN3lqbkdkbmZXcE16Sm1aN0ZOREN3bVoxVGtKOEtYbUhsNDd0WVNybGt2a1owZVBOK2NvUXVhcXBFWXJPc1BlaUJpSDBQSlpWKy9wa1ZhV290dz09GAAgACgAMOmTw9bzqfQCOOaGpf6dLkDmhqX+nS5KHFluMVZOak1nQWcxUFIzMnJjenJycyt0TlZSUT1aHyId1Ws0SldGYndvcHpMNU95Wko0QTl6SjFDMGhLND1l6G1RAhKtAghFEqgCChxFSGRFOFZncGR1U3VOUTYzdDQ1aXdFWDNZN2c9EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCdW43bWpTMUJUNkJDYVUwS25ZMFF3YWt3eUxBbjROK1VtTXl1VUM2ZHhWWmdBeWFVRTZ6MUZScnJERHBIMTBWVmFZbDlKRUJXNzVUZFVMdEY4a2pVbiswM0F4SlNtdjYyRHVDc3ZyWVU4aHQvNTJUZ2RmeHFKQk9RbVpSV2x5L3pMTkk1RWc9PRgAIAAoADDpk8PW86n0Ajjv5ZGAsS5A7+WRgLEuShxwc1V4V1JJNDE0eldKTi9XSWpIWDNEbjgyeXc9Wh8iHf1zcmNOelE4QTNaZThXYmp3Ri95ZlE1UTI3SVk9Zbo/gVISrwIILxKqAgocRkRMckVMNTc0d2dEcm5nMW11K2NoN1RoY1pJPRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQnVuN21qUzFCVDZCQ2FVMEtuWTBRd1lCZ0t5bWpRT0pNdWNUUWk0M0E5dEJUUU1IYVdKbjBIRzl6QzJVN0RyTUVQd1ZieHNWOXF0VzJLckJNVWFPeENJcndqY1ZHeG5rZm9aei9RdEV0SE04VGlRekNWaldoTmhrZFNsdmYrYW5JNGZJeE5BPT0YACAAKAAw6ZPD1vOp9AI45PTc0acuQOT03NGnLkocMmtINmJFT05xL3FBUWVJWTVOenZnYWtPdkNBPVohIh///+9wT3NmYlc1b3p2bmdmOThnS3NTSlRuM0VwVW89ZQgMSi4S7wEIWxLqAQocNFhCTmM3MDA2bEE2cDNKUi9nbDlrdjQ2QWwwPRJmWjpBRHF0QVp5OXNVcmtpamRoRllYdnZscUlCY09aT21LWnhtMXhXS3FnM056dE5KRjBVRm9PMFBMRGluRE1BbXVRZkt5SDFLUFI2U0ptSkFIVGxPcnhrNWxKT29NeG4vTU1zQT09GAAgACgAMOWl4azo/IADOPa+q7ejMUD2vqu3ozFKHDViSWhLTG0rUDVMeGk1UmgwVTZER2d2OTVlQT1aIiIg////2WdveDNyQmZEYkJGczA3d05BZFErMjloaUl6Yz1lAAAAABL1AQiMARLvAQocb2R5QXVtd2VhRWQ0eTY2czBheTBHOE9OZUZJPRJmWjpBRHF0QVp5OXNVcmtpamRoRllYdnZscUlCY09aNEkrT083MlRzdDlpM1Z1RGdTNVBVNW5CZ2ozaXBCVEJxeWFMUHZjczFJOWhKakNaZW5PU1JiWTlpelptK2Y0N2RaV3hNdz09GAAgAigCMOqPy77fnYwDOI6sxu/bMkCZrMbv2zJKHC91Vm15SGRsanBUeUFNcTFFZk93QzVoR2toaz1aJyIl/////wAAAAX+K0YzY0tGVjdPYzlyNDlFQ0tuUExYa2paMlNrPWVCY+PDEusBCFwS5gEKHDJsclcwRHhHRXZVaXhPQzV1YkRIRUp4akRvMD0SZlo6QURxdEFaeTlzVXJraWpkaEZZWHZ2bHFJQmNPWnY2dHRJZzJnVG9qOWRVUzBrMmVaRU8wQnpqTDRPeXN5R0FkTTlxckNNcWtzMWorRGdYNEk1ektyTytLU2dxQ3VjLzlna2c9PRgAIAAoADDlpeGs6PyAAzi0w6q3ozFAtMOqt6MxShx5WW12OUpYelFQbVJpUERtV1FmR2hWU2RwcTQ9Wh4iHFhKOHh0VnpWY1ZkUU0rMGtwbVlTKzNGbnZDWT1lIHllZxKtAggbEqgCChxsQ2czNEhTVWdrMGVRQjg2bE5hOWo2cnZpUXM9EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCTEpOcmZQOU1sall0VXhJR3FvYjFhMVRTQno5UG5neXl5MzZDdHJZdWtPWGtPVFdkWmpUcG5EWjZQVTdITUc0WFFiZjV6cHM1SEh6TXZKanRvWldNVjYwWGt5WDRsV1JQN3E2bG9ZMXh5ZXpFa1VNTkZobHZMcnI1YnVsZElUY0FuQ2dUTFE9PRgAIAEoATCJyMSGwKmEAzju6aT+nS5Aqrn1ptoxShxrRzZRTldUdlR5TUNWSS9tMWtkVklCL3Mra1U9Wh8iHatTaEhVbzJtYUd3T1dUQjZRSkg3QWZCRkVjMkk9ZZNUQ8ISrgIIKRKpAgocVVI5NGFzZTVBc0RhVlAyQ1lHRVNjZFZ0bTBzPRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQnVuN21qUzFCVDZCQ2FVMEtuWTBRd2Vhd1o5T2hyMDd2cXJVVnJTRm1IenNWRGNsK2lZZkxaTlJ6SlIyZUVmR2h5cjNmQWVzL2ZEWWkyR1RUT0RxbkpzeVAzY2o4NE53QlBkS3dSZC9sbENlWTVpVyswYmJnM25qY2pPaytQcWFzTVFaWXZRPT0YACAAKAAw6ZPD1vOp9AI4v+Te/aUuQL/k3v2lLkocZW9VOXJXcHFyTlpvZFU5OHVHUG12enFCQzU4PVogIh7//ktaK0ZLc0puSHQwUEpzL1AwcWh1UjhwTEhWQT1luS3SCRLtAQhkEugBChxXUm83WlQyRmF0d3RMYUN4WWVHdGxzdCs5ZTA9EmZaOkFEcXRBWnk5c1Vya2lqZGhGWVh2dmxxSUJjT1pxVjFKb240S0xicXphblFnNkxoVm5USEtnK0w0OXYrMUlXVzBuZjRyRWZaMm1VQTg1QlQxZElPOFB2anpxT3V1V0xaSjVBPT0YACAAKAAw4aO2qYT2ggM4otXEqsMxQKLVxKrDMUocMFFiQ2EzRzRyRzNWbVVXaHJlNDQ1YURzL0JJPVogIh7/qTM4bDF2NGxDRG1xcmVvTTNjTVNZNmlBamRkVT1lAAAAABKvAgguEqoCChxNakR1cUxsa0RleXVlYTE0MTlxcXNxeGtpZWs9EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCdW43bWpTMUJUNkJDYVUwS25ZMFF3VmFmV05Ybml5UDd4Wm5JZmZLOTNobDZ4TVM0OVdMdHhmaksxaTNoaXB3TStxajllY05ENngxSHlEdzdQRGNpZVhoZXRrU0RvdmlESFdNSUNkQmk4THhFR0grbm1nSG5BbDNSRzg2Ri9UcTM0RUtRWXc9PRgAIAAoADDpk8PW86n0Ajjmg/jPpi5A5oP4z6YuShxZWjd3WnFvUmlONVY2RlE5K0RLTE1uT2hibVE9WiEiH///3klEZnJIN0MzMDJKZVJjMS9KT0VybHhDaS9Rdz1lCAxKLhKtAggVEqgCChxyQjZzNWNXSnFoYmh6bmlmUEdhQ3MyaWFlMHM9EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCY0N5NkN3elZ0enAwaGhxK1N6c0ZXanBkeE1Od3AzQlNKUm5neDBGeUF6c3ZRT3BFczcwWWN4WWIxR1pORFVUUWVseU1TS3BZYjRUVFlqaEpWVGRNMGE3RFF5ZVpUK2diUEh6UGltNzZKL1hjNnVUWnJZMlFIeWJCbTYyVzNNWVh2K2EyK0E9PRgAIAAoADDpk8PW86n0AjjJqMagjS5AyajGoI0uShxjZXZuU3ozQW1VSWZJZ3pqK2tMcDZQYWVISmc9Wh8iHek4U29FNEN3Q0gzNE0xUDlsakgrenNic1g3OEE9ZQAAAAASrgIIJxKpAgocbnpQQW1kM0MwamQzU241OEM3UWFtSWxRZzRJPRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQkxKTnJmUDlNbGpZdFV4SUdxb2IxYTI5MzN1SGs3cHFJN0h1cCswV2lXNHd0cW9RVlpJV3FtZ091RU5VczlZd2tHV3J1Q0FSdzlpaWIzVUN0RXNMY2ptKzJESk42RUhZMnFPVlcvQ3poWCt0VkVLd0NrYkl3OFU2Wk4xK0hIQU16RW9yUzJRPT0YACABKAEwicjEhsCphAM40O6bsKUuQK259abaMUoccUdPbDJhMHM2VUlTS0g0aHNkN3h6MFJCQktRPVogIh7/+28vemxVZ25Vc0xsVWEyWjdvbS9OS1VraUlFcz1lk1RDwhKtAgg2EqgCChxlMGRDdjg1YnRxdHlvM0dEL1FLUW9NSnlTdkU9EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCdW43bWpTMUJUNkJDYVUwS25ZMFF3WkpRUFprSG1IRFFJV2YyOVpCWUpwa0lWRjdXL3oySWdxbjFGZzdpRE5BcXF5UFZFOGFleVJEYkdURlhyVVpqa2NUdG4wMEJVMk56ektXWktwVWEyaC83cWMzQjlZR3FsajZHN2ZZeVNvNkNCZXo1T3c9PRgAIAAoADDpk8PW86n0AjjT35qrpy5A09+aq6cuShxmbUdLckpHRmQ0Nm0yQ1NVeXd1M3dLK3dtMHM9Wh8iHd1BUWR5TGYyVThSWUhUTnRsMVdPVmxDZmNESE09ZYCwInYSrgIIIxKpAgocc1lFdkR2RWpobkdRTzFnR3pLbG04VDgzZm5zPRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQkxKTnJmUDlNbGpZdFV4SUdxb2IxYTFMR2RTMnRxSTUvWXc4cHhLZlQ3R3FSSUxKNlRmaVN3SWVNOVN2bCtIM2lZcEFxbmcwR29sZWJtTVJsV0ZWbDRGQ2xPYnA3ZU1yN3J3OGx4YWt4b0o1SkQ5L3hrM0Y0QnJiZERPeEN1NTUreGVkR293PT0YACAAKAAw6ZPD1vOp9AI4ybnKrKUuQMm5yqylLkocS051aTB0MEN2a2dOU2NWRStRUmN0MEFJdktjPVogIh7/sll3MHRLU3RpcUxaa0NVcGlFKzNrZmVBbUsrdz1lgLAidhKtAggiEqgCChxTVkh3WERMR1NOWUNnUHRJblFSRnBYNkxFTlE9EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCTEpOcmZQOU1sall0VXhJR3FvYjFhd3pXd2VwMkZxZHQ2SG9BaUk1bWR1S01WcTFjRWwvUTVwR3dIc3g1dTQxOUJoZ3dQQUlvWmE2ZTV3dEJscHN2ekpCRDlFVGk1UlpmbWZqVGdwZjg3ZndSMEMwSEhUcnA0ZlROeVl6SVg3c1BUelRKRVE9PRgAIAAoADDpk8PW86n0AjjW+qSIpS5A1vqkiKUuShxmSDZmclZvZGJDK3EzQTV0alg3cGo5RFlyWUE9Wh8iHf9kd1VOVWNIZUZLWWlSMjFqdktjbEQzL2lUTDA9ZXKIGfgSrgIIJBKpAgoceDZLcnZGOTlURFhFNHVHUTlRekdOMVJNRmg0PRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQkxKTnJmUDlNbGpZdFV4SUdxb2IxYTdkZm9ZTUgvdkpJL1k0ZjFyRExza3Q2dFpVN1BMOXFUYjExeDJSUFVTYnAyYUVRNEhBL2FGMU9ab2lkUzRjRjNuaXJrMXRRNktuWjZUSWNUWWt0RlAwZkVBSDJ0NG1IaXBpVCtqd1BnaTc1WHFabjdRPT0YACABKAEwicjEhsCphAM42cTJr6UuQKy59abaMUocMkFXNWhxdW5rVmNXNGFKNW1tbDFyU2xXenZjPVogIh7/2TlKdWlvUGJzbHd3bjVrNmdpVXZmR2Q0UkNiOD1lk1RDwhLsAQhSEucBChw0NXBrbmovM281MUhBQmJOOWxMeXI1NkYrU3c9EmZaOkFEcXRBWnk5c1Vya2lqZGhGWVh2dmxxSUJjT1ppKzhReWZSZ0NCc2tZdzB2ZG1DNUsxbXB0Yk9pU1hZd1VObTUxejBibWNrUS9ibjFZWk95NWFHMDZYT28vVGt1dThTbFdBPT0YACAAKAAwwPPDwqz7+wI4/IXFqdEwQPyFxanRMEocV3FkaTJJRGpWQnN6M2pPbG44Z3dOTUsvTi9FPVofIh3/TnZJazlYSVg0UHpCVzdrVkpxalR5QXFDUU5NPWW/gqVcEq0CCBASqAIKHDhxa1FRSEFiczZMSGJ6MnI3aDBhNEN1cDVoQT0SpgFaOkFEcXRBWnprbnFsV01UUUNEMkpXY2xJMyszQkJjQ3k2Q3d6VnR6cDBoaHErU3pzRldtMDRwL3ZTUjU1UzhZQk85VTMweVRVdUs1cmhHVTdrZFdKNWpGdGhQeWFKYmtXbUcrZkxwa3BHWVBvVEZoWTN3MjhHM05vMzhtaHVpZnhnVlB3Y2dHQWhldnZ3RS9wck5NNy8vOVZ6cmhPa1BkWm01UT09GAAgACgAMOmTw9bzqfQCOMmoxqCNLkDJqMagjS5KHFNWb1ZiZzJIWUVKSS83YWRtYm1aUytZanI5MD1aHyId9y9CMU0rV2gxTXBvRXltWXBzYlNSSmFyd214ND1lAAAAABKtAggREqgCChxEWmJYOFMvT1lVdXlrK1BsQ3U5TW9FS0FNODA9EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCY0N5NkN3elZ0enAwaGhxK1N6c0ZXZ0EyRjdvRmd1elFVa1F6RThKeEt2Q0xkeTY3UVUwSEZzcXNVR3VTakdCSU9HRitRS1A0Nm5BZDY2Y1JlSVVyVUw3ZUdEOXpqT3ZtYUJKTjNsSlE5ckFEaHNxbEpZR3A4OExvWTI5M0U1TmlzNWNmaWc9PRgAIAAoADCwuabW86n0AjjJqMagjS5AyajGoI0uShxJQ2xOL25yZWNrZ0lid1gwM0xzeU1XNjFTQzQ9Wh8iHftLcVg2TGQrK3pVRFFNdmNEZWlZdGpvN0Zkazg9ZQAAAAASrQIIHxKoAgocaEgrS1R1bGlrMVFmQlBFWndtWExodjRKeVVvPRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQkxKTnJmUDlNbGpZdFV4SUdxb2IxYTExSDJzckxMekdKN3ZNSjlYdWI2QktueVFWV1Q3bE0wSnB1MmUwUWFVRDhYRHBDc1lhZnc1WU5BREJBL2VHdVl1VUl2eUJVQlY5UXNkWHI0eTJRQVh0V2F6ZlZjeUhQYWhIVkFoeXUrQTk1aml3OThBPT0YACAAKAAw6ZPD1vOp9AI46rbH6KIuQOq2x+iiLkocTWlCUjNPOXY1RzlJYjVVT1Rod1ZxNXlxL1FRPVofIh36aVJjZEpZL0ZHR3lxajkvcTJMWll0OW8wa3o0PWVvomHHEq0CCB0SqAIKHFVCVURvaytTaWVDN091Q284Zk1haFFHeFRPND0SpgFaOkFEcXRBWnprbnFsV01UUUNEMkpXY2xJMyszQkJMSk5yZlA5TWxqWXRVeElHcW9iMWE4S1RJVmN6b1BvampJWXUyWHhpZ1Roa21JUFdzeHVtaWFBMVlQN2owT3YzT3cwbjFscUNOeVZRL1ZvbXRLTHFTcHNtSkN4TWNuN3BNaVo0N0hINFZ4eHZOM2pnNWI0NlFKTFo5OUVYaFh2ZS93RWhYdz09GAAgASgBMInIxIbAqYQDOIa+ptieLkCrufWm2jFKHE1ydlhGbkx4M21TUXBmMnRadlZTRlIvd0xpZz1aHyId6mQyejJSN29SdFplQlRHbFNLb2F0Ti91blRJOD1lk1RDwhL0AQh+Eu8BChx2bGdzcUkzb2l0cFZGd3c0MFlnRFMwYzBydlk9EmZaOkFEcXRBWnk5c1Vya2lqZGhGWVh2dmxxSUJjT1pkaUlyQWdmdHJENlpwZXB5Y3d4SzhqSEpsMTg4UWFGTEdGaFl3Vzk1UEdmblNsaGZQZFcra0VRTHplVVFrUnoxTGxjT25BPT0YACACKAIwxLLLzbqQhQM4wvLivecxQMXy4r3nMUocZk56N3hLbEY0eDBnRk1iRDJxVzFVSnVrRjdvPVonIiX/////AAAABP13MG5SeS9YK0h5SFF4NXE1dDd0WkVoM2dpekU9ZeEuWRASrgIIGBKpAgocM0ptUnppYUFBZTV6b3FtUWU0azdhUU5SSlU4PRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQkxKTnJmUDlNbGpZdFV4SUdxb2IxYTA2eTZGSXV5OW9QUlBCYlNVWk5LeXpoWTV3WDBmd0xDNXZxaGZWa3J5NGpQY1puc3c5OUI0UVBUN3F0cTNZNEJhMjN4d2syVDVHTHFUQVo4dmZSQ1pyeEIvUXk4bWQ4L2IydTEwa2twNjlxcTlwS25RPT0YACAAKAAwsLmm1vOp9AI4z6uk/p0uQM+rpP6dLkoccnFCbGQxdFlGTm1rU1EzcXczUWdkSzM4SHFJPVogIh7/u2x4NWs2WW5sM0VOaGlRdFhGM1pwMXJZN2xKdz1lAAAAABKuAggmEqkCChxxR0o3UnBoOHpEUWg0dFQvckpKSjlIbzIxUjQ9EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCTEpOcmZQOU1sall0VXhJR3FvYjFhLzRNVHpUaFFwa1NCelUweWQ1Q3VvNkhSN3ZONG11UVNFY3ZHNldLenBBclpvSG5uS3puaE56MHcvRUNHZHA2OXRKeVdKRzlQVytJaURUQ0tsa2V3SytlTVNNaUlmdjhUZFhOeHNVbllEbTdvR3RQU2c9PRgAIAAoADDpk8PW86n0AjjYp/qvpS5A2Kf6r6UuShxKWm55eldhdWNyL1dKR3VqdU1uc0dqSi9zT289WiAiHv/2RWw3SVJDTnRhSi9uWXhWTkUyUzVpa0lReEtrPWUIDEouEq0CCBQSqAIKHDUzSGxOZ3IyWk5SK3FaY1hMZlJUR3d5Tlgraz0SpgFaOkFEcXRBWnprbnFsV01UUUNEMkpXY2xJMyszQkJjQ3k2Q3d6VnR6cDBoaHErU3pzRldwcnFuTXRiTVd2bXgwKzc2WG9zbjJnU3ZmVFlycEd3bmx1ekFuYUxaRUx2RVRJeExNVW9iL3JRQ1pMN0NpL2JQYXppWEwzSjc5NXRtWkZVV1UxSnFaWUlJVW1EVE9UOE4zc2Jra0RiN0sxeStpQ0hUdz09GAAgACgAMOmTw9bzqfQCOMmoxqCNLkDJqMagjS5KHGdKdWVpajF5TGwySms3YWtxQkwvOW5mWTF1cz1aHyId0jF3N2J2WFFBUTV5ZSsvQTZhZXBrSjRSVmZQYz1lrk7UFBKtAgggEqgCChxsQ2FpNHk3Q1VITzhKMFJVVDlvOVJsTWdiN3c9EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCTEpOcmZQOU1sall0VXhJR3FvYjFhMXQ4RDhLTFJEb2ZvakRGQTE3UytMOFJ4TjcvbVhxWStxWTFBcHFnNTRqaUIwK3p2S1dJUU8ydGN4YXlEdE5RRTlQU0xaVjUyMmdLLzBoTWlGVFdMZFRkamtQNFlYZGRTWTJaM01rM2xpSDE5OUxabXc9PRgAIAEoATDB8IDK3PiEAzjP7P3/pC5AhPfzuOQxShx2dXpraVBrbE5mVFQxdFR1L2FleFhlR3JyN3M9Wh8iHf1YQys0UEYrek5VZzUvaDFZTDkrYWlnSm5WVFE9ZTj5OTMSrAIIDhKnAgocWHdmMVdmK2l6ZGc4VmxubTdINXhMRll0NlRvPRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQmNFZmpCSDNqZUM4cWxyNlczZldaN2RRaWZ2V0hteTByZzhaNHpmOVRpbWdqTWpjUVpEQ0gyUG9BWkNuYVd5ellrY0NLalNwcU1yYjU5VWo1K2Q1TzVlMnMxd1l0QUNLNWU4dTVHbWdlenN2NzY1MFZSL2RvZlMvSzQ0aElHakFtUDRlN25BPT0YACAAKAAwvq3n5+W4/wI4n4nV4NUsQJ+J1eDVLEocTkhIWWFiVDU3blFvSlc2NXpDMGdIVnFNM2t3PVoeIhx3NHBVK3VjSms4Mmk1UHdmb0xqbnVNL0JtZ1U9ZTBQx2wS7QEIVhLoAQoceTI3WEplU21ZMG93SzBQeUVOK3VWSndCeHBvPRJmWjpBRHF0QVp5OXNVcmtpamRoRllYdnZscUlCY09acTNnMVZuRXZHcmZSK294RFc1Nmh0L1MxMkxzQ2JnNUl0cDF0NnRYcTc0a3ZMN28zSEdDTXpZQ3k3ZnQwUGEzcWF1M2szZz09GAAgASgBMNDl1YHd9YMDOM7q7JHYMEDchtTW0zFKHGF1cCtrdThQUXVGcjg3QUl0SlR4VnZ4NzgxYz1aICIe//9qV3o1eG1EZEVqKzBYY3JyNGZvQVhtY3JmSFU9ZZNUQ8ISwwEIAxK+AQocbmpnRHU4OGVDcnZYcDg2cEQ3ZkhHY3FGcDg4PRJmWjpBRHF0QVp6bEZwYjk4ditSdFJ3aGtTMDNacEhyVmRvNGNWQzhYWXlUd25aeW5hRkdxcTFOU1V3SHd4VG5EbkZqWkFKTm5aRmxqaDVRTUY0d3F6cTJ5aHlVUDQvZ0lHQldidz09GAAgACgAMIqFiuWGmoMDOABAAEoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAAASrAIIGRKnAgocY0hVUEVMMmR6RXJXT1VYYU1ObUtHYTZQbHhJPRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQkxKTnJmUDlNbGpZdFV4SUdxb2IxYTROMWJhbmFhTmdJeDNvZHFQWVNUM1MwcEZYL3JRNEdGT3RxeDhiNkxPYW1KRTB0ZXo3MzgrSlZZNmdxM3hNVEIydExBYzlHeW4zaDNkQWQ3TUdlTm84bU5nTW1xQkFGeWtYV0N0Y1dYQ0F3UnRsNnhBPT0YACAAKAAw6ZPD1vOp9AI4x9ej/p0uQMfXo/6dLkocbVpsZG1oVzRuSzV6ZXB6aU9kcmdTUS85TjJzPVoeIhxFMkZWMkZ6Qks0aTBuU0s0RkorN3p1eVNoOU09ZR+aZukS9AEIehLvAQocRkE4S0FEOVBNalZaa2djTnduekdpazVzZkNBPRJmWjpBRHF0QVp5OXNVcmtpamRoRllYdnZscUlCY09aclRya2xRbW9ET21NaDA4aXh6WW9SSmtOZnVyY1llQmExbG9jU0FqOU8vYnpCb0ZzRVIvbE9DcDMwbFNnQitObk5QdzdDZz09GAAgAigCMKnbsL+UhoUDOO76hpXmMUD4+oaV5jFKHGh5Q1pXTXFmMnlDMnRkL2RpY1lmcDVUdXpLWT1aJyIl/////wAAAATuNjF2TE40SVgvZXRrNnNWd0N3MmI4c3Z4Y1ZBPWWTVEPCEuwBCF0S5wEKHExDRUFJbGFyS3poTG8rUTZ2QTFIbHBQNlF0dz0SZlo6QURxdEFaeTlzVXJraWpkaEZZWHZ2bHFJQmNPWkowb1FKSlpHaURyV1BCSmlxbVZELzcxWW96UGtsSmZ4Q3FWZVVFb3FMSFp3VUVneU9WSjJOS3JnKzJDVnRSVjkxS2pteVE9PRgAIAAoADC+nJyIn7SBAzi7/LrDqjFAu/y6w6oxShxEbjNTTU9sTTliN2ZOUkNhUnpMYkVyYW8vYkU9Wh8iHaxFemJwZEQ4cXdVckxRYTY0RVJiYVhuc0FrTkE9ZQAAAAAS9AEIexLvAQocaEhjeE1raTZrK2lDUGJxaDEyYWozWDZmSi9FPRJmWjpBRHF0QVp5OXNVcmtpamRoRllYdnZscUlCY09aZVl0OWhPdDdjL1l3NEhoMlFwalFadytTbzFScC9mcStKQUJtUGxOZE96UndsOHg4RlhwV0VYUXRmdnIvWXVHeHFYcmpxQT09GAAgAigCMKunlsGUhoUDOOaYh5XmMUDpmIeV5jFKHFV1S1JkelNFdU1zZzQ0ZTZTaGZLZVJ5elREaz1aJyIl/////wAAAAT3Tk1paEJjeVNKM2NuTjN2dVpLR1R5a1BLUG53PWWTVEPCEq0CCB4SqAIKHG50MHFveUQzVUNGbEdSWlZNcHZHb3hHWlQ3dz0SpgFaOkFEcXRBWnprbnFsV01UUUNEMkpXY2xJMyszQkJMSk5yZlA5TWxqWXRVeElHcW9iMWE3NnRSUG5FZnVnWHF3Y0JRK2trM0JJOFRjSHBwNkk0dFFHWDEwcExWekYvRDFySGNYMS83U1JvWXJObklybFl4YXhZNHVhRkNOcUp4azNsT0pHRTZ4bkF1RVJJTWYzVDBON25jL1diWHVwWWlXMkE4QT09GAAgACgAMOmTw9bzqfQCOKr8+uCiLkCq/Prgoi5KHEdZblFZN0hlNTVYRWcwcDZsOEZIR2RPNktGST1aHyId9W9GcjBjWWtiSlZKM2cvTlJ3MGhRdllwN0xyST1lUDinGxKuAghTEqkCChxBRjI0R0t0YnpUT0RDbjV5T3lZcDAraUE3WU09EqYBWjpBRHF0QVp6a25xbFdNVFFDRDJKV2NsSTMrM0JCdW43bWpTMUJUNkJDYVUwS25ZMFF3ZFJrV1pQYTJJeWJ2dk1heVJTNlllcDkzOXlySWJZQk9jb2NhbEwrck05T0lyMENHUlJGV3d1YTlrcUZBQlU2VWJxdnVGSE5maDZtNGJhR2pjZXl4ckp5SmtzVENEQUdmQ2JKMUNpTCtsOW9aQWUvZ2c9PRgAIAAoADDpk8PW86n0Ajjm1K/Xty5A5tSv17cuShxsMTMyemxsZnk4Ums0THBDS1M2N1NNVDNzSG89WiAiHv/9K2I5dmFQSVN6bmF2YklVV0llK244V1Z0bWdjPWUAAAAAEvUBCIQBEu8BChx0SUQyRVRvRWZBT215ZjlRSmxKYW9TVjBWYW89EmZaOkFEcXRBWnk5c1Vya2lqZGhGWVh2dmxxSUJjT1pRYWp3TTFqY213M09xTCs4ajl1U1Jza01KNHNGVHNKUjVUUE1CcHpORjFaVkhtNWVUVnNieksrNWRlR3JxVUxEdDE2R0JRPT0YACACKAIwrILvi/mehQM46vmSq+kxQPz5kqvpMUocZEJWZEl6NEw5WExOU2tWeXNrYXVHNHBDdkE4PVonIiX/////AAAABe5yVGpvNnVhQlUzQU5nOGZuYXBGeFVCUGlTdWc9ZZRRn/ASrQIIIRKoAgocUGY4MEJES3NXUSsyVDFRbFZYN2ljWHZxeTNvPRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQkxKTnJmUDlNbGpZdFV4SUdxb2IxYS8vVEdJNkxQbi9BemhBL05QM01RM0dwSlpDNEY1MUJyOTk4WVVsMktQMVJVTnd0LzRJUnczR2lrd2xGaXRjcm11SytsYnJCK1FORXQ4TVowUGNyV0ZnS1RVUHVzbVFTV0U0L05KWFJ1VnUzT3dNVXV3PT0YACAAKAAw6ZPD1vOp9AI43s7igaUuQN7O4oGlLkocanNaWFMwS3VrckFiK25ZMmFtZWtaOTZPQ0VzPVofIh3+d3ZKM1F4KzcyWjBLcERGRWg1L2l4TlJaTkt3PWXY1mr0Eu8BCGYS6gEKHDJINjlvelBGaHRMTldlTnlreE1DQmhBQUVrST0SZlo6QURxdEFaeTlzVXJraWpkaEZZWHZ2bHFJQmNPWnNqMkJMdzg1bVorb2NtSGxpMzJCUS80aFlQaEtRYjRoMWcrdHQ3RWVxVG5WVlpwdkNPdnFreWwyeU5vVlF4YWtHbmI2V2c9PRgAIAAoADCordfGt8iBAzj9xaOOrTFA/cWjjq0xShwrRE12dk5ja3ZVVm1TV0VrSUhRZDVpNnl1T1k9WiIiIP////1Ed0Q0aUxURU1hY3ZxM1ErbnQyeVdwYUVDRzQ9ZQAAAAASrAIIEhKnAgocS3phVU5yUGxoenZyK2lVT0ZVdXB2ZW1VTEdBPRKmAVo6QURxdEFaemtucWxXTVRRQ0QySldjbEkzKzNCQmNDeTZDd3pWdHpwMGhocStTenNGV2loeGhYMUhwME9aQWxQdU9RV0U1amhPRE5ESllBT0QwaCtPTzRVU2h6ZExPSTJpMCtUWVZ2aFRZdHlla0hORmtmSGZiYnhJZm1tQmlkMWlLWDN3djQzaGdXUXpRVExOdkM4L3lTQzVCRTZEcjBBb3JRPT0YACAAKAAw6ZPD1vOp9AI4yajGoI0uQMmoxqCNLkocb044Z0NqRVIvNTVtRG81aSsyNkxtK3pRUndZPVoeIhxLeXh3OEFuTkwxV1RNbWMycnh3Z05OR3RBaXM9ZZ9Q4WowATgA",
+   "version": 1
+}

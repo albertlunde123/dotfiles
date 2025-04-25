@@ -1,0 +1,16 @@
+{
+    "workbench.colorTheme": "Tokyo Night",
+    "editor.cursorStyle": "block",
+    "editor.lineNumbers": "relative",
+    "editor.fontFamily": "'Hack Nerd', 'Regular'",
+    "editor.fontLigatures": true,
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": false,
+    "files.autoSave": "onFocusChange",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.smoothScrolling": true,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "editor.fontSize": 20
+}

@@ -1,0 +1,14 @@
+2025-04-08 21:52:41.237 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/0.48.7/749b60b0b950b0bf30c9322e46d8a00a0745c0ed898fccedde75126f9c1dc9c3/stable
+2025-04-08 21:52:41.237 [info] update#setState idle
+2025-04-08 21:52:43.411 [error] vscode-file: Refused to load resource /tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/extensions/theme-seti/icons/seti.woff from vscode-file: protocol (original URL: vscode-file://vscode-app/tmp/.mount_CursorhkPfXP/usr/share/cursor/resources/app/extensions/theme-seti/icons/seti.woff)
+2025-04-08 21:53:10.990 [info] update#setState checking for updates
+2025-04-08 21:53:11.116 [info] update#setState idle
+2025-04-08 22:53:10.992 [info] update#setState checking for updates
+2025-04-08 22:53:11.409 [info] update#setState idle
+2025-04-08 23:53:11.000 [info] update#setState checking for updates
+2025-04-08 23:53:11.390 [info] update#setState ready
+2025-04-09 12:39:39.852 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-09 22:24:19.911 [info] Extension host with pid 692760 exited with code: 0, signal: unknown.
+2025-04-09 22:24:19.945 [info] Extension host with pid 692687 exited with code: 0, signal: unknown.
+2025-04-09 22:24:20.232 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 692700]: crashed with code 15 and reason 'killed'
+2025-04-09 22:24:20.270 [info] update#quitAndInstall(): starting updater with command /tmp/.mount_CursorCtfcH2/usr/share/cursor/resources/appimageupdatetool.AppImage -u "zsync|https://downloads.cursor.com/production/7801a556824585b7f2721900066bc87c4a09b743/linux/x64/Cursor-0.48.8-x86_64.AppImage.zsync" -O "/home/albert/Apps/Cursor.AppImage"; /home/albert/Apps/Cursor.AppImage &

@@ -1,0 +1,1889 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="Miniscala" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="1qj0jea0etj1q" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$PROJECT_DIR$/examples/even.s">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="162">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"even.s","foregroundColor":-1,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,73,10,18,102,105,108,101,84,121,112,101,115,47,116,101,120,116,46,115,118,103,18,24,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,116,101,120,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-122,-48,-19,-85,-2,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/miniscala/Interpreter.scala">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="6279">
+              <caret line="265" column="92" selection-start-line="265" selection-start-column="92" selection-end-line="265" selection-end-column="92" />
+              <folding>
+                <element signature="e#19#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Interpreter.scala","foregroundColor":-1,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-103,1,10,-106,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,97,108,98,101,114,116,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,73,110,116,101,108,108,105,74,73,100,101,97,50,48,50,52,46,51,47,83,99,97,108,97,47,108,105,98,47,115,99,97,108,97,67,111,109,109,117,110,105,116,121,46,106,97,114,33,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,112,108,117,103,105,110,115,47,115,99,97,108,97,47,105,109,97,103,101,115,47,101,120,112,117,105,47,111,98,106,101,99,116,83,99,97,108,97,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/miniscala/Options.scala">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="-331">
+              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Options.scala","foregroundColor":-1,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-103,1,10,-106,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,97,108,98,101,114,116,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,73,110,116,101,108,108,105,74,73,100,101,97,50,48,50,52,46,51,47,83,99,97,108,97,47,108,105,98,47,115,99,97,108,97,67,111,109,109,117,110,105,116,121,46,106,97,114,33,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,112,108,117,103,105,110,115,47,115,99,97,108,97,47,105,109,97,103,101,115,47,101,120,112,117,105,47,111,98,106,101,99,116,83,99,97,108,97,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/examples/classes4.s">
+          <provider editor-type-id="text-editor" selected="true">
+            <state>
+              <caret selection-end-line="3" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"classes4.s","foregroundColor":-1,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,73,10,18,102,105,108,101,84,121,112,101,115,47,116,101,120,116,46,115,118,103,18,24,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,116,101,120,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-122,-48,-19,-85,-2,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/miniscala/Week12/ex121.scala">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="162">
+              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"ex121.scala","foregroundColor":-1,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-105,1,10,-108,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,97,108,98,101,114,116,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,73,110,116,101,108,108,105,74,73,100,101,97,50,48,50,52,46,51,47,83,99,97,108,97,47,108,105,98,47,115,99,97,108,97,67,111,109,109,117,110,105,116,121,46,106,97,114,33,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,112,108,117,103,105,110,115,47,115,99,97,108,97,47,105,109,97,103,101,115,47,101,120,112,117,105,47,115,99,97,108,97,70,105,108,101,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/miniscala/Main.scala">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="749">
+              <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Main.scala","foregroundColor":-1,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-103,1,10,-106,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,97,108,98,101,114,116,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,73,110,116,101,108,108,105,74,73,100,101,97,50,48,50,52,46,51,47,83,99,97,108,97,47,108,105,98,47,115,99,97,108,97,67,111,109,109,117,110,105,116,121,46,106,97,114,33,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,112,108,117,103,105,110,115,47,115,99,97,108,97,47,105,109,97,103,101,115,47,101,120,112,117,105,47,111,98,106,101,99,116,83,99,97,108,97,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/miniscala/Compiler.scala">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="486">
+              <caret line="18" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="18" />
+              <folding>
+                <element signature="e#19#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Compiler.scala","foregroundColor":-1,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-103,1,10,-106,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,97,108,98,101,114,116,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,73,110,116,101,108,108,105,74,73,100,101,97,50,48,50,52,46,51,47,83,99,97,108,97,47,108,105,98,47,115,99,97,108,97,67,111,109,109,117,110,105,116,121,46,106,97,114,33,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,112,108,117,103,105,110,115,47,115,99,97,108,97,47,105,109,97,103,101,115,47,101,120,112,117,105,47,111,98,106,101,99,116,83,99,97,108,97,46,115,118,103]}]]></tab>
+      </file>
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/miniscala/AbstractMachine.scala">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="621">
+              <caret line="102" column="35" lean-forward="true" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"AbstractMachine.scala","foregroundColor":-1,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-103,1,10,-106,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,97,108,98,101,114,116,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,73,110,116,101,108,108,105,74,73,100,101,97,50,48,50,52,46,51,47,83,99,97,108,97,47,108,105,98,47,115,99,97,108,97,67,111,109,109,117,110,105,116,121,46,106,97,114,33,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,112,108,117,103,105,110,115,47,115,99,97,108,97,47,105,109,97,103,101,115,47,101,120,112,117,105,47,111,98,106,101,99,116,83,99,97,108,97,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/miniscala/Week13/testCompiler.scala">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="513">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <folding>
+                <element signature="e#45#79#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"testCompiler.scala","foregroundColor":-1,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-105,1,10,-108,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,97,108,98,101,114,116,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,73,110,116,101,108,108,105,74,73,100,101,97,50,48,50,52,46,51,47,83,99,97,108,97,47,108,105,98,47,115,99,97,108,97,67,111,109,109,117,110,105,116,121,46,106,97,114,33,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,112,108,117,103,105,110,115,47,115,99,97,108,97,47,105,109,97,103,101,115,47,101,120,112,117,105,47,115,99,97,108,97,70,105,108,101,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/miniscala/Ast.scala">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="3773">
+              <caret line="153" column="176" selection-start-line="153" selection-start-column="2" selection-end-line="153" selection-end-column="176" />
+              <folding>
+                <element signature="e#19#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Ast.scala","foregroundColor":-1,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-105,1,10,-108,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,97,108,98,101,114,116,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,73,110,116,101,108,108,105,74,73,100,101,97,50,48,50,52,46,51,47,83,99,97,108,97,47,108,105,98,47,115,99,97,108,97,67,111,109,109,117,110,105,116,121,46,106,97,114,33,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,112,108,117,103,105,110,115,47,115,99,97,108,97,47,105,109,97,103,101,115,47,101,120,112,117,105,47,115,99,97,108,97,70,105,108,101,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/examples/pingpong2.s">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="486">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"pingpong2.s","foregroundColor":-1,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,73,10,18,102,105,108,101,84,121,112,101,115,47,116,101,120,116,46,115,118,103,18,24,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,116,101,120,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-122,-48,-19,-85,-2,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "Scala": {
+      "usageCount": 443,
+      "lastUsed": 1745489475535
+    },
+    "PLAIN_TEXT": {
+      "usageCount": 127,
+      "lastUsed": 1745486731337
+    },
+    "AUTO_DETECTED": {
+      "usageCount": 9,
+      "lastUsed": 1743936336432
+    }
+  }
+}]]></component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>unparse</find>
+      <find>Unparse</find>
+      <find>½</find>
+      <find>funexp</find>
+      <find>print</find>
+      <find>empty</find>
+      <find />
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/miniscala</dir>
+    </dirStrings>
+  </component>
+  <component name="FindInProjectScope">
+    <option name="isProjectScope" value="true" />
+  </component>
+  <component name="GitSEFilterConfiguration">{}</component>
+  <component name="IdeDocumentHistory"><![CDATA[{
+  "changedPaths": [
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week2/ParseBlocksValDec.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week2/MyVarEnv.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week3/Tests.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week3/UnparserTest.scala",
+    "/home/albert/IdeaProjects/Miniscala/examples/sqrt4.s",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week1/Week1.scala",
+    "/home/albert/IdeaProjects/Miniscala/examples/scope1.s",
+    "/home/albert/IdeaProjects/Miniscala/examples/even.s",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week4/IntTree.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week3/TestsType.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Vars.scala",
+    "/home/albert/IdeaProjects/Miniscala/examples/lambda1.s",
+    "/home/albert/IdeaProjects/Miniscala/examples/higherorder1.s",
+    "/home/albert/IdeaProjects/Miniscala/examples/higherorder2.s",
+    "/home/albert/IdeaProjects/Miniscala/examples/higherorder3.s",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week5/Tests.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week7/OrElse.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week7/List.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week7/Nat2.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week8/unparseTest.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Lambda.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week8/encoderTest.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week3/FunctionTest.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week3/TestsInterpreter.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week4/FunctionTest.scala",
+    "/home/albert/IdeaProjects/MiniscalaOld5/src/miniscala/Week8/encoderTest.scala",
+    "/home/albert/IdeaProjects/MiniscalaOld5/src/miniscala/parser/Parser.scala",
+    "/home/albert/IdeaProjects/MiniscalaOld5/src/miniscala/Ast.scala",
+    "/home/albert/IdeaProjects/MiniscalaOld5/src/miniscala/Interpreter.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week2/Simplify.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week9/InterpreterImperativeTest.scala",
+    "/home/albert/IdeaProjects/Miniscala/examples/pingpong.s",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week9/subtypeCheck.scala",
+    "/home/albert/IdeaProjects/Miniscala/examples/subtyping.s",
+    "/home/albert/IdeaProjects/Miniscala/examples/classes1.s",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Unparser.scala",
+    "/home/albert/IdeaProjects/Miniscala/examples/classes2.s",
+    "/home/albert/IdeaProjects/Miniscala/examples/classes3.s",
+    "/home/albert/IdeaProjects/Miniscala/examples/classes4.s",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week9/classTypeTest.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Ast.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Interpreter.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week2/Intlist.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/TypeChecker.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week12/ex121.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week12/ex128.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week12/ex122.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Main.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Week13/testCompiler.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/Compiler.scala",
+    "/home/albert/IdeaProjects/Miniscala/src/miniscala/AbstractMachine.scala"
+  ]
+}]]></component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="Scala">
+      <summary usageCount="443" lastUsage="1745489475535" />
+    </language>
+    <language id="TEXT">
+      <summary usageCount="127" lastUsage="1745486731337" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Miniscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Miniscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/examples}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Miniscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Miniscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Miniscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala/Week1}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Miniscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala/Week2}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Miniscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala/Week3}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Miniscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala/Week4}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Miniscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala/Week7}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Miniscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala/Week8}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Miniscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala/Week9}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Miniscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala/Week12}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Miniscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala/Week13}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/toolwindows/project.svg" iconPlugin="com.intellij" isLeaf="false" text="Miniscala" />
+            <item name="Miniscala" type="b2602c69:ProjectViewProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="Miniscala" />
+              <item name="dir{file:///home/albert/IdeaProjects/Miniscala}" type="462c0819:PsiDirectoryNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.idea" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".idea" />
+                <item name="dir{file:///home/albert/IdeaProjects/Miniscala/.idea}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/examples" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="examples" />
+                <item name="dir{file:///home/albert/IdeaProjects/Miniscala/examples}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/ack.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="ack.s" />
+                  <item name="ack.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/calc1.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="calc1.s" />
+                  <item name="calc1.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/calc2.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="calc2.s" />
+                  <item name="calc2.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/calc3.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="calc3.s" />
+                  <item name="calc3.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/calc4.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="calc4.s" />
+                  <item name="calc4.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/church.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="church.s" />
+                  <item name="church.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/circle.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="circle.s" />
+                  <item name="circle.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/classes.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="classes.s" />
+                  <item name="classes.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/classes1.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="classes1.s" />
+                  <item name="classes1.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/classes2.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="classes2.s" />
+                  <item name="classes2.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/classes3.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="classes3.s" />
+                  <item name="classes3.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/classes4.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="classes4.s" />
+                  <item name="classes4.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/counter.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="counter.s" />
+                  <item name="counter.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/counter2.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="counter2.s" />
+                  <item name="counter2.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/even.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="even.s" />
+                  <item name="even.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/ex21.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="ex21.s" />
+                  <item name="ex21.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/fac.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="fac.s" />
+                  <item name="fac.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/fac2.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="fac2.s" />
+                  <item name="fac2.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/fac3.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="fac3.s" />
+                  <item name="fac3.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/fac4.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="fac4.s" />
+                  <item name="fac4.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/fib.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="fib.s" />
+                  <item name="fib.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/fib2.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="fib2.s" />
+                  <item name="fib2.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/fib3.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="fib3.s" />
+                  <item name="fib3.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/gcd.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gcd.s" />
+                  <item name="gcd.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/higherorder1.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="higherorder1.s" />
+                  <item name="higherorder1.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/higherorder2.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="higherorder2.s" />
+                  <item name="higherorder2.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/higherorder3.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="higherorder3.s" />
+                  <item name="higherorder3.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/intlist.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="intlist.s" />
+                  <item name="intlist.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/lambda1.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="lambda1.s" />
+                  <item name="lambda1.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/leap.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="leap.s" />
+                  <item name="leap.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/mc91.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="mc91.s" />
+                  <item name="mc91.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/pingpong.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="pingpong.s" />
+                  <item name="pingpong.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/pingpong2.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="pingpong2.s" />
+                  <item name="pingpong2.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/scope1.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="scope1.s" />
+                  <item name="scope1.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/scope2.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="scope2.s" />
+                  <item name="scope2.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/sqrt1.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="sqrt1.s" />
+                  <item name="sqrt1.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/sqrt2.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="sqrt2.s" />
+                  <item name="sqrt2.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/sqrt3.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="sqrt3.s" />
+                  <item name="sqrt3.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/sqrt4.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="sqrt4.s" />
+                  <item name="sqrt4.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/subtyping.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="subtyping.s" />
+                  <item name="subtyping.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/tak.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="tak.s" />
+                  <item name="tak.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/tak2.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="tak2.s" />
+                  <item name="tak2.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/test1.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="test1.s" />
+                  <item name="test1.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/twoclasses.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="twoclasses.s" />
+                  <item name="twoclasses.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/twoclasses2.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="twoclasses2.s" />
+                  <item name="twoclasses2.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/twoclasses3.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="twoclasses3.s" />
+                  <item name="twoclasses3.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/twoclasses4.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="twoclasses4.s" />
+                  <item name="twoclasses4.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/twoclasses5.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="twoclasses5.s" />
+                  <item name="twoclasses5.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/twoclasses6.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="twoclasses6.s" />
+                  <item name="twoclasses6.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/varenv1.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="varenv1.s" />
+                  <item name="varenv1.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/varenv2.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="varenv2.s" />
+                  <item name="varenv2.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/examples/vars1.s" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="vars1.s" />
+                  <item name="vars1.s" type="ab9368bb:PsiFileNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/lib" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="lib" />
+                <item name="dir{file:///home/albert/IdeaProjects/Miniscala/lib}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/out" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="out" />
+                <item name="dir{file:///home/albert/IdeaProjects/Miniscala/out}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/src" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/src/miniscala" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="miniscala" />
+                  <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/parser" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="parser" />
+                    <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala/parser}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week1" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="Week1" />
+                    <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala/Week1}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week1/Tests.scala" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="Tests" />
+                      <item name="Tests" type="ce8f04f3:TypeDefinitionNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week1/Week1.scala" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="Week1" />
+                      <item name="Week1" type="ce8f04f3:TypeDefinitionNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week2" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="Week2" />
+                    <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala/Week2}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week2/.metals" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".metals" />
+                      <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala/Week2/.metals}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week2/.scala-build" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".scala-build" />
+                      <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala/Week2/.scala-build}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week2/CountIntList.scala" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="CountIntList" />
+                      <item name="CountIntList" type="1d6e9960:FileNode$ScalaFileNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week2/Intlist.scala" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="Intlist" />
+                      <item name="Intlist" type="1d6e9960:FileNode$ScalaFileNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week2/NatInt.scala" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="NatInt" />
+                      <item name="NatInt" type="1d6e9960:FileNode$ScalaFileNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week2/ParseBlocksValDec.scala" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="ParseBlocksValDec" />
+                      <item name="ParseBlocksValDec" type="ce8f04f3:TypeDefinitionNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week3" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="Week3" />
+                    <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala/Week3}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week3/UnparserTest.scala" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="UnparserTest" />
+                      <item name="UnparserTest" type="ce8f04f3:TypeDefinitionNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week4" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="Week4" />
+                    <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala/Week4}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week4/IntTree.scala" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="IntTree" />
+                      <item name="IntTree" type="1d6e9960:FileNode$ScalaFileNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week5" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="true" text="Week5" />
+                    <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala/Week5}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week7" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="Week7" />
+                    <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala/Week7}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week7/List.scala" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="List" />
+                      <item name="List" type="1d6e9960:FileNode$ScalaFileNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week7/Nat2.scala" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="Nat2" />
+                      <item name="Nat2" type="1d6e9960:FileNode$ScalaFileNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week7/OrElse.scala" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="OrElse" />
+                      <item name="OrElse" type="ce8f04f3:TypeDefinitionNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week8" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="Week8" />
+                    <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala/Week8}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week8/unparseTest.scala" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="unparseTest" />
+                      <item name="unparseTest" type="1d6e9960:FileNode$ScalaFileNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week9" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="Week9" />
+                    <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala/Week9}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week9/classTypeTest.scala" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="classTypeTest" />
+                      <item name="classTypeTest" type="1d6e9960:FileNode$ScalaFileNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week9/subtypeCheck.scala" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="subtypeCheck" />
+                      <item name="subtypeCheck" type="1d6e9960:FileNode$ScalaFileNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week12" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="Week12" />
+                    <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala/Week12}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week12/ex121.scala" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="ex121" />
+                      <item name="ex121" type="1d6e9960:FileNode$ScalaFileNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week12/ex122.scala" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="ex122" />
+                      <item name="ex122" type="1d6e9960:FileNode$ScalaFileNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week12/ex128.scala" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="ex128" />
+                      <item name="ex128" type="1d6e9960:FileNode$ScalaFileNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week13" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="Week13" />
+                    <item name="dir{file:///home/albert/IdeaProjects/Miniscala/src/miniscala/Week13}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Week13/testCompiler.scala" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="testCompiler" />
+                      <item name="testCompiler" type="1d6e9960:FileNode$ScalaFileNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/AbstractMachine.scala" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="AbstractMachine" />
+                    <item name="AbstractMachine" type="ce8f04f3:TypeDefinitionNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/afl1.zip" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/archive.svg" iconPlugin="com.intellij" isLeaf="true" text="afl1.zip" />
+                    <item name="afl1.zip" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/afl_2.zip" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/archive.svg" iconPlugin="com.intellij" isLeaf="true" text="afl_2.zip" />
+                    <item name="afl_2.zip" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/afl_3.zip" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/archive.svg" iconPlugin="com.intellij" isLeaf="true" text="afl_3.zip" />
+                    <item name="afl_3.zip" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Ast.scala" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="Ast" />
+                    <item name="Ast" type="1d6e9960:FileNode$ScalaFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Compiler.scala" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="Compiler" />
+                    <item name="Compiler" type="ce8f04f3:TypeDefinitionNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Interpreter.scala" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="Interpreter" />
+                    <item name="Interpreter" type="ce8f04f3:TypeDefinitionNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Main.scala" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="Main" />
+                    <item name="Main" type="ce8f04f3:TypeDefinitionNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Options.scala" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="Options" />
+                    <item name="Options" type="ce8f04f3:TypeDefinitionNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Test.scala" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="Test" />
+                    <item name="Test" type="ce8f04f3:TypeDefinitionNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/TypeChecker.scala" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="TypeChecker" />
+                    <item name="TypeChecker" type="ce8f04f3:TypeDefinitionNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Unparser.scala" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="Unparser" />
+                    <item name="Unparser" type="ce8f04f3:TypeDefinitionNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/miniscala/Vars.scala" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="Vars" />
+                    <item name="Vars" type="ce8f04f3:TypeDefinitionNode" />
+                  </presentation>
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gitignore" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/ignored.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitignore" />
+                <item name=".gitignore" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/Miniscala.iml" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/ideaModule.svg" iconPlugin="com.intellij" isLeaf="true" text="Miniscala.iml" />
+                <item name="Miniscala.iml" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/miniscala5.zip" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/archive.svg" iconPlugin="com.intellij" isLeaf="true" text="miniscala5.zip" />
+                <item name="miniscala5.zip" type="ab9368bb:PsiFileNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/nodes/library.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/fileTypes/scratches.svg" iconPlugin="com.intellij" isLeaf="false" text="Scratches and Consoles" />
+              <item name="Scratches and Consoles" type="b85a3e1f:ScratchTreeStructureProvider$MyProjectNode" />
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <option name="allConfigurationsExpanded" value="true" />
+    <history>
+      <element setting="Application.Test132" />
+      <element setting="Application.Exercise122" />
+      <element setting="Application.zipTest" />
+      <element setting="Application.compareStudents" />
+      <element setting="Application.Test111" />
+      <element setting="Application.Main" />
+      <element setting="Application.Test95" />
+      <element setting="Application.Test49" />
+      <element setting="Application.encoderTest" />
+      <element setting="Application.TestFunction" />
+    </history>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="286482000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info id="Merge Requests" show_stripe_button="false" />
+      <window_info id="Pull Requests" show_stripe_button="false" />
+      <window_info id="Learn" show_stripe_button="false" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.868083" visible="true" weight="0.15513983" />
+      <window_info id="Commit" order="1" weight="0.1651751" />
+      <window_info id="Bookmarks" order="2" sideWeight="0.131917" side_tool="true" weight="0.1651751" />
+      <window_info id="Structure" order="3" sideWeight="0.49955437" side_tool="true" weight="0.17324218" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="internal-profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.20734127" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.20714286" />
+      <window_info anchor="bottom" id="Services" order="5" />
+      <window_info anchor="bottom" id="Build" order="6" weight="0.20714286" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.2132653" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32969576" />
+      <window_info anchor="right" id="sbt" show_stripe_button="false" />
+      <window_info anchor="right" id="Endpoints" show_stripe_button="false" />
+      <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="bsp" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <unified_weights bottom="0.20714286" left="0.15513983" />
+    </layoutV2>
+    <layout-to-restore>
+      <window_info id="Merge Requests" show_stripe_button="false" />
+      <window_info id="Pull Requests" show_stripe_button="false" />
+      <window_info id="Learn" show_stripe_button="false" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.868083" visible="true" weight="0.15531994" />
+      <window_info id="Commit" order="1" weight="0.1651751" />
+      <window_info id="Bookmarks" order="2" sideWeight="0.131917" side_tool="true" weight="0.1651751" />
+      <window_info id="Structure" order="3" sideWeight="0.49955437" side_tool="true" weight="0.17324218" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="internal-profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.33035713" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.20734127" />
+      <window_info anchor="bottom" id="Services" order="5" />
+      <window_info anchor="bottom" id="Build" order="6" weight="0.20734127" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.2132653" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32969576" />
+      <window_info anchor="right" id="sbt" show_stripe_button="false" />
+      <window_info anchor="right" id="Endpoints" show_stripe_button="false" />
+      <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="bsp" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <unified_weights bottom="0.20734127" left="0.15531994" />
+    </layout-to-restore>
+    <recentWindows>
+      <value>Run</value>
+      <value>Project</value>
+      <value>Problems View</value>
+      <value>Build</value>
+      <value>Debug</value>
+      <value>Commit</value>
+      <value>Bookmarks</value>
+      <value>Find</value>
+      <value>Structure</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="935" y="437" width="574" height="512" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.ideScale=125" timestamp="1744287927605">
+      <screen x="0" y="0" width="2688" height="1512" />
+    </state>
+    <state x="935" y="437" width="574" height="512" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.ideScale=125/0.0.2688.1512@0.0.2688.1512" timestamp="1744287927605" />
+    <state x="399" y="-130" width="958" height="764" key="#com.intellij.execution.impl.EditConfigurationsDialog.ideScale=125" timestamp="1743941857210">
+      <screen x="0" y="0" width="2688" height="1512" />
+    </state>
+    <state x="775" y="313" width="958" height="764" key="#com.intellij.execution.impl.EditConfigurationsDialog.ideScale=125/0.0.2560.1600@0.0.2560.1600" timestamp="1740918279377" />
+    <state x="399" y="-130" width="981" height="759" key="#com.intellij.execution.impl.EditConfigurationsDialog.ideScale=125/0.0.2688.1512@0.0.2688.1512" timestamp="1743941857210" />
+    <state x="1009" y="547" key="#com.intellij.ide.util.TreeClassChooserDialog.ideScale=125" timestamp="1738151282188">
+      <screen x="0" y="0" width="2560" height="1600" />
+    </state>
+    <state x="1009" y="547" key="#com.intellij.ide.util.TreeClassChooserDialog.ideScale=125/0.0.2560.1600@0.0.2560.1600" timestamp="1738151282188" />
+    <state x="1036" y="429" width="574" height="612" key="FileChooserDialogImpl.ideScale=125" timestamp="1745487054485">
+      <screen x="0" y="0" width="2688" height="1512" />
+    </state>
+    <state x="1036" y="429" width="574" height="612" key="FileChooserDialogImpl.ideScale=125/0.0.2688.1512@0.0.2688.1512" timestamp="1745487054485" />
+    <state width="2542" height="252" key="GridCell.Tab.0.bottom.ideScale=125" timestamp="1745490558529">
+      <screen x="0" y="0" width="2688" height="1512" />
+    </state>
+    <state width="2584" height="447" key="GridCell.Tab.0.bottom.ideScale=125/0.0.1920.1080@0.0.1920.1080" timestamp="1739102585924" />
+    <state width="2424" height="261" key="GridCell.Tab.0.bottom.ideScale=125/0.0.2560.1600@0.0.2560.1600" timestamp="1741360334035" />
+    <state width="2542" height="252" key="GridCell.Tab.0.bottom.ideScale=125/0.0.2688.1512@0.0.2688.1512" timestamp="1745490558529" />
+    <state width="2542" height="252" key="GridCell.Tab.0.center.ideScale=125" timestamp="1745490558529">
+      <screen x="0" y="0" width="2688" height="1512" />
+    </state>
+    <state width="2584" height="447" key="GridCell.Tab.0.center.ideScale=125/0.0.1920.1080@0.0.1920.1080" timestamp="1739102585923" />
+    <state width="2424" height="261" key="GridCell.Tab.0.center.ideScale=125/0.0.2560.1600@0.0.2560.1600" timestamp="1741360334035" />
+    <state width="2542" height="252" key="GridCell.Tab.0.center.ideScale=125/0.0.2688.1512@0.0.2688.1512" timestamp="1745490558529" />
+    <state width="2542" height="252" key="GridCell.Tab.0.left.ideScale=125" timestamp="1745490558529">
+      <screen x="0" y="0" width="2688" height="1512" />
+    </state>
+    <state width="2584" height="447" key="GridCell.Tab.0.left.ideScale=125/0.0.1920.1080@0.0.1920.1080" timestamp="1739102585923" />
+    <state width="2424" height="261" key="GridCell.Tab.0.left.ideScale=125/0.0.2560.1600@0.0.2560.1600" timestamp="1741360334035" />
+    <state width="2542" height="252" key="GridCell.Tab.0.left.ideScale=125/0.0.2688.1512@0.0.2688.1512" timestamp="1745490558529" />
+    <state width="2542" height="252" key="GridCell.Tab.0.right.ideScale=125" timestamp="1745490558529">
+      <screen x="0" y="0" width="2688" height="1512" />
+    </state>
+    <state width="2584" height="447" key="GridCell.Tab.0.right.ideScale=125/0.0.1920.1080@0.0.1920.1080" timestamp="1739102585924" />
+    <state width="2424" height="261" key="GridCell.Tab.0.right.ideScale=125/0.0.2560.1600@0.0.2560.1600" timestamp="1741360334035" />
+    <state width="2542" height="252" key="GridCell.Tab.0.right.ideScale=125/0.0.2688.1512@0.0.2688.1512" timestamp="1745490558529" />
+    <state width="2424" height="261" key="GridCell.Tab.1.bottom.ideScale=125" timestamp="1740838536457">
+      <screen x="0" y="0" width="2688" height="1512" />
+    </state>
+    <state width="2424" height="261" key="GridCell.Tab.1.bottom.ideScale=125/0.0.2688.1512@0.0.2688.1512" timestamp="1740838536457" />
+    <state width="2424" height="261" key="GridCell.Tab.1.center.ideScale=125" timestamp="1740838536457">
+      <screen x="0" y="0" width="2688" height="1512" />
+    </state>
+    <state width="2424" height="261" key="GridCell.Tab.1.center.ideScale=125/0.0.2688.1512@0.0.2688.1512" timestamp="1740838536457" />
+    <state width="2424" height="261" key="GridCell.Tab.1.left.ideScale=125" timestamp="1740838536457">
+      <screen x="0" y="0" width="2688" height="1512" />
+    </state>
+    <state width="2424" height="261" key="GridCell.Tab.1.left.ideScale=125/0.0.2688.1512@0.0.2688.1512" timestamp="1740838536457" />
+    <state width="2424" height="261" key="GridCell.Tab.1.right.ideScale=125" timestamp="1740838536457">
+      <screen x="0" y="0" width="2688" height="1512" />
+    </state>
+    <state width="2424" height="261" key="GridCell.Tab.1.right.ideScale=125/0.0.2688.1512@0.0.2688.1512" timestamp="1740838536457" />
+    <state x="727" y="406" width="1074" height="658" key="IDE.errors.dialog.ideScale=125" timestamp="1740830397950">
+      <screen x="0" y="0" width="2688" height="1512" />
+    </state>
+    <state x="727" y="406" width="1074" height="658" key="IDE.errors.dialog.ideScale=125/0.0.2688.1512@0.0.2688.1512" timestamp="1740830397950" />
+    <state x="-63" y="-63" width="2688" height="1512" key="MergeDialog.ideScale=125" timestamp="1745486783810">
+      <screen x="0" y="0" width="2688" height="1512" />
+    </state>
+    <state x="-63" y="-63" width="2688" height="1512" key="MergeDialog.ideScale=125/0.0.2688.1512@0.0.2688.1512" timestamp="1745486783810" />
+    <state x="703" y="245" key="SettingsEditor.ideScale=125" timestamp="1738926649450">
+      <screen x="0" y="0" width="2688" height="1512" />
+    </state>
+    <state x="703" y="245" key="SettingsEditor.ideScale=125/0.0.2688.1512@0.0.2688.1512" timestamp="1738926649450" />
+    <state width="623" height="1166" key="SwitcherDM.ideScale=125" timestamp="1743864293444">
+      <screen x="0" y="0" width="2688" height="1512" />
+    </state>
+    <state width="623" height="1166" key="SwitcherDM.ideScale=125/0.0.2688.1512@0.0.2688.1512" timestamp="1743864293444" />
+    <state x="736" y="407" width="1173" height="783" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2.ideScale=125" timestamp="1742555237330">
+      <screen x="0" y="0" width="2688" height="1512" />
+    </state>
+    <state x="736" y="407" width="1173" height="783" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2.ideScale=125/0.0.2688.1512@0.0.2688.1512" timestamp="1742555237330" />
+    <state x="1033" y="128" width="836" height="990" key="find.popup.ideScale=125" timestamp="1742552590979">
+      <screen x="0" y="0" width="2688" height="1512" />
+    </state>
+    <state x="984" y="135" width="796" height="1047" key="find.popup.ideScale=125/0.0.2560.1600@0.0.2560.1600" timestamp="1739637397337" />
+    <state x="1033" y="128" width="836" height="990" key="find.popup.ideScale=125/0.0.2688.1512@0.0.2688.1512" timestamp="1742552590979" />
+    <state x="859" y="347" width="840" height="1079" key="search.everywhere.popup.ideScale=125" timestamp="1741337359670">
+      <screen x="0" y="0" width="2560" height="1600" />
+    </state>
+    <state x="859" y="347" width="840" height="1079" key="search.everywhere.popup.ideScale=125/0.0.2560.1600@0.0.2560.1600" timestamp="1741337359670" />
+    <state x="425" y="295" key="vcs.ApplyPatchDifferentiatedDialog.ideScale=125" timestamp="1745486745267">
+      <screen x="0" y="0" width="2688" height="1512" />
+    </state>
+    <state x="425" y="295" key="vcs.ApplyPatchDifferentiatedDialog.ideScale=125/0.0.2688.1512@0.0.2688.1512" timestamp="1745486745267" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Vars.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/higherorder1.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/fib.s">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/fib2.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/higherorder3.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/higherorder2.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week2/NatInt.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" selection-start-line="6" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/lambda1.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Lambda.scala" />
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week4/IntTree.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="45" column="90" selection-start-line="45" selection-start-column="90" selection-end-line="45" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week3/UnparserTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="e#24#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week7/OrElse.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week5/Tests.scala" />
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week8/encoderTest.scala" />
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week8/unparseTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week3/TestsInterpreter.scala" />
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week4/FunctionTest.scala" />
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week3/FunctionTest.scala" />
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week2/Simplify.scala" />
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week9/InterpreterImperativeTest.scala" />
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week3/TestsType.scala" />
+    <entry file="file://$PROJECT_DIR$/examples/intlist.s">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/counter.s">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/counter2.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/classes.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Unparser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="847">
+          <caret line="131" column="3" lean-forward="true" selection-start-line="131" selection-start-column="3" selection-end-line="131" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/classes2.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/classes3.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week9/subtypeCheck.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#24#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week9/classTypeTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="72" />
+          <folding>
+            <element signature="e#44#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week12/ex128.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/pingpong.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/classes1.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week7/Nat2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week2/Intlist.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="44" selection-start-line="44" selection-end-line="74" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/even.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week12/ex122.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="120" selection-start-line="120" selection-end-line="128" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/TypeChecker.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5913">
+          <caret line="220" column="74" selection-start-line="220" selection-start-column="74" selection-end-line="220" selection-end-column="74" />
+          <folding>
+            <element signature="e#19#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week2/CountIntList.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#24#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/pingpong2.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/subtyping.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/classes4.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week7/List.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week12/ex121.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Interpreter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6279">
+          <caret line="265" column="92" selection-start-line="265" selection-start-column="92" selection-end-line="265" selection-end-column="92" />
+          <folding>
+            <element signature="e#19#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Options.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-331">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Ast.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3773">
+          <caret line="153" column="176" selection-start-line="153" selection-start-column="2" selection-end-line="153" selection-end-column="176" />
+          <folding>
+            <element signature="e#19#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week13/testCompiler.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="e#45#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Compiler.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="18" />
+          <folding>
+            <element signature="e#19#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/AbstractMachine.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="102" column="35" lean-forward="true" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-3.6.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>23</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Miniscala</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI" />
+    </states>
+  </component>
+</project>

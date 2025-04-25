@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "editor.fontSize": 20,
+    "workbench.activityBar.location": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.renderWhitespace": "all",
+    "workbench.editor.showTabs": "none"
+}

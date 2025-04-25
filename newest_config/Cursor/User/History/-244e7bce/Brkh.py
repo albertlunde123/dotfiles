@@ -1,0 +1,111 @@
+from PyQt5.QtWidgets import QToolBar, QAction, QWidget, QVBoxLayout, QCheckBox, QToolButton
+from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QPalette, QColor
+
+class ToolToolbar(QToolBar):
+    def __init__(self, tool_controller, parent=None):
+        super().__init__("Tools", parent)
+        self.tool_controller = tool_controller
+        self.setMovable(False)  # Make toolbar immovable
+        self._setup_tool_buttons()
+        # self.tool_controller.tool_changed.connect(self._on_tool_selected)
+    
+    def _setup_tool_buttons(self):
+        """Create buttons for each tool"""
+        # Create a widget to hold the tools vertically
+        container = QWidget()
+        layout = QVBoxLayout(container)
+        layout.setContentsMargins(2, 2, 2, 2)
+        layout.setSpacing(2)
+        layout.setAlignment(Qt.AlignTop)
+        
+        # Tool buttons
+        tools = self.tool_controller.get_all_tools()
+        self.tool_buttons = {}
+        
+        for tool_name in tools:
+            action = QToolButton()
+            action.setText(tool_name.capitalize())
+            action.setToolButtonStyle(Qt.ToolButtonTextUnderIcon)
+            action.setCheckable(True)
+            action.clicked.connect(lambda checked, tn=tool_name: self._on_tool_selected(tn))
+            # Set a fixed width for the action
+            action.setProperty("tool_button", True)
+            self.addWidget(action)
+            self.tool_buttons[tool_name] = action
+        
+        # Add perpendicular mode toggle for line tool
+        self.addSeparator()
+        self.perp_mode_action = QToolButton()
+        self.perp_mode_action.setText("Perpendicular Mode")
+        self.perp_mode_action.setToolButtonStyle(Qt.ToolButtonTextUnderIcon)
+        self.perp_mode_action.setCheckable(True)
+        self.perp_mode_action.clicked.connect(self._toggle_perpendicular_mode)
+        self.addWidget(self.perp_mode_action)
+        
+        # Set the container as the toolbar's widget
+        self.addWidget(container)
+        
+        # Apply custom styling
+        self.setStyleSheet("""
+            QToolBar {
+                border: none;
+                background: transparent;
+            }
+            QToolButton {
+                border: 1px solid #414868;
+                border-radius: 3px;
+                padding: 5px;
+                margin: 1px;
+                text-align: left;
+                min-width: 100px;
+                background-color: #1a1b26;
+                color: #c0caf5;
+            }
+            QToolButton:hover {
+                background-color: #24283b;
+                border: 1px solid #7aa2f7;
+            }
+            QToolButton:checked {
+                background-color: #24283b;
+                border: 1px solid #7aa2f7;
+                color: #c0caf5;
+            }
+            QCheckBox {
+                color: #c0caf5;
+                spacing: 5px;
+            }
+            QCheckBox::indicator {
+                width: 16px;
+                height: 16px;
+            }
+            QCheckBox::indicator:unchecked {
+                border: 1px solid #414868;
+                background-color: #1a1b26;
+            }
+            QCheckBox::indicator:checked {
+                border: 1px solid #7aa2f7;
+                background-color: #24283b;
+            }
+            QCheckBox::indicator:hover {
+                border: 1px solid #7aa2f7;
+            }
+        """)
+    
+    def _on_tool_selected(self, tool_name):
+        """Handle tool selection"""
+        # Update checked state
+        for name, action in self.tool_buttons.items():
+            action.setChecked(name == tool_name)
+        
+        # Activate the tool
+        self.tool_controller.set_active_tool(tool_name)
+    
+    def _toggle_perpendicular_mode(self):
+        """Toggle perpendicular mode on the line tool"""
+        self.tool_controller.toggle_perpendicular_mode()
+        
+        # If perpendicular mode is enabled, make sure line tool is active
+        if self.perp_mode_action.isChecked():
+            self.tool_controller.set_active_tool('line')
+            self._on_tool_selected('line')

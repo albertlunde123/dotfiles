@@ -1,0 +1,22 @@
+2025-04-24 18:35:44.873 [info] (Client) Pylance async client (2024.8.1) started with python extension (2024.12.3)
+2025-04-24 18:35:46.041 [info] [Info  - 6:35:46 PM] (603732) Pylance language server 2024.8.1 (pyright version 1.1.373, commit ee424479) starting
+2025-04-24 18:35:46.041 [info] [Info  - 6:35:46 PM] (603732) Server root directory: file:///home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2025-04-24 18:35:46.049 [info] [Info  - 6:35:46 PM] (603732) Starting service instance "pyqt_drawing_app"
+2025-04-24 18:35:46.180 [info] [Info  - 6:35:46 PM] (603732) Setting pythonPath for service "pyqt_drawing_app": "/bin/python3"
+2025-04-24 18:35:46.181 [info] [Info  - 6:35:46 PM] (603732) Setting environmentName for service "pyqt_drawing_app": "3.10.12 (global)"
+2025-04-24 18:35:46.187 [info] [Info  - 6:35:46 PM] (603732) No include entries specified; assuming /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app
+2025-04-24 18:35:46.190 [info] [Info  - 6:35:46 PM] (603732) Auto-excluding **/node_modules
+2025-04-24 18:35:46.191 [info] [Info  - 6:35:46 PM] (603732) Auto-excluding **/__pycache__
+2025-04-24 18:35:46.191 [info] [Info  - 6:35:46 PM] (603732) Auto-excluding **/.*
+2025-04-24 18:35:46.284 [info] [Info  - 6:35:46 PM] (603732) Assuming Python version 3.10.12.final.0
+2025-04-24 18:35:46.545 [info] [Info  - 6:35:46 PM] (603732) Found 40 source files
+2025-04-24 18:35:47.910 [info] [Info  - 6:35:47 PM] (603732) Background analysis(1) root directory: file:///home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2025-04-24 18:35:47.914 [info] [Info  - 6:35:47 PM] (603732) Background analysis(1) started
+2025-04-24 18:35:48.921 [info] [Info  - 6:35:48 PM] (603732) Indexer background runner(2) root directory: file:///home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist (index)
+2025-04-24 18:35:48.926 [info] [Info  - 6:35:48 PM] (603732) Indexing(2) started
+2025-04-24 18:35:57.982 [info] [Info  - 6:35:57 PM] (603732) [IDX(2)] Long operation: scan packages file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app (8141ms)
+2025-04-24 18:35:57.984 [info] [Info  - 6:35:57 PM] (603732) scanned(2) 479 files over 1 exec env
+2025-04-24 18:35:58.329 [info] [Info  - 6:35:58 PM] (603732) [BG(1)] Long operation: checking: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/select_move_tool.py (8740ms)
+2025-04-24 18:35:58.336 [info] [Info  - 6:35:58 PM] (603732) [BG(1)] Long operation: analyzing: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/select_move_tool.py (9964ms)
+2025-04-24 18:36:02.307 [info] [Info  - 6:36:02 PM] (603732) indexed(2) 331 files over 1 exec env
+2025-04-24 18:36:03.467 [info] [Info  - 6:36:03 PM] (603732) Indexing finished(2).

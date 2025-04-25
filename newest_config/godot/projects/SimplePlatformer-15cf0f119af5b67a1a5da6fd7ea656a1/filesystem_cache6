@@ -1,0 +1,9 @@
+679959e7917290c4d1380dafd36febcc
+::res://::1718028107
+default_env.tres::Environment::1717855245::0::1::::<><>::
+final_frog.png::StreamTexture::1718028107::1718028117::1::::<><>::
+frog-sprite-export.png::StreamTexture::1717854999::1717855004::1::::<><>::
+frog-sprite.png::StreamTexture::1717854977::1717854978::1::::<><>::
+icon.png::StreamTexture::1717852912::1717852914::1::::<><>::
+Main.tscn::PackedScene::1717855245::0::1::::<><>::
+Player.tscn::PackedScene::1717855245::0::1::::<><>::res://frog-sprite.png

@@ -1,0 +1,27 @@
+2025/04/12-21:51:59.946 39bfd4 Reusing MANIFEST /home/albert/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/12-21:51:59.947 39bfd4 Recovering log #43
+2025/04/12-21:51:59.991 39bfd4 Reusing old log /home/albert/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000043.log 
+2025/04/12-21:52:48.375 39bfd3 Compacting 1@1 + 1@2 files
+2025/04/12-21:52:48.396 39bfd3 Generated table #46@1: 53 keys, 14910 bytes
+2025/04/12-21:52:48.397 39bfd3 Compacted 1@1 + 1@2 files => 14910 bytes
+2025/04/12-21:52:48.418 39bfd3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/12-21:52:48.419 39bfd3 Delete type=2 #42
+2025/04/12-21:52:48.420 39bfd3 Delete type=2 #44
+2025/04/12-22:32:05.909 39bfd4 Level-0 table #48: started
+2025/04/12-22:32:05.950 39bfd4 Level-0 table #48: 2200226 bytes OK
+2025/04/12-22:32:05.966 39bfd4 Delete type=0 #43
+2025/04/12-22:39:40.378 39bfd3 Compacting 1@1 + 1@2 files
+2025/04/12-22:39:40.403 39bfd3 Generated table #49@1: 53 keys, 18977 bytes
+2025/04/12-22:39:40.403 39bfd3 Compacted 1@1 + 1@2 files => 18977 bytes
+2025/04/12-22:39:40.417 39bfd3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/12-22:39:40.418 39bfd3 Delete type=2 #48
+2025/04/12-22:39:40.418 39bfd3 Delete type=2 #46
+2025/04/12-23:16:44.375 39bfd4 Level-0 table #51: started
+2025/04/12-23:16:44.407 39bfd4 Level-0 table #51: 2096792 bytes OK
+2025/04/12-23:16:44.422 39bfd4 Delete type=0 #47
+2025/04/12-23:22:56.383 39bfd3 Compacting 1@1 + 1@2 files
+2025/04/12-23:22:56.406 39bfd3 Generated table #52@1: 53 keys, 16142 bytes
+2025/04/12-23:22:56.406 39bfd3 Compacted 1@1 + 1@2 files => 16142 bytes
+2025/04/12-23:22:56.420 39bfd3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/12-23:22:56.421 39bfd3 Delete type=2 #51
+2025/04/12-23:22:56.421 39bfd3 Delete type=2 #49

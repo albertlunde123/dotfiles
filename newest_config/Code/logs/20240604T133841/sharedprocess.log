@@ -1,0 +1,131 @@
+2024-06-04 13:38:45.874 [info] Deleted uninstalled extension from disk asvetliakov.vscode-neovim /home/albert/.vscode/extensions/asvetliakov.vscode-neovim-1.8.1
+2024-06-04 13:38:45.927 [info] Deleted uninstalled extension from disk github.copilot-chat /home/albert/.vscode/extensions/github.copilot-chat-0.14.0
+2024-06-04 13:38:49.847 [info] Getting Manifest... github.copilot
+2024-06-04 13:38:49.849 [info] Getting Manifest... ms-python.debugpy
+2024-06-04 13:38:49.851 [info] Getting Manifest... ms-python.python
+2024-06-04 13:38:49.853 [info] Getting Manifest... ms-python.vscode-pylance
+2024-06-04 13:38:49.854 [info] Getting Manifest... ms-toolsai.jupyter
+2024-06-04 13:38:49.872 [info] Installing extension: github.copilot
+2024-06-04 13:38:49.875 [info] Installing extension: ms-python.debugpy
+2024-06-04 13:38:49.876 [info] Installing extension: ms-python.python
+2024-06-04 13:38:49.892 [info] Installing extension: ms-python.vscode-pylance
+2024-06-04 13:38:49.894 [info] Installing extension: ms-toolsai.jupyter
+2024-06-04 13:38:51.423 [info] Getting Manifest... ms-python.python
+2024-06-04 13:38:51.684 [info] Waiting for already requested installing extension ms-python.python ms-python.vscode-pylance
+2024-06-04 13:38:52.250 [info] Getting Manifest... ms-python.python
+2024-06-04 13:38:52.492 [info] Waiting for already requested installing extension ms-python.python ms-python.debugpy
+2024-06-04 13:38:53.501 [info] Extension signature is verified: ms-toolsai.jupyter
+2024-06-04 13:38:53.662 [info] Extension signature is verified: github.copilot
+2024-06-04 13:38:53.855 [info] Extension signature is verified: ms-python.python
+2024-06-04 13:38:54.904 [info] Extension signature is verified: ms-python.vscode-pylance
+2024-06-04 13:38:55.059 [info] Extracted extension to file:///home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.3.1-linux-x64: ms-toolsai.jupyter
+2024-06-04 13:38:55.076 [info] Renamed to /home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.3.1-linux-x64
+2024-06-04 13:38:55.082 [info] Extracting extension completed. ms-toolsai.jupyter
+2024-06-04 13:38:55.115 [info] Extension installed successfully: ms-toolsai.jupyter
+2024-06-04 13:38:55.174 [info] Marked extension as uninstalled ms-toolsai.jupyter-2024.3.0-linux-x64
+2024-06-04 13:38:55.196 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
+2024-06-04 13:38:55.325 [info] Extracted extension to file:///home/albert/.vscode/extensions/github.copilot-1.198.0: github.copilot
+2024-06-04 13:38:55.346 [info] Renamed to /home/albert/.vscode/extensions/github.copilot-1.198.0
+2024-06-04 13:38:55.353 [info] Extracting extension completed. github.copilot
+2024-06-04 13:38:55.391 [info] Extension installed successfully: github.copilot
+2024-06-04 13:38:55.405 [info] Marked extension as uninstalled github.copilot-1.178.0
+2024-06-04 13:38:55.459 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
+2024-06-04 13:38:55.549 [info] Extension signature is verified: ms-python.debugpy
+2024-06-04 13:38:56.322 [info] Extracted extension to file:///home/albert/.vscode/extensions/ms-python.debugpy-2024.6.0-linux-x64: ms-python.debugpy
+2024-06-04 13:38:56.341 [info] Renamed to /home/albert/.vscode/extensions/ms-python.debugpy-2024.6.0-linux-x64
+2024-06-04 13:38:56.349 [info] Extracting extension completed. ms-python.debugpy
+2024-06-04 13:38:56.371 [info] Marked extension as uninstalled ms-python.debugpy-2024.4.0-linux-x64
+2024-06-04 13:38:56.431 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
+2024-06-04 13:38:58.408 [info] Extracted extension to file:///home/albert/.vscode/extensions/ms-python.python-2024.4.1: ms-python.python
+2024-06-04 13:38:58.428 [info] Renamed to /home/albert/.vscode/extensions/ms-python.python-2024.4.1
+2024-06-04 13:38:58.433 [info] Extracting extension completed. ms-python.python
+2024-06-04 13:38:58.453 [info] Extension installed successfully: ms-python.python
+2024-06-04 13:38:58.454 [info] Finished waiting for already requested installing extension ms-python.python ms-python.vscode-pylance
+2024-06-04 13:38:58.454 [info] Finished waiting for already requested installing extension ms-python.python ms-python.debugpy
+2024-06-04 13:38:58.455 [info] Extension installed successfully: ms-python.debugpy
+2024-06-04 13:38:58.465 [info] Marked extension as uninstalled ms-python.python-2024.4.0
+2024-06-04 13:38:58.517 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
+2024-06-04 13:39:00.813 [info] Extracted extension to file:///home/albert/.vscode/extensions/ms-python.vscode-pylance-2024.5.1: ms-python.vscode-pylance
+2024-06-04 13:39:00.828 [info] Renamed to /home/albert/.vscode/extensions/ms-python.vscode-pylance-2024.5.1
+2024-06-04 13:39:00.832 [info] Extracting extension completed. ms-python.vscode-pylance
+2024-06-04 13:39:00.852 [info] Extension installed successfully: ms-python.vscode-pylance
+2024-06-04 13:39:00.862 [info] Marked extension as uninstalled ms-python.vscode-pylance-2024.4.1
+2024-06-04 13:39:00.924 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
+2024-06-04 13:39:14.150 [info] Getting Manifest... github.copilot-chat
+2024-06-04 13:39:14.152 [info] Getting Manifest... ms-python.python
+2024-06-04 13:39:14.153 [info] Getting Manifest... ms-toolsai.jupyter
+2024-06-04 13:39:14.301 [info] Installing extension: ms-toolsai.jupyter
+2024-06-04 13:39:14.315 [info] Installing extension: github.copilot-chat
+2024-06-04 13:39:14.321 [info] Installing extension: ms-python.python
+2024-06-04 13:39:18.684 [info] Extension signature is verified: github.copilot-chat
+2024-06-04 13:39:19.096 [info] Extracted extension to file:///home/albert/.vscode/extensions/github.copilot-chat-0.15.2: github.copilot-chat
+2024-06-04 13:39:19.110 [info] Renamed to /home/albert/.vscode/extensions/github.copilot-chat-0.15.2
+2024-06-04 13:39:19.114 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.15.2]: Extension is not compatible with Code 1.88.0. Extension requires: ^1.89.0-20240424.
+2024-06-04 13:39:19.115 [info] Extracting extension completed. github.copilot-chat
+2024-06-04 13:39:19.146 [info] Extension installed successfully: github.copilot-chat
+2024-06-04 13:39:19.206 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
+2024-06-04 13:39:19.658 [info] Extension signature is verified: ms-toolsai.jupyter
+2024-06-04 13:39:19.997 [info] Extracted extension to file:///home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.4.0-linux-x64: ms-toolsai.jupyter
+2024-06-04 13:39:20.011 [info] Renamed to /home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.4.0-linux-x64
+2024-06-04 13:39:20.017 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.4.0-linux-x64]: Extension is not compatible with Code 1.88.0. Extension requires: ^1.89.0.
+2024-06-04 13:39:20.018 [info] Extracting extension completed. ms-toolsai.jupyter
+2024-06-04 13:39:20.038 [info] Extension installed successfully: ms-toolsai.jupyter
+2024-06-04 13:39:20.100 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
+2024-06-04 13:39:20.389 [info] Extension signature is verified: ms-python.python
+2024-06-04 13:39:22.366 [info] Extracted extension to file:///home/albert/.vscode/extensions/ms-python.python-2024.6.0: ms-python.python
+2024-06-04 13:39:22.380 [info] Renamed to /home/albert/.vscode/extensions/ms-python.python-2024.6.0
+2024-06-04 13:39:22.387 [error] [/home/albert/.vscode/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.0. Extension requires: ^1.89.0-20240415.
+2024-06-04 13:39:22.388 [info] Extracting extension completed. ms-python.python
+2024-06-04 13:39:22.407 [info] Extension installed successfully: ms-python.python
+2024-06-04 13:39:22.470 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
+2024-06-04 13:40:13.524 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.15.2]: Extension is not compatible with Code 1.88.0. Extension requires: ^1.89.0-20240424.
+2024-06-04 13:40:13.526 [error] [/home/albert/.vscode/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.0. Extension requires: ^1.89.0-20240415.
+2024-06-04 13:40:13.527 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.4.0-linux-x64]: Extension is not compatible with Code 1.88.0. Extension requires: ^1.89.0.

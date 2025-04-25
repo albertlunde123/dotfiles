@@ -1,0 +1,6 @@
+2025/04/25-03:17:59.707 92d Reusing MANIFEST /home/albert/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2025/04/25-03:17:59.727 92d Recovering log #4215
+2025/04/25-03:17:59.748 92d Reusing old log /home/albert/.config/google-chrome/Default/Sync Data/LevelDB/004215.log 
+2025/04/25-03:27:27.894 92c Level-0 table #4219: started
+2025/04/25-03:27:27.902 92c Level-0 table #4219: 97909 bytes OK
+2025/04/25-03:27:27.910 92c Delete type=0 #4215

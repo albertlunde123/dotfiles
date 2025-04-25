@@ -1,0 +1,211 @@
+\usepackage{marvosym}
+
+% \renewcommand\qedsymbol{\CoffeeCup}
+
+\usepackage{changepage}
+
+\newenvironment{subexercise}[1]{%
+    \begin{mdframed}[linewidth=0.5pt, linecolor=foreground, backgroundcolor=background, leftmargin=0cm, innerleftmargin=1em, innertopmargin=0pt, innerbottommargin=0pt, innerrightmargin=0pt, topline=false, rightline=false, bottomline=false]
+    \par\noindent\textcolor{foreground}{\textbf{#1.}}\hspace{1em}\ignorespaces
+}{%
+    \par\addvspace{\baselineskip}\end{mdframed}\ignorespacesafterend
+}
+\newenvironment{solution}{%
+    % \par\addvspace{\baselineskip}\noindent\makebox[\textwidth]{\textcolor{foreground}{\textbullet\hspace{1em}\textbullet\hspace{1em}\textbullet}}\par\addvspace{\baselineskip}
+    \begin{mdframed}[linewidth=0.5pt, linecolor=foreground, backgroundcolor=background, rightmargin=0cm, innerleftmargin=0cm, innertopmargin=0pt, innerbottommargin=0pt, innerrightmargin=1em, topline=false, leftline=false, bottomline=false]
+    \par\noindent\textcolor{foreground}{\textit{Solution.}}\hspace{1em}\ignorespaces
+}{%
+    \par\addvspace{\baselineskip}\noindent\hfill\textcolor{foreground}{\Coffeecup}\par\addvspace{\baselineskip}\end{mdframed}\ignorespacesafterend
+}
+% Exercise environment
+
+\declaretheoremstyle[
+    name= \textcolor{foreground}{Exercise},
+    postheadspace = \newline,
+    bodyfont = \normalfont\color{foreground},
+    postheadhook={\textcolor{math}{\rule[.4ex]{\linewidth}{0.5pt}}\\},
+    % numberwithin=chapter,
+    mdframed={
+        backgroundcolor = background,
+        linecolor = foreground,
+        linewidth = 0.5pt,
+        rightline =  true,
+        topline = true,
+        bottomline = true,
+        skipabove=20pt,
+        skipbelow=20pt,
+        innerleftmargin=15pt,
+        innertopmargin=10pt,
+        innerrightmargin=15pt,
+        innerbottommargin=10pt}
+    ]{exercise}
+\declaretheorem[style=exercise,numbered=no]{exercise}
+
+% \etocsetlevel{exercise}{2}
+
+% \AtEndEnvironment{exercise}{%
+%   \etoctoccontentsline{exercise}{\protect\numberline{\theexercise}}%
+% }%
+% \etocsetstyle{exercise}
+% {}
+% {}
+% % this will be rendered like a non-numbered section, but we could have used
+% % \numberline here also
+% {\etocsavedsectiontocline{Exercise \etocnumber}{\etocpage}}
+%     {}
+
+% theorem environment
+
+\declaretheoremstyle[
+    name= \textcolor{foreground}{Theorem},
+    postheadspace = \newline,
+    bodyfont = \normalfont\color{foreground},
+    postheadhook={\textcolor{math}{\rule[.4ex]{\linewidth}{1pt}}\\},
+    mdframed={
+        backgroundcolor = background,
+        linecolor = foreground,
+        linewidth = 1pt,
+        rightline =  true,
+        topline = true,
+        bottomline = true,
+        skipabove=20pt,
+        skipbelow=20pt,
+        innerleftmargin=15pt,
+        innertopmargin=10pt,
+        innerrightmargin=15pt,
+        innerbottommargin=10pt}
+    ]{theorem}
+\declaretheorem[style=theorem,numbered=yes]{theorem}
+
+\declaretheoremstyle[
+    name= \textcolor{foreground}{Definition},
+    postheadspace = \newline,
+    bodyfont = \normalfont\color{foreground},
+    postheadhook={\textcolor{math}{\rule[.4ex]{\linewidth}{1pt}}\\},
+    mdframed={
+        backgroundcolor = background,
+        linecolor = foreground,
+        linewidth = 1pt,
+        rightline =  true,
+        topline = true,
+        bottomline = true,
+        skipabove=20pt,
+        skipbelow=20pt,
+        innerleftmargin=15pt,
+        innertopmargin=10pt,
+        innerrightmargin=15pt,
+        innerbottommargin=10pt}
+    ]{definition}
+\declaretheorem[style=definition,numbered=yes]{definition}
+% Example environment
+
+\declaretheoremstyle[
+name= \quad \underline{Proof:},
+     headfont = \bfseries\sffamily,
+     postheadspace = \newline,
+     % notebraces = \bfseries{(}{)a},
+     headpunct = {},
+     bodyfont = ,
+     postheadhook={\textcolor{foreground}{\rule[0.4ex]{\linewidth}{0pt}}\\},
+     qed=\qedsymbol,
+    % spacebelow = 10pt,
+    mdframed={
+  backgroundcolor = background,
+  linecolor = foreground,
+  linewidth = 1pt,
+  skipabove=10pt,
+  skipbelow=10pt,
+  rightline = false,
+  topline = false,
+  leftline = false,
+  bottomline = false,
+  innerleftmargin=15pt,
+  innertopmargin=15pt,
+  innerrightmargin=15pt,
+  innerbottommargin=15pt}
+]{pro}
+    % \declaretheorem[style=pro,numbered=no]{Proof}
+
+\declaretheoremstyle[
+name= \quad \underline{\textcolor{foreground}{Example}},
+     headfont = \bfseries\sffamily,
+     postheadspace = \newline,
+     % notebraces = \bfseries{(}{)a},
+     headpunct = {},
+     bodyfont = \normalfont\color{foreground},
+     postheadhook={\textcolor{foreground}{\rule[0.4ex]{\linewidth}{0pt}}\\},
+     % spacebelow = 10pt,
+    mdframed={
+  backgroundcolor = background,
+  linecolor = foreground,
+  linewidth = 1pt,
+  skipabove=10pt,
+  skipbelow=10pt,
+  rightline = false,
+  topline = false,
+  leftline = false,
+  bottomline = false,
+  innerleftmargin=15pt,
+  innertopmargin=15pt,
+  innerrightmargin=15pt,
+  innerbottommargin=15pt}
+]{ex}
+\declaretheorem[style=ex,numbered=no]{example}
+
+\declaretheoremstyle[
+     name=,
+     headfont = \bfseries\sffamily,
+     notebraces = \bfseries{},
+     headpunct = { -},
+     bodyfont = \color{foreground}\normalfont,
+     % postheadhook={\textcolor{black}{\rule[.4ex]{\linewidth}{0.2pt}}\\},
+    % spacebelow = 10pt,
+    mdframed={
+  backgroundcolor = background,
+  linecolor = foreground,
+  linewidth = 1pt,
+  skipabove=0pt,
+  skipbelow=0pt,
+  innerleftmargin=10pt,
+  innertopmargin=10pt,
+  innerrightmargin=10pt,
+  innerbottommargin=10pt,
+  rightline = false,
+  topline = false,
+  leftline = false,
+  bottomline = true}
+]{subexercise}
+% \declaretheorem[style=subexercise,numbered=no]{subexercise}
+
+\declaretheoremstyle[
+     name= \color{losning}Løsning,
+     headfont = \bfseries\sffamily,
+     notebraces = \bfseries{},
+     postheadspace = \newline,
+     headpunct = {:},
+     bodyfont = \normalfont,
+     % qed = ,
+     % postheadhook={\textcolor{black}{\rule[.4ex]{\linewidth}{0.2pt}}\\},
+    % spacebelow = 10pt,
+    mdframed={
+  backgroundcolor = background,
+  linecolor = losning!75,
+  linewidth = 1pt,
+  skipabove=0pt,
+  skipbelow=10pt,
+  innerleftmargin=10pt,
+  innertopmargin=10pt,
+  innerrightmargin=10pt,
+  innerbottommargin=10pt,
+  leftline = false,
+  rightline = true,
+  topline = false,
+  bottomline = true}
+]{solution}
+
+\newenvironment{SimpleBox}[1]{%
+  \begin{mdframed}%
+    \noindent\textbf{#1}\\[1ex]
+}{%
+  \end{mdframed}%
+}

@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'aflevering6.blg'
+[75] biber:340> INFO - === Fri Apr 11, 2025, 15:54:31
+[89] Biber.pm:418> INFO - Reading 'aflevering6.bcf'
+[148] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[160] bbl.pm:654> INFO - Writing 'aflevering6.bbl' with encoding 'UTF-8'
+[160] bbl.pm:757> INFO - Output to aflevering6.bbl
+[160] Biber.pm:130> WARN - The file 'aflevering6.bcf' does not contain any citations!
+[160] Biber.pm:132> INFO - WARNINGS: 1

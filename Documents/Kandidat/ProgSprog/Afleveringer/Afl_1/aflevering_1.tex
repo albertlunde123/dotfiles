@@ -1,0 +1,70 @@
+\documentclass[working, oneside]{../../../../Preambles/tuftebook}
+\input{../../../../Preambles/colors}
+\input{../../../../Preambles/preamble}
+\input{../../../../Preambles/theorem_styles}
+\usepackage{listings}
+\usepackage{xcolor}
+\definecolor{commentsColor}{rgb}{0.497495, 0.497587, 0.497464}
+\definecolor{keywordsColor}{rgb}{0.000000, 0.000000, 0.635294}
+\definecolor{stringColor}{rgb}{0.558215, 0.000000, 0.135316}
+\renewcommand*\ttdefault{txtt}
+\lstset{
+  basicstyle=\ttfamily\small,                   % the size of the fonts that are used for the code
+  breakatwhitespace=false,                      % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                              % sets automatic line breaking
+  frame=tb,                                     % adds a frame around the code
+  commentstyle=\color{commentsColor}\textit,    % comment style
+  keywordstyle=\color{keywordsColor}\bfseries,  % keyword style
+  stringstyle=\color{stringColor},              % string literal style
+  numbers=left,                                 % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=5pt,                                % how far the line-numbers are from the code
+  numberstyle=\tiny\color{commentsColor},       % the style that is used for the line-numbers
+  showstringspaces=false,                       % underline spaces within strings only
+  tabsize=2,                                    % sets default tabsize to 2 spaces
+  language=Scala
+}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{Aflevering 1 - Programmeringssprog}
+
+\begin{exercise}[1]
+Extend the implementation of Unparser.scala (see exercise 10) and the "trace" mechanism (see exercise 9) with the new language features (variable declarations, variable uses, and blocks). Then explain briefly how the rules in the operational semantics for block expressions and val declarations (slide 41) relate to the implementation in Interpreter.scala. Finally, explain the output of running MiniScala with arguments -unparse -run -trace examples/ex21.s
+\end{exercise}
+\begin{solution}
+Lets start by extending the unparse function, as stated we have three new language features that we need to cover. These are variables (\texttt{VarExp}), value declarations (\texttt{ValDecl}) and blocks (\texttt{BlockExp}). We will show the code for each in turn.
+\begin{lstlisting}
+case VarExp(x) => s"${x}"
+\end{lstlisting}
+Variables are just letters, so we simply return the value \texttt{x} in \texttt{VarExp(x)}and convert it to a string.
+\begin{lstlisting}
+case ValDecl(v_name, exp) => s"val ${vd} = " + unparse(exp) + "; "
+\end{lstlisting}
+Value declarations consist of a variable name \texttt{v\_name}, and an expression \texttt{exp} which is assigned to the variable. The syntax required by the parser is of the form, \texttt{val var = exp;} Since \texttt{exp} can be a number of different expressions, we evaluate this recursively by calling \texttt{unparse(exp)}. 
+\begin{lstlisting}
+case BlockExp(lists, rightexp) =>
+  val rightval = unparse(rightexp)
+  def unparseList(list: List[ValDecl]): String = list match {
+    // matches on any list(c1, ..., cn) if n>=1
+    case c :: cs => unparse(c) + unparseList(cs)
+    // handles the case where cs was the empty list
+    case Nil => ""
+  }
+\end{lstlisting}
+Block expressions contain two types; lists (made up of value declarations) and expressions. The expression is handled recursively, while the list is handled by a helper function \texttt{unparseList()}. Whenever the list has at least one element (\texttt{case c :: cs}), matches the expression, splitting it into its first element, followed by the remainder of the list. The first element is then unparsed, and the function is called on the remainder. When the remainder is the empty list, the second case is matched, and the function terminates.
+\end{solution}
+\newpage
+\begin{exercise}[2]
+Write a function simplify(exp: Exp): Exp that simplifies MiniScala v2 expressions. (Performing such simplifications is common in optimizing compilers.) You might consider the simplifications on slide 33 plus any others you find useful and correct. (Hint: use pattern matching!) Write a few tests to check that your function works as intended.
+\end{exercise}
+\begin{solution}
+
+\end{solution}
+\begin{exercise}[3]
+Show how to rewrite VarEnv (slide 35) to use "object-oriented style" (with extend and lookup being methods in the classes, not using pattern matching, and not using the scala.collection standard library). Use a fresh .scala file for this exercise - you don't need to modify your implementation of the MiniScala interpreter to use the new definition of VarEnv. As always, it is a good idea to write a few tests to check that your code works as intended
+\end{exercise}
+\begin{solution}
+
+\end{solution}
+\end{document}

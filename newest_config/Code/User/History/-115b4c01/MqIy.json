@@ -1,0 +1,36 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "vscode-icons",
+    "vim.useCtrlKeys": false,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "w"],
+            "commands": [
+                ":w"
+            ]
+        },
+        {
+            "before": ["<leader>", "q"],
+            "commands": [
+                ":q"
+            ]
+        }
+    ],
+    "vim.leader": "<space>",
+    "editor.cursorStyle": "block",
+    "editor.lineNumbers": "relative",
+    "editor.fontFamily": "'Fira Code', 'monospace'",
+    "editor.fontLigatures": true,
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": false,
+    "files.autoSave": "onFocusChange",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.smoothScrolling": true
+}

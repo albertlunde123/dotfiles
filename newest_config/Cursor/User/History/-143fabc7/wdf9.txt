@@ -1,0 +1,5 @@
+# Project dependencies
+# Add libraries like rdkit, numpy, scipy, etc. here 
+matplotlib
+ase
+numpy 

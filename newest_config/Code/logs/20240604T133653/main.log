@@ -1,0 +1,4 @@
+2024-06-04 13:36:53.311 [info] update#setState idle
+2024-06-04 13:37:07.391 [info] Extension host with pid 981100 exited with code: 0, signal: unknown.
+2024-06-04 13:37:08.395 [error] Extension host with pid 981100 still exists, forcefully killing it...
+2024-06-04 13:37:11.854 [info] Extension host with pid 981080 exited with code: 0, signal: unknown.

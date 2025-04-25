@@ -1,0 +1,15 @@
+2025/02/06-17:53:40.351 28ec Reusing MANIFEST /home/albert/.config/google-chrome/Default/IndexedDB/https_chat.deepseek.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/06-17:53:40.351 28ec Recovering log #4
+2025/02/06-17:53:40.357 28ec Reusing old log /home/albert/.config/google-chrome/Default/IndexedDB/https_chat.deepseek.com_0.indexeddb.leveldb/000004.log 
+2025/02/06-18:35:34.021 28ed Level-0 table #8: started
+2025/02/06-18:35:34.031 28ed Level-0 table #8: 209 bytes OK
+2025/02/06-18:35:34.044 28ed Delete type=0 #4
+2025/02/06-18:35:34.044 28ed Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/02/06-18:35:34.045 28ed Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 47 : 1
+2025/02/06-18:35:34.045 28ed Compacting 1@1 + 1@2 files
+2025/02/06-18:35:34.055 28ed Generated table #9@1: 19 keys, 533 bytes
+2025/02/06-18:35:34.056 28ed Compacted 1@1 + 1@2 files => 533 bytes
+2025/02/06-18:35:34.068 28ed compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/02/06-18:35:34.069 28ed Delete type=2 #8
+2025/02/06-18:35:34.069 28ed Delete type=2 #5
+2025/02/06-18:35:34.070 28ed Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 47 : 1 .. (end); will stop at (end)

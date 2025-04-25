@@ -1,0 +1,31 @@
+2025-04-24 18:47:38.310 [info] (Client) Pylance async client (2024.8.1) started with python extension (2024.12.3)
+2025-04-24 18:47:39.016 [info] [Info  - 6:47:39 PM] (630967) Pylance language server 2024.8.1 (pyright version 1.1.373, commit ee424479) starting
+2025-04-24 18:47:39.016 [info] [Info  - 6:47:39 PM] (630967) Server root directory: file:///home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2025-04-24 18:47:39.027 [info] [Info  - 6:47:39 PM] (630967) Starting service instance "MoleculeOptimization"
+2025-04-24 18:47:39.096 [info] [Info  - 6:47:39 PM] (630967) Setting pythonPath for service "MoleculeOptimization": "/bin/python3"
+2025-04-24 18:47:39.097 [info] [Info  - 6:47:39 PM] (630967) Setting environmentName for service "MoleculeOptimization": "3.10.12 (global)"
+2025-04-24 18:47:39.100 [info] [Info  - 6:47:39 PM] (630967) No include entries specified; assuming /home/albert/Documents/Kandidat/MoleculeOptimization
+2025-04-24 18:47:39.100 [info] [Info  - 6:47:39 PM] (630967) Auto-excluding **/node_modules
+2025-04-24 18:47:39.101 [info] [Info  - 6:47:39 PM] (630967) Auto-excluding **/__pycache__
+2025-04-24 18:47:39.101 [info] [Info  - 6:47:39 PM] (630967) Auto-excluding **/.*
+2025-04-24 18:47:39.139 [info] [Info  - 6:47:39 PM] (630967) Assuming Python version 3.10.12.final.0
+2025-04-24 18:47:39.356 [info] [Info  - 6:47:39 PM] (630967) Found 1 source file
+2025-04-24 18:47:39.915 [info] [Info  - 6:47:39 PM] (630967) Background analysis(1) root directory: file:///home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2025-04-24 18:47:39.917 [info] [Info  - 6:47:39 PM] (630967) Background analysis(1) started
+2025-04-24 18:47:40.584 [info] [Info  - 6:47:40 PM] (630967) Indexer background runner(2) root directory: file:///home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist (index)
+2025-04-24 18:47:40.586 [info] [Info  - 6:47:40 PM] (630967) Indexing(2) started
+2025-04-24 18:47:42.083 [info] [Info  - 6:47:42 PM] (630967) scanned(2) 480 files over 1 exec env
+2025-04-24 18:47:51.375 [info] [Info  - 6:47:51 PM] (630967) [IDX(2)] Long operation: index execution environment file:///home/albert/Documents/Kandidat/MoleculeOptimization (8844ms)
+2025-04-24 18:47:51.427 [info] [Info  - 6:47:51 PM] (630967) [IDX(2)] Long operation: index packages file:///home/albert/Documents/Kandidat/MoleculeOptimization (8925ms)
+2025-04-24 18:47:51.427 [info] [Info  - 6:47:51 PM] (630967) indexed(2) 331 files over 1 exec env
+2025-04-24 18:47:51.812 [info] [Info  - 6:47:51 PM] (630967) Indexing finished(2).
+2025-04-24 18:51:13.343 [info] [Info  - 6:51:13 PM] (630967) Found 5 source files
+2025-04-24 18:51:24.441 [info] [Info  - 6:51:24 PM] (630967) Found 6 source files
+2025-04-24 18:52:52.917 [info] [Info  - 6:52:52 PM] (630967) Found 7 source files
+2025-04-24 19:03:45.315 [info] [Info  - 7:03:45 PM] (630967) Found 8 source files
+2025-04-24 19:03:54.494 [info] [Info  - 7:03:54 PM] (630967) Found 9 source files
+2025-04-24 19:05:03.136 [info] [Info  - 7:05:03 PM] (630967) Found 10 source files
+2025-04-24 19:10:36.733 [info] [Info  - 7:10:36 PM] (630967) Found 11 source files
+2025-04-24 19:18:14.191 [info] [Info  - 7:18:14 PM] (630967) Found 12 source files
+2025-04-24 19:18:22.628 [info] [Info  - 7:18:22 PM] (630967) Found 13 source files
+2025-04-24 19:19:59.692 [info] [Info  - 7:19:59 PM] (630967) Found 14 source files

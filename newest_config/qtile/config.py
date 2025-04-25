@@ -7,24 +7,47 @@ import CustomWidgets
 import custom_functions as cf
 from Scripts.audio import toggle_mute, change_volume_down, change_volume_up
 import subprocess
+import Scripts.screenshot as screenshot
 from qtile_extras import widget
+import Scripts.color_getter as cg
+import time
 from qtile_extras.widget.decorations import RectDecoration, BorderDecoration
 # import subprocess
 import os
 
-print(cf.other_names)
 
-colors = ["#24283b",
-          "#c0caf5",
-          "#9ece6a",
+colors = ["#f3dfa2",
+          "#231d20",
+          "#ea3546",
           "878472",
           "#494331",
           "#de541e"]
+
+def change_background(qtile):
+    subprocess.run(["wal", "--theme", "random"])
+    subprocess.run(["python3", os.path.expanduser("~/.config/qtile/Scripts/generate_background_image.py")])
+    subprocess.run(["feh", "--bg-fill", os.path.expanduser("~/.config/qtile/background.png")])
+
+change_background(qtile)
+
+def load_colors(colors, path):
+    with open(path, 'r') as f:
+        for i, line in enumerate(f):
+            colors[i] = line.strip()
+    return colors
+
+colors = load_colors(colors, os.path.expanduser("~/.cache/wal/qtile_colors"))
+
+# subprocess.run(["python3", .config/qtile/Scripts/generate_background_image.py"])
+# subprocess.run(["feh", "--bg-fill", "../qtile/background.png"])
+
 
 home = os.path.expanduser('~')
 
 mod = "mod4"
 terminal = "kitty"
+
+# screenshot.main()
 
 # toggle_keyboard_layout()
 
@@ -35,6 +58,8 @@ keys = [
     Key([mod], "j", lazy.layout.down(), desc="Move focus down"),
     Key([mod], "k", lazy.layout.up(), desc="Move focus up"),
     Key([mod], "p", lazy.function(cf.toggle_keyboard_layout), desc="c"),
+    Key([mod], "f", lazy.function(change_background), desc="c"),
+    # Key([mod], "a", lazy.function(screenshot.main), desc="take screenshot"),
     Key([mod], "space", lazy.layout.next(), desc="Move window focus to other window"),
     # Move windows between left/right columns or move up/down in current stack.
     # Moving out of range in Columns layout will create new column.
@@ -63,6 +88,7 @@ keys = [
     Key([], "XF86AudioMute", lazy.function(toggle_mute)),
 
     Key([mod, "shift"], "f", lazy.window.toggle_fullscreen(), desc="Toggle fullscreen"),
+    Key([mod], "a", lazy.spawn("gnome-screenshot -a"), desc="Toggle floating"),
 
     # headphone volume
     # Key([mod], "XF86AudioRaiseVolume", lazy.spawn(os.path.expanduser("~/Scripts/Sound/sound_up.sh"))),
@@ -79,7 +105,7 @@ keys = [
     Key([mod, "shift"], "s", lazy.spawn("gnome-screenshot")),
 
     # redshift
-    Key([mod], "a", lazy.spawn("python3 " + os.path.expanduser("~/Scripts/colorGetter.py"))),
+    # Key([mod], "a", lazy.spawn("python3 " + os.path.expanduser("~/Scripts/colorGetter.py"))),
     Key([mod, "shift"],
         "Return",
         lazy.layout.toggle_split(),
@@ -103,6 +129,9 @@ keys = [
     Key([mod, "shift"], "e", 
         lazy.spawn(os.path.expanduser("~/.config/rofi/bin/powermenu")), 
         desc="Shutdown, Reboot, Logout"),
+    Key([mod, "shift"], "a",
+        lazy.spawn("python3 " + os.path.expanduser("~/.config/qtile/Scripts/color_getter.py")),
+        desc="Get color from screen"),
     Key([mod], "d", 
         lazy.spawn(os.path.expanduser("~/.config/rofi/bin/launcher_text")), 
         desc="Shutdown, Reboot, Logout"),
@@ -110,16 +139,9 @@ keys = [
         lazy.spawn("kitty -e nvim " + os.path.expanduser("~/.config/qtile/config.py")))
 ]
 
-lazy.reload_config()
-
-def voice_recognition():
-    #
-    script = os.path.expanduser("~/Projects/Voice_Recognition/RecordTranscribe/record.sh")
-    subprocess.call([script])
-
+# lazy.reload_config()
 
 group_names = ["a","b","c","d","e","f","g","h","i"]
-# group_labels = ["", "", "", "", "", "", "", "", ""]
 group_labels = [ "", "", "", "", "", "", "", "", ""]
 groups = []
 for g in range(len(group_names)):
@@ -171,11 +193,13 @@ def gradient(col1, col2, width):
     return colors
 
 # col1 and col2 should be specified in hex
-col1 = hex_to_rgb(colors[0])
-col2 = hex_to_rgb(colors[2])
+col1 = hex_to_rgb(colors[3])
+col2 = hex_to_rgb(colors[5])
 col3 = hex_to_rgb(colors[1])
 
-gradient_border = gradient(col2, col1, 10)
+gradient_border = gradient(col2, col1, 10) + [colors[0]]*5 + [colors[1]] + [colors[0]]*5 + gradient(col1, col2, 10)
+
+print(gradient_border)
 
 borders_max = gradient(col1, col3, 3) + [colors[0]]*7 + [colors[2]] +[colors[0]]*7 + gradient(col1, col3, 3)
 
@@ -183,10 +207,14 @@ layouts = [
     layout.Columns(border_focus = borders_max,
                    border_normal = (len(borders_max)-1)*[colors[0]] + [colors[1]],
                    border_width = len(borders_max),
-                   margin = [0, 0, 0, 0]),
+                   margin = [0, 0, 0, 0],
+                   no_titlebar = True),
     layout.Max(border_focus = borders_max,
                border_width = len(borders_max),
                margin = [75, 200, 75, 200]),
+    layout.Floating(border = borders_max,
+                    border_width = len(borders_max),
+                    margin = [0, 0, 0, 0]),
     ]
 
 widget_defaults = dict(
@@ -226,6 +254,14 @@ Border = {
 bluetooth_status_script = os.path.expanduser("~/.config/qtile/Scripts/bluetooth_status.sh")
 bluetooth_connect_script = os.path.expanduser("~/.config/qtile/Scripts/bluetooth_connect_powerbeats.sh")
 
+
+# PDF launcher button
+pdf_launcher = CustomWidgets.CustomGenPollText(
+    click_python_func=cf.launch_pdf_selector,
+    icon="  ",  # Book icon from Nerd Font
+    foreground=colors[2],
+    **Rect
+)
 bluetooth_widget = CustomWidgets.CustomGenPollText(update_script = bluetooth_status_script,
                                                    click_script = bluetooth_connect_script,
                                                    texts1 = cf.get_connected_bluetooth_device_name,
@@ -245,6 +281,7 @@ screens = [
                              # foreground = color[0]),
                 # CustomWidgets.CustomIconWidget(),
                 bluetooth_widget,
+                pdf_launcher,
                 widget.Spacer(),
                 widget.GroupBox(active=colors[2],
                                 inactive=colors[1],
@@ -322,6 +359,12 @@ bring_front_click = False
 cursor_warp = False
 
 floating_layout = layout.Floating(
+    border_width = len(borders_max),
+    border_focus = borders_max,
+    border_normal = (len(borders_max)-1)*[colors[0]] + [colors[1]],
+    # border_normal = [colors[1]] + (len(borders_max)-1)*[colors[0]] + [colors[1]],
+    # border_width = len(borders_max),
+    # margin = [0, 0, 0, 0],
     float_rules=[
         # Run the utility of `xprop` to see the wm class and name of an X client.
         *layout.Floating.default_float_rules,
@@ -331,9 +374,15 @@ floating_layout = layout.Floating(
         Match(wm_class="ssh-askpass"),  # ssh-askpass
         Match(title="branchdialog"),  # gitk
         Match(title="pinentry"),
+        Match(title="Custom Window"),
         Match(title="EAR"),# GPG key password entry
-        Match(wm_class="feh"),
-        Match(wm_class="Unity"),
+        Match(title="InputWindow"),
+        Match(title="PDF Launcher"),
+        Match(title="pdf_preview"),
+        Match(title="LaTeX Editor (PyQtDraw)")
+
+
+        # Match(title="InputWindow"),
     ]
 )
 
@@ -383,5 +432,6 @@ def autostart():
 wmname = "LG3D"
 
 lazy.reload_config()
+
 
 # lazy.spawn(os.path.expanduser("~/Projects/Voice_Recognition/record.sh"))

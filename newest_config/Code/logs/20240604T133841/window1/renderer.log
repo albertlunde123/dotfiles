@@ -1,0 +1,18 @@
+2024-06-04 13:38:42.398 [info] Started local extension host with pid 982558.
+2024-06-04 13:38:42.539 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): extensionsAny, newSymbolNamesProvider, interactive, chatProvider, codeActionAI, findTextInFiles, findFiles2, textSearchProvider, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, mappedEditsProvider, aiRelatedInformation, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, contribSourceControlInputBoxMenu, authLearnMore, testObserver, aiTextSearchProvider
+product.json (WINS): handleIssueUri, interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver
+2024-06-04 13:38:43.077 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2024-06-04 13:38:43.653 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2024-06-04 13:38:44.883 [error] [Extension Host] [extension] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-06-04 13:38:45.958 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2024-06-04 13:38:47.565 [info] [perf] Render performance baseline is 44ms
+2024-06-04 13:38:47.571 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2024-06-04 13:39:59.076 [error] Error: The editor could not be opened because the file was not found.
+    at R.gc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2355:28131)
+    at async R.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2355:27187)
+    at async r.S (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2353:24784)
+    at async r.L (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2353:23348)
+    at async r.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2353:22337)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2476:24162
+2024-06-04 13:40:13.432 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings

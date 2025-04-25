@@ -1,0 +1,16 @@
+2024-06-04 13:40:35.274 [info] [FetcherService] Using Helix fetcher
+2024-06-04 13:40:35.274 [info] [gitExtensionService] Initializing Git extension service.
+2024-06-04 13:40:35.274 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-06-04 13:40:35.274 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-06-04 13:40:35.274 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-06-04 13:40:35.999 [info] [auth] GitHub login failed
+2024-06-04 13:40:36.002 [info] [extension] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-06-04 13:40:36.031 [info] [auth] GitHub login failed
+2024-06-04 13:40:54.293 [info] [FetcherService] Using Helix fetcher
+2024-06-04 13:40:54.293 [info] [gitExtensionService] Initializing Git extension service.
+2024-06-04 13:40:54.293 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-06-04 13:40:54.293 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-06-04 13:40:54.293 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-06-04 13:40:54.921 [info] [auth] GitHub login failed
+2024-06-04 13:40:54.925 [info] [extension] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-06-04 13:40:54.962 [info] [auth] GitHub login failed

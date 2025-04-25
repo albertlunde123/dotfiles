@@ -1,0 +1,522 @@
+2025-04-08 16:46:59.475 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/canvas_widget.py
+2025-04-08 16:47:06.511 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 16:47:06.523 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main.py closed
+2025-04-08 16:47:06.529 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/test_terminal_editor.py closed
+2025-04-08 16:47:27.228 [info] /home/albert/.config/Cursor/User/settings.json closed
+2025-04-08 16:47:27.271 [info] Configuration changed
+2025-04-08 16:48:19.006 [info] Configuration changed
+2025-04-08 16:48:57.652 [info] /home/albert/.config/Cursor/User/settings.json closed
+2025-04-08 16:48:57.710 [info] Configuration changed
+2025-04-08 16:49:03.217 [info] Active editor: output:rendererLog
+2025-04-08 16:49:52.784 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/canvas_widget.py
+2025-04-08 16:49:59.966 [info] rendererLog closed
+2025-04-08 16:50:31.638 [info] /home/albert/.config/Cursor/User/settings.json closed
+2025-04-08 16:50:31.682 [info] Configuration changed
+2025-04-08 16:50:33.821 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/canvas_widget.py
+2025-04-08 16:50:50.155 [info] /home/albert/.config/Cursor/User/settings.json closed
+2025-04-08 16:50:50.189 [info] Configuration changed
+2025-04-08 16:50:59.574 [info] /home/albert/.config/Cursor/User/settings.json closed
+2025-04-08 16:50:59.639 [info] Configuration changed
+2025-04-08 16:51:00.027 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/canvas_widget.py
+2025-04-08 16:51:03.936 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/canvas_widget.py
+2025-04-08 16:51:04.373 [info] /home/albert/.config/Cursor/User/settings.json closed
+2025-04-08 16:51:04.432 [info] Configuration changed
+2025-04-08 16:52:01.871 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/polyline_element.py closed
+2025-04-08 16:52:03.598 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/polyline_element.py closed
+2025-04-08 16:52:15.376 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/polyline_element.py
+2025-04-08 16:53:36.373 [info] Executing :w
+2025-04-08 16:54:30.120 [info] Executing :w
+2025-04-08 16:55:16.225 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 16:55:16.236 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/select_move_tool.py closed
+2025-04-08 16:55:16.242 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/element_properties_dock.py closed
+2025-04-08 16:55:16.251 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/base_element.py closed
+2025-04-08 16:55:16.254 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/controllers/tool_controller.py closed
+2025-04-08 16:55:16.258 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/latex_text_element.py closed
+2025-04-08 16:55:19.063 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/select_move_tool.py closed
+2025-04-08 16:55:32.970 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/select_move_tool.py
+2025-04-08 16:56:01.123 [info] Executing :w
+2025-04-08 16:57:55.929 [info] Searching for grid
+2025-04-08 16:58:16.247 [info] Executing :w
+2025-04-08 16:58:56.399 [info] Executing :w
+2025-04-08 16:58:59.704 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/canvas_widget.py
+2025-04-08 16:59:24.241 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/canvas_widget.py closed
+2025-04-08 16:59:24.322 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/utils/colors.py
+2025-04-08 16:59:39.752 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/select_move_tool.py
+2025-04-08 16:59:50.923 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/canvas_widget.py closed
+2025-04-08 17:00:49.827 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/canvas_widget.py closed
+2025-04-08 17:01:17.593 [info] Executing :w
+2025-04-08 17:01:22.873 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/__init__.py
+2025-04-08 17:01:24.175 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/select_move_tool.py
+2025-04-08 17:01:32.835 [info] Executing :w
+2025-04-08 17:01:57.054 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/__init__.py closed
+2025-04-08 17:01:57.117 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/utils/snapping.py
+2025-04-08 17:02:12.437 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/select_move_tool.py
+2025-04-08 17:02:28.832 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/utils/snapping.py
+2025-04-08 17:02:35.751 [info] Executing :w
+2025-04-08 17:03:43.175 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/__init__.py closed
+2025-04-08 17:03:45.149 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:03:45.154 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:03:45.159 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/utils/hotkeys.py closed
+2025-04-08 17:03:45.162 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:03:45.167 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/controllers/tool_controller.py closed
+2025-04-08 17:03:45.171 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/canvas_widget.py closed
+2025-04-08 17:03:45.175 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/rectangle_tool.py closed
+2025-04-08 17:03:45.181 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/circle_tool.py closed
+2025-04-08 17:03:45.185 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/line_tool.py closed
+2025-04-08 17:03:45.188 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/base_tool.py closed
+2025-04-08 17:03:45.193 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/freehand_tool.py closed
+2025-04-08 17:03:45.197 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/element_properties_dock.py closed
+2025-04-08 17:03:47.812 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:03:49.433 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:04:03.440 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py
+2025-04-08 17:04:36.512 [info] Executing :w
+2025-04-08 17:06:33.656 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/__init__.py closed
+2025-04-08 17:06:37.000 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:06:38.668 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:06:54.004 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py
+2025-04-08 17:06:55.974 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:07:11.115 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py
+2025-04-08 17:08:02.971 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/__init__.py closed
+2025-04-08 17:08:38.496 [info] Executing :w
+2025-04-08 17:08:41.492 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py
+2025-04-08 17:08:43.997 [info] Executing :w
+2025-04-08 17:08:49.862 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/utils/snapping.py
+2025-04-08 17:09:10.228 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py
+2025-04-08 17:09:13.847 [info] Executing :w
+2025-04-08 17:09:25.138 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py
+2025-04-08 17:09:34.012 [info] Executing :w
+2025-04-08 17:09:39.083 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py
+2025-04-08 17:09:40.789 [info] Executing :w
+2025-04-08 17:09:57.565 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/controllers/color_controller.py closed
+2025-04-08 17:09:59.372 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/controllers/color_controller.py closed
+2025-04-08 17:10:10.263 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/controllers/color_controller.py
+2025-04-08 17:10:24.454 [info] Executing :w
+2025-04-08 17:11:23.548 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py
+2025-04-08 17:11:42.517 [info] Executing :w
+2025-04-08 17:14:54.791 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/element_properties_dock.py closed
+2025-04-08 17:14:56.516 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/element_properties_dock.py closed
+2025-04-08 17:15:50.748 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/element_properties_dock.py
+2025-04-08 17:17:56.527 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:18:23.341 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:18:43.304 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:18:43.349 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:18:46.055 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:18:51.840 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:19:00.436 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py
+2025-04-08 17:21:59.802 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:22:02.213 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:22:10.793 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:22:12.731 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:22:21.842 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:22:23.047 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:22:30.032 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py
+2025-04-08 17:25:03.447 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/controllers/tool_controller.py closed
+2025-04-08 17:25:03.452 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/line_tool.py closed
+2025-04-08 17:25:03.464 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/rectangle_tool.py closed
+2025-04-08 17:25:03.468 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/canvas_widget.py closed
+2025-04-08 17:25:03.472 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/utils/hotkeys.py closed
+2025-04-08 17:25:03.475 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/base_tool.py closed
+2025-04-08 17:25:03.479 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/freehand_tool.py closed
+2025-04-08 17:25:39.529 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py
+2025-04-08 17:25:43.591 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/element_properties_dock.py
+2025-04-08 17:28:41.861 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py
+2025-04-08 17:32:06.578 [info] Executing :w
+2025-04-08 17:32:33.375 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/element_properties_dock.py
+2025-04-08 17:33:11.707 [info] Executing :w
+2025-04-08 17:34:12.723 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/__init__.py closed
+2025-04-08 17:34:12.736 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/base_element.py closed
+2025-04-08 17:34:12.742 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/line_tool.py closed
+2025-04-08 17:34:12.749 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/circle_element.py closed
+2025-04-08 17:34:12.752 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/rectangle_element.py closed
+2025-04-08 17:34:12.757 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/latex_text_element.py closed
+2025-04-08 17:34:12.762 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/freehand_tool.py closed
+2025-04-08 17:34:15.786 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/base_element.py closed
+2025-04-08 17:35:03.671 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py
+2025-04-08 17:38:00.806 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/base_element.py
+2025-04-08 17:38:26.204 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/element_properties_dock.py
+2025-04-08 17:44:07.787 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/select_move_tool.py
+2025-04-08 17:46:47.770 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/rectangle_element.py closed
+2025-04-08 17:46:52.384 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/circle_element.py closed
+2025-04-08 17:47:00.955 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/latex_text_element.py closed
+2025-04-08 17:47:02.545 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/rectangle_element.py closed
+2025-04-08 17:47:12.037 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/circle_element.py closed
+2025-04-08 17:47:12.199 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/rectangle_element.py
+2025-04-08 17:47:18.287 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/circle_element.py
+2025-04-08 17:47:19.983 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/latex_text_element.py closed
+2025-04-08 17:47:30.778 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/latex_text_element.py
+2025-04-08 17:49:30.220 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/utils/snapping.py closed
+2025-04-08 17:49:31.387 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:49:32.291 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:49:32.747 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:49:34.083 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/element_properties_dock.py closed
+2025-04-08 17:49:35.708 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:49:59.785 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:49:59.801 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:49:59.815 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:49:59.837 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:50:01.425 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:50:01.450 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:50:01.469 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:50:01.519 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:50:23.072 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tests/test_element_properties_dock.py closed
+2025-04-08 17:50:23.137 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tests/test_element_properties_dock.py closed
+2025-04-08 17:50:23.153 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tests/test_element_properties_dock.py closed
+2025-04-08 17:50:26.356 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:50:26.386 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:50:26.405 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:50:26.442 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:50:27.985 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:50:28.004 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:50:28.038 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:50:28.322 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:50:31.367 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/run_tests.py closed
+2025-04-08 17:50:31.420 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/run_tests.py closed
+2025-04-08 17:50:31.437 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/run_tests.py closed
+2025-04-08 17:50:35.052 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:50:35.067 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:50:35.084 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:50:35.100 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:51:05.964 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/element_properties_dock.py
+2025-04-08 17:51:10.777 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tests/test_element_properties_dock.py
+2025-04-08 17:52:32.724 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:52:32.742 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:52:32.763 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:52:32.796 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:52:32.909 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:52:33.015 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:52:38.229 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:52:38.244 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:52:38.260 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:52:38.278 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:52:53.794 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:52:53.810 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:52:53.825 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:52:53.843 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:52:56.822 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:52:56.837 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:52:56.846 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:52:56.874 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:53:07.364 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:53:07.437 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:53:07.536 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:53:07.729 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:53:08.743 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:53:08.758 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:53:08.778 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:53:08.913 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:53:18.053 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:53:18.061 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:53:18.075 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:53:18.090 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:53:18.204 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:53:29.011 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:53:29.040 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:53:29.059 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:53:29.075 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:53:36.064 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:53:36.080 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:53:36.104 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:53:36.114 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:53:41.344 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:53:41.360 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:53:41.376 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:53:41.394 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:53:49.692 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:53:49.708 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:53:49.724 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:53:49.745 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:56:09.702 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/run_tests.py
+2025-04-08 17:56:17.594 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/select_move_tool.py
+2025-04-08 17:58:20.988 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:58:21.007 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:58:21.019 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:58:21.038 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:58:21.127 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:58:25.585 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:58:25.601 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:58:25.631 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:58:25.683 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:59:06.186 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 17:59:06.202 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 17:59:06.218 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 17:59:06.329 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 17:59:26.045 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/element_properties_dock.py
+2025-04-08 18:00:54.303 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:00:54.317 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:00:54.334 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:00:54.351 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:00:54.414 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:00:57.636 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:00:57.652 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:00:57.668 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:00:57.683 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:01:42.827 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:01:42.847 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:01:42.862 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:01:42.888 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:01:44.367 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:01:44.375 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:01:44.403 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:01:44.421 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:01:49.909 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:01:49.938 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:01:49.956 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:01:49.989 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:03:35.628 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:03:35.662 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:03:35.684 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:03:35.724 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:03:35.781 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:03:39.229 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:03:39.245 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:03:39.257 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:03:39.272 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:03:47.729 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:03:47.756 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:03:47.777 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:03:48.005 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:04:21.598 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:04:21.613 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:04:21.628 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:04:21.656 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:04:21.727 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:04:25.143 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:04:25.157 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:04:25.173 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:04:25.187 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:04:38.122 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:04:38.129 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:04:38.146 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:04:38.162 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:04:39.781 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:04:39.797 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:04:39.816 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:04:39.860 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:04:45.931 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:04:45.948 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:04:45.974 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:04:45.991 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:04:47.581 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:04:47.597 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:04:47.615 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:04:47.639 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:05:00.559 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:05:00.580 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:05:00.595 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:05:00.611 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:05:01.876 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:05:01.893 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:05:01.910 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:05:01.943 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:05:11.732 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:05:27.959 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:05:27.971 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:05:27.979 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:05:27.992 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:05:32.811 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:05:32.957 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:05:33.128 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:05:33.249 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:05:33.413 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:05:37.577 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:05:37.599 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:05:37.739 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:05:37.905 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:05:45.400 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:05:45.416 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:05:45.434 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:05:45.463 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:06:20.483 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tests/test_element_properties_dock.py
+2025-04-08 18:06:21.308 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/element_properties_dock.py
+2025-04-08 18:09:01.597 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:09:41.426 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:09:41.455 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:09:41.542 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:09:42.115 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:09:42.176 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:09:44.768 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:09:44.784 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:09:44.798 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:09:44.814 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:10:08.413 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:10:08.439 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:10:08.467 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:10:08.482 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:10:49.018 [info] Executing :w
+2025-04-08 18:11:20.706 [info] Executing :w
+2025-04-08 18:12:28.014 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:12:28.060 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:12:28.101 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:12:28.393 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:12:28.452 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:12:30.944 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:12:30.958 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:12:30.972 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:12:30.989 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:12:42.645 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:12:42.660 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:12:42.676 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:12:42.695 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:19:19.665 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:19:19.739 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:19:19.756 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:19:19.787 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:19:19.859 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:19:22.552 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:19:22.565 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:19:22.574 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:19:22.607 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:19:47.643 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 18:19:47.658 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 18:19:47.672 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 18:19:47.690 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 18:22:03.005 [info] Executing :w
+2025-04-08 21:47:39.920 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 21:47:40.053 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:47:40.158 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:47:40.470 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:47:40.537 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:47:44.389 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 21:47:44.410 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:47:44.421 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:47:44.448 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:47:54.855 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 21:47:54.879 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:47:54.895 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:47:54.910 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:48:06.282 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/s_curve_element.py closed
+2025-04-08 21:48:06.343 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/s_curve_element.py closed
+2025-04-08 21:48:06.355 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/s_curve_element.py closed
+2025-04-08 21:48:09.314 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 21:48:09.352 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:48:09.369 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:48:09.398 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:48:11.182 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/s_curve_element.py
+2025-04-08 21:48:12.737 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/s_curve_tool.py closed
+2025-04-08 21:48:12.803 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/s_curve_tool.py closed
+2025-04-08 21:48:12.820 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/s_curve_tool.py closed
+2025-04-08 21:48:16.317 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/controllers/tool_controller.py closed
+2025-04-08 21:48:16.441 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 21:48:16.558 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:48:16.671 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:48:16.805 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:48:21.488 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py closed
+2025-04-08 21:48:21.537 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:48:21.570 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:48:21.617 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:48:22.161 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/s_curve_tool.py
+2025-04-08 21:48:30.298 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/controllers/tool_controller.py
+2025-04-08 21:48:31.301 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:48:31.321 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:48:31.347 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:48:34.496 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/tool_toolbar.py
+2025-04-08 21:49:00.799 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:49:00.822 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:49:00.888 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:49:00.962 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:49:04.217 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:49:04.234 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:49:04.250 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:49:09.521 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:49:09.547 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:49:09.567 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:49:09.718 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/controllers/tool_controller.py
+2025-04-08 21:49:33.123 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:49:33.166 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:49:33.184 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:49:33.263 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:49:36.222 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:49:36.237 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:49:36.266 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:49:42.421 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/polyline_tool.py closed
+2025-04-08 21:49:42.498 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/polyline_tool.py closed
+2025-04-08 21:49:42.506 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/polyline_tool.py closed
+2025-04-08 21:49:45.689 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:49:45.721 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:49:45.756 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:49:47.051 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/polyline_tool.py closed
+2025-04-08 21:49:47.243 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:49:47.301 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:49:47.387 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:49:59.439 [info] Executing :w
+2025-04-08 21:50:04.789 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:50:04.836 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:50:04.869 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:50:06.273 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:50:06.303 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:50:06.622 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:50:13.084 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/latex_tool.py closed
+2025-04-08 21:50:13.158 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/latex_tool.py closed
+2025-04-08 21:50:13.176 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/latex_tool.py closed
+2025-04-08 21:50:14.462 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:50:17.836 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:50:17.855 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:50:17.871 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:50:19.401 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:50:19.417 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:50:19.434 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:50:24.421 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/latex_element.py closed
+2025-04-08 21:50:24.498 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/latex_element.py closed
+2025-04-08 21:50:24.598 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/latex_element.py closed
+2025-04-08 21:50:26.104 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/polyline_element.py
+2025-04-08 21:50:27.718 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:50:27.739 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:50:27.775 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:50:29.202 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:50:29.223 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:50:29.250 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:50:33.682 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/latex_element.py closed
+2025-04-08 21:50:35.060 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/latex_tool.py closed
+2025-04-08 21:50:38.990 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/utils/latex_renderer.py closed
+2025-04-08 21:50:39.082 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/utils/latex_renderer.py closed
+2025-04-08 21:50:39.133 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/utils/latex_renderer.py closed
+2025-04-08 21:50:41.799 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/utils/latex_renderer.py closed
+2025-04-08 21:50:44.731 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/utils/latex_renderer.py closed
+2025-04-08 21:51:20.257 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:51:20.276 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:51:20.327 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:51:20.384 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/utils/latex_renderer.py closed
+2025-04-08 21:51:20.434 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:51:26.716 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:51:26.729 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:51:26.751 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:51:26.857 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/utils/latex_renderer.py closed
+2025-04-08 21:51:32.318 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:51:32.325 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:51:32.343 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:51:32.385 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/utils/latex_renderer.py closed
+2025-04-08 21:51:33.604 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:51:33.673 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:51:33.770 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:51:33.808 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/utils/latex_renderer.py closed
+2025-04-08 21:51:42.106 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/polyline_tool.py closed
+2025-04-08 21:51:42.165 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/polyline_tool.py closed
+2025-04-08 21:51:42.180 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/polyline_tool.py closed
+2025-04-08 21:51:45.238 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:51:45.252 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:51:45.268 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:51:45.292 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/utils/latex_renderer.py closed
+2025-04-08 21:51:46.401 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:51:46.426 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:51:46.449 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:51:46.503 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/latex_text_tool.py closed
+2025-04-08 21:51:46.575 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/utils/latex_renderer.py closed
+2025-04-08 21:51:58.561 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:51:58.587 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:51:58.645 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:51:58.711 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/utils/latex_renderer.py closed
+2025-04-08 21:51:59.893 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:51:59.924 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:51:59.940 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:51:59.968 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/utils/latex_renderer.py closed
+2025-04-08 21:52:11.702 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/utils/latex_renderer.py closed
+2025-04-08 21:52:11.759 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:52:11.784 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:52:11.839 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:52:12.943 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/latex_text_tool.py closed
+2025-04-08 21:52:14.218 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/color_toolbar.py closed
+2025-04-08 21:52:14.468 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/main_window.py closed
+2025-04-08 21:52:15.408 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/polyline_tool.py closed
+2025-04-08 21:52:15.603 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/views/grid_settings_dock.py closed
+2025-04-08 21:52:19.098 [info] /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/latex_text_tool.py closed
+2025-04-08 21:52:22.670 [info] Active editor: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/polyline_element.py

@@ -1,0 +1,34 @@
+2025-04-11 16:31:10.279 [info] (Client) Pylance async client (2024.8.1) started with python extension (2024.12.3)
+2025-04-11 16:31:11.349 [info] [Info  - 4:31:11 PM] (3100679) Pylance language server 2024.8.1 (pyright version 1.1.373, commit ee424479) starting
+2025-04-11 16:31:11.349 [info] [Info  - 4:31:11 PM] (3100679) Server root directory: file:///home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2025-04-11 16:31:11.356 [info] [Info  - 4:31:11 PM] (3100679) Starting service instance "pyqt_drawing_app"
+2025-04-11 16:31:11.474 [info] [Info  - 4:31:11 PM] (3100679) Setting pythonPath for service "pyqt_drawing_app": "/bin/python3"
+2025-04-11 16:31:11.474 [info] [Info  - 4:31:11 PM] (3100679) Setting environmentName for service "pyqt_drawing_app": "3.10.12 (global)"
+2025-04-11 16:31:11.476 [info] [Info  - 4:31:11 PM] (3100679) No include entries specified; assuming /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app
+2025-04-11 16:31:11.477 [info] [Info  - 4:31:11 PM] (3100679) Auto-excluding **/node_modules
+2025-04-11 16:31:11.477 [info] [Info  - 4:31:11 PM] (3100679) Auto-excluding **/__pycache__
+2025-04-11 16:31:11.478 [info] [Info  - 4:31:11 PM] (3100679) Auto-excluding **/.*
+2025-04-11 16:31:11.523 [info] [Info  - 4:31:11 PM] (3100679) Assuming Python version 3.10.12.final.0
+2025-04-11 16:31:12.207 [info] [Info  - 4:31:12 PM] (3100679) Found 40 source files
+2025-04-11 16:31:12.784 [info] [Info  - 4:31:12 PM] (3100679) Background analysis(1) root directory: file:///home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2025-04-11 16:31:12.785 [info] [Info  - 4:31:12 PM] (3100679) Background analysis(1) started
+2025-04-11 16:31:13.614 [info] [Info  - 4:31:13 PM] (3100679) Indexer background runner(2) root directory: file:///home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist (index)
+2025-04-11 16:31:13.616 [info] [Info  - 4:31:13 PM] (3100679) Indexing(2) started
+2025-04-11 16:31:15.551 [info] [Info  - 4:31:15 PM] (3100679) [BG(1)] Long operation: checking: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/select_move_tool.py (2177ms)
+2025-04-11 16:31:15.551 [info] [Info  - 4:31:15 PM] (3100679) [BG(1)] Long operation: analyzing: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/tools/select_move_tool.py (2772ms)
+2025-04-11 16:31:16.282 [info] [Info  - 4:31:16 PM] (3100679) [IDX(2)] Long operation: scan packages file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app (2224ms)
+2025-04-11 16:31:16.283 [info] [Info  - 4:31:16 PM] (3100679) scanned(2) 461 files over 1 exec env
+2025-04-11 16:31:16.938 [info] [Info  - 4:31:16 PM] (3100679) indexed(2) 319 files over 1 exec env
+2025-04-11 16:31:17.830 [info] [Info  - 4:31:17 PM] (3100679) Indexing finished(2).
+2025-04-11 16:36:33.546 [info] [Info  - 4:36:33 PM] (3100679) Starting service instance "<default>"
+2025-04-11 16:36:33.611 [info] [Info  - 4:36:33 PM] (3100679) Setting pythonPath for service "<default>": "/bin/python3"
+2025-04-11 16:36:33.611 [info] [Info  - 4:36:33 PM] (3100679) Setting environmentName for service "<default>": "3.10.12 (global)"
+2025-04-11 16:36:33.611 [info] [Info  - 4:36:33 PM] (3100679) No include entries specified; assuming /<default workspace root>
+2025-04-11 16:36:33.612 [info] [Info  - 4:36:33 PM] (3100679) Auto-excluding **/node_modules
+2025-04-11 16:36:33.613 [info] [Info  - 4:36:33 PM] (3100679) Auto-excluding **/__pycache__
+2025-04-11 16:36:33.613 [info] [Info  - 4:36:33 PM] (3100679) Auto-excluding **/.*
+2025-04-11 16:36:33.663 [info] [Info  - 4:36:33 PM] (3100679) Assuming Python version 3.10.12.final.0
+2025-04-11 16:36:33.803 [info] [Error - 4:36:33 PM] (3100679) File or directory "/<default workspace root>" does not exist.
+2025-04-11 16:36:33.803 [info] [Info  - 4:36:33 PM] (3100679) No source files found.
+2025-04-11 16:36:34.312 [info] [Info  - 4:36:34 PM] (3100679) Background analysis(3) root directory: file:///home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2025-04-11 16:36:34.315 [info] [Info  - 4:36:34 PM] (3100679) Background analysis(3) started

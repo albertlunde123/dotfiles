@@ -1,0 +1,86 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/FirstProject">
+          <value>
+            <RecentProjectMetaInfo frameTitle="FirstProject" projectWorkspaceId="2sDBpr8oOhtC0QTRFpXiez27qQW">
+              <option name="activationTimestamp" value="1737980768618" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-243.23654.153" />
+              <option name="buildTimestamp" value="1737636720000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+              <frame x="580" y="300" width="1400" height="1000" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1737980452200" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/SecondProject">
+          <value>
+            <RecentProjectMetaInfo frameTitle="SecondProject" projectWorkspaceId="2sDDI6pMEtNl333lxGNiYm6OkkO">
+              <option name="activationTimestamp" value="1738061517276" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-243.23654.153" />
+              <option name="buildTimestamp" value="1737636720000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="3" />
+              </option>
+              <frame x="0" y="0" width="2560" height="1600" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1738061284319" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/MiniscalaOld5">
+          <value>
+            <RecentProjectMetaInfo frameTitle="MiniscalaOld5 – encoderTest.scala" projectWorkspaceId="2sFq8VAjjqZPHXRpWFXz2rEkTCM">
+              <option name="activationTimestamp" value="1743076225061" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-243.23654.153" />
+              <option name="buildTimestamp" value="1737636720000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="-21" y="-21" width="2730" height="1554" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1743075251208" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/Miniscala">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Miniscala – TypeChecker.scala" opened="true" projectWorkspaceId="2sFq8VAjjqZPHXRpWFXz2rEkTCM">
+              <option name="activationTimestamp" value="1745490754885" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-243.23654.153" />
+              <option name="buildTimestamp" value="1737636720000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="-21" y="-21" width="2688" height="1512" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1745486730664" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/MiniScalaOld8">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="2sFq8VAjjqZPHXRpWFXz2rEkTCM">
+              <option name="activationTimestamp" value="1745490611501" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-243.23654.153" />
+              <option name="buildTimestamp" value="1737636720000" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1745487060651" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/IdeaProjects/Miniscala" />
+    <option name="lastProjectLocation" value="$USER_HOME$/IdeaProjects" />
+  </component>
+</application>

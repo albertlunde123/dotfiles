@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{hello}\PYG{p}{():}
+    \PYG{n}{print}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Hello, world!\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{hello}\PYG{p}{()}
+\end{Verbatim}

@@ -1,0 +1,24 @@
+2025-04-08 21:52:52.761 [info] (Client) Pylance async client (2024.8.1) started with python extension (2024.12.3)
+2025-04-08 21:52:53.822 [info] [Info  - 9:52:53 PM] (693041) Pylance language server 2024.8.1 (pyright version 1.1.373, commit ee424479) starting
+2025-04-08 21:52:53.822 [info] [Info  - 9:52:53 PM] (693041) Server root directory: file:///home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2025-04-08 21:52:53.824 [info] [Info  - 9:52:53 PM] (693041) Starting service instance "pyqt_drawing_app"
+2025-04-08 21:52:53.915 [info] [Info  - 9:52:53 PM] (693041) Setting pythonPath for service "pyqt_drawing_app": "/bin/python3"
+2025-04-08 21:52:53.919 [info] [Info  - 9:52:53 PM] (693041) Setting environmentName for service "pyqt_drawing_app": "3.10.12 (global)"
+2025-04-08 21:52:53.919 [info] [Info  - 9:52:53 PM] (693041) No include entries specified; assuming /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app
+2025-04-08 21:52:53.919 [info] [Info  - 9:52:53 PM] (693041) Auto-excluding **/node_modules
+2025-04-08 21:52:53.919 [info] [Info  - 9:52:53 PM] (693041) Auto-excluding **/__pycache__
+2025-04-08 21:52:53.919 [info] [Info  - 9:52:53 PM] (693041) Auto-excluding **/.*
+2025-04-08 21:52:53.966 [info] [Info  - 9:52:53 PM] (693041) Assuming Python version 3.10.12.final.0
+2025-04-08 21:52:54.183 [info] [Info  - 9:52:54 PM] (693041) Found 40 source files
+2025-04-08 21:52:55.709 [info] [Info  - 9:52:55 PM] (693041) Background analysis(1) root directory: file:///home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2025-04-08 21:52:55.709 [info] [Info  - 9:52:55 PM] (693041) Background analysis(1) started
+2025-04-08 21:52:56.200 [info] [Info  - 9:52:56 PM] (693041) Indexer background runner(2) root directory: file:///home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist (index)
+2025-04-08 21:52:56.202 [info] [Info  - 9:52:56 PM] (693041) Indexing(2) started
+2025-04-08 21:52:59.262 [info] [Info  - 9:52:59 PM] (693041) [BG(1)] Long operation: checking: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/polyline_element.py (2656ms)
+2025-04-08 21:52:59.263 [info] [Info  - 9:52:59 PM] (693041) [BG(1)] Long operation: analyzing: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/elements/polyline_element.py (3397ms)
+2025-04-08 21:52:59.654 [info] [Info  - 9:52:59 PM] (693041) [IDX(2)] Long operation: scan packages file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app (2987ms)
+2025-04-08 21:52:59.654 [info] [Info  - 9:52:59 PM] (693041) scanned(2) 461 files over 1 exec env
+2025-04-08 21:53:00.651 [info] [Info  - 9:53:00 PM] (693041) indexed(2) 319 files over 1 exec env
+2025-04-08 21:53:00.922 [info] [Info  - 9:53:00 PM] (693041) Indexing finished(2).
+2025-04-09 11:07:55.741 [info] [Info  - 11:07:55 AM] (693041) Found 39 source files
+2025-04-09 15:16:48.443 [info] [Info  - 3:16:48 PM] (693041) Found 40 source files

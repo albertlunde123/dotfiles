@@ -1,0 +1,20 @@
+{
+  "InfoVersion": 1,
+  "SaveVersion": 362,
+  "GameVersion": "2.0.206.68",
+  "ID": "85d3a8ee-4df0-492d-a8aa-4b5b9be371ff",
+  "Name": "Popus Flaredina",
+  "Level": 15,
+  "GenoSubType": "True Kin Praetorian",
+  "GameMode": "Classic",
+  "CharIcon": "creatures/sw_praetorian_prime.bmp",
+  "FColor": "G",
+  "DColor": "c",
+  "Location": "subterranean jungle, 2 strata deep",
+  "InGameTime": "09:59:55",
+  "Turn": 31603,
+  "SaveTime": "Sunday, 10 March 2024 at 23:44:15",
+  "ModsEnabled": [
+    "2128235668"
+  ]
+}

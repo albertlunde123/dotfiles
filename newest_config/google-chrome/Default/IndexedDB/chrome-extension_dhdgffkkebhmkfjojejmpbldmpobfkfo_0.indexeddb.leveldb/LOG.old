@@ -1,0 +1,15 @@
+2024/10/26-00:15:00.533 c4d6 Reusing MANIFEST /home/albert/.config/google-chrome/Default/IndexedDB/chrome-extension_dhdgffkkebhmkfjojejmpbldmpobfkfo_0.indexeddb.leveldb/MANIFEST-000001
+2024/10/26-00:15:00.534 c4d6 Recovering log #68
+2024/10/26-00:15:00.543 c4d6 Reusing old log /home/albert/.config/google-chrome/Default/IndexedDB/chrome-extension_dhdgffkkebhmkfjojejmpbldmpobfkfo_0.indexeddb.leveldb/000068.log 
+2024/10/28-21:39:32.853 c4d6 Level-0 table #74: started
+2024/10/28-21:39:32.882 c4d6 Level-0 table #74: 275547 bytes OK
+2024/10/28-21:39:32.907 c4d6 Delete type=0 #68
+2024/10/28-21:39:32.908 c4d6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2024/10/28-21:39:32.908 c4d6 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x01\x0a\x001\x008\x001\x007\x008\x001\x008\x000\x004\x008' @ 351789 : 1
+2024/10/28-21:39:32.908 c4d6 Compacting 1@1 + 1@2 files
+2024/10/28-21:39:34.171 c4d6 Generated table #75@1: 78 keys, 3787 bytes
+2024/10/28-21:39:34.171 c4d6 Compacted 1@1 + 1@2 files => 3787 bytes
+2024/10/28-21:39:34.244 c4d6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/10/28-21:39:34.245 c4d6 Delete type=2 #74
+2024/10/28-21:39:34.245 c4d6 Delete type=2 #71
+2024/10/28-21:39:34.245 c4d6 Manual compaction at level-1 from '\x00\x03\x01\x02\x01\x0a\x001\x008\x001\x007\x008\x001\x008\x000\x004\x008' @ 351789 : 1 .. (end); will stop at (end)

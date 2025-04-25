@@ -1,0 +1,53 @@
+\documentclass[working, oneside]{../../../Preambles/tuftebook}
+\input{../../../Preambles/colors}
+\input{../../../Preambles/preamble}
+\input{../../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{Aflevering 1 - Databaser}
+\begin{exercise}[1]
+Create and provide short explanations for an E/R diagram that
+\begin{itemize}
+    \item[i.] has at least four entity sets, and at most 8 relevant attributes. You should also have
+relationship sets between appropriate entity sets. 
+\item[ii.] provide primary keys (making use of existing attributes in the diagram, so not via artificial
+identifiers like “ID”).
+\item[iii.] contains a weak entity set - why is it weak?
+\item[iv.] note cardinality ratios use any syntax – Explain the chosen cardinality ratio for at least one relationship set.
+\end{itemize}
+\end{exercise}
+I have created the following ER-diagram for the NGO.
+\begin{figure}[htpb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{../afl_1/Screenshot from 2025-02-13 11-54-44.png}
+\end{figure}
+It has the following four entity sets: Supporters, Donations, Activities and Volunteers. The relationship sets: Work, Fund and Donate, describe the relationships between the entity sets. My idea of an NGO is that it receives donations from supporters and uses said donations to fund a variety of different charitable activities. For the supporters i have stored their contact information as attributes. The primary key is (name, address), I think it is reasonable to assume that we wont have two supporters with the same name who live on the same address. Donations is a weak entity which is supported by Supporters. It has as its primary key the date of the donation and amount combined with the primary key of Supporters as a foreign key. I have here assumed that a supporter wont make more than one donation of the same amount per day. I think this is reasonable aswell.
+\\
+The cardinality ratio between Supporters and Donations are (1, N) and (1, 1) respectively. In other words, a supporter has to make at least one donation to be included in the donation, but can make as many as they want. On the other hand a donation, stems from a single supporter and every donation should have a supporter listed. This makes sense intuitively, but is also required as Donations is a weak entity set.
+\\
+The cardinality ratio between Volunteers and Activities is (0, N) and (2, N). A volunteer can sign up for the NGO, without commiting to an activity, while an activity should have at least 2 volunteers assigned to it. In the same way, donations arent assigned to activities immediately, but activities should have funding secured.
+\begin{exercise}[2]
+ Create a database schema from this E/R diagram. Explain how you did this for
+ \begin{itemize}
+\item[i.] at least one entity set
+\item[ii.] at least one relationship set
+\item[iii.] at least one attribute
+\item[iv.] discuss for at least one example of how you used the cardinality ratios to determine the schema
+ \end{itemize}
+\end{exercise}
+In converting the ER-diagram to a schema, I made use of the rules given in the lectures. Entities are converted to tables, with attributes as elements. Relationships are also converted to tables, but have keys from their related entities as elements. Weak entities borrow the keys from their supporting sets. I then get the following schema.
+\begin{align*}
+    Supporters :& (\underline{name}, \underline{address}, phone, email) \\
+    Donations :& (\underline{amount}, \underline{date}, \#name, \#name) \\
+    Activities :& (\underline{location}, \underline{start\_ date},\underline{end\_ date}, price, type) \\
+    Volunteers :& (\underline{name}, \underline{address}, phone, email) \\
+    Work :& (\underline{name}, \underline{address},\underline{location}, \underline{start\_ date},\underline{end\_ date}) \\
+Fund :& (\underline{location}, \underline{start\_date}, \underline{end\_date}, \underline{date}, \underline{name}, \underline{address})
+.\end{align*}
+For the entity sets, the tables are straightforward. Their primary key is underlined, and all attributes are included as elements. The Fund table is a relationship between Activity and the weak entity Donations, so it has to include the primary key of Donations' supporting entity. Due to the cardinality ratio (1, 1) between Donations and Supporters, i can merge Donate into Donations, as the Donate would table would have been a proper subset of Donations.
+\begin{exercise}[3]
+
+\end{exercise}
+\end{document}

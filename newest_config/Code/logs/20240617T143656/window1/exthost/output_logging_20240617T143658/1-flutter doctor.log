@@ -1,0 +1,65 @@
+Downloading Linux x64 Dart SDK from Flutter engine edd8546116457bdf1c5bdfb13ecb9463d2bb5ed4...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0  221M    0 11015    0     0  28839      0  2:14:06 --:--:--  2:14:06 28835  2  221M    2 5021k    0     0  3531k      0  0:01:04  0:00:01  0:01:03 3531k  5  221M    5 12.8M    0     0  5529k      0  0:00:40  0:00:02  0:00:38 5529k  8  221M    8 19.8M    0     0  6023k      0  0:00:37  0:00:03  0:00:34 6023k 12  221M   12 27.6M    0     0  6452k      0  0:00:35  0:00:04  0:00:31 6452k 16  221M   16 36.0M    0     0  6853k      0  0:00:33  0:00:05  0:00:28 7373k 20  221M   20 45.7M    0     0  7334k      0  0:00:30  0:00:06  0:00:24 8424k 24  221M   24 55.1M    0     0  7650k      0  0:00:29  0:00:07  0:00:22 8660k 28  221M   28 63.5M    0     0  7763k      0  0:00:29  0:00:08  0:00:21 8940k 32  221M   32 72.7M    0     0  7944k      0  0:00:28  0:00:09  0:00:19 9251k 37  221M   37 82.8M    0     0  8168k      0  0:00:27  0:00:10  0:00:17 9583k 42  221M   42 94.9M    0     0  8547k      0  0:00:26  0:00:11  0:00:15  9.8M 49  221M   49  108M    0     0  8985k      0  0:00:25  0:00:12  0:00:13 10.7M 54  221M   54  121M    0     0  9285k      0  0:00:24  0:00:13  0:00:11 11.5M 59  221M   59  132M    0     0  9418k      0  0:00:24  0:00:14  0:00:10 11.8M 65  221M   65  145M    0     0  9716k      0  0:00:23  0:00:15  0:00:08 12.6M 71  221M   71  158M    0     0  9886k      0  0:00:22  0:00:16  0:00:06 12.6M 77  221M   77  170M    0     0   9.8M      0  0:00:22  0:00:17  0:00:05 12.4M 83  221M   83  184M    0     0  10.0M      0  0:00:22  0:00:18  0:00:04 12.6M 88  221M   88  195M    0     0  10.0M      0  0:00:21  0:00:19  0:00:02 12.6M 94  221M   94  209M    0     0  10.2M      0  0:00:21  0:00:20  0:00:01 12.6M 99  221M   99  221M    0     0  10.3M      0  0:00:21  0:00:21 --:--:-- 12.6M100  221M  100  221M    0     0  10.3M      0  0:00:21  0:00:21 --:--:-- 12.6M
+Building flutter tool...
+Resolving dependencies...
+Downloading packages...
+Got dependencies.
+Downloading Material fonts...                                      747ms
+Downloading Gradle Wrapper...                                       35ms
+Downloading package sky_engine...                                  252ms
+Downloading flutter_patched_sdk tools...                           721ms
+Downloading flutter_patched_sdk_product tools...                   649ms
+Downloading linux-x64 tools...                                      5.0s
+Downloading linux-x64/font-subset tools...                         197ms
+[!] Flutter (Channel stable, 3.22.2, on Ubuntu 22.04.4 LTS 6.5.0-35-generic, locale en_US.UTF-8)
+    • Flutter version 3.22.2 on channel stable at /home/albert/flutter
+    ! The flutter binary is not on your path. Consider adding /home/albert/flutter/bin to your path.
+    ! The dart binary is not on your path. Consider adding /home/albert/flutter/bin to your path.
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 761747bfc5 (12 days ago), 2024-06-05 22:15:13 +0200
+    • Engine revision edd8546116
+    • Dart version 3.4.3
+    • DevTools version 2.34.3
+    • If those were intentional, you can disregard the above warnings; however it is recommended to use "git" directly to perform update checks and upgrades.
+
+[✗] Android toolchain - develop for Android devices
+    ✗ Unable to locate Android SDK.
+      Install Android Studio from: https://developer.android.com/studio/index.html
+      On first launch it will assist you in installing the Android SDK components.
+      (or visit https://flutter.dev/docs/get-started/install/linux#android-setup for detailed instructions).
+      If the Android SDK has been installed to a custom location, please use
+      `flutter config --android-sdk` to update to that location.
+
+
+[✓] Chrome - develop for the web
+    • Chrome at google-chrome
+
+[✗] Linux toolchain - develop for Linux desktop
+    ✗ clang++ is required for Linux development.
+      It is likely available from your distribution (e.g.: apt install clang), or can be downloaded from https://releases.llvm.org/
+    • cmake version 3.22.1
+    ✗ ninja is required for Linux development.
+      It is likely available from your distribution (e.g.: apt install ninja-build), or can be downloaded from https://github.com/ninja-build/ninja/releases
+    • pkg-config version 0.29.2
+    ✗ GTK 3.0 development libraries are required for Linux development.
+      They are likely available from your distribution (e.g.: apt install libgtk-3-dev)
+
+[!] Android Studio (not installed)
+    • Android Studio not found; download from https://developer.android.com/studio/index.html
+      (or visit https://flutter.dev/docs/get-started/install/linux#android-setup for detailed instructions).
+
+[✓] VS Code (version 1.89.1)
+    • VS Code at /usr/share/code
+    • Flutter extension version 3.90.0
+
+[✓] Connected device (2 available)
+    • Linux (desktop) • linux  • linux-x64      • Ubuntu 22.04.4 LTS 6.5.0-35-generic
+    • Chrome (web)    • chrome • web-javascript • Google Chrome 125.0.6422.141
+
+[✓] Network resources
+    • All expected network resources are available.
+
+! Doctor found issues in 4 categories.
+exit code 0

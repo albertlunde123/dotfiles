@@ -1,0 +1,121 @@
+\documentclass[working, oneside]{../../Preambles/tuftebook}
+\input{../../Preambles/colors}
+\input{../../Preambles/preamble}
+\input{../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{Handin 9 - 10 ECTS}
+\begin{exercise}[1]
+What happens for the following three sequences of events if a multi-version timestamp scheduler is used?
+
+What happens if the scheduler does not maintain multiple versions (but rather follows the single-version timestamp approach?
+\begin{enumerate}
+    \item[a.] \(st_1, st_2, r_1(A), r_2(B), w_2(A), w_1(B)\).
+    \item[b.] \(st_1, st_2, st_3, r_1(A), r_2(B), w_1(C), r_3(B), r_3(C), w_2(B), w_3(A)\).
+    \item[c.] \(st_1, st_2, st_3, r_1(A), r_3(B), w_1(C), r_2(B), r_2(C), w_3(B), w_2(A)\).
+\end{enumerate}
+where \(w_i(X)\) means that transaction i writes item X, and \(r_i(X)\) means that transaction i reads item X, \(st_i\) means that transaction i starts.
+\end{exercise}
+We shall consider them one by one, evaluating whether single-version and/or multiple-version timestamps work. I will be using tables to describe the process and where it fails
+\subsection*{a}
+ \begin{table}[htpb]
+    \centering
+    \caption{Single-version timestamp for schedule $a$}
+    \label{tab:label}
+    \begin{tabular}{c|c|c|c|c|c|c}
+        T1 & T2 & rTS(A) & rTS(B) & wTS(A) & wTS(B) & logic \\ \hline
+        r1(A) &  & 1 &  &  &  & \\
+         & r2(B) &  & 2 &  &  & \\
+         & w2(A) &  &  & 2 &  & TS(T2) > rTS(A) \\
+        w1(B) &  &  &  &  &  & TS(T1) < rTS(B), FAIL \\ 
+    \end{tabular}
+\end{table}
+\noindent
+Single-version fails when T1 tries to overwrite which has been read "later" by T2. The multiversion dependency wont work either, as T1 attempts to write B which is part of T2's readSet.
+\subsection*{b}
+ \begin{table}[htpb]
+    \centering
+    \caption{Single-version timestamp for schedule $a$}
+    \label{tab:label}
+    \begin{tabular}{c|c|c|c|c|c|c|c|c|c}
+        T1 & T2 & T3 & rTS(A) & rTS(B) & rTS(C) &  wTS(A) & wTS(B) & wTS(C) & logic \\ \hline
+        r1(A) &  &  & 1 &  &  & & & \\
+            & r2(B) &  &  & 2 &  & & &\\
+          w1(C)  &  & &  &  &  & & & 1 & \\
+                 & &r3(B)  &  & 3 &  & & &  & TS(T3) > rTS(B) \\
+          &  & r3(C)&  &  & 3 & & &  & TS(T3) > wTS(C) \\
+          & w2(B) & &  &  &  & & &  & TS(T2) < rTS(B) \\
+          & & &  &  &  & & &  & FAIL\\
+    \end{tabular}
+\end{table}
+The single-version fails again for a similar reason. The multi-version will also fail. T2 tries to overwrite a version (in this case version 0, as there were no prior writes) of B, that had already been read by the younger transaction T3. 
+\subsection*{c}
+ \begin{table}[htpb]
+    \centering
+    \caption{Single-version timestamp for schedule $a$}
+    \label{tab:label}
+    \begin{tabular}{c|c|c|c|c|c|c|c|c|c}
+        T1 & T2 & T3 & rTS(A) & rTS(B) & rTS(C) &  wTS(A) & wTS(B) & wTS(C) & logic \\ \hline
+        r1(A) &  &  & 1 &  &  & & & \\
+            &  & r3(B)  &   & 3 &  & & &\\
+          w1(C)  &  & &  &  &  & & & 1 & \\
+                 & r2(B) &  & & 3 &  & & &  & \\
+                 & r2(C) &  & &  & 2 & & &  & TS(T2) > wTS(C) \\
+                 &  & w3(B) & &  &  & & 3 &  & \\
+                 & w2(A) &  & &  &  &2 &  &  & \\
+    \end{tabular}
+\end{table}
+There are no conflicts here, so it is allowed to run in both single and mult-version.
+
+\begin{exercise}[2]
+Consider the following two transactions:
+
+T1: R(A),W(A),R(B),W(B)
+
+T2: R(A),W(A)
+
+Determine whether the following schedules are non-recoverable or recoverable and if relevant cascadeless or strict. Remember to write the explanation.
+\begin{enumerate}
+    \item[a.] \(r_1(A); w_1(A); r_2(A); r_1(B); w_2(A); w_1(B); C2; C1\)
+    \item[b.] \(r_1(A); r_2(A); w_1(A); r_1(B); w_1(B); w_2(A); C1; C2\)
+    \item[c.] \(r_1(A); r_2(A); w_1(A); r_1(B); w_1(B); C1; w_2(A); C2\)
+\end{enumerate}
+\end{exercise}
+Lets go through them one-by-one.
+\subsection*{a}
+This schedule is not recoverable as we have,
+\[
+w_1(A) \to r_2(A)
+.\]
+And $C_2$ happens before $C_1$. The transaction T2 reads data that has been written by T1, and then commits. If T1 decides to abort, there will be an issue, since it has read data that has not been commited.
+\subsection*{b}
+We can start by noting that it is indeed recoverable as we have no relations,
+\[
+w_i(X) \to r_j(X)
+.\] 
+To determine whether it is strict, we check to see if there any transactions $T_j$ that read/write a field that was previously written by $T_i$, before $T_i$ has committed. We have the following,
+ \[
+w_1\left( A \right) \to w_2\left( A \right) 
+.\] 
+Which happens before $C_1$, and it is therefore not strict. To check cascadeless we determine whether $T_j$ reads any fields previously written $T_i$ before the commit. There are no such instances, so it is cascadeless.
+\subsection*{c}
+This schedule is strict, it is identical to the one before, except the commit happens in time,
+\[
+w_1\left( A \right) \to  C_1 \to w_2\left( A \right)  
+.\] 
+This is allowed, and there are no other violating relations.
+\begin{exercise}[3]
+Assume shared locks are requested immediately before each read, and exclusive locks immediately before each write. Unlocks occur immediately after the final action of the respective transaction. List all actions which are denied.
+\begin{enumerate}
+    \item[a.] \(r_1(A), r_2(B), w_1(C), r_3(D), r_4(E), w_3(B), w_2(C), w_4(A), w_1(D)\)
+    \item[b.] \(r_1(A), r_2(B), w_1(C), w_2(D), r_3(C), w_1(B), w_4(D), w_2(A)\)
+\end{enumerate}
+where the notation is as in exercise 1.
+\end{exercise}
+\subsection*{a}
+The action $w_{2}\left( C \right) $ is denied as $T_1$ has a lock on $C$, which it has not yet released, as $T_1$ hasnt finished yet. The others are allowed, for example $w_1\left( D \right) $ is fine as T3 unlocked after $w_3\left( B \right) $.
+\subsection*{b}
+The action $r_3\left( C \right) $ is not allowed, as $T_1$ still has a lock on $C$. $w_4\left( D \right) $ is denied aswell, as $T_2$ has a lock on it.
+\end{document}

@@ -1,0 +1,89 @@
+\documentclass[working, oneside]{../../../Preambles/tuftebook}
+\input{../../../Preambles/colors}
+\input{../../../Preambles/preamble}
+\input{../../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{4 - The Fermion Propagator}
+The following problem derives the propagator for a fermion. First we have to figure out the Hamiltonian. We start from
+\begin{align*}
+\mathcal{L}
+&= \overline{\psi} (i \gamma_\mu \partial^\mu - m) \psi, \tag{24}
+\end{align*}
+where we use the convenient short-hand \( \partial^\mu = \frac{\partial}{\partial x_\mu} \).
+
+\begin{exercise}[1]
+Show that the corresponding Hamiltonian can be written
+\begin{align*}
+H
+&= \int d^3x \overline{\psi} (-i \boldsymbol{\gamma} \cdot \nabla + m) \psi, \tag{25}
+\end{align*}
+where \( \boldsymbol{\gamma} \) is the 3-vector \( (\gamma^1, \gamma^2, \gamma^3) \). Remember that \( \partial^\mu = (\partial_t, -\nabla) \).
+\end{exercise}
+
+\begin{exercise}[2]
+Now consider Heisenberg's equations of motion for the field operator \( \psi(\mathbf{x}, t) \), i.e.
+\begin{align*}
+\frac{\partial \psi_\alpha(\mathbf{x}, t)}{\partial t}
+&= -i [\psi_\alpha(\mathbf{x}, t), H], \tag{26}
+\end{align*}
+where \( \alpha \) is an index indicating that keep track of the fact that there are four components in the field of Dirac particle. Show that
+\begin{align*}
+\frac{\partial \psi_\alpha(\mathbf{x}, t)}{\partial t}
+&= \left( - \gamma^0 \boldsymbol{\gamma} \cdot \nabla - i m \gamma_0 \right)_{\alpha \beta} \psi_\beta(\mathbf{x}, t), \tag{27}
+\end{align*}
+where we sum over the spinor index \( \beta \) (repeated use of spinor indices mean summation from now on). You will need the canonical anti-commutator for fermion fields is
+\begin{align*}
+\left\{ \psi_\alpha(\mathbf{x}_1, t), \psi_\beta^\dagger(\mathbf{x}_2, t) \right\}
+&= \delta_{\alpha \beta} \delta(\mathbf{x}_1 - \mathbf{x}_2). \tag{28}
+\end{align*}
+\end{exercise}
+\begin{exercise}[3]
+We now define the time-ordering operator for fermionic fields, \( \psi \) and \( \overline{\psi} \) in the following way
+\begin{align*}
+T \left\{ \psi_\alpha(\mathbf{x}_1, t_1) \overline{\psi}_\beta(\mathbf{x}_2, t_2) \right\}
+&= \begin{cases} \psi_\alpha(\mathbf{x}_1, t_1) \overline{\psi}_\beta(\mathbf{x}_2, t_2) & \text{for } t_1 > t_2 \\ - \overline{\psi}_\beta(\mathbf{x}_2, t_2) \psi_\alpha(\mathbf{x}_1, t_1) & \text{for } t_2 > t_1 \end{cases}, \tag{29}
+\end{align*}
+where this is now a matrix indexed by \( \alpha \) and \( \beta \) since the fields are four-component quantities. Show that
+\begin{align*}
+\frac{\partial}{\partial t_1} T \left\{ \psi_\alpha(\mathbf{x}_1, t_1) \overline{\psi}_\beta(\mathbf{x}_2, t_2) \right\}
+&= \delta(t_1 - t_2) \delta(\mathbf{x}_1 - \mathbf{x}_2) [\gamma_0]_{\alpha \beta} + T \left\{ \frac{\partial \psi_\alpha(\mathbf{x}_1, t_1)}{\partial t_1} \overline{\psi}_\beta(\mathbf{x}_2, t_2) \right\} \tag{30}
+\end{align*}
+\end{exercise}
+
+\begin{exercise}[4]
+Now use Eq. (27) to show that
+\begin{align*}
+\left[ i \gamma_\mu \partial^\mu - m \right]_{\alpha \eta} T \left\{ \psi_\eta(\mathbf{x}_1, t_1) \overline{\psi}_\beta(\mathbf{x}_2, t_2) \right\}
+&= i \delta(t_1 - t_2) \delta(\mathbf{x}_1 - \mathbf{x}_2) \delta_{\alpha \beta}, \tag{31}
+\end{align*}
+where \( \partial_\mu \) act on \( \mathbf{x}_1 \) and \( t_1 \) only.
+\end{exercise}
+\begin{solution}
+We shall make use of each the results from the previous exercise in turn. Lets start by expanding the four-vector on the left-hand side
+\begin{align*}
+\left[ i \gamma_0\partial_0 - \mathbf{\gamma}\cdot \nabla - m \right]_{\alpha \eta} T \left\{ \psi_\eta(\mathbf{x}_1, t_1) \overline{\psi}_\beta(\mathbf{x}_2, t_2) \right\}
+=
+\left[ i \gamma_0 \frac{\partial}{\partial t_1}- \mathbf{\gamma}\cdot \nabla_{x_1} - m \right]_{\alpha \eta} T \left\{ \psi_\eta(\mathbf{x}_1, t_1) \overline{\psi}_\beta(\mathbf{x}_2, t_2) \right\}
+\end{align*}
+We can distribute these terms, noting that the $\alpha \eta$ index is equivalent to multiplying by a kronecker delta. Also note that since we are using einstein summation, things commute (not the fields themselves however). We can therefore apply the kronecker delta to the $\Psi_{\eta }$ term changing it to an $\alpha$. This yields,
+\begin{align*}
+    =& i \gamma_0 \frac{\partial}{\partial t_1}T \left\{ \psi_{\alpha}(\mathbf{x}_1, t_1) \overline{\psi}_\beta(\mathbf{x}_2, t_2) \right\} 
+    - \mathbf{\gamma}\cdot \nabla _{x_1}T \left\{ \psi_{\alpha}(\mathbf{x}_1, t_1) \overline{\psi}_\beta(\mathbf{x}_2, t_2) \right\}
+    -m T \left\{ \psi_{\alpha}(\mathbf{x}_1, t_1) \overline{\psi}_\beta(\mathbf{x}_2, t_2) \right\}
+.\end{align*}
+Let's focus on the first term, which is similar to what we calculated in the previous ecxercise,
+\begin{align*}
+     i \gamma_0 \frac{\partial}{\partial t_1}T \left\{ \psi_{\alpha}(\mathbf{x}_1, t_1) \overline{\psi}_\beta(\mathbf{x}_2, t_2) \right\} 
+&= i \gamma_0 \left(    \delta(t_1 - t_2) \delta(\mathbf{x}_1 - \mathbf{x}_2) [\gamma_0]_{\alpha \beta} + T \left\{ \frac{\partial \psi_\alpha(\mathbf{x}_1, t_1)}{\partial t_1} \overline{\psi}_\beta(\mathbf{x}_2, t_2) \right\} \right)
+.\end{align*}
+We can substitute in the dirac-equation, and use the fact that $\gamma_0^2 = 1$,
+\begin{align*}
+&= i \delta(t_1 - t_2) \delta(\mathbf{x}_1 - \mathbf{x}_2)+ i\gamma_0T \left\{ \left( - \gamma^0 \boldsymbol{\gamma} \cdot \nabla - i m \gamma_0 \right)_{\alpha \eta } \psi_\eta (\mathbf{x_1}, t_1) \overline{\psi}_\beta(\mathbf{x}_2, t_2) \right\} \\
+&= i \delta(t_1 - t_2) \delta(\mathbf{x}_1 - \mathbf{x}_2)+ i\gamma_0 \left( - \gamma^0 \boldsymbol{\gamma} \cdot \nabla - i m \gamma_0 \right)_{\alpha \eta }T\left\{  \psi_\eta (\mathbf{x_1}, t_1) \overline{\psi}_\beta(\mathbf{x}_2, t_2) \right\} \\
+&= i \delta(t_1 - t_2) \delta(\mathbf{x}_1 - \mathbf{x}_2)+ i \left( - \boldsymbol{\gamma} \cdot \nabla - i m  \right)_{\alpha \eta }T\left\{  \psi_\eta (\mathbf{x_1}, t_1) \overline{\psi}_\beta(\mathbf{x}_2, t_2) \right\} \\
+.\end{align*}
+\end{solution}
+\end{document}

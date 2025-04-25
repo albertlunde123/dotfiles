@@ -1,0 +1,37 @@
+<application>
+  <component name="DimensionService">
+    <location key="find.popup.0.0.2560.1600@120dpi" x="984" y="135" />
+    <location key="find.popup.0.0.2688.1512@120dpi" x="1033" y="128" />
+    <size key="GridCell.Tab.0.left.0.0.2560.1600@120dpi" width="2424" height="261" />
+    <size key="GridCell.Tab.0.center.0.0.2560.1600@120dpi" width="2424" height="261" />
+    <size key="GridCell.Tab.0.right.0.0.2560.1600@120dpi" width="2424" height="261" />
+    <size key="GridCell.Tab.0.bottom.0.0.2560.1600@120dpi" width="2424" height="261" />
+    <size key="GridCell.Tab.0.left.0.0.2688.1512@120dpi" width="2542" height="252" />
+    <size key="GridCell.Tab.0.center.0.0.2688.1512@120dpi" width="2542" height="252" />
+    <size key="GridCell.Tab.0.right.0.0.2688.1512@120dpi" width="2542" height="252" />
+    <size key="GridCell.Tab.0.bottom.0.0.2688.1512@120dpi" width="2542" height="252" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080@120dpi" width="2584" height="447" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080@120dpi" width="2584" height="447" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080@120dpi" width="2584" height="447" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080@120dpi" width="2584" height="447" />
+    <size key="find.popup.0.0.2560.1600@120dpi" width="796" height="1047" />
+    <size key="GridCell.Tab.1.left.0.0.2688.1512@120dpi" width="2424" height="261" />
+    <size key="GridCell.Tab.1.center.0.0.2688.1512@120dpi" width="2424" height="261" />
+    <size key="GridCell.Tab.1.right.0.0.2688.1512@120dpi" width="2424" height="261" />
+    <size key="GridCell.Tab.1.bottom.0.0.2688.1512@120dpi" width="2424" height="261" />
+    <size key="find.popup.0.0.2688.1512@120dpi" width="838" height="990" />
+  </component>
+  <component name="WindowManager">
+    <frame x="-21" y="-21" width="2688" height="1512" />
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="1280" y="815" width="2502" height="1512" key="WELCOME_SCREEN" timestamp="1737980186157">
+      <screen x="0" y="0" width="2560" height="1600" />
+    </state>
+    <state x="1280" y="815" width="2502" height="1512" key="WELCOME_SCREEN.ideScale=125" timestamp="1737981135035">
+      <screen x="0" y="0" width="2560" height="1600" />
+    </state>
+    <state x="1280" y="815" width="2502" height="1512" key="WELCOME_SCREEN.ideScale=125/0.0.2560.1600" timestamp="1737981135035" />
+    <state x="1280" y="815" width="2502" height="1512" key="WELCOME_SCREEN/0.0.2560.1600" timestamp="1737980186157" />
+  </component>
+</application>

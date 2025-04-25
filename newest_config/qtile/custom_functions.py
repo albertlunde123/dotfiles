@@ -25,5 +25,10 @@ def get_connected_bluetooth_device_name():
     except:
         return " No device connected"
 
-
-print(get_connected_bluetooth_device_name())
+def launch_pdf_selector():
+    """Launch the PDF selector tool"""
+    import os
+    import subprocess
+    script_path = os.path.expanduser("~/.config/qtile/Scripts/pdf_selector.py")
+    subprocess.Popen(["python3", script_path])
+# print(get_connected_bluetooth_device_name())

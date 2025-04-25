@@ -1,0 +1,127 @@
+2025-04-09 22:24:49.517 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 22:24:49.518 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 22:24:49.518 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 22:24:49.518 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 22:24:49.519 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 22:24:49.519 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 22:24:49.520 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 22:24:49.520 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 22:24:49.520 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 22:24:49.584 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-09 22:24:49.584 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-09 22:24:49.584 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-09 22:24:49.585 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-09 22:24:49.585 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-09 22:24:50.582 [info] Started local extension host with pid 1573614.
+2025-04-09 22:24:52.126 [error] Extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 22:24:52.126 [error] Extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 22:24:52.126 [error] Extension 'ms-python.python' wants API proposal 'terminalShellIntegration' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 22:24:52.140 [info] Placing extension(s) vscodevim.vim on a separate extension host.
+2025-04-09 22:24:52.739 [info] Started local extension host with pid 1573697.
+2025-04-09 22:24:53.642 [error] [Extension Host] (node:1573614) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-04-09 22:24:56.990 [error] [Extension Host] (node:1573697) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-04-09 22:24:58.701 [info] [perf] Render performance baseline is 56ms
+2025-04-09 23:11:34.193 [error] [aborted] read ECONNRESET: ConnectError: [aborted] read ECONNRESET
+    at t (vscode-file://vscode-app/tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2405:131870)
+    at async Object.cppConfig (vscode-file://vscode-app/tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async sEi.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4987:1073)
+    at async sEi.fastPeriodicallyReloadCppConfig (vscode-file://vscode-app/tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4987:803) [aborted] read ECONNRESET
+2025-04-09 23:14:18.170 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at WI.deltaDecorations (vscode-file://vscode-app/tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:364:4065)
+    at oEi.clearPrediction (vscode-file://vscode-app/tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4992:315)
+    at oEi.clearCursorPrediction (vscode-file://vscode-app/tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4987:24287)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4972:24774)
+    at M.B (vscode-file://vscode-app/tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.C (vscode-file://vscode-app/tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:818)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:1036)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:368:15500)
+    at M.B (vscode-file://vscode-app/tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:967) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-04-10 10:18:36.748 [error] [uncaught exception in main]: write EIO: Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:161:15)
+    at writeGeneric (node:internal/stream_base_commons:152:3)
+    at Socket._writeGeneric (node:net:958:11)
+    at Socket._write (node:net:970:8)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at console.value (node:internal/console/constructor:303:16)
+    at console.log (node:internal/console/constructor:378:26)
+    at hb.info (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:40:16291)
+    at db.info (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:40:16949)
+    at l3.info (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:111:34301)
+    at $a.value (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:48:28825)
+    at A.B (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:35:746)
+    at A.C (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:35:816)
+    at A.fire (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:35:1033)
+    at $a.value (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:48:12960)
+    at A.B (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:35:746)
+    at A.fire (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:35:964)
+    at ForkUtilityProcess.U (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:30:7434)
+    at ForkUtilityProcess.emit (node:events:518:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71917) {"message":"[uncaught exception in main]: write EIO","stack":"Error: write EIO\n    at afterWriteDispatched (node:internal/stream_base_commons:161:15)\n    at writeGeneric (node:internal/stream_base_commons:152:3)\n    at Socket._writeGeneric (node:net:958:11)\n    at Socket._write (node:net:970:8)\n    at writeOrBuffer (node:internal/streams/writable:572:12)\n    at _write (node:internal/streams/writable:501:10)\n    at Writable.write (node:internal/streams/writable:510:10)\n    at console.value (node:internal/console/constructor:303:16)\n    at console.log (node:internal/console/constructor:378:26)\n    at hb.info (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:40:16291)\n    at db.info (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:40:16949)\n    at l3.info (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:111:34301)\n    at $a.value (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:48:28825)\n    at A.B (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:35:746)\n    at A.C (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:35:816)\n    at A.fire (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:35:1033)\n    at $a.value (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:48:12960)\n    at A.B (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:35:746)\n    at A.fire (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:35:964)\n    at ForkUtilityProcess.U (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:30:7434)\n    at ForkUtilityProcess.emit (node:events:518:28)\n    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71917)"}
+2025-04-10 10:18:36.755 [error] [uncaught exception in main]: write EIO: Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:161:15)
+    at writeGeneric (node:internal/stream_base_commons:152:3)
+    at Socket._writeGeneric (node:net:958:11)
+    at Socket._write (node:net:970:8)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at console.value (node:internal/console/constructor:303:16)
+    at console.warn (node:internal/console/constructor:383:26)
+    at hb.error (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:40:16552)
+    at db.error (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:40:17050)
+    at l3.error (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:111:34368)
+    at zd.G (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:79:6453)
+    at sw.a (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:79:4290)
+    at sw.onUnexpectedError (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:13:249)
+    at Ot (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:8:7680)
+    at process.<anonymous> (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:79:4338)
+    at process.emit (node:events:530:35)
+    at process._fatalException (node:internal/process/execution:188:25) {"message":"[uncaught exception in main]: write EIO","stack":"Error: write EIO\n    at afterWriteDispatched (node:internal/stream_base_commons:161:15)\n    at writeGeneric (node:internal/stream_base_commons:152:3)\n    at Socket._writeGeneric (node:net:958:11)\n    at Socket._write (node:net:970:8)\n    at writeOrBuffer (node:internal/streams/writable:572:12)\n    at _write (node:internal/streams/writable:501:10)\n    at Writable.write (node:internal/streams/writable:510:10)\n    at console.value (node:internal/console/constructor:303:16)\n    at console.warn (node:internal/console/constructor:383:26)\n    at hb.error (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:40:16552)\n    at db.error (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:40:17050)\n    at l3.error (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:111:34368)\n    at zd.G (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:79:6453)\n    at sw.a (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:79:4290)\n    at sw.onUnexpectedError (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:13:249)\n    at Ot (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:8:7680)\n    at process.<anonymous> (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:79:4338)\n    at process.emit (node:events:530:35)\n    at process._fatalException (node:internal/process/execution:188:25)"}
+2025-04-10 10:18:36.804 [error] [uncaught exception in main]: write EIO: Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:161:15)
+    at writeGeneric (node:internal/stream_base_commons:152:3)
+    at Socket._writeGeneric (node:net:958:11)
+    at Socket._write (node:net:970:8)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at console.value (node:internal/console/constructor:303:16)
+    at console.log (node:internal/console/constructor:378:26)
+    at hb.info (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:40:16291)
+    at db.info (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:40:16949)
+    at l3.info (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:111:34301)
+    at $a.value (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:48:28825)
+    at A.B (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:35:746)
+    at A.C (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:35:816)
+    at A.fire (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:35:1033)
+    at $a.value (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:48:12960)
+    at A.B (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:35:746)
+    at A.fire (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:35:964)
+    at ForkUtilityProcess.U (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:30:7434)
+    at ForkUtilityProcess.emit (node:events:518:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71917) {"message":"[uncaught exception in main]: write EIO","stack":"Error: write EIO\n    at afterWriteDispatched (node:internal/stream_base_commons:161:15)\n    at writeGeneric (node:internal/stream_base_commons:152:3)\n    at Socket._writeGeneric (node:net:958:11)\n    at Socket._write (node:net:970:8)\n    at writeOrBuffer (node:internal/streams/writable:572:12)\n    at _write (node:internal/streams/writable:501:10)\n    at Writable.write (node:internal/streams/writable:510:10)\n    at console.value (node:internal/console/constructor:303:16)\n    at console.log (node:internal/console/constructor:378:26)\n    at hb.info (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:40:16291)\n    at db.info (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:40:16949)\n    at l3.info (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:111:34301)\n    at $a.value (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:48:28825)\n    at A.B (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:35:746)\n    at A.C (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:35:816)\n    at A.fire (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:35:1033)\n    at $a.value (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:48:12960)\n    at A.B (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:35:746)\n    at A.fire (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:35:964)\n    at ForkUtilityProcess.U (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:30:7434)\n    at ForkUtilityProcess.emit (node:events:518:28)\n    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:71917)"}
+2025-04-10 10:18:36.805 [error] [uncaught exception in main]: write EIO: Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:161:15)
+    at writeGeneric (node:internal/stream_base_commons:152:3)
+    at Socket._writeGeneric (node:net:958:11)
+    at Socket._write (node:net:970:8)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at console.value (node:internal/console/constructor:303:16)
+    at console.warn (node:internal/console/constructor:383:26)
+    at hb.error (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:40:16552)
+    at db.error (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:40:17050)
+    at l3.error (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:111:34368)
+    at zd.G (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:79:6453)
+    at sw.a (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:79:4290)
+    at sw.onUnexpectedError (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:13:249)
+    at Ot (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:8:7680)
+    at process.<anonymous> (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:79:4338)
+    at process.emit (node:events:530:35)
+    at process._fatalException (node:internal/process/execution:188:25) {"message":"[uncaught exception in main]: write EIO","stack":"Error: write EIO\n    at afterWriteDispatched (node:internal/stream_base_commons:161:15)\n    at writeGeneric (node:internal/stream_base_commons:152:3)\n    at Socket._writeGeneric (node:net:958:11)\n    at Socket._write (node:net:970:8)\n    at writeOrBuffer (node:internal/streams/writable:572:12)\n    at _write (node:internal/streams/writable:501:10)\n    at Writable.write (node:internal/streams/writable:510:10)\n    at console.value (node:internal/console/constructor:303:16)\n    at console.warn (node:internal/console/constructor:383:26)\n    at hb.error (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:40:16552)\n    at db.error (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:40:17050)\n    at l3.error (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:111:34368)\n    at zd.G (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:79:6453)\n    at sw.a (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:79:4290)\n    at sw.onUnexpectedError (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:13:249)\n    at Ot (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:8:7680)\n    at process.<anonymous> (file:///tmp/.mount_CursorwzWIMz/usr/share/cursor/resources/app/out/main.js:79:4338)\n    at process.emit (node:events:530:35)\n    at process._fatalException (node:internal/process/execution:188:25)"}

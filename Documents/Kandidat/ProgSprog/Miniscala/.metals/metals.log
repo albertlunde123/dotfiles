@@ -1,0 +1,42 @@
+2025.02.07 11:59:37 INFO  Started: Metals version 1.5.1 in folders '/home/albert/Documents/Kandidat/ProgSprog/Miniscala' for client Neovim 0.11.0-dev.[0m
+2025.02.07 11:59:45 INFO  running '/usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2025.02.07 11:59:45 ERROR downloading sbt launcher 1.10.7[0m
+2025.02.07 11:59:46 INFO  copying runtime jar...[0m
+2025.02.07 11:59:52 ERROR [info] [launcher] getting org.scala-sbt sbt 1.10.7  (this may take some time)...[0m
+2025.02.07 11:59:57 ERROR [info] [launcher] getting Scala 2.12.20 (for sbt)...[0m
+2025.02.07 11:59:59 INFO  [info] Updated file /home/albert/Documents/Kandidat/ProgSprog/Miniscala/project/build.properties: set sbt.version to 1.10.7[0m
+2025.02.07 11:59:59 INFO  [info] welcome to sbt 1.10.7 (Oracle Corporation Java 23.0.2)[0m
+2025.02.07 12:00:01 INFO  [info] loading settings for project miniscala-build-build from metals.sbt...[0m
+2025.02.07 12:00:01 INFO  [info] loading project definition from /home/albert/Documents/Kandidat/ProgSprog/Miniscala/project/project[0m
+2025.02.07 12:00:05 INFO  [info] loading settings for project miniscala-build from metals.sbt...[0m
+2025.02.07 12:00:05 INFO  [info] loading project definition from /home/albert/Documents/Kandidat/ProgSprog/Miniscala/project[0m
+2025.02.07 12:00:09 INFO  [success] Generated .bloop/miniscala-build.json[0m
+2025.02.07 12:00:09 INFO  [success] Total time: 4 s, completed Feb 7, 2025, 12:00:09 PM[0m
+2025.02.07 12:00:09 INFO  [info] loading settings for project miniscala from build.sbt...[0m
+2025.02.07 12:00:09 INFO  [info] set current project to miniscala (in build file:/home/albert/Documents/Kandidat/ProgSprog/Miniscala/)[0m
+2025.02.07 12:00:09 INFO  [success] Generated .bloop/miniscala-test.json[0m
+2025.02.07 12:00:09 INFO  [success] Generated .bloop/miniscala.json[0m
+2025.02.07 12:00:09 INFO  [success] Total time: 0 s, completed Feb 7, 2025, 12:00:09 PM[0m
+2025.02.07 12:00:10 INFO  time: ran 'sbt bloopInstall' in 24s[0m
+2025.02.07 12:00:10 INFO  Attempting to connect to the build server...[0m
+2025.02.07 12:00:10 INFO  Found a Bloop server running[0m
+2025.02.07 12:00:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/albert/Documents/Kandidat/ProgSprog/Miniscala/.metals/bsp.trace.json or /home/albert/.cache/metals/bsp.trace.json[0m
+2025.02.07 12:00:13 INFO  Attempting to connect to the build server...[0m
+2025.02.07 12:00:13 INFO  Found a Bloop server running[0m
+2025.02.07 12:00:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/albert/Documents/Kandidat/ProgSprog/Miniscala/project/.metals/bsp.trace.json or /home/albert/.cache/metals/bsp.trace.json[0m
+2025.02.07 12:00:13 INFO  time: Connected to build server in 3.54s[0m
+2025.02.07 12:00:13 INFO  Connected to Build server: Bloop v2.0.8[0m
+2025.02.07 12:00:13 INFO  time: Imported build in 0.17s[0m
+2025.02.07 12:00:13 INFO  running doctor check[0m
+2025.02.07 12:00:13 INFO  java targets: miniscala-build, miniscala, miniscala-test[0m
+2025.02.07 12:00:31 INFO  time: indexed workspace in 17s[0m
+2025.02.07 12:07:13 INFO  compiling miniscala (18 scala sources)[0m
+2025.02.07 12:07:13 INFO  Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.20. Compiling...[0m
+2025.02.07 12:07:25 INFO  Compilation completed in 12.332s.[0m
+2025.02.07 12:07:27 INFO  time: compiled miniscala in 14s[0m
+2025.02.07 12:07:27 INFO  compiling miniscala (18 scala sources)[0m
+2025.02.07 12:07:27 INFO  time: compiled miniscala in 0.22s[0m
+2025.02.07 12:17:32 INFO  Shutting down server[0m
+2025.02.07 12:17:32 INFO  shutting down Metals[0m
+2025.02.07 12:17:32 INFO  Shut down connection with build server.[0m
+2025.02.07 12:17:32 INFO  Shut down connection with build server.[0m

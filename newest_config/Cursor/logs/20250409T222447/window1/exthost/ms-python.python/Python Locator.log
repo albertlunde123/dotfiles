@@ -1,0 +1,17 @@
+2025-04-09 22:24:54.656 [info] Starting Python Locator /home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python-env-tools/bin/pet server
+2025-04-09 22:24:55.734 [info] Discovered env: /usr/bin/python3
+2025-04-09 22:24:55.734 [info] Discovered env: /bin/python3
+2025-04-09 22:24:55.736 [info] Locator Conda took 163.099781ms
+2025-04-09 22:24:55.736 [info] Locator Homebrew took 122.689µs
+2025-04-09 22:24:55.736 [info] Locator LinuxGlobal took 227.310831ms
+2025-04-09 22:24:55.736 [info] Locator PipEnv took 17.745µs
+2025-04-09 22:24:55.736 [info] Locator Poetry took 70.054438ms
+2025-04-09 22:24:55.736 [info] Locator PyEnv took 10.994441ms
+2025-04-09 22:24:55.736 [info] Locator Venv took 47.282µs
+2025-04-09 22:24:55.736 [info] Locator VirtualEnv took 68.153µs
+2025-04-09 22:24:55.736 [info] Locator VirtualEnvWrapper took 16.816µs
+2025-04-09 22:24:55.736 [info] Locator GlobalVirtualEnvs took 58.336µs
+2025-04-09 22:24:55.737 [info] Locator Locators took 235.678878ms
+2025-04-09 22:24:55.737 [info] Locator Path took 400.200393ms
+2025-04-09 22:24:55.737 [info] Locator Workspaces took 58.034232ms
+2025-04-09 22:24:55.737 [info] Refresh completed in 402ms

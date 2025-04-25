@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "El modo nocturno de Wikipedia le permite trabajar más cómodamente en el sitio web de Wikipedia en la oscuridad o con poca luz"
+   },
+   "name": {
+      "message": "Modo nocturno de Wikipedia"
+   },
+   "short_name": {
+      "message": "Tema oscuro para el sitio de Wikipedia o Modo nocturno para el sitio de Wikipedia"
+   }
+}

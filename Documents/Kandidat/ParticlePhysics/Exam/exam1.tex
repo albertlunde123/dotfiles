@@ -1,0 +1,754 @@
+% \documentclass[10pt]{article}
+
+% \usepackage{amsmath,amssymb}
+% \usepackage[vcentermath]{youngtab}
+% \usepackage{graphicx}
+% \usepackage{epstopdf}
+\documentclass[working, oneside]{../../../Preambles/tuftebook}
+\input{../../../Preambles/colors}
+\input{../../../Preambles/preamble}
+\input{../../../Preambles/theorem_styles}
+\usepackage{bm}
+\usepackage{slashed}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+
+\noindent\rule{\linewidth}{.5mm}\\[1.5ex]
+\centerline{\Large\textbf{Particle Physics II Fall 2025 Exam Problems}}
+\\[1ex]
+\noindent\rule{\linewidth}{.5mm}\\[-1ex]
+
+\chapter{Spin One Particles with Mass}
+A free massive particle with spin one is represented by a 
+vector field in space time in a particular way. If we are in the rest
+frame of the particle (which we can transform into since it has non-zero
+mass) it must have the same number of degrees of freedom as the spin one
+systems that we have in non-relativistic quantum mechanics, i.e. it has 
+three polarization states given by the projection of the spin along some 
+fixed axis (typically the $z$-axis), $S_z=0,\pm 1$. To fully specify the 
+proporties of a free spin one particle we must thus provide the mass, the 
+momentum, and the polarization.
+
+\begin{exercise}[1]
+While it would naively seem that we could use a three-vector, $\bm e$, 
+as a general polarization vector for a massive spin one field, argue that 
+because we are in relativistic mechanics and must use Lorentz transformations, the
+most general form of the polarization vector has to be a four-vector, $e_\mu$.
+Also, argue that there are three independent such four-vector polarization states.
+\end{exercise}
+\begin{solution}
+We need to be able to calculate contractions of $e$ with other four-vectors, and this would be ill-defined if we used a three vector $\mathbf{e}$. We also want these contractions to be lorentz-invariant, and if $e$ is four-vector $e_{\mu}$ then this is upheld. Since we require the same number of degrees of freedom as the non-relativistic case, it stands to reason that we should have three polarization states.
+\end{solution}
+\begin{exercise}[2]
+Suppose that we insist on having $e_\mu p^\mu=0$ and $e_\mu e^\mu=-1$, 
+where $p^\mu$ is the four-momentum of our particle. Prove that these relations for 
+$e_\mu$ will hold in any inertial frame. 
+\end{exercise}
+\begin{solution}
+This follows trivially from the fact that contractions are lorentz-invariant.
+\end{solution}
+\begin{exercise}[3]
+Consider the rest frame of the spin one particle and let us take a 
+basis for the three polarization states which is the standard Cartesian basis vectors
+for a three-dimensional vector space but this time written as four-vectors, i.e. 
+\begin{align}
+e^\mu(\hat{x})=\left(\begin{matrix}0\\1\\0\\0\end{matrix}\right),\quad
+e^\mu(\hat{y})=\left(\begin{matrix}0\\0\\1\\0\end{matrix}\right),\quad
+e^\mu(\hat{z})=\left(\begin{matrix}0\\0\\0\\1\end{matrix}\right).
+\end{align}
+Assume that the three-momentum, $\bm p$, of the particle is along the 
+$z$-direction. Show that the general polarization vectors in this case
+become $(0,1,0,0)$, $(0,0,1,0)$, and $(|\bm p|/m,0,0,E/m)$.
+\end{exercise}
+\begin{solution}
+If we consider some spin one particle in its rest frame it has 4-momentum $p^{\mu } = \left( m, 0, 0, 0 \right) ^{T}$. In this rest frame, we see that the contractions with the three polarization states $e_{\mu }p^{\mu } = 0$ is consistent. To consider the particle as having momentum $p$ in the $z$-direction, we can do a lorentz transformation that boosts the velocity in the $z$-direction by $\beta= p /E$. Such a lorentz-transformation has the following form,
+\[
+\Lambda_z =
+\begin{bmatrix}
+    \gamma & 0 & 0 & \beta\gamma \\
+    0 & 1 & 0 & 0 \\
+    0 & 0 & 1 & 0 \\
+    \beta\gamma & 0 & 0& \gamma \\
+\end{bmatrix} =
+\begin{bmatrix}
+    E /m & 0 & 0 & p /m \\
+    0 & 1 & 0 & 0 \\
+    0 & 0 & 1 & 0 \\
+    p /m & 0 & 0& E /m \\
+\end{bmatrix}
+.\] 
+Where the constant $\gamma = 1 /\sqrt{1 - \beta^2} = E /m $. We can then find the polarization vectors and the four-momentum in the moving frame by applying this lorentz-transformation.
+\begin{align*}
+    p^{\mu}' = \Lambda_z p^{\mu }
+\begin{bmatrix}
+    \gamma & 0 & 0 & \beta\gamma \\
+    0 & 1 & 0 & 0 \\
+    0 & 0 & 1 & 0 \\
+    \beta\gamma & 0 & 0& \gamma \\
+\end{bmatrix}
+\begin{bmatrix}
+     m \\
+    0 \\
+    0 \\
+      0 \\
+\end{bmatrix}
+= 
+\begin{bmatrix}
+    \gamma m \\
+    0 \\
+    0 \\
+    \beta \gamma m \\
+\end{bmatrix}
+= 
+\begin{bmatrix}
+E \\
+    0 \\
+    0 \\
+    p \\
+\end{bmatrix}
+.\end{align*}
+And the polarization vectors become,
+\begin{align*}
+    e^{\mu }'\left( \hat{x} \right) &= \Lambda_ze^{\mu }\left( \hat{x} \right) =
+\begin{bmatrix}
+    E /m & 0 & 0 & p /m \\
+    0 & 1 & 0 & 0 \\
+    0 & 0 & 1 & 0 \\
+    p /m & 0 & 0& E /m \\
+\end{bmatrix}
+\begin{bmatrix}
+    0 \\
+    1 \\
+    0 \\
+    0 \\
+\end{bmatrix} =
+\begin{bmatrix}
+    0 \\
+    1 \\
+    0 \\
+    0 \\
+\end{bmatrix}\\
+    e^{\mu }'\left( \hat{y} \right) &= \Lambda_ze^{\mu }\left(   \hat{y}\right)=
+\begin{bmatrix}
+    E /m & 0 & 0 & p /m \\
+    0 & 1 & 0 & 0 \\
+    0 & 0 & 1 & 0 \\
+    p /m & 0 & 0& E /m \\
+\end{bmatrix}
+\begin{bmatrix}
+    0 \\
+    0 \\
+    1 \\
+    0 \\
+\end{bmatrix} =
+\begin{bmatrix}
+    0 \\
+    0 \\
+    1 \\
+    0 \\
+\end{bmatrix}\\
+    e^{\mu }'\left( \hat{z} \right) &= \Lambda_ze^{\mu }\left(   \hat{z}\right)=
+\begin{bmatrix}
+    E /m & 0 & 0 & p /m \\
+    0 & 1 & 0 & 0 \\
+    0 & 0 & 1 & 0 \\
+    p /m & 0 & 0& E /m \\
+\end{bmatrix}
+\begin{bmatrix}
+    0 \\
+    0 \\
+    0 \\
+    1 \\
+\end{bmatrix} =
+\begin{bmatrix}
+    p /m \\
+    0 \\
+    0 \\
+    E /m \\
+\end{bmatrix}
+.\end{align*}
+\end{solution}
+\begin{exercise}[4]
+Most often one uses a related but slightly different basis for 
+the polarization states of a massive spin one field, the so-called helicity 
+states which we index by the integer $\lambda$. They have the form
+\begin{align}
+e^\mu(\lambda=+1)=\frac{1}{\sqrt{2}}\left(\begin{matrix}0\\-1\\-i\\0\end{matrix}\right),\quad
+e^\mu(\lambda=-1)=\frac{1}{\sqrt{2}}\left(\begin{matrix}0\\1\\-i\\0\end{matrix}\right),\quad
+e^\mu(\lambda=0)=\left(\begin{matrix}0\\0\\0\\1\end{matrix}\right).
+\end{align}
+Show that if we perform a rotation of these polarization states around the $z$-axis
+by an angle $\theta$, they are multiplied by a factor $e^{-i\lambda\theta}$. Argue that 
+this implies that $\lambda$ is in fact the eigenvalue of the quantum mechanical 
+rotation operator, $J_z$, for each of the states. 
+\end{exercise}
+A rotation around $z$-axis by an angle $\theta$ is given by the following the rotation matrix,
+\[
+R_{z, \theta} = 
+\begin{bmatrix}
+    \cos\theta & -\sin \theta & 0 \\
+ \sin \theta  & \cos \theta  &0  \\
+    0 & 0 &1  \\
+\end{bmatrix}
+.\] 
+This rotation can be extended to handle four-vectors in the following way,
+\[
+R_{z, \theta} = 
+\begin{bmatrix}
+    1 & 0 & 0 & 0  \\
+    0 &   \cos\theta & -\sin \theta & 0 \\
+    0 &\sin \theta  & \cos \theta  &0  \\
+    0 &   0 & 0 &1  \\
+\end{bmatrix}
+.\] 
+This should intuitively make a lot of sense, as this matrix only touches the $x,y$ coordinates and applies a rotation to them. We can the apply it to the polarization vectors.
+\begin{align*}
+    R_{z, \theta }e^{u}_1 = \frac{1}{\sqrt{2} }
+\begin{bmatrix}
+    1 & 0 & 0 & 0  \\
+    0 &   \cos\theta & -\sin \theta & 0 \\
+    0 &\sin \theta  & \cos \theta  &0  \\
+    0 &   0 & 0 &1  \\
+\end{bmatrix}
+\left(\begin{matrix}0\\-1\\-i\\0\end{matrix}\right)
+= 
+\begin{bmatrix}
+    0 \\
+    -\cos\theta + i\sin \theta  \\
+    -\sin \theta -i\cos\theta  \\
+    0 \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+    0 \\
+    \left(   \cos\theta - i\sin \theta \right)\left( -1 \right)  \\
+    \left( \cos \theta - i\sin \theta  \right) \left( -i \right)  \\
+    0  \\
+\end{bmatrix}
+.\end{align*}
+And using the identity $e^{i\theta } = \cos\theta + i \sin \theta $ along with $\cos -\theta = \cos \theta $ and $\sin -\theta = -\sin \theta $ we see that it holds for $\lambda = 1$. We can do an analogous calculation for $\lambda = -1$,
+
+\begin{align*}
+    R_{z, \theta }e^{u}_-1 = \frac{1}{\sqrt{2} }
+\begin{bmatrix}
+    1 & 0 & 0 & 0  \\
+    0 &   \cos\theta & -\sin \theta & 0 \\
+    0 &\sin \theta  & \cos \theta  &0  \\
+    0 &   0 & 0 &1  \\
+\end{bmatrix}
+\left(\begin{matrix}0\\1\\-i\\0\end{matrix}\right)
+&= 
+\begin{bmatrix}
+    0 \\
+    \cos\theta + i\sin \theta  \\
+    \sin \theta -i\cos\theta  \\
+    0 \\
+\end{bmatrix}\\
+&=
+\begin{bmatrix}
+    0 \\
+    \left(   \cos\theta + i\sin \theta \right)\left( 1 \right)  \\
+    \left( \cos \theta + i\sin \theta  \right) \left( -i \right)  \\
+    0  \\
+\end{bmatrix}
+    = e^{-i\lambda\theta }\mid_{\lambda = -1}
+\begin{bmatrix}
+    0 \\
+    1 \\
+    -i \\
+    0 \\
+\end{bmatrix}
+.\end{align*}
+The case with $\lambda = 0$ is trivial, as the corresponding polarization state is untouched by the rotation and $e^{0}=1$. In order to argue that this implies that $\lambda$ is an eigenvalue of the angular momentum $J_z$ operator, we do the followin; The rotation operator can also be expressed in the following way,
+\[
+\hat{R}_{z,\theta } = e^{-i\theta J_{z}}
+\] 
+And as we have just shown, the polarization states are its eigenvectors, with the following eigenvalues,
+\[
+e^{-i\theta J_z}e^{\mu }_{\lambda} = e^{-i\theta \lambda}e^{\mu }_{\lambda}
+.\] 
+We can differentiate both sides with respect to $\theta $ and then set $\theta = 0$, to obtain the eigenvalue equation for $J_z$ 
+\begin{align*}
+    \frac{d}{d\theta } e^{-i\theta J_z}e^{\mu }_{\lambda} &= -iJ_ze^{-i\theta J_z} e^{\mu }_{\lambda}=
+    \frac{d}{d\theta } e^{-i\theta \lambda}e^{\mu }_{\lambda} = -i\lambda e^{-i\theta \lambda} e^{\mu \lambda} \\
+    J_z e^{\mu }_{\lambda} &= \lambda e^{\mu }_{\lambda} &(\theta =0)
+.\end{align*}
+Which shows that $\lambda$ is an eigenvalue of $J_z$.
+\begin{exercise}[5]
+The helicity is defined as the projection of the spin of a particle onto its
+momentum, i.e. $\bm J\cdot \bm p$, where $\bm J$ is the spin operator and $\bm p$ is the 
+three-momentum. Argue that if we boost from the rest frame to a frame moving with the 
+particle at velocity $\bm p/E$, then $J_z$ becomes the helicity operator. 
+\end{exercise}
+If we consider the rest frame of the particle it has four-momentum $p^{\mu } = \left( m,0,0,0 \right) ^{T}$ and the helicity is $\mathbf{J}\cdot  \mathbf{p}=0$. If we then boost to a frame moving at velocity $\mathbf{p} /E$ along the $z$-axis, its four momentum changes to $p'^{\mu } = \left( E, 0,0, \|p\| \right) $. We can calculate the helicity in this frame,
+\[
+\mathbf{J}\cdot \mathbf{p} = J_xp_x + J_y p_y + J_zp_z = 0+0+J_z\|\mathbf{p}\|
+.\] 
+Which can then be normalized to obtain $J_z$.
+\begin{exercise}[6]
+Show that the polarization states with well-defined helicity for a particle
+moving along the $z$-direction are 
+\begin{align}
+&e^{\mu}(\lambda=\pm 1)=\mp\left(0,\frac{e_x\pm i e_y}{\sqrt{2}}\right)&\\
+&e^{\mu}(\lambda=0)=\frac{1}{m}\left(|\bm p|,0,0,E\right),&
+\end{align}
+where $e_x$ and $e_y$ are the standard three-component basis vectors.
+\end{exercise}
+These can be obtained by using Lorentz transformation defined in exercise 2.
+\begin{align*}
+    e^{\mu }\left( \lambda = \pm 1 \right) = 
+\begin{bmatrix}
+    E /m & 0 & 0 & p /m \\
+    0 & 1 & 0 & 0 \\
+    0 & 0 & 1 & 0 \\
+    p /m & 0 & 0& E /m \\
+\end{bmatrix}
+\frac{1}{\sqrt{2} }
+\begin{bmatrix}
+    0 \\
+    \mp 1 \\
+    -i \\
+    0 \\
+\end{bmatrix}
+= 
+\frac{1}{\sqrt{2} }
+\begin{bmatrix}
+    0 \\
+    \mp 1 \\
+    -i \\
+    0 \\
+\end{bmatrix}
+= \mp \left( 0, \frac{e_x \pm ie_y}{\sqrt{2} } \right) 
+.\end{align*}
+And applying it to $e^{\mu }\left( \lambda = 0 \right) $ gives,
+\begin{align*}
+    e^{\mu }\left( \lambda = \pm 0 \right) = 
+\begin{bmatrix}
+    E /m & 0 & 0 & p /m \\
+    0 & 1 & 0 & 0 \\
+    0 & 0 & 1 & 0 \\
+    p /m & 0 & 0& E /m \\
+\end{bmatrix}
+\begin{bmatrix}
+    0 \\
+    0 \\
+    0\\
+    1 \\
+\end{bmatrix}
+= \frac{1}{m}
+\begin{bmatrix}
+    p \\
+0 \\
+0\\
+    E \\
+\end{bmatrix}
+.\end{align*}
+\begin{exercise}[7]
+Suppose someone told you that they wanted a theory with a particle of some 
+general spin $S>1$. Using what you have learned in previous parts of this problem, how 
+would you generalize the procedure to construct polarization states for such a field? 
+Just sketch a procedure, do not embark on detailed calculations. 
+\end{exercise}
+
+\chapter{The Photon Field Operator and Field Energy}
+\noindent Consider the following expansion of the free photon field in 
+modes of well-defined momentum and helicity
+\begin{align}\label{afield}
+A_{\mu}=\sum_\lambda\int\frac{d^3p}{(2\pi)^3}\frac{1}{\sqrt{2E(\bm p)}}
+\left[e_{\mu}(\lambda)a_{\bm p\lambda}e^{-ip\cdot x}+e_{\mu}^{*}(\lambda)a_{\bm p\lambda}^{\dagger}e^{ip\cdot x} \right],
+\end{align}
+where we have used the normalization of one particle in a volume $V$ and 
+we generally set $V=1$ in the following. The creation and annihilation operators
+for a photon with momentum $\bm p$ and helicity $\lambda$ are $a_{\bm p\lambda}$
+and $a_{\bm p\lambda}^{\dagger}$, respectively.
+\begin{exercise}[1]
+The Hamiltonian for the free electromagnetic field is given 
+by the usual expression 
+\begin{align}
+H_F=\frac{1}{2}\int d^3x \left(\bm E^2+\bm B^2\right).
+\end{align}
+Use the relations between 4-potential, $A_\mu$, electric, $\bm E$, and 
+magnetic fields, $\bm B$, to show that $H_F$ can be written in the form
+\begin{align}
+H_F=\sum_{\lambda}\int\frac{d^3p}{(2\pi)^3}E(\bm p)\left(a_{\bm p\lambda}^{\dagger}a_{\bm p\lambda}+\frac{1}{2}\right).
+\end{align}
+(Hint: One approach would be to use the fact that the photon field polarization state, $e_{\mu}(\lambda)$, may be taken to be 
+the transverse ones with $\lambda=\pm 1$.)
+\end{exercise}
+\begin{solution}
+As we have previously shown, photons have only 2 degrees of internal freedom. For that reason, we need only 2 polarization states to accurately describe them. These can be chosen freely, and as the hint suggests, we should choose the ones where $\lambda = \pm 1$. From exercise (1.6), we recall that these are,
+\[
+\epsilon^{\mu }\left( \lambda = \pm \right) = \mp\left( 0, \frac{e_x \pm ie_y}{\sqrt{2} } \right) 
+.\] 
+Looking at the field expansion of $A^{\mu }$, we note that this implies that $A^{0} = 0$. Therefore in this setting the field can be written as $A^{\mu } = \left( 0, \vec{A} \right) $. The relations between $A_{\mu } $ and $\mathbf{E}$ and $\mathbf{B}$ are given by,
+\begin{align*}
+    \mathbf{E} &= - \partial_t \vec{A} - \nabla A_{0} = -\partial_t \vec{A} \\
+    \mathbf{B} &= \nabla \times \vec{A}
+.\end{align*}
+Since, $A_0 = 0$, we can focus on the on the remaining components of $A_{\mu }$.
+\[
+\vec{A}=\sum_{\lambda = \pm 1}\int\frac{d^3p}{(2\pi)^3}\frac{1}{\sqrt{2E(\bm p)}}\left[\vec{\epsilon}(\lambda)a_{\bm p\lambda}e^{-ip\cdot x}+\vec{\epsilon}^{*}(\lambda)a_{\bm p\lambda}^{\dagger}e^{ip\cdot x} \right],
+.\] 
+Where $\vec{\epsilon}\left( \lambda \right) $ denotes the three-vector part of the polarization state. We can now find $\mathbf{E}$ and $\mathbf{B}$
+\begin{align*}
+    \mathbf{E} &= -\partial_t\sum_{\lambda = \pm 1}\int\frac{d^3p}{(2\pi)^3}\frac{1}{\sqrt{2E(\bm p)}}\left[\vec{\epsilon}(\lambda)a_{\bm p\lambda}e^{-ip\cdot x}+\vec{\epsilon}^{*}(\lambda)a_{\bm p\lambda}^{\dagger}e^{ip\cdot x} \right] \\
+    &=  -\sum_{\lambda = \pm 1}\int\frac{d^3p}{(2\pi)^3}\frac{1}{\sqrt{2E(\bm p)}}\left[\vec{\epsilon}(\lambda)a_{\bm p\lambda}\left( -iE\left( \mathbf{p} \right)  \right) e^{-ip\cdot x}+\vec{\epsilon}^{*}(\lambda)a_{\bm p\lambda}^{\dagger}\left( iE\left( \mathbf{p} \right)  \right) e^{ip\cdot x} \right] \\
+    &=  i\sum_{\lambda = \pm 1}\int\frac{d^3p}{(2\pi)^3}\sqrt{\frac{E\left( \mathbf{p} \right) }{2}} \left[\vec{\epsilon}(\lambda)a_{\bm p\lambda} e^{-ip\cdot x}-\vec{\epsilon}^{*}(\lambda)a_{\bm p\lambda}^{\dagger} e^{ip\cdot x} \right] \\
+.\end{align*}
+In calculating $\mathbf{B}$ we use the following identity,
+\begin{align*}
+    \nabla \times \left( f\vec{a} \right) =  \nabla \left( f \right) \times  \vec{a}
+.\end{align*}
+Which holds for a constant vector $\vec{a}$
+\begin{align*}
+\mathbf{B} &= \nabla \times \sum_{\lambda = \pm 1}\int\frac{d^3p}{(2\pi)^3}\frac{1}{\sqrt{2E(\bm p)}}\left[\vec{\epsilon}(\lambda)a_{\bm p\lambda}e^{-ip\cdot x}+\vec{\epsilon}^*(\lambda)a_{\bm p\lambda}^{\dagger}e^{ip\cdot x} \right] \\
+&= \sum_{\lambda = \pm 1}\int\frac{d^3p}{(2\pi)^3}\frac{1}{\sqrt{2E(\bm p)}}\left[a_{\bm p\lambda}\nabla \times \left( \vec{\epsilon}(\lambda) e^{-ip\cdot x}\right)+a_{\bm p\lambda}^{\dagger}\nabla \times \left( \vec{\epsilon}^*(\lambda) e^{ip\cdot x} \right)\right] \\
+&= \sum_{\lambda = \pm 1}\int\frac{d^3p}{(2\pi)^3}\frac{1}{\sqrt{2E(\bm p)}}\left[a_{\bm p\lambda} \left( (\nabla e^{-ip\cdot x}) \times \vec{\epsilon}(\lambda) \right)+a_{\bm p\lambda}^{\dagger}\left( (\nabla e^{ip\cdot x}) \times \vec{\epsilon}^*(\lambda) \right)\right] \\
+&= \sum_{\lambda = \pm 1}\int\frac{d^3p}{(2\pi)^3}\frac{1}{\sqrt{2E(\bm p)}}\left[a_{\bm p\lambda} \left( (i \mathbf{p} e^{-ip\cdot x}) \times \vec{\epsilon}(\lambda) \right)+a_{\bm p\lambda}^{\dagger}\left( (-i\mathbf{p} e^{ip\cdot x}) \times \vec{\epsilon}^*(\lambda) \right)\right] \\
+&= \sum_{\lambda = \pm 1}\int\frac{d^3p}{(2\pi)^3}\frac{1}{\sqrt{2E(\bm p)}}\left[a_{\bm p\lambda} (i) (\mathbf{p} \times \vec{\epsilon}(\lambda)) e^{-ip\cdot x}+a_{\bm p\lambda}^{\dagger} (-i) (\mathbf{p} \times \vec{\epsilon}^*(\lambda)) e^{ip\cdot x} \right] \\
+&= i\sum_{\lambda = \pm 1}\int\frac{d^3p}{(2\pi)^3}\frac{1}{\sqrt{2E(\bm p)}}\left[a_{\bm p\lambda} (\mathbf{p} \times \vec{\epsilon}(\lambda)) e^{-ip\cdot x}-a_{\bm p\lambda}^{\dagger}(\mathbf{p} \times \vec{\epsilon}^*(\lambda)) e^{ip\cdot x} \right]
+\end{align*}
+We can simply this a bit more by calculating the cross product. We will do this with the determinant method (leaving out the normalization, it will just be reabsorbed). Note that the polarization vectors are perpendicular to the direction of the particle ($\mathbf{p}$), and since we will be looking at different momenta now, i will keep track of the directions by writing $\vec{\epsilon\left( \lambda, \mathbf{p} \right) }$.
+\begin{align*}
+    \left( \mathbf{p}\times \epsilon\left( \lambda, \mathbf{p} \right)  \right) &=
+\begin{bmatrix}
+    \hat{x} & \hat{y} & \hat{z} \\
+    0 & 0 & E\left( \mathbf{p} \right)  \\
+    -\lambda & -i & 0  \\
+\end{bmatrix}
+= 
+iE\left( \mathbf{p} \right) \hat{x} - \lambda E\left( \mathbf{p} \right) \hat{y}
+\\
+                                                                                &= \left( -i E\left( \mathbf{p} \right) \right) \left( -\hat{x} -i\lambda\hat{y} \right) = \left( -i E\left( \mathbf{p} \right)\lambda \right) \left( -\lambda\hat{x} -i\hat{y} \right) &(\lambda^2 = 1)\\
+                                                                                &= \left \left( -i E\left( \mathbf{p} \right) \lambda\right) \epsilon \left( \lambda, \mathbf{p} \right) 
+.\end{align*}
+The same can be done for $\left( \mathbf{p} \times \epsilon\left( \lambda, \mathbf{p} \right) ^{*}\right) $ which gives,
+\[
+\left( \mathbf{p} \times \epsilon\left( \lambda, \mathbf{p} \right) ^{*}\right) = \left( iE\left( \mathbf{p} \right) \lambda \right) \epsilon\left( \mathbf{p},\lambda \right) ^{*} 
+.\] 
+Applying this we get,
+\begin{align*}
+\mathbf{B} &= i\sum_{\lambda = \pm 1}\int\frac{d^3p}{(2\pi)^3}\frac{1}{\sqrt{2E(\bm p)}}\left[a_{\bm p\lambda} \left( -iE\left( \mathbf{p} \right) \lambda \right)\epsilon\left( \lambda, \mathbf{p} \right)   e^{-ip\cdot x}-a_{\bm p\lambda}^{\dagger} \left( iE\left( \mathbf{p} \right) \lambda \right)e^{ip\cdot x} \right]\\
+ &= \sum_{\lambda = \pm 1}\int\frac{d^3p}{(2\pi)^3}\lambda\sqrt{\frac{E\left( \mathbf{p} \right) }{2}} \left[a_{\bm p\lambda} \epsilon\left( \lambda, \mathbf{p} \right)   e^{-ip\cdot x}+a_{\bm p\lambda}^{\dagger} \epsilon\left( \lambda, \mathbf{p} \right) ^{*}e^{ip\cdot x} \right]
+.\end{align*}
+And now we need to compute the squares of these. We start with $\mathbf{E}$,
+\begin{align*}
+    \mathbf{E}^2 &=  \left(   i\sum_{\lambda = \pm 1}\int\frac{d^3p}{(2\pi)^3}\sqrt{\frac{E\left( \mathbf{p} \right) }{2}} \left[\vec{\epsilon}(\lambda)a_{\bm p\lambda} e^{-ip\cdot x}-\vec{\epsilon}^{*}(\lambda)a_{\bm p\lambda}^{\dagger} e^{ip\cdot x} \right] \right)^2\\
+                 &= -\sum_{\lambda, \lambda'}\int\frac{d^3pd^3p'}{(2\pi)^6}\frac{\sqrt{ E\left( \mathbf{p} \right) E\left( \mathbf{p}' \right) }}{2} \left[\vec{\epsilon}(\lambda, \mathbf{p})a_{\bm p\lambda} e^{-ip\cdot x}-\vec{\epsilon}^{*}(\lambda, \mathbf{p})a_{\bm p\lambda}^{\dagger} e^{ip\cdot x} \right]\cdot\\
+                 &\left[\vec{\epsilon}(\lambda', \mathbf{p}')a_{\bm p'\lambda'} e^{-ip'\cdot x}-\vec{\epsilon}^{*}(\lambda',\mathbf{p}')a_{\bm p'\lambda'}^{\dagger} e^{ip'\cdot x} \right]
+.\end{align*}
+At this point we get a bunch of terms of the following form,
+\[
+\left(\vec{\epsilon}\left( \lambda, \mathbf{p} \right) \cdot \vec{\epsilon}\left( \lambda', \mathbf{p}' \right)   \right)   a_{\mathbf{p}, \lambda} a_{\mathbf{p}', \lambda'}e^{-i\left( p + p' \right) \cdot x}
+.\] 
+When we take the spatial integral of these, we get delta-functions,
+\begin{align*}
+    & \int d^{3}x  \left(\vec{\epsilon}\left( \lambda, \mathbf{p} \right) \cdot \vec{\epsilon}\left( \lambda', \mathbf{p}' \right)   \right)   a_{\mathbf{p}, \lambda} a_{\mathbf{p}', \lambda'}e^{-i\left( p + p' \right) \cdot x} \\
+    &=   \left(\vec{\epsilon}\left( \lambda, \mathbf{p} \right) \cdot \vec{\epsilon}\left( \lambda', \mathbf{p}' \right)   \right)   a_{\mathbf{p}, \lambda} a_{\mathbf{p}', \lambda'}e^{-i\left( E\left( \mathbf{p} \right)  + E\left(   \mathbf{p}' \right)\right) \cdot t} \left( 2\pi \right) ^3 \delta^{3}\left( \mathbf{p} + \mathbf{p}' \right)
+.\end{align*}
+We can use these delta-functions to eliminate the $p'$ integrals,
+ \begin{align*}
+&\int d^3p' \left(\vec{\epsilon}\left( \lambda, \mathbf{p} \right) \cdot \vec{\epsilon}\left( \lambda', \mathbf{p}' \right)   \right)   a_{\mathbf{p}, \lambda} a_{\mathbf{p}', \lambda'}e^{-i\left( E\left( \mathbf{p} \right)  + E\left(   \mathbf{p}' \right)\right) \cdot t} \left( 2\pi \right) ^3 \delta^{3}\left( \mathbf{p} + \mathbf{p}' \right) \\
+&= \left(\vec{\epsilon}\left( \lambda, \mathbf{p} \right) \cdot \vec{\epsilon}\left( \lambda', \mathbf{-p} \right)   \right)   a_{\mathbf{p}, \lambda} a_{\mathbf{-p}, \lambda'}e^{-i\left( E\left( \mathbf{p} \right)  + E\left(   \mathbf{-p}' \right)\right) \cdot t} \left( 2\pi \right) ^3  \\
+&= \left(\vec{\epsilon}\left( \lambda, \mathbf{p} \right) \cdot \vec{\epsilon}\left( \lambda', \mathbf{-p} \right)   \right)   a_{\mathbf{p}, \lambda} a_{\mathbf{-p}, \lambda'}e^{-i 2\left( E\left( \mathbf{p} \right)\right) \cdot t} \left( 2\pi \right) ^3  \\
+ .\end{align*} 
+ The polarization vectors are chosen such that the lie perpendicular to the direction of momentum with a specific handedness. To conserve this when we flip the momentum, we need to flip one of the coordinates of the polarization vectors. Since they each have an imaginary second component this is equivalent to taking complex conjugate. In other words,
+ \[
+ \epsilon\left( \lambda, -\mathbf{p} \right) = \epsilon\left( \lambda, \mathbf{p} \right) ^{*}
+ .\] 
+ Also note that,
+ \[
+ \vec{\epsilon}\left( \lambda, \mathbf{p} \right) \vec{\epsilon}\left( \lambda', \mathbf{p} \right) ^{*} = \delta_{\lambda,\lambda'}
+ .\] 
+ Using this, the terms to reduce to,
+ \[
+ \delta_{\lambda, \lambda'}   a_{\mathbf{p}, \lambda} a_{\mathbf{-p}, \lambda'}e^{-i 2\left( E\left( \mathbf{p} \right)\right) \cdot t} \left( 2\pi \right) ^3  \\
+ .\] 
+ And the kronecker deltas can then be used to eliminate the sum over $\lambda'$. All in all we find that the $\mathbf{E}^2 $ contribution is,
+ \[
+ \int d^{3}x \frac{1}{2}\mathbf{E}^2 = -\frac{1 }{2}\sum_{\lambda}\int \frac{d^3p}{\left( 2\pi \right) ^3}\frac{E\left( \mathbf{p} \right)}{2}\left[ a_{\mathbf{p},\lambda}a_{-\mathbf{p},\lambda}e^{-2iE\left( \mathbf{p} \right) t} - a_{\mathbf{p},\lambda}^{\dagger}a_{\mathbf{p},\lambda} - a_{\mathbf{p},\lambda}a_{\mathbf{p},\lambda}^{\dagger}+ a_{\mathbf{p},\lambda}^{\dagger}a_{-\mathbf{p},\lambda}^{\dagger}e^{i 2E\left( \mathbf{p} \right) t}\right] 
+ .\] 
+Lets move on to $\mathbf{B}^2$. Note that $\mathbf{E}^2$ only differs from $\mathbf{B}^2$ by an internal sign between the modes and a factor of $\lambda$. As $\lambda^2 = 1$, the only difference in the result, will be that the terms will all be positive. Adding the two contributions, we see that terms with exponentials cancel and the other terms combine. We get,
+\begin{align*}
+   \frac{1}{2} \int d^{3}x\left( \mathbf{E}^2 + \mathbf{B}^2 \right)  = \frac{1}{4} \sum_\lambda \int \frac{d^{3}p}{\left( 2\pi \right) ^3}E\left( \mathbf{p} \right) \left( 2 a_{\mathbf{p}\lambda}^{\dagger}a_{\mathbf{p}\lambda} + 2a_{\mathbf{p}\lambda}a_{\mathbf{p}\lambda}^{\dagger} \right) 
+.\end{align*}
+We can flip the second term gaining a commutator,
+\begin{align*}
+   =  \sum_\lambda \int \frac{d^{3}p}{\left( 2\pi \right) ^3}E\left( \mathbf{p} \right) \left(  a_{\mathbf{p}\lambda}^{\dagger}a_{\mathbf{p}\lambda} + \frac{1}{2}\left[   a_{\mathbf{p}\lambda}, a_{\mathbf{p}\lambda}^{\dagger} \right]\right) 
+.\end{align*}
+Here we have something that looks familiar. The first term is the number operator, which counts the number of particles per mode. The second term is independent of that number, and corresponds to a kind of ground-state/vacuum energy. Formally, it gives infinity, which is not measurable. But we want to keep track of the ground-state energy, so we keep the term $1/2$.
+\begin{align*}
+   H_F =  \sum_\lambda \int \frac{d^{3}p}{\left( 2\pi \right) ^3}E\left( \mathbf{p} \right) \left(  a_{\mathbf{p}\lambda}^{\dagger}a_{\mathbf{p}\lambda} + \frac{1}{2}\right) 
+.\end{align*}
+\end{solution}
+\begin{exercise}[2]
+Argue that we may ignore the zero-point energy in the second term of $H_F$.
+\end{exercise}
+\begin{solution}
+The second term is essentially just an offset, and since we are interested in interactions, which will be differences, we can just ignore this offset.
+\end{solution}
+\begin{exercise}[3]
+Show that the field expansion above satisfies the Heisenberg 
+equation of motion
+\begin{align}
+\frac{dA_\mu}{dt}=i\left[H_F,A_\mu\right].
+\end{align}
+\end{exercise}
+\begin{solution}
+
+\end{solution}
+\begin{exercise}[4]
+In the usual Schr{\"o}dinger picture of quantum mechanics we 
+have the time evolution equation 
+\begin{align}
+i\frac{\partial}{\partial t}|\alpha,t\rangle_S=H|\alpha,t\rangle_S,
+\end{align}
+where $|\alpha,t\rangle_S$ is a state at time $t$ in the Schr{\"o}dinger
+picture. In the interaction picture we split the Hamiltonian into a 
+free part and an interacting part, i.e. $H=H_F+H_I$, and we define
+the interaction picture states and operators through
+\begin{align}
+&|\alpha,t\rangle=e^{iH_F t}|\alpha,t\rangle_S,&
+&\mathcal{O}=e^{iH_F t}\mathcal{O}_Se^{-iH_F t},&
+\end{align}
+where $\mathcal{O}_S$ is the operator in the Schr{\"o}dinger picture which 
+we will assume has no explicit dependence on time. Show that in the Interaction
+picture, the time-dependence of states are entirely determined by $H_I$ and 
+the time-dependence of operators is entirely determined by $H_F$.
+\end{exercise}
+\begin{exercise}[5]
+Use the result of 3) and 4) to argue that the field expansion 
+in Eq.~\eqref{afield} is the appropriate expansion to use in the Interaction 
+picture.
+
+
+\section{Fermionic fields and anti-commutation relations}
+\noindent This problem explores how one can derive the fundamental 
+{\it anticommutation} relations among fermionic creation and annihilation
+operators by inverting the field expansion. We start from the field 
+expansion for a fermionic (Dirac) field
+\begin{align}\label{dfield}
+\psi(x)=\sum_\lambda\int \frac{d^3p}{(2\pi)^3}\frac{1}{\sqrt{2E_{\bm p}}}
+\left(e^{-ip\cdot x}u(p,\lambda)b_{\bm p,\lambda}+e^{ip\cdot x}v(p,\lambda)d_{\bm p,\lambda}^{\dagger}\right),
+\end{align}
+where the energy is $E_{\bm p}=\sqrt{\bm p^2+m^2}$ and is assumed positive. $\lambda$ is 
+the helicity index. Here we will work in the Dirac-Pauli representation where
+\begin{align}
+\gamma^0=\left(\begin{matrix}1 & 0 \\ 0 & -1\end{matrix}\right)\, ,\,
+\gamma^i=\left(\begin{matrix}0 & \sigma_i \\ -\sigma_i & 0\end{matrix}\right)\, ,\textrm{and}\, 
+\gamma^5=i\gamma^0\gamma^1\gamma^2\gamma^3=\left(\begin{matrix}0 & 1 \\ 1 & 0\end{matrix}\right).
+\end{align}
+\end{exercise}
+\begin{exercise}[6]
+First, we need to prove some useful relations for Dirac 4-spinors. Show
+that properly normalized 4-spinors satisfy the relations
+\begin{align}
+&u(p,\lambda)^{\dagger}u(p,\lambda')=2E_{\bm p}\delta_{\lambda,\lambda'},&\\
+&v(p,\lambda)^{\dagger}v(p,\lambda')=2E_{\bm p}\delta_{\lambda,\lambda'},&\\
+&u(p,\lambda)^{\dagger}v(-p,\lambda')=0,&\\
+&v(p,\lambda)^{\dagger}u(-p,\lambda')=0&
+\end{align}
+\end{exercise}
+\begin{exercise}[8]
+Now show that the nice inversion formulas for the creation and annihilation 
+operators are
+\begin{align}
+&b_{\bm p,\lambda}=\int \frac{d^3x}{\sqrt{2E_{\bm p}}}e^{i p\cdot x}u(p,\lambda)^\dagger\psi(x)&\\
+&d_{\bm p,\lambda}^{\dagger}=\int \frac{d^3x}{\sqrt{2E_{\bm p}}}e^{-i p\cdot x}v(p,\lambda)^\dagger\psi(x)&\\
+\end{align}
+\end{exercise}
+\begin{exercise}[9]
+Let us now assume that $\psi(x)$ describes a fermionic field and that we want canonical 
+anti-commutation relations, i.e. at equal time 
+\begin{align}
+&\{\psi_{\alpha}(\bm x,t),\psi^{\dagger}_{\beta}(\bm x',t)\}=\delta_{\alpha,\beta}\delta(\bm x-\bm x'),&\\ 
+&\{\psi_{\alpha}(\bm x,t),\psi_{\beta}(\bm x',t)^{}\}=0,&\\
+&\{\psi_{\alpha}^{\dagger}(\bm x,t),\psi_{\beta}^{\dagger}(\bm x',t)\}=0.&
+\end{align}
+Show that these relations imply that 
+\begin{align}
+&\left\{b_{\bm p,\lambda},b_{\bm p',\lambda'}^{\dagger}\right\}=(2\pi)^3\delta_{\lambda,\lambda'}\delta(\bm p-\bm p'),&\\
+&\left\{d_{\bm p,\lambda},d_{\bm p',\lambda'}^{\dagger}\right\}=(2\pi)^3\delta_{\lambda,\lambda'}\delta(\bm p-\bm p'),&\\
+&\left\{b_{\bm p,\lambda},b_{\bm p',\lambda'}^{}\right\}=0,&\\
+&\left\{d_{\bm p,\lambda},d_{\bm p',\lambda'}^{}\right\}=0,&\\
+&\left\{b_{\bm p,\lambda},d_{\bm p',\lambda'}^{}\right\}=0,&\\
+&\left\{b_{\bm p,\lambda},d_{\bm p',\lambda'}^{\dagger}\right\}=0.&
+\end{align}
+In this last part it is an advantage to write the $\Psi$ operators and the $u$ and $v$ factors
+in component form. For instance, $u(p,\lambda)^{\dagger}\Psi(x)=\sum_{i=1}^{4} (u(p,\lambda)^{\dagger})_i\Psi(x)_i$
+etc.
+\end{exercise}
+
+
+\section{Quantum Electrodynamics with Electrons}
+\noindent Consider the Lagrangian for electrons which is the Dirac Lagrangian
+\begin{align}
+\mathcal{L}=\bar{\psi}\left(i\slashed\partial-m\right)\psi,
+\end{align}
+where $\slashed\partial=\gamma_\mu \partial^\mu$ and $\gamma_\mu$ are the Dirac 4x4 matrices.
+\vspace{1em}
+\noindent 1) Consider the transformation $\psi\to e^{-ie\theta(x)}\psi$, where $e$ is the 
+electron charge and $\theta(x)$ is a scalar function that depends on space and time (denoted 
+collectively by the coordinate $x=(\bm x,t)$). Use minimal substitution for a charge $q=-e$
+field
+\begin{align}
+\partial^\mu\to D^\mu=\partial^\mu-ieA^\mu,
+\end{align}
+in the Dirac Lagrangian and show that we obtain a gauge invariant Lagrangian. What is 
+the necessary transformation law for $A^\mu$? 
+
+\vspace{1em}
+\noindent 2) In mathematics, the complex numbers on the unit circle (modulus 1) are 
+denoted collectively by $U(1)$ (the 1x1 unitary matrix group). Explain why it
+makes sense to call the gauge transformation in 1) and the corresponding theory
+of Quantum EletroDynamics (QED) a $U(1)$-gauge theory.
+
+
+\vspace{1em}
+\noindent 3) Show that the interaction Lagrangian we obtain from using the principle
+of gauge invariance is of the current-vector field form
+\begin{align}\label{QEDint}
+\mathcal{L}_I=e\bar{\psi}\gamma_\mu\psi A^\mu=-J_\mu A^\mu.
+\end{align}
+Show furthermore that $J_\mu(x)=-e\bar{\psi}(x)\gamma_\mu\psi(x)$ is a conserved current in the 
+sense that $\partial^\mu J_\mu(x)=0$. How does the interaction Lagrangian transform under a 
+gauge transformation? Does this transformation allow the theory to remain gauge invariant?
+(Hint: Consider the action that is generated by the interaction Lagrangian).
+
+\vspace{1em}
+\noindent 4) The Dirac field can be expanded in normal modes according to
+\begin{align}
+\psi_\alpha(x)=\sum_{\lambda}\int\frac{d^3p}{(2\pi)^3}\frac{1}{\sqrt{2E_{\bm p}}}\left(b_{\bm p,\lambda}u(\bm p,\lambda)_\alpha e^{-ipx}+
+d_{\bm p,\lambda}^{\dagger}v(\bm p,\lambda)_\alpha e^{ipx}\right),
+\label{expand}
+\end{align}
+where $\lambda$ is the helicity and $px=p_\mu x^\mu$. $b$ and $d$ are operators that 
+create fermonic particles and antiparticles respectively with given momentum, $\bm p$, and 
+helicty, $\lambda$. Show that one can write 
+\begin{align}
+-e\bar{\psi}\gamma_\mu\psi=\sum_{\bm p,\bm p',\lambda,\lambda'}\sum_{n=1}^{4} j_{\mu}^{(n)}\left(p,\lambda,p',\lambda',x\right)=
+\sum_{n=1}^{4} j_{\mu}^{(n)}\left(x\right),
+\end{align}
+and find the four terms $j_{\mu}^{(n)}$ explicitly.
+
+\vspace{1em}
+\noindent 5) Derive the following matrix elements using the current from 4)
+\begin{align}
+&\langle e^-,\bm p',\lambda'| j_{\mu}^{(1)}(x)|e^-,\bm p,\lambda\rangle=-e\overline{u}(\bm p',\lambda')\gamma_\mu u(\bm p,\lambda)e^{i(p'-p)x}&\\
+&\langle e^+,\bm p',\lambda'| j_{\mu}^{(2)}(x)|e^+,\bm p,\lambda\rangle=e\overline{v}(\bm p,\lambda)\gamma_\mu v(\bm p',\lambda')e^{i(p'-p)x}&\\
+&\langle 0| j_{\mu}^{(3)}(x)|e^-,\bm p,\lambda;e^+,\bm p',\lambda'\rangle=-e\overline{v}(\bm p',\lambda')\gamma_\mu u(\bm p,\lambda)e^{-i(p+p')x}&\\
+&\langle e^-,\bm p',\lambda';e^+,\bm p,\lambda| j_{\mu}^{(4)}(x)|0\rangle=-e\overline{u}(\bm p',\lambda')\gamma_\mu v(\bm p,\lambda)e^{i(p+p')x}.&
+\end{align}
+Give a physical interpretation of the four terms (you may even like to draw a picture of each term as a subpart of a Feynman diagram).
+
+\vspace{1em} 
+\noindent 6) The matrix elements in 5) are called transition currents, $J_{\mu}^{fi}(x)$. Show explicitly that they are conserved current by 
+applying the gradient operator $\partial^\mu$ to each of them.
+
+\vspace{1em}
+\noindent 7) Argue that in QED with interaction Lagrangian Eq.~\eqref{QEDint}, when we calculate physical processes we 
+will always have terms of the form $J_{\mu}^{fi}(0)\epsilon^{\mu}(\sigma)$, where $\epsilon^{\mu}(\sigma)$ is a 
+photon polarization state indexed by $\sigma$. Furthermore, argue that then we square the amplitude for a given 
+process we get an expression like 
+\begin{align}
+|J_{\mu}^{fi}(0)\epsilon^{\mu}(\sigma)|^2=\epsilon^{\mu}(\sigma)^*\epsilon^{\nu}(\sigma) 
+J_{\mu}^{fi}(0)^*J_{\nu}^{fi}(0).
+\end{align}
+
+\vspace{1em}
+\noindent 8) Often we need to sum over unobserved polarization states, i.e. we sum over $\sigma$
+\begin{align}
+\left[\sum_\sigma\epsilon^{\mu}(\sigma)^*\epsilon^{\nu}(\sigma)\right]
+J_{\mu}^{fi}(0)^*J_{\nu}^{fi}(0).
+\end{align}
+Assume that the momentum transfer of the current $J_{\mu}^{fi}$ is along the $z$-direction, i.e.
+$q=(q_0,0,0,q_0)$. Show that for real photons we have 
+\begin{align}
+\sum_\sigma\epsilon^{\mu}(\sigma)^*\epsilon^{\nu}(\sigma)=\delta^{\mu}_{1}\delta^{\nu}_{1}+\delta^{\mu}_{2}\delta^{\nu}_{2},
+\end{align}
+where we use the convention that $\mu=0$ is the time-direction and $\mu=1,2,3$ the $x$, $y$, and $z$ space-directions
+respectively.
+
+\vspace{1em}
+\noindent 9) Show that for a real photons we have 
+\begin{align}
+\left[\sum_\sigma\epsilon^{\mu}(\sigma)^*\epsilon^{\nu}(\sigma)\right]
+J_{\mu}^{fi}(0)^*J_{\nu}^{fi}(0)=-g^{\mu\nu}J_{\mu}^{fi}(0)^*J_{\nu}^{fi}(0).
+\end{align}
+
+\vspace{1em}
+\noindent 10) Under what circumstances does the result of 9) imply that 
+\begin{align}
+\sum_\sigma\epsilon^{\mu}(\sigma)^*\epsilon^{\nu}(\sigma)=-g^{\mu\nu}.
+\end{align}
+What additional terms could arise in the case of real photons where $q^2=0$? 
+What about the case of virtual photons where $q^2\neq 0$?
+
+\vspace{1em}
+\noindent 11) Consider the scattering of electrons on muons, $e^-+\mu^-\to e^-+\mu^-$. Draw the 
+second order Feynman diagram for this process.
+
+\vspace{1em}
+\noindent 12) Show that the S-matrix for the electron-muon scattering process
+can be written 
+\begin{align}
+S_{fi}^{(2)}=(-i)^2\int \textrm{d}^4x_1\textrm{d}^4x_2 
+J_{\mu}^{e^-}(x_1)J_{\nu}^{\mu^-}(x_2) \langle 0 | T\left[A^{\mu}(x_1)A^{\nu}(x_2) \right] |0\rangle.
+\end{align}
+Write the electron and muon current explicitly using the transition currents above. Make sure you 
+label all quantities needed to specify the initial and final states properly.
+
+\vspace{1em} 
+\noindent 13) By using the analogy to the Klein-Gordon propagator, 
+argue that we can use the following form of the photon propagator
+\begin{align}
+G^{\mu\nu}(q)=\int \textrm{d}^4 x e^{iqx} \langle 0 | T\left[A^{\mu}(x)A^{\nu}(0) \right] |0\rangle=
+\frac{-ig^{\mu\nu}}{q^2}
+\end{align}
+in the expression for $S_{fi}^{(2)}$.
+
+\vspace{1em}
+\noindent 14) Define as usual $S_{fi}^{(2)}=-i M_{fi}(2\pi)^4 \delta(p_f-p_i)$. Show that 
+\begin{align}
+-i M_{fi}=\left(-i J_{\mu}^{e^-}(0)\right) \frac{-ig^{\mu\nu}}{q^2} \left(-i J_{\nu}^{\mu^-}(0)\right).
+\end{align}
+Expression the momentum transfer $q$ in terms of the initial and final state momenta.
+
+\vspace{1em}
+\noindent 15) When we square the amplitude, sum over final states, and average over initial 
+states we find 
+\begin{align}
+\frac{1}{4}\sum_\textrm{spins}|\mathcal{M}_{fi}|^2=\frac{8e^4}{q^4}\left((p_1\cdot p_2)(p_3\cdot p_4)+
+(p_1\cdot p_4)(p_2\cdot p_3)\right)
+\end{align}
+in the limit where all momenta are much larger than the masses of both the electron and the muon. Here
+the $\cdot$ denotes the scalar product of the four-vectors, i.e. $p\cdot q=p_\mu q^\mu=p^\mu q_\mu$.
+Show that in this limit we may write
+\begin{align}
+\frac{1}{4}\sum_\textrm{spins}|\mathcal{M}_{fi}|^2=\frac{8e^4}{q^4}\left((p_1\cdot p_2)^2+(p_1\cdot p_4)^2\right).
+\end{align}
+Now denote the angle between the in-coming electron and the out-going electron in the center-of-mass frame
+by $\theta$. Show that 
+\begin{align}
+\frac{1}{4}\sum_\textrm{spins}|\mathcal{M}_{fi}|^2=\frac{2e^4}{\sin^4(\frac{\theta}{2})}\left(1+\cos^4(\frac{\theta}{2})\right).
+\end{align}
+
+\vspace{1em}
+\noindent 16) Show that the center-of-mass frame cross section is given by
+\begin{align}
+\left(\frac{d\sigma}{d\Omega}\right)_\textrm{CM}=\frac{\alpha^2}{2E_{\textrm{CM}}^{2}}\frac{(1+\cos^4(\frac{\theta}{2}))}{\sin^4(\frac{\theta}{2})}
+\end{align} 
+where $E_\textrm{CM}$ is the total energy in the center-of-mass frame and $\alpha$ is the fine-structure constant. 
+Look up the Rutherford scattering cross section somewhere (in a textbook or online). Compare this results to the 
+Rutherford expression. Show that it has the same functional behavior in the $\theta\to 0$ limit.
+
+\vspace{1em}
+\noindent 17) Use all the information gathered in this exercise to write down a set of 
+Feynman rules for QED at tree level (where there are no loops in diagrams), 
+i.e. figure out what factors are associated with initial and 
+final state particles/anti-particles, what factors are associated with vertices, and 
+what factors are associated with propagators. 
+
+\end{document}

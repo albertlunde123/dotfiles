@@ -1,0 +1,97 @@
+\documentclass[working, oneside]{../../../Preambles/tuftebook}
+\input{../../../Preambles/colors}
+\input{../../../Preambles/preamble}
+\input{../../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{1 The Dirac Equation and Dimensionality}
+\begin{exercise}[1]
+Dirac started by postulating an equation linear in time and space of the form
+\begin{align}
+(\boldsymbol{\alpha} \cdot \mathbf{p} + m\beta)\psi = i \frac{\partial \psi}{\partial t}, \tag{1}
+\end{align}
+and then proceeded to figure out what the conditions on $\boldsymbol{\alpha}$ and $\beta$ would have to be to ensure that it obeys the energy-momentum relation of special relativity, i.e. $E^2 = |\mathbf{p}|^2 + m^2$.
+\end{exercise}
+
+\begin{subexercise}{1}
+Show that the conditions are
+\begin{align}
+\alpha_i \beta + \beta \alpha_i &= 0, \quad i = 1, 2, 3  \\
+\alpha_i \alpha_j + \alpha_j \alpha_i &= 0, \quad i, j = 1, 2, 3; i \neq j  \\
+\alpha_i^2 = \beta^2 &= 1, \quad i = 1, 2, 3. 
+\end{align}
+(Hint: Take the square of the operator on both sides of Eq. (1).)
+\end{subexercise}
+\begin{solution}
+We use the time-dependent Schrodinger equation,
+\[
+\left( \alpha\cdot \mathbf{p}+m\beta \right) \Psi =i \frac{\partial \Psi}{\partial t} = \hat{H}\Psi = E\Psi
+.\] 
+This implies that,
+\[
+\left( \alpha\cdot \mathbf{p }+ m\beta \right) ^2 = E^2
+.\] 
+Now since we want $E^2 = \|\mathbf{p}\|^2 + m^2$ this leads to some restrictions on $\alpha_i$ and $\beta$. Lets by expanding the square,
+\[
+\left( \alpha\cdot \mathbf{p} + m\beta \right)^2 = \left( \alpha\cdot \mathbf{p} \right) ^2 + \left( m\beta \right) ^2 + \alpha\cdot \mathbf{p}m\beta +\beta m \alpha \cdot \mathbf{p}
+.\] 
+It seems natural that these cross-terms should dissapear. We can rewrite them as a sum,
+\[
+\alpha\cdot \mathbf{p}m\beta +\beta m \alpha \cdot \mathbf{p} = \sum_i mp_i \left( \alpha_i \beta + \beta \alpha_i \right) = 0
+.\] 
+Assuming condition (1) it is indeed zero. Lets rewrite the first term,
+\begin{align*}
+    \left( \alpha \cdot \mathbf{p} \right) ^2 &= \sum_{j=1}\sum_{i=1} p_ip_j\alpha_i\alpha_j = \frac{1}{2} \left(\sum_{j=1}\sum_{i=1} p_ip_j\alpha_i\alpha_j + p_ip_j\alpha_i\alpha_j\right) \\
+    &=  \frac{1}{2} \left( \sum_{j=1}\sum_{i=1} p_ip_j\alpha_i\alpha_j + \sum_{i=1}\sum_{j=1}p_ip_j\alpha_i\alpha_j\right) = \frac{1}{2} \left( \sum_{j=1}\sum_{i=1} p_ip_j\alpha_i\alpha_j + \sum_{i=1}\sum_{j=1}p_jp_i\alpha_i\alpha_j\right) \\
+    &=  \frac{1}{2} \left( \sum_{j=1}\sum_{i=1} p_ip_j\alpha_i\alpha_j + \sum_{j=1}\sum_{i=1}p_ip_j\alpha_i\alpha_j\right) = \frac{1}{2} \left( \sum_{j=1}\sum_{i=1} p_ip_j\left(   \alpha_i\alpha_j + \alpha_i\alpha_j\right)\right) \\
+    &=  \frac{1}{2} \left( \sum_{i=1} 2p_i^2\alpha_i^2 + \sum_{j=1, j\neq i}\sum_{i=1} p_ip_j\left(   \alpha_i\alpha_j + \alpha_i\alpha_j\right)\right) = \sum_ip_i^2 = \mathbf{p}^2
+    % \left( \sum_i \alpha_i p_i \right) ^2 = \sum_i \left( \alpha_i p_i  \right) ^2 + \sum_{j \neq i, j = 1}\sum_{i = 1} p_ip_j \alpha_i\alpha_j \\
+    % &=   \sum_i \left( \alpha_i p_i  \right) ^2  + \frac{1}{2}\left(   \sum_{j \neq i, j = 1}\sum_{i = 1} p_ip_j \alpha_i\alpha_j + p_ip_j \alpha_ialpha_j\right)\\
+.\end{align*}
+\end{solution}
+\begin{subexercise}{2}
+Prove that $\alpha_i, i = 1, 2, 3$ and $\beta$ are all Hermitian. (Hint: First find the Hamiltonian for the Dirac particles).
+\end{subexercise}
+\begin{solution}
+The hamiltonian for our system is,
+\[
+\hat{H} = \left( \alpha\cdot  \mathbf{p} + m\beta \right) 
+.\] 
+We know that hamiltonians are hermitian, so
+\[
+\hat{H}=\hat{H}^\dagger = \left( \alpha\cdot  \mathbf{p} + m\beta \right)^\dagger = \left( \alpha^\dagger\cdot  \mathbf{p} + m\beta^\dagger \right)
+.\] 
+Which implies $\alpha = \alpha^\dagger$ and $\beta=\beta^\dagger$.
+\end{solution}
+\begin{subexercise}{3}
+Prove that $\text{Tr}(\alpha_i) = \text{Tr}(\beta) = 0$ where Tr is the matrix trace (sum of diagonal entries).
+\end{subexercise}
+\begin{solution}
+We can use condition (2),
+\[
+\alpha_i \beta + \beta \alpha_i &= 0, \quad i = 1, 2, 3  
+.\] 
+This implies,
+\[
+\alpha_i = -\beta^{-1}\alpha_i\beta
+.\] 
+We also use the fact that $\text{Tr}\left( AB \right) = \text{Tr}\left( BA \right) $.
+\[
+\text{Tr}\left(\alpha_i\right) = -\text{Tr}\left(\beta^{-1}(\alpha_i\beta)\right) = -\text{Tr}\left(\beta\beta^{-1}\alpha_i\right) = -\text{Tr}\left(\alpha_i\right)
+.\] 
+Which implies that the trace is zero.
+\end{solution}
+\begin{subexercise}{4}
+Prove that the eigenvalues of $\alpha_i$ and $\beta$ are all either +1 or -1.
+\end{subexercise}
+
+\begin{subexercise}{5}
+Prove that the dimensionality of $\alpha_i$ and $\beta$ is even.
+\end{subexercise}
+
+\begin{subexercise}{6}
+Argue that this implies that the dimension of $\alpha_i$ and $\beta$ must be at least 4.
+\end{subexercise}
+\end{document}

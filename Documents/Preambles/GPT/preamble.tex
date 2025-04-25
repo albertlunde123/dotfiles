@@ -1,0 +1,48 @@
+\documentclass[12pt,a4paper]{article}
+
+% Adjusting the margins
+\usepackage[left=3cm, right=3cm, top=2cm, bottom=2cm]{geometry}
+
+\usepackage{amsmath, amssymb}
+
+% Advanced box with tcolorbox
+\usepackage[most]{tcolorbox}
+
+\tcbuselibrary{theorems}
+
+% Definition environment
+\newtcolorbox[auto counter]{mydefinition}[1][]{
+  colback=white,
+  colframe=black,
+  colbacktitle=white,
+  coltitle=black,
+  fonttitle=\bfseries,
+  title={Definition \thetcbcounter:~},
+  sharp corners,
+  #1
+}
+
+% Theorem environment
+\newtcolorbox[auto counter]{mytheorem}[1][]{
+  colback=white,
+  colframe=black,
+  colbacktitle=white,
+  coltitle=black,
+  fonttitle=\bfseries,
+  title={Theorem \thetcbcounter:~},
+  sharp corners,
+  #1
+}
+
+% Custom chapter style
+\usepackage{titlesec}
+\titleformat{name=\section}[block]
+  {\normalfont\Large\bfseries}
+  {}{0pt}
+  {\filcenter\uppercase}
+\titlespacing*{\section}
+  {0pt}{2.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+
+% For placing notes in the margin
+\usepackage{marginnote}
+\renewcommand*{\marginfont}{\small\itshape}

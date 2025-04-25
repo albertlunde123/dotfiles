@@ -1,0 +1,38 @@
+2025-04-08 21:52:46.943 [info] Extension host with pid 692687 started
+2025-04-08 21:52:46.944 [info] Skipping acquiring lock for /home/albert/.config/Cursor/User/workspaceStorage/d009f5bce0e440a888bc5c5cb89b8814.
+2025-04-08 21:52:47.076 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-08 21:52:47.128 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-04-08 21:52:48.257 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-08 21:52:48.784 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-04-08 21:52:48.895 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-04-08 21:52:49.057 [info] Extension host with pid 692760 started
+2025-04-08 21:52:49.058 [info] Skipping acquiring lock for /home/albert/.config/Cursor/User/workspaceStorage/d009f5bce0e440a888bc5c5cb89b8814.
+2025-04-08 21:52:49.058 [info] Eager extensions activated
+2025-04-08 21:52:49.262 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-04-08 21:52:50.084 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-08 21:52:50.229 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-08 21:52:50.465 [info] Eager extensions activated
+2025-04-08 21:52:50.507 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-04-08 21:52:50.919 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-04-08 21:52:51.399 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-04-08 21:52:51.508 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-04-08 21:52:51.797 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-08 21:52:51.804 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-09 10:54:39.654 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-04-09 22:24:19.844 [info] Extension host terminating: renderer closed the MessagePort
+2025-04-09 22:24:19.848 [info] Extension host terminating: renderer closed the MessagePort
+2025-04-09 22:24:19.849 [error] TypeError: r.some is not a function
+	at h.saveToDisk (/home/albert/.cursor/extensions/vscodevim.vim-1.29.0/out/extension.js:2:663045)
+	at t.deactivate (/home/albert/.cursor/extensions/vscodevim.vim-1.29.0/out/extension.js:2:177330)
+	at $Yt.eb (file:///tmp/.mount_CursorCtfcH2/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:11894)
+	at file:///tmp/.mount_CursorCtfcH2/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:10043
+	at Array.map (<anonymous>)
+	at $Yt.$ (file:///tmp/.mount_CursorCtfcH2/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:10031)
+	at $Yt.terminate (file:///tmp/.mount_CursorCtfcH2/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:10274)
+	at pmt.terminate (file:///tmp/.mount_CursorCtfcH2/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:1435)
+	at jr (file:///tmp/.mount_CursorCtfcH2/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:15170)
+	at MessagePortMain.<anonymous> (file:///tmp/.mount_CursorCtfcH2/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:11700)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-04-09 22:24:19.849 [info] Extension host with pid 692760 exiting with code 0
+2025-04-09 22:24:19.944 [info] Extension host with pid 692687 exiting with code 0

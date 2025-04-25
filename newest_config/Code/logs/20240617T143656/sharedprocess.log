@@ -1,0 +1,290 @@
+2024-06-17 14:37:04.946 [info] Getting Manifest... asvetliakov.vscode-neovim
+2024-06-17 14:37:04.948 [info] Getting Manifest... github.copilot
+2024-06-17 14:37:04.949 [info] Getting Manifest... ms-python.python
+2024-06-17 14:37:04.951 [info] Getting Manifest... ms-python.vscode-pylance
+2024-06-17 14:37:04.952 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2024-06-17 14:37:05.123 [info] Installing extension: ms-python.python
+2024-06-17 14:37:05.138 [info] Installing extension: ms-python.vscode-pylance
+2024-06-17 14:37:05.141 [info] Installing extension: github.copilot
+2024-06-17 14:37:05.189 [info] Installing extension: asvetliakov.vscode-neovim
+2024-06-17 14:37:05.208 [info] Installing extension: ms-toolsai.jupyter-renderers
+2024-06-17 14:37:06.446 [info] Getting Manifest... ms-python.python
+2024-06-17 14:37:06.532 [info] Waiting for already requested installing extension ms-python.python ms-python.vscode-pylance
+2024-06-17 14:37:10.418 [info] Extension signature verification result for asvetliakov.vscode-neovim: Success. Duration: 2521ms.
+2024-06-17 14:37:10.693 [info] Extracted extension to file:///home/albert/.vscode/extensions/asvetliakov.vscode-neovim-1.17.2: asvetliakov.vscode-neovim
+2024-06-17 14:37:10.725 [info] Renamed to /home/albert/.vscode/extensions/asvetliakov.vscode-neovim-1.17.2
+2024-06-17 14:37:10.728 [info] Extracting extension completed. asvetliakov.vscode-neovim
+2024-06-17 14:37:10.752 [info] Extension installed successfully: asvetliakov.vscode-neovim
+2024-06-17 14:37:10.774 [info] Marked extension as uninstalled asvetliakov.vscode-neovim-1.15.0
+2024-06-17 14:37:10.820 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp'
+    at a.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30019)
+    at b (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30130)
+    at t.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async J.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109501)
+2024-06-17 14:37:11.173 [info] Extension signature verification result for ms-python.python: Success. Duration: 2957ms.
+2024-06-17 14:37:12.077 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Duration: 2610ms.
+2024-06-17 14:37:12.175 [info] Extension signature verification result for github.copilot: Success. Duration: 2540ms.
+2024-06-17 14:37:12.945 [info] Extension signature verification result for ms-toolsai.jupyter-renderers: Success. Duration: 2591ms.
+2024-06-17 14:37:13.059 [info] Extracted extension to file:///home/albert/.vscode/extensions/github.copilot-1.203.0: github.copilot
+2024-06-17 14:37:13.074 [info] Renamed to /home/albert/.vscode/extensions/github.copilot-1.203.0
+2024-06-17 14:37:13.077 [info] Extracting extension completed. github.copilot
+2024-06-17 14:37:13.095 [info] Extension installed successfully: github.copilot
+2024-06-17 14:37:13.100 [info] Marked extension as uninstalled github.copilot-1.198.0
+2024-06-17 14:37:13.144 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp'
+    at a.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30019)
+    at b (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30130)
+    at t.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async J.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109501)
+2024-06-17 14:37:13.492 [info] Extracted extension to file:///home/albert/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.18: ms-toolsai.jupyter-renderers
+2024-06-17 14:37:13.507 [info] Renamed to /home/albert/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.18
+2024-06-17 14:37:13.510 [info] Extracting extension completed. ms-toolsai.jupyter-renderers
+2024-06-17 14:37:13.530 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2024-06-17 14:37:13.536 [info] Marked extension as uninstalled ms-toolsai.jupyter-renderers-1.0.17
+2024-06-17 14:37:13.593 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp'
+    at a.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30019)
+    at b (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30130)
+    at t.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async J.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109501)
+2024-06-17 14:37:14.748 [info] Extracted extension to file:///home/albert/.vscode/extensions/ms-python.python-2024.8.1: ms-python.python
+2024-06-17 14:37:14.767 [info] Renamed to /home/albert/.vscode/extensions/ms-python.python-2024.8.1
+2024-06-17 14:37:14.771 [info] Extracting extension completed. ms-python.python
+2024-06-17 14:37:14.799 [info] Extension installed successfully: ms-python.python
+2024-06-17 14:37:14.799 [info] Finished waiting for already requested installing extension ms-python.python ms-python.vscode-pylance
+2024-06-17 14:37:14.814 [info] Marked extension as uninstalled ms-python.python-2024.6.0
+2024-06-17 14:37:14.815 [info] Marked extension as uninstalled ms-python.python-2024.4.1
+2024-06-17 14:37:14.863 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp'
+    at a.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30019)
+    at b (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30130)
+    at t.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async J.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109501)
+2024-06-17 14:37:17.828 [info] Extracted extension to file:///home/albert/.vscode/extensions/ms-python.vscode-pylance-2024.6.1: ms-python.vscode-pylance
+2024-06-17 14:37:17.850 [info] Renamed to /home/albert/.vscode/extensions/ms-python.vscode-pylance-2024.6.1
+2024-06-17 14:37:17.853 [info] Extracting extension completed. ms-python.vscode-pylance
+2024-06-17 14:37:17.871 [info] Extension installed successfully: ms-python.vscode-pylance
+2024-06-17 14:37:17.877 [info] Marked extension as uninstalled ms-python.vscode-pylance-2024.5.1
+2024-06-17 14:37:17.936 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp'
+    at a.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30019)
+    at b (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30130)
+    at t.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async J.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109501)
+2024-06-17 14:37:29.367 [info] Getting Manifest... github.copilot-chat
+2024-06-17 14:37:29.368 [info] Getting Manifest... ms-toolsai.jupyter
+2024-06-17 14:37:29.399 [info] Installing extension: github.copilot-chat
+2024-06-17 14:37:29.418 [info] Installing extension: ms-toolsai.jupyter
+2024-06-17 14:37:32.350 [info] Extension signature verification result for github.copilot-chat: Success. Duration: 1545ms.
+2024-06-17 14:37:32.610 [info] Extracted extension to file:///home/albert/.vscode/extensions/github.copilot-chat-0.16.1: github.copilot-chat
+2024-06-17 14:37:32.622 [info] Renamed to /home/albert/.vscode/extensions/github.copilot-chat-0.16.1
+2024-06-17 14:37:32.624 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:37:32.625 [info] Extracting extension completed. github.copilot-chat
+2024-06-17 14:37:32.643 [info] Extension installed successfully: github.copilot-chat
+2024-06-17 14:37:32.708 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp'
+    at a.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30019)
+    at b (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30130)
+    at t.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async J.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109501)
+2024-06-17 14:37:33.637 [info] Extension signature verification result for ms-toolsai.jupyter: Success. Duration: 1663ms.
+2024-06-17 14:37:33.942 [info] Extracted extension to file:///home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64: ms-toolsai.jupyter
+2024-06-17 14:37:33.955 [info] Renamed to /home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64
+2024-06-17 14:37:33.960 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:37:33.961 [info] Extracting extension completed. ms-toolsai.jupyter
+2024-06-17 14:37:33.977 [info] Extension installed successfully: ms-toolsai.jupyter
+2024-06-17 14:37:34.040 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp'
+    at a.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30019)
+    at b (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30130)
+    at t.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async J.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109501)
+2024-06-17 14:38:03.112 [info] Getting Manifest... dart-code.flutter
+2024-06-17 14:38:03.134 [info] Installing extension: dart-code.flutter
+2024-06-17 14:38:03.246 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:38:03.248 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:38:03.681 [info] Getting Manifest... dart-code.dart-code
+2024-06-17 14:38:03.775 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:38:03.776 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:38:03.793 [info] Installing extension: dart-code.dart-code
+2024-06-17 14:38:03.926 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:38:03.929 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:38:03.933 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:38:03.935 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:38:04.346 [info] Getting Manifest... alexisvt.flutter-snippets
+2024-06-17 14:38:04.354 [info] Installing extension: alexisvt.flutter-snippets
+2024-06-17 14:38:04.422 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:38:04.424 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:38:04.527 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:38:04.527 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:38:04.598 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:38:04.599 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:38:06.195 [info] Extension signature verification result for dart-code.flutter: Success. Duration: 1474ms.
+2024-06-17 14:38:06.212 [info] Extracted extension to file:///home/albert/.vscode/extensions/dart-code.flutter-3.90.0: dart-code.flutter
+2024-06-17 14:38:06.224 [info] Renamed to /home/albert/.vscode/extensions/dart-code.flutter-3.90.0
+2024-06-17 14:38:06.226 [info] Extracting extension completed. dart-code.flutter
+2024-06-17 14:38:06.309 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp'
+    at a.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30019)
+    at b (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30130)
+    at t.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async J.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109501)
+2024-06-17 14:38:07.505 [info] Extension signature verification result for alexisvt.flutter-snippets: Success. Duration: 1448ms.
+2024-06-17 14:38:07.529 [info] Extracted extension to file:///home/albert/.vscode/extensions/alexisvt.flutter-snippets-3.0.0: alexisvt.flutter-snippets
+2024-06-17 14:38:08.138 [info] Renamed to /home/albert/.vscode/extensions/alexisvt.flutter-snippets-3.0.0
+2024-06-17 14:38:08.139 [info] Extracting extension completed. alexisvt.flutter-snippets
+2024-06-17 14:38:08.778 [info] Extension installed successfully: alexisvt.flutter-snippets
+2024-06-17 14:38:09.031 [info] Extension signature verification result for dart-code.dart-code: Success. Duration: 1544ms.
+2024-06-17 14:38:19.443 [info] Extracted extension to file:///home/albert/.vscode/extensions/dart-code.dart-code-3.90.0: dart-code.dart-code
+2024-06-17 14:38:19.460 [info] Renamed to /home/albert/.vscode/extensions/dart-code.dart-code-3.90.0
+2024-06-17 14:38:19.462 [info] Extracting extension completed. dart-code.dart-code
+2024-06-17 14:38:19.479 [info] Extension installed successfully: dart-code.flutter
+2024-06-17 14:38:19.479 [info] Extension installed successfully: dart-code.dart-code
+2024-06-17 14:38:19.546 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albert/.vscode/extensions/extensions.json.vsctmp'
+    at a.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30019)
+    at b (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30130)
+    at t.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async J.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109501)
+2024-06-17 14:42:03.055 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:42:03.061 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:47:03.156 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:47:03.159 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:52:03.266 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:52:03.268 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:57:03.402 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 14:57:03.406 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 15:02:03.525 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 15:02:03.528 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 15:07:03.760 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 15:07:03.762 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 15:12:03.807 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 15:12:03.810 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 15:17:03.856 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 15:17:03.857 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 15:22:03.903 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 15:22:03.904 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 15:27:03.970 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 15:27:03.975 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 15:32:04.069 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 15:32:04.072 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 15:37:04.125 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 15:37:04.127 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 15:42:04.176 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 15:42:04.178 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 15:47:04.238 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 15:47:04.240 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:02:46.981 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:02:46.984 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:07:47.265 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:07:47.267 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:12:47.379 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:12:47.382 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:17:46.703 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:17:46.706 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:22:46.823 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:22:46.827 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:27:46.886 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:27:46.888 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:32:46.988 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:32:46.992 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:37:47.116 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:37:47.123 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:42:47.190 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:42:47.191 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:47:47.247 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:47:47.249 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:52:47.359 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:52:47.362 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:57:47.505 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 20:57:47.512 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:02:47.630 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:02:47.634 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:07:47.894 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:07:47.896 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:12:48.003 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:12:48.008 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:17:48.070 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:17:48.071 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:22:48.180 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:22:48.184 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:27:48.293 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:27:48.295 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:32:48.428 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:32:48.430 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:37:48.516 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:37:48.517 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:42:48.593 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:42:48.598 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:47:49.242 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:47:49.268 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:52:50.310 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:52:50.318 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:57:50.450 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 21:57:50.453 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:02:50.531 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:02:50.533 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:07:50.782 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:07:50.784 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:12:50.835 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:12:50.836 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:17:50.881 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:17:50.884 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:22:50.975 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:22:50.985 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:27:51.118 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:27:51.118 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:32:51.176 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:32:51.179 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:37:51.495 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:37:51.537 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:42:51.776 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:42:51.776 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:47:51.841 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:47:51.843 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:52:52.008 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:52:52.010 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:57:52.077 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 22:57:52.079 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:02:52.124 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:02:52.125 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:07:52.388 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:07:52.390 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:12:52.439 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:12:52.441 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:17:52.586 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:17:52.600 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:22:52.691 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:22:52.694 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:27:52.742 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:27:52.743 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:32:52.791 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:32:52.794 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:37:52.842 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:37:52.844 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:42:52.901 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:42:52.903 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:47:53.002 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:47:53.004 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:52:53.132 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:52:53.140 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:57:53.234 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-17 23:57:53.237 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-18 00:02:53.374 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-18 00:02:53.376 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-18 00:07:53.655 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-18 00:07:53.656 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-18 00:12:53.740 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-18 00:12:53.742 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-18 00:17:53.849 [error] [/home/albert/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
+2024-06-18 00:17:53.851 [error] [/home/albert/.vscode/extensions/ms-toolsai.jupyter-2024.5.0-linux-x64]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.

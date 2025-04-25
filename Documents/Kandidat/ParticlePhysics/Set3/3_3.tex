@@ -1,0 +1,120 @@
+\documentclass[working, oneside]{../../../Preambles/tuftebook}
+\input{../../../Preambles/colors}
+\input{../../../Preambles/preamble}
+\input{../../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{3 - Dirac Spinors in the Weyl Representation}
+
+Here we explore a different representation of the Dirac matrices, \( \gamma_\mu \), that will generate slightly different expressions for the explicit solutions. Let us define the so-called Weyl representation
+\begin{align*}
+\gamma^0
+&= \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \quad \gamma^i = \begin{pmatrix} 0 & \sigma_i \\ -\sigma_i & 0 \end{pmatrix}, \quad \text{and} \quad \gamma_5 = \begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix}. \tag{18}
+\end{align*}
+We take the positive energy solutions to have the form
+\begin{align*}
+\psi_s
+&= u_s(p) e^{-i p x} = (\not{p} + m) \begin{bmatrix} \chi_s \\ 0 \end{bmatrix} e^{-i p x}, \tag{19}
+\end{align*}
+and the negative energy ones to be
+\begin{align*}
+\psi_s
+&= v_s(p) e^{i p x} = (\not{p} - m) \begin{bmatrix} 0 \\ \chi_{-s} \end{bmatrix} e^{i p x}, \tag{20}
+\end{align*}
+where \( \chi_s \) are 2-spinors with quantization axis along the direction of momentum \( \mathbf{p} \) with projection \( s = \pm 1 \).
+
+\begin{exercise}[1]
+Find the explicit form of the spinors if we insist on the normalization \( \overline{\psi} \psi = 2m \) for positive energy solutions and \( \overline{\psi} \psi = -2m \) for negative energy solutions.
+\end{exercise}
+\begin{solution}
+\begin{align*}
+\Psi_s
+&= A (\not{p} + m) \begin{bmatrix} \chi_s \\ 0 \end{bmatrix} e^{-i p x} \\
+\overline{\Psi} \Psi
+&= \Psi^\dagger \gamma^0 \Psi = A^2 \Psi^\dagger \gamma^0 (\not{p} + m) \begin{bmatrix} \chi_s \\ 0 \end{bmatrix} \\
+&= A^2 \Psi^\dagger \gamma^0 (\not{p} + m\mathbb{I}) \begin{bmatrix} \chi_s \\ 0 \end{bmatrix} \\
+&= A^2 \Psi^\dagger \gamma^0 \begin{bmatrix}
+    E+m & -\mathbf{\sigma}\cdot \mathbf{p} \\
+     \mathbf{\sigma}\cdot \mathbf{p}& m -E  \\
+\end{bmatrix}
+\begin{bmatrix} \chi_s \\ 0 \end{bmatrix} \\
+&= A^2 \Psi^\dagger  \begin{bmatrix}
+    E+m & -\mathbf{\sigma}\cdot \mathbf{p} \\
+     \mathbf{\sigma}\cdot \mathbf{p}& E - m  \\
+\end{bmatrix}
+\begin{bmatrix} \chi_s \\ 0 \end{bmatrix} \\
+&= A^2 \Psi^\dagger 
+\begin{bmatrix}
+    \left( E + m \right) \chi _s  \\
+    \mathbf{\sigma}\cdot \mathbf{p }\chi _s \\
+\end{bmatrix} = A^2 \left( \left( \not{p} + \mathbb{I} \right) ^\dagger
+\begin{bmatrix}
+    \chi _s \\
+    0 \\
+\end{bmatrix}
+\right)  
+\begin{bmatrix}
+    \left( E + m \right) \chi _s  \\
+    \mathbf{\sigma}\cdot \mathbf{p }\chi _s \\
+\end{bmatrix} \\
+&=  A^2
+\begin{bmatrix}
+    \chi _s^\dagger&0 \\
+\end{bmatrix}
+\begin{bmatrix}
+    E+m & -\mathbf{\sigma}\cdot \mathbf{p} \\
+     \mathbf{\sigma}\cdot \mathbf{p}& m -E  \\
+\end{bmatrix}^{T}
+\begin{bmatrix}
+    \left( E + m \right) \chi _s  \\
+    \mathbf{\sigma}\cdot \mathbf{p }\chi _s \\
+\end{bmatrix} \\
+&=  A^2
+\begin{bmatrix}
+    \chi _s^\dagger&0 \\
+\end{bmatrix}
+\begin{bmatrix}
+    E+m & \mathbf{\sigma}\cdot \mathbf{p} \\
+     -\mathbf{\sigma}\cdot \mathbf{p}& m -E  \\
+\end{bmatrix}
+\begin{bmatrix}
+    \left( E + m \right) \chi _s  \\
+    \mathbf{\sigma}\cdot \mathbf{p }\chi _s \\
+\end{bmatrix} \\
+&=
+\begin{bmatrix}
+    \chi _s^\dagger&0 \\
+\end{bmatrix}
+\begin{bmatrix}
+    \left( E + m \right) ^2 \chi _s + \left( \mathbf{\sigma} \cdot \mathbf{p} \right) ^2 \chi _s \\
+    -\left( \mathbf{\sigma} \cdot \mathbf{p} \right) \left( E + m \right) \chi _s + \left( \mathbf{\sigma} \cdot \mathbf{p} \right)\left( m - E \right)  \chi _s \\
+\end{bmatrix} \\
+    =& A^2 \left( \left( E + m \right) ^2 + \left( \mathbf{\sigma}\cdot \mathbf{p} \right) ^2 \right) = A^2\left( E^2 + m^2 + 2mE + p^2 \right) = A^2\left( 2E\left( E+m \right)  \right) = 2m \\ 
+% &= \begin{bmatrix} (\not{p} + m)^\dagger \begin{bmatrix} \chi_s \\ 0 \end{bmatrix} \end{bmatrix}^\dagger \begin{bmatrix} (E + m) \chi_s \\ \boldsymbol{\sigma} \cdot \mathbf{p} \chi_s \end{bmatrix}, \\
+% &= A^2 \begin{bmatrix} \chi_s^\dagger & 0 \end{bmatrix} \begin{bmatrix} (E + m) & -\boldsymbol{\sigma} \cdot \mathbf{p} \\ \boldsymbol{\sigma} \cdot \mathbf{p} & (E - m) \end{bmatrix} \begin{bmatrix} (E + m) \chi_s \\ \boldsymbol{\sigma} \cdot \mathbf{p} \chi_s \end{bmatrix}, \\
+% &= A^2 \begin{bmatrix} \chi_s^\dagger & 0 \end{bmatrix} \begin{bmatrix} (E + m) \chi_s \\ \boldsymbol{\sigma} \cdot \mathbf{p} \chi_s \end{bmatrix}, \\
+% &= A^2 \left[ \chi_s^\dagger \quad 0 \right] \begin{bmatrix} (E + m) & \boldsymbol{\sigma} \cdot \mathbf{p} \\ \boldsymbol{\sigma} \cdot \mathbf{p} & m - E \end{bmatrix} \begin{bmatrix} (E + m) \chi_s \\ \boldsymbol{\sigma} \cdot \mathbf{p} \chi_s \end{bmatrix}, \\
+% &= A^2 \begin{bmatrix} \chi_s^\dagger & 0 \end{bmatrix} \begin{bmatrix} (E + m) \chi_s \\ \boldsymbol{\sigma} \cdot \mathbf{p} \chi_s \end{bmatrix}, \\
+% &= A^2 \left[ \chi_s^\dagger \quad 0 \right] \begin{bmatrix} (E + m)^2 \chi_s + (\boldsymbol{\sigma} \cdot \mathbf{p} \chi_s) \\ -(\boldsymbol{\sigma} \cdot \mathbf{p}) (E + m) \chi_s + (M - E) \boldsymbol{\sigma} \cdot \mathbf{p} \chi_s \end{bmatrix}, \\
+% &= A^2 \left[ (E + m)^2 + (\boldsymbol{\sigma} \cdot \mathbf{p}^2) \right], \\
+% &= A^2 (E^2 + m^2 + 2mE + \mathbf{p}^2) = A^2 (2E (E + M)) = 2m, \\
+\Rightarrow A
+&= \sqrt{\frac{2m}{2E (E + m)}} = \sqrt{\frac{m}{E (E + m)}}
+\end{align*}
+\end{solution}
+
+\begin{exercise}[2]
+Find the solutions in the massless limit, \( m = 0 \). How does the Dirac equation simplify in this limit?
+\end{exercise}
+
+\begin{exercise}[3]
+The Dirac Hamiltonian operator has the form \( H_D = -i \gamma^0 \boldsymbol{\gamma} \cdot \nabla + \gamma^0 m \). Introduce the helicity operator, \( h = \boldsymbol{\sigma} \cdot \mathbf{p} / |\mathbf{p}| \). Show that the Dirac operator and \( h \) commute. Note that the while \( h \) looks like a \( 2 \times 2 \) matrix due to the \( \boldsymbol{\sigma} \) part, when we apply it to 4-spinors it is understood that it is a \( 4 \times 4 \) matrix also (it has an implicit \( 2 \times 2 \) matrix multiplied on it). Argue that the spinors, \( \chi_s \), defined above are in fact the helicity eigenfunctions.
+\end{exercise}
+
+\begin{exercise}[4]
+Look the solutions in the massless limit from 2). Determine the helicity of the four solutions when \( m = 0 \). How is the spin and helicity connected for positive and negative energy solutions?
+\end{exercise}
+
+\end{document}

@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is '11_opgaver.blg'
+[87] biber:340> INFO - === Tue Mar 11, 2025, 10:38:46
+[102] Biber.pm:418> INFO - Reading '11_opgaver.bcf'
+[159] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[171] bbl.pm:654> INFO - Writing '11_opgaver.bbl' with encoding 'UTF-8'
+[171] bbl.pm:757> INFO - Output to 11_opgaver.bbl
+[171] Biber.pm:130> WARN - The file '11_opgaver.bcf' does not contain any citations!
+[171] Biber.pm:132> INFO - WARNINGS: 1

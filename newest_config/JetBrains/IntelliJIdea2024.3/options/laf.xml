@@ -1,0 +1,5 @@
+<application>
+  <component name="LafManager">
+    <laf themeId="JetBrainsHighContrastTheme" />
+  </component>
+</application>

@@ -1,0 +1,50 @@
+\documentclass[working, oneside]{../../../../Preambles/tuftebook}
+\input{../../../../Preambles/colors}
+\input{../../../../Preambles/preamble}
+\input{../../../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{Handin 5 - Progsprog}
+\begin{exercise}[102]
+When you have integrated the extensions described above, and made sure your Scala code compiles, add comments at all steps in the following parts of the interpreter to explain how they work:
+\begin{itemize}
+    \item case CallExp in the eval function
+    \item case NewObjExp in the eval function
+    \item case LookupExp in the eval function
+    \item the evalBlock function
+    \item the evalArgs function
+    \item the getValue function
+    \item the rebindClasses function
+\end{itemize}
+\end{exercise}
+\begin{exercise}[103]
+Add calls to trace at the beginning of case LookupExp and case NewObjExp in the interpreter. Then run examples/counter.s, examples/intlist.s, and examples/pingpong.s using the MiniScala interpreter with option -trace enabled. Explain the order of the resulting sequence of lookups and object creations. 
+\end{exercise}
+\begin{exercise}[106]
+ In weeks 4, 5, and 9, we have seen different ways of defining and implementing operational semantics of recursive functions, and in week 8, we saw how to encode recursive function definitions using a fixed-point combinator. Let's study recursion a bit further using the factorial function as an example. First, here is our ordinary MiniScala definition of factorial:
+ \begin{lstlisting}
+def fac(n: Int): Int = if (n == 0) 1 else n * fac(n - 1)
+ \end{lstlisting}
+It uses def, which permits recursion as we have seen in week 4. Here is another way to implement factorial:
+\begin{lstlisting}
+val fac2 = (f, n) => if (n == 0) 1 else n * f(f, n - 1);
+val fac = (n) => fac2(fac2, n)
+\end{lstlisting}
+Here, fac2 is a helper function for fac. Notice that neither of them use def (which permits recursive definitions) but val (which doesn't permit recursive definitions), and nevertheless, the resulting function is recursive! To understand how this works, try evaluating fac(3) by hand, step-by-step. (If you have implemented the -trace option in your MiniScala interpreter, you can use that to check your answer.)\\
+Explain, in your own words, how the new fac function works, in particular how it obtains recursion.
+\end{exercise}
+Let's start by evaluating \texttt{fac(3)} by hand in order to gain some intuition.
+\begin{align*}
+    \texttt{fac}\left( 3 \right) &= \texttt{fac2}\left( \texttt{fac2}, n \right) \left( 3 \right)  \\
+    &= \texttt{fac2}\left( \texttt{fac2}, 3 \right)  \\
+    &= \left( f, n \right) \left( \texttt{fac2}, 3 \right)  \\
+    &= 3 \cdot \texttt{fac2}\left( \texttt{fac2}, 2 \right)  \\
+    &= 3\cdot 2\cdot \texttt{fac2}\left( \texttt{fac2},1 \right)  \\
+    &= 3\cdot 2\cdot 1 \cdot \texttt{fac2}\left( \texttt{fac2},0 \right)  \\
+    &= 3\cdot 2\cdot 1\cdot 1 = 6 \\
+.\end{align*}
+While direct recursion isn't implemented in \texttt{ValDecl}, we can still achieve it with this setup. What allows to achieve it is the definition of \texttt{fac2}, which passes some function \texttt{f} along in each call, evaluating it repeatedly until \texttt{n=0}. Since the function is passed along it can be accessed at each step. The neat trick is, that while self-referencing isn't allowed for \texttt{ValDecl}s, \texttt{fac2} doesn't explicitly reference itself, it instead references some generic function \texttt{f}. The recursion is then achieved by defining \texttt{fac}, which gives  \texttt{fac2} as an argument to itself.
+
+\end{document}

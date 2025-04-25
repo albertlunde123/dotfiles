@@ -14,7 +14,16 @@ A.nvim_create_autocmd('TextYankPost', {
     end,
 })
 
+-- A.nvim_create_autocmd("BufEnter", {
+--   pattern = "*", -- Apply to all buffers
+--   callback = function()
+--     if vim.bo.filetype == "" then
+--       vim.cmd("filetype detect") 
+--     end
+--   end
+-- })
 
+-- vim.cmd("au BufNewFile,BufRead * filetype detect")
 
 local leader = "<leader>"
 -- function on_python_filetype()
@@ -26,10 +35,10 @@ function on_python_filetype()
     vim.api.nvim_set_keymap("n", vim.g.mapleader .. "ll", ":w<CR>" .. ":lua run_in_term()<CR>", {noremap = true, silent = true})
 end
 
-function on_txt_filetype()
-    -- disable copilot
-    A.nvim_command("autocmd FileType txt Copilot disable")
-end
+-- function on_txt_filetype()
+--     -- disable copilot
+--     A.nvim_command("autocmd FileType txt Copilot disable")
+-- end
 
 function run_in_term()
     local term_found = false
@@ -54,6 +63,7 @@ end
 A.nvim_command("autocmd FileType python lua on_python_filetype()")
 A.nvim_command("autocmd BufNewFile *.py lua on_python_filetype()")
 A.nvim_command("autocmd FileType txt lua on_txt_filetype()")
+-- A.nvim_command("autocmd BufEnter *.py lua on_python_filetype()")
 
 -- Setup som latex-keybindings
 function on_latex_filetype()
@@ -65,11 +75,15 @@ function on_latex_filetype()
 end
 
 -- disable copilot on latex filetype
-A.nvim_command("autocmd FileType tex Copilot disable")
-
+-- A.nvim_command("autocmd FileType tex Copilot disable")
 A.nvim_command("autocmd FileType tex lua on_latex_filetype()")
 A.nvim_command("autocmd FileType latex lua on_latex_filetype()")
 A.nvim_command("autocmd FileType markdown lua on_latex_filetype()")
+
+
+-- Ensure that .qss files are treated as css
+A.nvim_command("autocmd BufNewFile,BufRead *.qss setfiletype css")
+
 
 -- Setup some bash-keybindings
 function on_bash_filetype()
@@ -111,6 +125,3 @@ function toggle_github_copilot()
 end
 
 vim.api.nvim_set_keymap("n", "<leader>cc", ":lua toggle_github_copilot()<CR>", {noremap = true, silent = true})
-
-
-

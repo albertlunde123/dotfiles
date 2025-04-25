@@ -6,3 +6,25 @@ snippet @book "book" i
 	publisher = {$5}
 }
 endsnippet
+
+snippet art "article" i
+@article{$1,
+	author = {$2},
+	year = {$3},
+	title = {$4},
+	journal = {$5},
+	volume = {$6},
+	number = {$7},
+	pages = {$8}
+}
+endsnippet
+
+snippet onl "online" i
+@online{$1,
+	author = {$2},
+	year = {$3},
+	title = {$4},
+	url = {$5},
+	urldate = {$6}
+}
+endsnippet

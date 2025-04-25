@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "Wikipedia夜间模式使您可以在黑暗或低光下在Wikipedia网站上更舒适地工作"
+   },
+   "name": {
+      "message": "维基百科夜间模式"
+   },
+   "short_name": {
+      "message": "Wikipedia站点为深色主题，Wikipedia站点为夜间模式"
+   }
+}

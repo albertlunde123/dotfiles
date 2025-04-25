@@ -1,9 +1,9 @@
+require('plugins')
 require('settings')
 require('keybindings')
 require('autocommands')
-require('plugins')
 require('todo')
-require('i3')
+-- require('i3')
 -- require('functions')
 require('floating_window')
 
@@ -50,6 +50,14 @@ function write_selection_to_file()
   
   open_floating_window()
   
+end
+
+
+function MagmaInitPython()
+    vim.cmd[[
+    :MagmaInit python
+    :MagmaEvaluateArgument a=5
+    ]]
 end
 vim.api.nvim_set_keymap('v', '<leader>w', ':<C-u>lua write_selection_to_file()<CR>', {noremap = true, silent = true})
 

@@ -1,0 +1,22 @@
+2024-06-04 14:27:05.696 [info] MainController: starting nvim: /usr/bin/nvim -N --embed --cmd source /home/albert/.vscode/extensions/asvetliakov.vscode-neovim-1.15.0/runtime/vscode-neovim.vim
+2024-06-04 14:27:05.991 [info] MainController: Nvim info: {
+  configFile: '/home/albert/.config/nvim/init.lua',
+  logFile: '/home/albert/.local/state/nvim/log',
+  nvimVersion: {
+    api_prerelease: false,
+    minor: 11,
+    build: null,
+    major: 0,
+    prerelease: true,
+    api_compatible: 0,
+    patch: 0,
+    api_level: 12
+  },
+  configDir: '/home/albert/.config/nvim'
+}
+2024-06-04 14:27:06.081 [info] MessagesManager: Loading treesitter.lua
+2024-06-04 14:27:06.377 [info] MessagesManager: vim.tbl_add_reverse_lookup is deprecated. Run ":checkhealth vim.deprecated" for more information
+2024-06-04 14:27:08.742 [warning] DocumentChangeManager: Can't get last known neovim content for vscode://schemas/settings/user, skipping
+2024-06-04 14:27:09.557 [warning] DocumentChangeManager: Can't get last known neovim content for vscode://schemas/settings/resourceLanguage, skipping
+2024-06-04 14:27:09.827 [warning] DocumentChangeManager: Can't get last known neovim content for vscode://schemas/settings/user, skipping
+2024-06-04 14:27:10.841 [warning] DocumentChangeManager: Can't get last known neovim content for vscode://schemas/settings/user, skipping

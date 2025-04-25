@@ -1,0 +1,455 @@
+\documentclass[working, oneside]{../../../Preambles/marginclass}
+\input{../../../Preambles/colors}
+\input{../../../Preambles/preamble}
+\input{../../../Preambles/symbols}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+
+
+\chapter{Part 1}
+%%%%%%%%%%%%%%%%%%%%%%
+% gaussian processes %
+%%%%%%%%%%%%%%%%%%%%%%
+\section{Atomic Clusters}
+As mentioned, this project concerns itself with methods for finding the optimal configuration (in space) of atomic clusters. This is usually the configuration with the lowest energy. Giving a cluster of $N$ atoms, we immediately see that the dimensionality of the problem is $3N$ corresponding to $3$-directions each atom is able to move in. As a result, the dimensionality and therefore complexity grows quickly with the number of atoms we consider. 
+\\
+In addition to this, calculating the energy of an atomic cluster, is a complicated matter aswell. In order to get a precise answer, that enables us to distinguish between similar configurations, advanced methods like \textit{density functional theory} are required. These methods have an enormous time complexity and can take multiple minutes, to calculate the energy of even simple systems on a regular computer. In order to overcome this, we will employ a variety of neat techniques. \\
+Our choice of $AU-10$ strikes a good balance of being simple enough to solve, while still requiring some thought.
+\section{Global Optimization of expensive black-box functions}
+Global optimization, concerns itself with finding global minima or maxima of vast spaces. When searching these spaces, there are essentially two liminiting factors, that we have to account. These are the size and dimensionality of the space, and the computational cost of evaluating a point in the space. Lets start by focusing on the latter. \\
+Lets say we have some continuous space $X$, and a function over it $f$. Our goal is to find to the global minumum of $f$, i.e. the point,
+ \[
+     \argmin_{v \in V} lr{f\left( V \right)} 
+.\]
+There are a variety of classical methods that can accomplish this, a common one being gradient descent. In gradient descent, a random point $v' \in V$ is chosen as the outset. Points in the vicinity of $v'$ are evaluated in $f$, and the point that minimizes the gradient is chosen. This process continues, until a stalling point is reached. However, when $f$ is expensive to compute, a so-called \textit{expensive black-box function}, methods that seek to evaluate $f$ repeatedly become ineffective. For this reason, we must find methods that limit the number of evaluations we require to progress. In the next section, we will explore the use of statistical \textit{surrogate models}, that allow us to accomplish this. 
+\\
+The other issue, that we have to contend with, is the size and dimensionality of the configuration space. When this space, grows large enough it impossible becomes for a computer to store it in memory and therefore infeasible to probe the entire space. In this case, we must rely on our knowledge $f$ to rule out certain sections of the space. In the context of atomic clusters, we might, as an example, rule out sections correspoding to individual atoms overlapping, as this clearly contradicts our knowledge of physics. A variety of algorithmic methods exist aswell, but in this project we will limit ourselves to the use physical assumptions.
+\section{Surrogate Models}
+A surrogate model $\bm{G}$ is a statistical model, that aims to approximate the expensive black-box function $f$. This is especially useful, when the underlying structure of $f$ isn't well understood.  The main benefit of such a model, is that evaluating it is much cheaper than evaluating $f$. In practice, we use $G$ to select the point $v \in V$ that we should evaluate in $f$. In theory, this should allow us to make progress, while limiting the amount of times we are required to evaluate $f$.Explained briefly, the use of a surrogate model works in the following way,
+\begin{enumerate}
+    \item An initial set of points $X = \left\{ x_1, \ldots, x_n \right\} $ from the configuration space is intelligently chosen. Ideally, they are sampled from regions, that we by prior knowledge know will be of interest.
+    \item The surrogate model is trained on the data.
+    \item Using some metric, $G$ is probed for points of interest.
+    \item $f$ is evaluated at these points, and $G$ is updated.
+    \item Steps 2-4 are repeated.
+\end{enumerate}
+\section{Gaussian Process Regression}
+As described in the previous section, we make use of a surrogate model to give an intermediate view of the energy landscape. We construct this surrogate, using a method known as \textit{gaussian process regression} (GPR). This method has the benefits of being parameter free, simple and the ability to interpolate data perfectly. In this section I will provide a brief overview of the method aswell as some examples. We start with some definitions,
+\marginfig{../figures/GPR/GP_prior.jpg}
+% \margintext{4 randomly sampled functions from a gaussian process with the radial basis kernel. Since this kernel is differentiable, the sampled functions are smooth.}
+\subsection{Gaussian Process}
+A gaussian process is a special case of so-called random processes. A random process is an infinite collection of random variables $\left\{ X_t, t \in T \right\} $, where $T$ is some (continuous) index set. The way in which the $X_T$ relate to one another, determines the type of random process. For gaussian processes the joint distribution of any finite subset $X_{1, \ldots, n}$ is a multivariate normal gaussian,
+\[
+X_{1, \ldots, n} = \left( X_1, \ldots, X_n \right) \sim N\left( 0, \Sigma \right) 
+.\] 
+Where $\Sigma$ is the covariance matrix, which can be calculated using the GP's associated \textit{kernel} $K$ in the following way,
+\[
+\Sigma_{ij} = K\left( X_i, X_j \right) 
+.\] 
+Where the kernel is some positive function. The behaviour of a GP, is therefore completely determined by the choice of kernel. A GP, can be viewed as a distribution over functions, where the functions domain is the index set $T$ and its image, the possible realizations of the variables $X_t$. The general shape of the function, whether it is continuous, periodic and so forth, is determined by the kernel. A common choice of kernel, is the \textit{radial basis function}
+\[
+    K_{RBF}\left( X_i, X_j \right) = \exp\left(-\frac{\left| X_i - X_j \right| ^2}{\theta }\right) 
+,\] 
+which has the nice property of being infinitely differentiable. The constant $\theta $ is a hyperparameter, which is used to tune the kernel. A variety of sampled functions is shown in the FIG.
+\subsection{Regression}
+In general, we are not interested in sampling random functions. Instead we want to use our GP to make predictions. Let us assume that we want to model a real-valued function $f$, whose domain is an interval $I \subset \mathbb{R}$. Let $X = \left\{ X_1, \ldots, X_n \right\}$ be our data points and $f\left( X \right) $ their "true" values. Our goal is to use this data to predict the value of $f$ at a new point $\widetilde{x}$. The first step, is to construct the joint probability distribution,
+\marginfig{../figures/GPR/GP_posterior.jpg}
+% \margintext{A simple regression for a sine wave (shown in yellow). Notice that the fit (purple) interpolates the data! The uncertainty is displayed in green. As expected, the uncertainty tends to zero in proximity of the data points.}
+\[
+\left( X, \widetilde{x} \right) \sim N\left( 0, 
+\begin{bmatrix}
+    \Sigma_{XX} & \Sigma_{X\widetilde{x}} \\
+     \Sigma_{\widetilde{x}X}&  \Sigma_{\widetilde{x}\widetilde{x}}\\
+\end{bmatrix}\right) 
+.\]
+We can now condition on the true values of $X$, to obtain a conditional probability distribution for $\widetilde{x}$. I have chosen to leave out the derivation of this distribution as it is a bit cumbersome.
+ \[
+\left( X, \widetilde{x} \right) \mid X = f\left( X \right) \sim N\left( \mu\left( \widetilde{x}\right) , \sigma^2\left( \widetilde{x} \right)  \right) 
+.\] 
+where the mean and variance are given by,
+\begin{align*}
+    \mu \left( \widetilde{x} \right) &= \left(   \Sigma_{\widetilde{x}X}\Sigma_{XX}^{-1}\right) \cdot  f\left( X \right) \\
+    \sigma^2 \left( \widetilde{x} \right) &= \Sigma_{\widetilde{x}\widetilde{x}} - \Sigma_{\widetilde{x}X}\Sigma_{XX}^{-1}\Sigma_{X\widetilde{x}}
+.\end{align*}
+% \color{foreground} 
+We have thus obtained a prediction and uncertainty for $f\left( \widetilde{x} \right) $ given our data. FIG illustrates aan example. An important part of GPR, is the choice of kernel and hyperparameters. Since these fully determine the functions that a GP is able to reproduce, it is essential that they are chosen wisely. There exist a variety of methods that accomplish this, which we shall not delve into.
+% \end{document}
+
+\chapter{Search Methods}
+
+\marginfig[0pt]{../figures/LCB_illustration_2}
+% \margintext[0pt]{The LCB method, illustrated for a simple 1d-function. The blue line represents the surrogate model, while the red line represents the true function. The black line is the LCB aquisition function. Notice, how the LCB method tends to explore areas where the surrogate model has high uncertainty.}
+\marginfig[0pt]{../figures/LCB_illustration_05}
+\margintext[0pt]{The LCB method, illustrated for $\kappa = 0.5, 2$. As before, the green line represensts the surrogate model, while the area underneath it is the uncertainty scaled by kappa. Notice, that for a high value of $\kappa$, the method selects a point in an uncertain area. For the small value, it sticks to the area where it is already reasonably confident.}
+\subsection{Exploration vs. Exploitation}
+We have now constructed our surrogated model $\bm{G}$, which in theory should allow us to approximate the energy landscape. We still need to figure how to use $G$ in the most effective way. The question is, given the knowledge we can obtain from $G$, which point $x \in \Omega$, should we evaluate in $\bm{B}$ and update our model. There are a variety of methods we can employ, some of which will be explored shortly, but they all have to balance the tug and pull of exploration and exploitation. An overly exploitative method, tends to search areas where the model is already confident. This leads to quite precise predictions, but runs the risk of overlooking important areas, where the model is currently. An explorative method, prefers not to dwell in areas where the model has low uncertainty. While this reduces the chance of overlooking important areas, the model is not encouraged to explore areas in depth, even though they might contain the global minimum. A good search method balancesthe two, knowing when to explore new areas, and when to dive in and exploit the surrogate model in a specific area. 
+\subsection{Pure Exploitation}
+The simplest search method is to simply evaluate the point with the lowest predicted energy.
+\[
+\bm{x}^{+} = \argmin_{\bm{x} \in \Omega} \mu_{\bm{G}}(\bm{x})
+.\] 
+This is a purely exploitative method, as it "assumes" that the model has perfect predictive power. This 
+\subsection{Lower Confidence Bound (LCB)}
+The lower confidence bound method makes use of both mean and uncertainty provided by the GPR-model. It does this in a very simple way, by defining an aquisition function in the following way,
+\[
+aqui\left( \bm{x} \right) = \mu _{\bm{G}}\left( \bm{x} \right)  - \kappa \sigma_{\bm{G}}\left( \bm{x} \right) 
+.\] 
+Where $\kappa$ is some constant that determines the emphasis put on the uncertainty, thereby controlling the relationship between exploration and exploitation. A large value of $\kappa$, will cause the second term to dominate, leading the search to favor unexplored areas ($\sigma_{\bm{G}}$ large). Conversely, as $\kappa$ tends to zero, the LCB method approaches the purely exploitative method. \\
+This method has both clear advantages and downsides. It is unlikely to get stuck in a given area, as continued exploitation will cause the uncertainty to fall and theerby the aquisition function to rise. However, since it only cares about the sum of the mean and uncertainty, and not their ratios it is unable to determine the "likelihood" of a point being an improvement. This point is illustrated in {fig}.
+
+\[
+\bm{x}^{+} = \argmax_{\bm{x} \in \Omega} \left\{ \mu_{\bm{G}}(\bm{x}) - \kappa \sigma_{\bm{G}}(\bm{x}) \right\}
+.\] 
+%%%%%%%%%%%%%%%%%%%%%%%%
+% expected improvement %
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Expected Improvement}
+For our final search method, we proceed in the following way. First we note the currently best sampled point $y_{min} = \min \left( Y = \left\{ y_1, \ldots , y_n \right\}  \right) $. This point will serve as the threshold we wish to overcome.
+Let $x \in \Omega$ be some point, we do not know $f\left( x \right) $, but given the GPR-model $\bm{G}$, we have access to an estimate of the value $\mu \left( x \right) $ and uncertainty $\sigma\left( x \right) $. We leverage these by modelling $f\left( x \right) $ with a normally distributed random variable $A$, with mean and spread given by $\bm{G}$. That is,
+ \[
+A \sim N\left( \mu, \sigma \right) \quad, \quad f_A\left( x \right) = \frac{1}{\sigma \sqrt{2\pi} }\exp\left( - \frac{\left( x - \mu  \right) ^2}{2\sigma^2} \right) 
+.\]
+To measure the improvement at $x$, we introduce $I$, which we shall define as,
+\[
+    I\left[ A\left( x \right) \right] = \max\left\{ y_{min} - A\left( x \right) , 0 \right\}
+.\]
+Given some realization of $A$, the improvement from $y_{min}$ is at minimum zero, corresponding to $A$ being greater than $y_min$. Otherwise, the improvement will be the distance $A$ lies below $y_{min}$. We now wish to calculate the expected value of the improvement, which we call the expected improvement. Which can be done in the usual way using LOTUS,
+\begin{align*}
+\mathbb{E}\left[ I \right]  &= \int\limits_{-\infty}^{\infty} I\left( z \right) f_A\left( z \right) \, dz \\
+&= \int\limits_{-\infty}^{\infty}  \max\left\{ y_{min} - z, 0 \right\} f_A\left( z \right) \, dz\\
+&= \int\limits_{-\infty}^{y_{min}} \left( y_{min}-z \right) f_A\left( z \right)\, dz + 0
+.\end{align*}
+Substituting here, we are able to recover the standard normal distribtution,
+\[
+ =   \int\limits_{-\infty}^{\frac{y_{min} - \mu }{\sigma}}\left( y_{min} - r\mu - \sigma \right) \theta \left( r \right) \, dr
+.\] 
+By some fairly tedious integration by parts this can be shown to give,
+\[
+\mathbb{E}\left[ I \right] = \left( y_{min} - \mu  \right) \Theta\left(\frac{y_{min} - \mu }{\sigma} \right) + \sigma \theta \left( \frac{y_{min} - \mu }{\sigma} \right) 
+.\] 
+where $\theta, \Theta$ are the standard normal density and distribution functions. For each $x \in  \Omega$ we can then calculate the expected improvement and select as our next point,
+\[
+x^{+} = \argmax_{x \in \Omega}\mathbb{E}\left[ I\left( x \right)  \right] 
+.\] 
+Stated less formally, what we are doing is the following. For each point $z$ below the threshold $y_min$, we calculate the improvement $I(z)$ and weight these with the probability $f_A\left( z \right) $. Keep in mind that $f_A(z)$ tends to zero, as  $z$ increases. The expected improvement will therefore be greater when $f_A$ has more of its mass concentrated below $y_{min}$.
+\marginfig[0pt]{../figures/EI/EI_explainer}
+\margintext[150pt]{Expected improvement calculated at two points. Notice, the second gaussian extends futher below the EI threshold than the first gaussian. However, the first gaussian has more of its mass concentrated below the threshold. The expected improvement is therefore greater at this point.}
+\marginfig[0pt]{../figures/EI/EI_example}
+\margintext[100pt]{EI shown for the entire space. Notice, that EI quickly approaches zero, as the surrogate model's uncertainty moves above the threshold.}
+\subsection{The $\delta$ parameter}
+
+\marginfig[0pt]{../figures/EI/EI_Threshold1}
+\marginfig[0pt]{../figures/EI/EI_Threshold2}
+\margintext[0pt]{Moving the threshold encourages exploration, as points in the vicinity of $y_{min}$ are given low uncertainties by the GP. As a result, their probability distributions tend to be tightly concentrated around $y_{min}$.}
+Our current algorithm, has a slight problem. In its current form, we are unable to steer the relationship between exploration and exploitation. We can remedy this by adding an additioal parameter $\delta$. This parameter should be interpreted as moving the threshold we wish to beat,
+\[
+    I_{\delta} [A\left( x \right) ] = \max\left\{ \left( y_{min} - \delta \right) - A\left( x \right) , 0  \right\} 
+.\] 
+Performing similar calculations as before, we can find the expected improvement to be,
+\[
+\mathbb{E}\left[ I \right] = \left( \left(y_{min} - \delta\right) - \mu  \right) \Theta\left(\frac{\left(y_{min} - \delta\right) - \mu }{\sigma} \right) + \sigma \theta \left( \frac{\left(y_{min} - \delta\right) - \mu }{\sigma} \right) 
+.\] 
+The way the parameter $\delta$ affects the relationship between exploration and exploitation, can be illustrated with the following example. Let us assume we have a situation where,
+\[
+    G^{-1}\left(y_{min}\right) = \argmin_{x \in \Omega}\left\{ \mu \left( x \right)  \right\}
+.\] 
+Corresponding to the situation, where the minimum sampled point is also the minimum of the surrogate model (As in figure [] in the previous section). In this case, points in the vicinity of $G^{-1}\left( y_{min} \right) $, are almost guranteed to have positive expected improvement, as points $x'$ in the vicinity will have values of $\mu \left( x' \right) $ close to $y_min$. This implies that $f_A\left( x' \right) $ has a lot its mass concentrated below $y_min$ Therefore, the model will heavily favor exploitation. The addition of the parameter $\delta$ (moving the threshold down) penalizes points these points as they, in general, have low uncertainty. In practice, the $\delta$ is finetuned until a good balance between exploration and exploitation is found.
+
+\chapter{Testing the methods}
+
+\marginfig{../figures/random_function}
+\margintext{A random function sampled from the test function. Notice, that the function is smooth and has a large number of local minima.}
+\marginfig{../figures/stuck_plot}
+\margintext{A depiction of the LCB method getting stuck in a local minimum, with $\kappa = 0.5$. In this case the method, predicts the greatest aquisition at a point, that is already part of the data. As a result, adding this point will not update the GP-model. This leads to the method repeatedly selecting the same point, ergo getting stuck.}
+We will now test the methods, that we have described in the previous section. Due to computational limitations, we will test our methods on a simple model problem, namely locating the minimum of a 1d-function $f$ defined on a closed interval $I$. 
+\subsection{Setup}
+The methods we will test are the following. The LCB-method with values of $\kappa = 2, 4$, the EI-method with values of $\delta = 0, 1$ aswell as the pure-exploitation method. As our test function, we use a sum of random sine-function,
+\[
+f_{test} = \sum_i^{n} a_i \sin(b_i x + c_i), \quad a_i, b_i, c_i \sim \mathcal{U}(0, 1).
+.\] 
+
+This function is chosen, as it is smooth and has a very large number of local minima. This makes it a good test function, as it is difficult to find the global minimum, without getting stuck in a local minimum. I deemed this necessary, as some prior testing showed that the GP-model converged too quickly for simpler functions. This made it difficult to distinguish between the methods. I predict that this choice of function, will tend to favor explorative methods. However, being able to find the minima in as few iterations as possible, will require the method to strike the correct balance between exploration and exploitation.
+A random interval is then chosen and a few points $X = \left\{   x_1, \ldots, x_{n}\right\}$ are sampled from said interval. These points are then evaluated in the random function $f$ giving,
+\[
+\text{Data} = \left( X, Y \right) = \left( X, f\left( X \right)  \right) 
+.\] 
+The GPR-model $\bm{G}$, is then fitted to this data, 
+By brute force, the minimum of the function $x_{min}$ is recorded for comparison. A threshold, $\epsilon$, is chosen aswell, which represents the neighborhood around $x_{min}$, which we shall count as succesful. In other words, our search is succesful, if it samples a point $x^{+}$ satisfying,
+\[
+\left| x_{min} - x^{+} \right| < \epsilon
+.\]
+For each method, all of these initial conditions are held constant. The GPR-model is then fitted to the sampled points, and the search is ready to commense.
+\subsection{Search}
+The search is conducted in the following way. For a fixed number of iterations, the search method $S$ being tested probes the GPR-model and returns a point $x^{+}$ it recommends for sampling. This point is then compared to $x_{min}$ and if it lies within a distance of $\epsilon$, the search terminates. If not, $(x^{+}, f(x^{+})$ is added to the data, and the GPR-model is updated. This process repeats until the minimum is found, or the number of iterations exceeds the limit. When the process finishes, the current iteration number is stored. 
+This experiment is then repeated a number of times for each search method, the results are plotted in a \textit{succes-curve}, inspired by {AGOX}.
+
+\margintext{A success curve is similar to a cumulative histogram, but differs in its ability to account for failed experiments. The iteration step is shown on the $x$-axis, while the percentage of experiments that succeded at this iteration are shown on the $y$-axis. The total proportion of succesful, is easily discerned by considering the maximum height of the curve. The rate at which the experiments were able to reach succes, can be interpreted as slope of the curve.}
+\newpage
+\newgeometry{left=3cm,right=3cm,top=2cm,bottom=2cm}
+\section{Results}
+For each the methods was the experiment was run 100 times, with each of the experiments consisting of 50 iterations. The threshold to be beaten was set to $\epsilon = 0.01$. In order to evaluate the results of the search, I made use of the two following metrics. The first one, was simply the proportion of searches that were able to finish in the allowed timeframe. In addition to this, I noted the average runtime for succesful runs.
+\subsection{Lowest Confidence Bound}
+\begin{figure}[htpb]
+    \centering
+    \includegraphics[width=\textwidth]{../figures/LCB}
+    % \caption{}
+    \label{fig:}
+\end{figure}
+\noindent
+For the LCB, I ended up with the following results for the two different values of $\kappa$. For $\kappa = 2$, the method was able to find the minimum in $52\%$ of the experiments. The average runtime for succesful runs was $29 \pm 6$ iterations. For $\kappa = 4$, the method was able to find the minimum in $79\%$ of the experiments. The average runtime for succesful runs was $39 \pm 6$ iterations. These results very clearly show the tradeoff between exploration and exploitation. The more exploitative value of $\kappa = 2$, was able to finish earlier on average, however it got stuck more often than $\kappa = 4$.
+\subsection{Expected Improvement}
+\begin{figure}[htpb]
+    \centering
+    \includegraphics[width=\textwidth]{../figures/EI_runs}
+    % \caption{}
+    \label{fig:}
+\end{figure}
+The results I found for expected improvement, were as following. For $\delta = 0.01$, the method was able to find the minimum in $90\%$ of the experiments. The average runtime for succesful runs was $28 \pm 10$ iterations. For $\delta = 1$, the method was able to find the minimum in only $24\%$ of the experiments. It had a good average runtime of $26 \pm 13$ iterations, but this is likely skewed by the fact that it so rarely succeded in finding the minimum. At this value of $\delta$, the search was clearly much too explorative.
+\subsection{Evaluation}
+The results of this experiment, indicate that expected improvement outperfoms LCB for certain values of $\delta$, both in terms of succes rate and average runtime. Interestingly, expected improvement method was less consistent in runtime. This indicates that expected improvement is somehow more "bold" in its search for the global minimum, resulting in some of the searches succeding quickly. A possible explanation of this phenomenon, is that expected improvement performed well on a distinct subset of the randomly generated functions. In other words, expected improvement was able to exploit some feature in the function, that only appeared in a fraction of the runs. This did not appear to happen for LCB, as its runtime was fairly consistent across the entire experiment. However, had the significant disadvantage of getting stuck at a much greater rate. This could have been amended, by forcing the search to select a random point whenever it stalled. \\
+While these results show that expected improvement is a promising method, it is important to note that the experiment was conducted on a very simple function. It is therefore difficult to say, whether the results will generalize to more complex spaces and functions, like the ones we will be tackling as we transition to our study of atomic clusters.
+\newpage
+\restoregeometry
+\chapter{Part 2 - AGOX and Atomic Clusters}
+
+\marginfig{../figures/candidate-generation}
+\margintext{In each iteration of the search, we generate $N$ candidates. These candidates are generated by sampling from an evolving set of parents candidates.}
+- We have a surrogate model, but the configuration space is too large to search.
+- We need to generate candidates, that are likely to be of interest.
+- We do this by generating a large number of candidates, and selecting the most promising ones. We use physical assumptions for this.
+\marginfig{../figures/relaxation}
+\margintext{We have a valid candidate, but we can still improve it. We do this by relaxing the candidate in the surrogate model, hopefully reaching a more stable configuration.}
+\marginfig{../figures/relaxation_surrogate}
+\margintext{The relaxation is done using gradient descent, until a local minima is reached.}
+\section{Introduction}
+- description of the problem
+- AU-10
+ -- valence electrons
+\section{EMT - Effective Medium Theory}
+The energy expression that our surrogate model will be approximating is derived from \textit{effective medium theory} (EMT). Giving a complete physical description of the system in question, is often too complicated to be a viable. In EMT a simpler reference system, where the energy is easily calculated, is chosen instead. The true energy of the system $E$ can then be rewritten as,
+ \[
+E = \sum_k E_{c,k} + \left( E - \sum_k E_{c,k} \right)  
+.\] 
+Where $E_{c,k}$ is the binding energy of the $k$'th atom in the reference system. This expression cleary just reduces to the true energy, but if we choose our rereference system well, the term $\left( E - \sum_k E_{c,k} \right) $ is small and we should be able to approximate it. The reference system employed by the version of EMT we use, is the homogenous electron gas. The term $E_{c,k}$ is therefore the energy of the atom embedded in the homogenous electron gas. This energy is referred to as the cohesive energy. The main assumptions are as follows; the nuclei largely do not interact due to screening and the densitty of the homogenous electron gas can be modelled as the average electron density in the area surrounding the atom $\overline{\rho }$.\\
+The embedding density $\overline{\rho }_i$ for atom $i$, is calculated by summing the electronic contributions from neighboring atoms,
+ \[
+\overline{\rho }_i = \sum_{j \neq i} \Delta \rho_j \left( s_j, r_{ij} \right) 
+.\] 
+Where $\Delta \rho_j \left( s_j, r_{ij} \right) $ is the electron density tail of atom $j$, averaged over a sphere radius of $s_j$ surrounding atom $i$. The radius of the sphere we average over, is chosen such that the sphere becomes neutral. This ensures that we always count the correct number of electron. For simple systems, such as the fcc-lattice, it is possible to derive the embedding density. I will refrain from doing this, and instead refer to the appendix of []. Notice, however, that under the assumption that the atoms are identical, and if the spacing between neighboring atoms is constant, each neighbor will contribute a fixed amount to the embedding density. We can therefore expect the embedding density at a given site to be approximately linear in the amount of neighboring atoms,
+\[
+\overline{\rho _i} \approx N_{\text{neighbors}} \cdot k
+.\] \\
+Given an embedding density, the cohesive energy of the atom in the homogenous electron gas, depends on two opposing terms,
+ \[
+E_{c, i}\left( \overline{\rho } \right) = E^{Hom} + \alpha\left( \overline{\rho } \right) \overline{\rho }
+.\] 
+$E^{Hom}$ is a sharply rising function, and corresponds to the increasing kinetic repulsion that arises in the electron-gas as the density increases. It is thus a repulsive term. The second term is attractive. It corresponds to the electrostatic attraction from the density tails from the neighboring atoms sticking into the neutral sphere and the positive charge contained in this sphere. The general shape of the cohesive energy, as a function of embedding density, is shown in figure []
+\subsubsection{Atomic Sphere Correction}
+What remains to be considered, is the correction term,
+\[
+\left( E - \sum_k E_{c, k}\left( \overline{\rho }_k \right)  \right) 
+.\]
+According to the litterature, a couple of effects are in play here, but the dominant one is \textit{atomic sphere correction}. This is an electrostatic repulsive term, that is caused by the overlapping of the neutral spheres centered at each atom. The complete expression for the binding energy becomes,
+\[
+E_B = \sum_i E\left( c, i \right)\left( \overline{\rho }_i \right) + E_{AS} 
+.\] 
+In a perfectly packed fcc-lattice the neutral spheres are space-filling and the overlap can be neglected. As a result, the binding energy is simply the cohesive energy. However, for an arbibtrary configuration of atoms the embedding densities, and therefore radii of the neutral spheres, will vary from atom of atom. We therefore have to include the atomic sphere correction.
+\subsubsection{Considerations}
+Given the nature of this model, we expect the number and distribution of "atomic neighbors" in the confiugration, to play a large role in the model's assessment of the configurations. As described above, the cohesive energy increases, when the density of the homogenous electron gas exceeds a certain point. It wil be interesting to see, whether 
+\section{AGOX}
+We shall now begin our optimization of an actual physical system. As mentioned, we will be optimizing an atomic cluster consisting of 10 gold atoms. As the foundation of our search, we will be using the python-based AGOX framework developed by Hammer and Bisbo. We will give a brief overview, of the methods employed. For a detailed description see 
+\subsection{Candidate Generation}
+In our study of 1d-functions, the configuration space was sufficiently small, that we were able to evaluate our surrogate model across the entirety of the space. As the dimensionality of the space has increased, this is no longer viable. We instead have to pick a point(s) in the configuration space, and study the region surrouding it. As such, much of the search hinges on our ability to select promising points/candidates. \\ 
+Given the presence of the single valence electron in gold, we know that the atoms are attracted to one another, but at a certain point the repulsive forces from the positive nuclei will begin to dominate. Therefore, the simplest and most obvious restriction we can apply to our candidates, is an upper and lower bound on the interatomic distances $r_max$ and $r_min$ between adjacent atoms within the cluster. The initital set of candidates is generated by randomly placing atoms, within a confined space, ensuring that the bond lengths obey our restrictions.
+\\
+Having generated an initial set of candidates, we calculate their energy and train a surrogate model on this data. Further generation of viable candidates is a two-layered process. AGOX makes use of an evolutionary scheme, where new candidates are generated by sampling from a set of "parent" structures, and then modifying these in various ways. At any given time, the parent structures consists of a diverse set of the lowest energy candidates found so far. As the search progresses, and better candidates are discovered, the parent set is updated.
+\subsection{Relaxation}
+Having sampled or generated a number of candidates, we now wish to improve them. We do this by relaxing them in the surrogate model. Using gradient descent, or a similiar method, the individual coordinates of the cluster are repeatedly tweaked until the configuration reaches a minima in the surrogate model. This relaxation can be done using the surrogate model by itself, or an aquisition function. Bear in mind, that in order for an aquisition function to be suitable for relaxation, it should be prominently featured accross the entire spacpe. As an example, expected improvement is poorly suited, as it will likely yield zero in a large part of space. In these cases, choosing a direction to relax in is impossible.
+\subsection{Selection}
+Having relaxed our set of generated candidates, we wish to evaluate only a single one of them in the expensive energy expression. Using an aquisition function, we choose the most promising one. This aquisition function, need not necessarily be the same as the one used for relaxation. We have more freedom at this stage to choose our aquisition function, as we only need an estimate of the energy and not the force. Expected improvement, should therefore be a promising candidate as an aquisition function at this stage of the search. Having the calculated the energy of our candidate, it is added to the data, the surrogate model is retrained, the parent structures are updated and the entire process is repeated.
+\newpage
+\newgeometry{left=3cm,right=3cm,top=2cm,bottom=2cm}
+\begin{figure}[htpb]
+    \centering
+    \includegraphics[width=\textwidth]{../figures/lolololo.png}
+    \label{fig:}
+\end{figure}
+
+\section{Optimization of $AU^{10}$ - Results}
+
+
+Using AGOX, we ran a number of simulations optimizing the structure of $AU^{10}$. We will briefly outline the setup of the simulation, and then share the results.
+
+\subsection{Setup}
+A total of six distinct simulations were run. Each simulation consisted of 100 iterations, and was repeated 50 times. In all the simulations, the atomic were confined to a 2d-plane, and thus not able to move in 3d. Given prior knowledge from my supervisor, I knew that the optimal configuration does indeed live in 2d. This simplification was made in order to limit the amount of compute required to finish the simulation in a reasonable amount time. 3 of the experiments had selection done with expected improvement, with $\delta = 0.01, 0.1, 1$. The remaining 3 used LCB for selection with $\kappa = 2, 4 ,6$. In all of the simulations, relaxation of candidates was done in LCB. In the expected improvement simulation a value of $\kappa = 2$, while the LCB experiments used $\kappa$ values matching the values used for selection.
+\subsection{Results}
+\begin{figure}[htpb]
+    \title{Lower Confidence Bound}
+    \centering
+    \begin{minipage}{0.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../figures/LCB_results}
+        % \caption{}
+        % \label{fig:}
+    \end{minipage}
+    \begin{minipage}{0.4\textwidth}
+        \centering
+        \begin{tabular}{c|c}
+            $\kappa$ & succes rate \\ \hline
+            2 & $96\%$   \\ \hline
+            4 & $80\%$   \\ \hline
+            6 & $62\%$   
+        \end{tabular}
+    \end{minipage}
+\end{figure}
+\noindent
+For these simulations, the lowest value of $\kappa = 2$, had the greatest success being able to find the most optimial configuration almost all of the time. This indicates that the surrogate model was able to converge to the true potential fairly quickly. The extra exploration encouraged by the higher $\kappa$ values was ineffective.
+\begin{figure}[htpb]
+    \title{Lower Confidence Bound}
+    \centering
+    \begin{minipage}{0.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../figures/EI_results}
+        % \caption{}
+        % \label{fig:}
+    \end{minipage}
+    \begin{minipage}{0.4\textwidth}
+        \centering
+        \begin{tabular}{c|c}
+            $\kappa$ & succes rate \\ \hline
+            1 & hello \\
+            2 & $96\%$   \\ \hline
+            4 & $80\%$   \\ \hline
+            6 & $62\%$   
+        \end{tabular}
+    \end{minipage}
+\end{figure}
+The results of the expected improvement, were nearly identical for each of the values of $\delta$. Furthermore, the succes rates are very similar, to the succes rate of the corresponding LCB. My theory is that the final selection step, where expected improvement comes in play, has a much smaller effect in the succes rate, than the preceding relaxation steps. Further development should probably on the relaxation process, and it would be interesting to see how well expected improvement would perform in this context. 
+\newpage
+\newgeometry{left=3cm,right=3cm,top=2cm,bottom=2cm}
+\subsubsection{Structues found}
+\begin{figure}[htpb]
+    \centering
+    \includegraphics[width=0.85\textwidth]{../figures/best_configs}
+    % \caption{}
+    \label{fig:}
+\end{figure}
+The results of the search show, that a large variety of possible structures were found. It is easy to see that the EMT potential applied in the search, had a liking for candidates with a large number of neighbors. It especially preferred candidates where only few atoms had 2 neighbors. This is in accordance with fig depicting the cohesive energy. As the density of the homogenous electron gas surround an atom (which is approximately proportional to its number of neighbors), the energy increases sharply. As a result, having an atom with 2 neighbors increases the energy more than having an with 5 atoms decreases it.
+\restoregeometry
+\subsection*{Simple Nearest Neighbor Model} 
+From our searches we also discover, that the candidates generated all have even spacing between the individual atoms, this implies that we should be able to approximate the EMT well, by a model that simply counts nearest neighbors. When the atoms are evenly spaced, each neighbor will, in theory, contribute an equal amount to the density of the homogenous electron gas $\overline{\rho }$. Given that the cohesive energy is a function of $\overline{\rho }$, it should under the assumption of equal spacing, reduce to a function of nearest neighbors.
+We construct the model in the following way, similar to the method outlined in \cite{cluster2018}. Take a cluster of $K$ atoms, let $a_i$ represent the individual atoms, and $n_i$ the amount of neighbors to atom $i$. We then wish to parametrize the energy of the system in the following way, 
+\[
+E\left( a_1, \ldots, a_K \right) = \sum_i^{K}\epsilon\left( a_i \right) = \sum_i^{K}\epsilon_{n_i} = \sum_{c=1}^{C} N_c \epsilon_c
+.\] 
+Where the $\epsilon_c$ are constants representing the energy contribution of an atom with $c$ and the $N_c$ are the total amount of atoms in the cluster with $c$ neighbors. Our goal is then to estimate the parameters $\epsilon_c$. As a result of the AGOX search, we have observed and calculated the energy of a large variety atomic clusters. By considering the energy of these clusters as a function of the individual atoms, we can construct the following matrix equation, 
+\[
+\begin{bmatrix}
+    n_{11} & \ldots & n_{1C} \\
+    \vdots & \ddots & \vdots\\
+     n_{S1} & \ldots  & n_{SC} \\
+\end{bmatrix}
+\begin{bmatrix} \epsilon_1\\ \vdots\\ \epsilon_C \end{bmatrix}
+= \begin{bmatrix} E_1\\ \vdots\\ E_S \end{bmatrix}
+.\] 
+Where $S$ is the total amount of structures and $n_{Ic}$ is the amount of neighbors at atom $c$ on structure $I$. In our case, the structures we observed, the maximum number of neighbors observed on a single atom was $7$, i.e $C = 7$. This is a simple, classic matrix equation of the usual form,
+\[
+\bm{X}\epsilon = \bm{E}
+.\] 
+It is, however, not guranteed to have a solution. In our case, it is guranteed to not have a solution, given that we have observed the same structures multiple times. In other words, $\bm{A}$ has repeating rows. We are therefore, not able to find an $\epsilon$ that solves the equation, and instead have to be satisifed with finding a vector that best fits the equation. A classic approach to this is \textit{least-squares regression}, where $\epsilon$ is chosen as the vector that minizes the residuals,
+\[
+   \mathcal{E} = \argmin_{\epsilon} \left\{ \|\bm{X}\epsilon - \bm{E}\|^2 \right\}  = \left( \bm{X}^{T}\bm{X} \right) ^{-1} \bm{X}^{T}\bm{E}
+.\]
+It is still not guranteed that $\left( \bm{X}\bm{X}^{T} \right) ^{-1}$ is well-defined, it might not be diagonalizable. To overcome this, we can use a modified version of least-squares regression called \textit{ridge-regression}. This method changes the equation, by slighthy modifying the residuals,
+\[
+\|\bm{X}\epsilon - \bm{E}\|^2 + \lambda\|\epsilon\|
+.\] 
+This expression is minimized by,
+\[
+    \mathcal{E} = \left( \bm{X}^{T}\bm{X} + \lambda \mathbb{I} \right) ^{-1}\bm{X}^{T}\bm{E}
+\]
+where $ \left( \bm{X}^{T}\bm{X} + \lambda \mathbb{I} \right) ^{-1}$ is guranteed to exist.
+\newpage
+\newgeometry{left=3cm,right=3cm,top=2cm,bottom=2cm}
+\subsection{Results}
+\marginmath[0pt]{
+\[
+    \mathcal{E} =
+\begin{bmatrix}
+    \epsilon_1 \\
+    \epsilon_2 \\
+    \epsilon_3 \\
+    \epsilon_4 \\
+    \epsilon_5 \\
+    \epsilon_6 \\
+    \epsilon_7 \\
+\end{bmatrix}
+= 
+\begin{bmatrix}
+    1.33 \\
+    1.15 \\
+    0.86 \\
+    0.63 \\
+    0.49 \\
+    0.56 \\
+    0.72 \\
+\end{bmatrix}
+\text{eV}
+.\] 
+}
+\subsubsection*{Cohesive Energy}
+Having fitted the data, and done the regression we obtained the following energy curve as a function of nearest neighbors, \\
+\begin{figure}[htpb]
+    \centering
+    \begin{minipage}{0.5\textwidth}
+        \includegraphics[width=\textwidth]{../figures/cohesive_energy_plot.png}
+        \label{fig:}
+    \end{minipage}\hfill
+    \begin{minipage}{0.5\textwidth}
+        \centering
+        \[
+            \mathcal{E} =
+        \begin{bmatrix}
+            \epsilon_1 \\
+            \epsilon_2 \\
+            \epsilon_3 \\
+            \epsilon_4 \\
+            \epsilon_5 \\
+            \epsilon_6 \\
+            \epsilon_7 \\
+        \end{bmatrix}
+        = 
+        \begin{bmatrix}
+            1.33 \\
+            1.15 \\
+            0.86 \\
+            0.63 \\
+            0.49 \\
+            0.56 \\
+            0.72 \\
+        \end{bmatrix}
+        \text{eV}
+        .\] 
+    \end{minipage}
+    \caption{The cohesive energy of an atom shown as a function of the amount nearest neighbors. A third-degree polynomial as been fitted to the data. On the right, a vector of the predicted energies is shown.}
+\end{figure}
+\\
+In addition to the energies, a third-degree polynomial $f\left( x \right) = \alpha_3 x^{3} + \alpha_2 x^2 + \alpha_3 x + \alpha_4$, has been fitted to the data. An expression of this form was chosen, as per [] it describes the cohesive energy well in the general case. As there is correspondance between data and fit, this provides some weak evidence that the cohesive energy is approximated well by our nearest neighbor model. Interestingly, the curve levels off between 5 and 6, with 5 neighbors being the most effective in terms of energy. This implies, that for 6 neighbors, the second repulsive term of the cohesive energy begins to dominate. However, having 6 or even 7 neighbors, is still preferable to having 3 or fewer.
+\subsection*{Predicted vs. Actual Energy}
+What remains to be seen, is how well the model predicts the EMT energy on a structure to structure basis. A parity plot of the predicted and actual energies is shown below. The data points in the plot represent all "unique" structures found during the simulations. 
+\begin{figure}[htpb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{../figures/parity_plot.png}
+    \caption{}
+    \label{fig:}
+\end{figure}
+As outlined earlier, the AGOX searches found many instances of the "same" structures. However small variations in these structures, resulted in different EMT energies for these otherwise topologically identical structures. For these structures the mean and error in the measured energies are represented by errorbars. The structures with no errorbars, only showed up once across the searches. A few of these are far from the parity line, this is likely due to the fact, that for these structures, the model was trained with only a single data point.  
+
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}
+
+

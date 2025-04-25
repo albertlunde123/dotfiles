@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'afl_10.blg'
+[74] biber:340> INFO - === Thu Apr 24, 2025, 14:47:17
+[88] Biber.pm:418> INFO - Reading 'afl_10.bcf'
+[146] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[164] bbl.pm:654> INFO - Writing 'afl_10.bbl' with encoding 'UTF-8'
+[164] bbl.pm:757> INFO - Output to afl_10.bbl
+[165] Biber.pm:130> WARN - The file 'afl_10.bcf' does not contain any citations!
+[165] Biber.pm:132> INFO - WARNINGS: 1

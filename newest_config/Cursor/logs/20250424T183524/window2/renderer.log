@@ -1,0 +1,216 @@
+2025-04-24 18:41:10.986 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:10.987 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:10.987 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:10.988 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:10.988 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:10.988 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:10.989 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:10.989 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:10.989 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:11.058 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:11.058 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:11.059 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:11.059 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:11.059 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:11.061 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:11.062 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:11.062 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:11.062 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:11.062 [warning] Missing property "indexingData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:11.063 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:11.063 [warning] Missing property "isCursorPredictionOutOfRangeIndicatorMinimized2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:11.063 [warning] Missing property "needsComposerInitialOpening" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:11.063 [warning] Missing property "approvedProjectMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:11.063 [warning] Missing property "disabledMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:11.695 [info] Started local extension host with pid 615879.
+2025-04-24 18:41:12.277 [error] Extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:12.277 [error] Extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:12.278 [error] Extension 'ms-python.python' wants API proposal 'terminalShellIntegration' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:12.282 [info] Placing extension(s) vscodevim.vim on a separate extension host.
+2025-04-24 18:41:12.537 [info] Started local extension host with pid 615912.
+2025-04-24 18:41:14.573 [error] [Extension Host] (node:615879) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-04-24 18:41:14.785 [info] [perf] Render performance baseline is 32ms
+2025-04-24 18:41:15.052 [error] [Extension Host] (node:615912) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-04-24 18:41:27.324 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:27.325 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:27.325 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:27.325 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:27.326 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:27.326 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:27.326 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:27.326 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:27.326 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:27.353 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:27.353 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:27.353 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:27.353 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:27.353 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:27.354 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:27.354 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:27.354 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:27.355 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:27.355 [warning] Missing property "indexingData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:27.355 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:27.355 [warning] Missing property "isCursorPredictionOutOfRangeIndicatorMinimized2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:27.355 [warning] Missing property "needsComposerInitialOpening" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:27.355 [warning] Missing property "approvedProjectMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:27.355 [warning] Missing property "disabledMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-24 18:41:27.694 [info] Started local extension host with pid 616615.
+2025-04-24 18:41:28.461 [error] Extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:28.464 [error] Extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:28.464 [error] Extension 'ms-python.python' wants API proposal 'terminalShellIntegration' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-24 18:41:28.465 [info] Placing extension(s) vscodevim.vim on a separate extension host.
+2025-04-24 18:41:28.720 [info] Started local extension host with pid 616652.
+2025-04-24 18:41:29.811 [error] [Extension Host] (node:616615) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-04-24 18:41:30.472 [info] [perf] Render performance baseline is 53ms
+2025-04-24 18:41:30.714 [error] [Extension Host] (node:616652) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-04-24 19:07:03.976 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at WI.deltaDecorations (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:364:4065)
+    at oEi.clearPrediction (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4992:315)
+    at oEi.clearCursorPrediction (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4987:24287)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4972:24774)
+    at M.B (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.C (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:818)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:1036)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:368:15500)
+    at M.B (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:967) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-04-24 19:07:10.004 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at WI.deltaDecorations (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:364:4065)
+    at oEi.clearPrediction (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4992:315)
+    at oEi.clearCursorPrediction (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4987:24287)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4972:24774)
+    at M.B (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.C (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:818)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:1036)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:368:15500)
+    at M.B (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:967) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-04-24 19:07:19.146 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at WI.deltaDecorations (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:364:4065)
+    at oEi.clearPrediction (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4992:315)
+    at oEi.clearCursorPrediction (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4987:24287)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4972:24774)
+    at M.B (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.C (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:818)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:1036)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:368:15500)
+    at M.B (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:967) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-04-24 19:07:19.159 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at WI.deltaDecorations (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:364:4065)
+    at sEi.clearDecorationsSlowEnumeratesAllDecorations (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4986:12333)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4972:25518)
+    at M.B (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.C (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:818)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:1036)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:368:15500)
+    at M.B (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:967)
+    at O6n.r (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:364:29759) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-04-24 19:07:42.839 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at WI.deltaDecorations (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:364:4065)
+    at Hct.Y (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2344:6672)
+    at Hct.removeAllInEditorNotModel (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2347:4972)
+    at Hct.update (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2347:4243)
+    at z4.update (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2349:3176)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2349:819)
+    at M.B (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.C (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:818)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:882)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:368:15753) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-04-24 19:07:42.844 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at WI.deltaDecorations (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:364:4065)
+    at Hct.showChangesOnTheRightAndMaybeShowReds (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2344:9879)
+    at Hct._updateTextContent (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2347:4102)
+    at Hct.update (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2347:4848)
+    at z4.update (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2349:3176)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2349:819)
+    at M.B (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.C (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:818)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:882)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:368:15753) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-04-24 19:07:50.042 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at WI.deltaDecorations (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:364:4065)
+    at oEi.clearPrediction (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4992:315)
+    at oEi.clearCursorPrediction (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4987:24287)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4972:24774)
+    at M.B (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.C (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:818)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:1036)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:368:15500)
+    at M.B (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:967) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-04-24 19:07:50.056 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at WI.deltaDecorations (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:364:4065)
+    at sEi.clearDecorationsSlowEnumeratesAllDecorations (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4986:12333)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4972:25518)
+    at M.B (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.C (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:818)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:1036)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:368:15500)
+    at M.B (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:967)
+    at O6n.r (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:364:29759) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-04-24 19:07:50.681 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at WI.deltaDecorations (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:364:4065)
+    at oEi.clearPrediction (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4992:315)
+    at oEi.clearCursorPrediction (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4987:24287)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4972:24774)
+    at M.B (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.C (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:818)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:1036)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:368:15500)
+    at M.B (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:967) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-04-24 19:07:50.700 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at WI.deltaDecorations (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:364:4065)
+    at sEi.clearDecorationsFast (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4986:12959)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4972:25571)
+    at M.B (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.C (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:818)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:1036)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:368:15500)
+    at M.B (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:967)
+    at O6n.r (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:364:29759) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-04-24 19:08:52.123 [error] stream took too long: Error: stream took too long
+    at sEi.streamCpp (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4986:15168)
+    at async vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4967:6954 stream took too long
+2025-04-24 19:11:59.241 [error] [aborted] read ECONNRESET: ConnectError: [aborted] read ECONNRESET
+    at t (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2405:131870)
+    at async Object.cppConfig (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async sEi.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4987:1073)
+    at async sEi.fastPeriodicallyReloadCppConfig (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4987:803) [aborted] read ECONNRESET
+2025-04-24 19:12:23.471 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at WI.deltaDecorations (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:364:4065)
+    at oEi.clearPrediction (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4992:315)
+    at oEi.clearCursorPrediction (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4987:24287)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4972:24774)
+    at M.B (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.C (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:818)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:1036)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:368:15500)
+    at M.B (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:967) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-04-24 19:12:23.479 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at WI.deltaDecorations (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:364:4065)
+    at sEi.clearDecorationsSlowEnumeratesAllDecorations (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4986:12333)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4972:25518)
+    at M.B (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.C (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:818)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:1036)
+    at qae.value (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:368:15500)
+    at M.B (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:748)
+    at M.fire (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:967)
+    at O6n.r (vscode-file://vscode-app/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:364:29759) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-04-24 19:25:14.901 [error] [Extension Host] Error: Start of the range is outside the file.
+	at o (/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:4:218408)
+	at t.changeModel (/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:4:219592)
+	at t.formatDiffHistory (/tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:4:271960)
+	at async Promise.allSettled (index 0)
+	at async nGt.$getEverythingAllLocalProviderRunCommand (file:///tmp/.mount_Cursor2gxPXv/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:973825)

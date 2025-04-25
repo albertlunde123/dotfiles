@@ -1,0 +1,445 @@
+2025-04-24 18:41:16.010 [error] Failed to check if file sync is enabled for user {}
+2025-04-24 18:41:16.010 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-24 18:41:16.010 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-24 18:41:16.148 [info] [registerEventListeners] Registering event listeners
+2025-04-24 18:41:17.254 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-24 18:41:17.255 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-24 18:41:17.255 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-24 18:41:17.347 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-24 18:41:17.347 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-24 18:41:17.347 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-24 18:41:17.348 [info] File sync enabled status: false
+2025-04-24 18:41:31.349 [error] Failed to check if file sync is enabled for user {}
+2025-04-24 18:41:31.349 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-24 18:41:31.349 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-24 18:41:31.612 [info] [registerEventListeners] Registering event listeners
+2025-04-24 18:41:32.628 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-24 18:41:32.628 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-24 18:41:32.628 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-24 18:41:32.756 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-24 18:41:32.756 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-24 18:41:32.756 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-24 18:41:32.756 [info] File sync enabled status: false
+2025-04-24 18:41:33.936 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-24 18:41:33.936 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-24 18:41:33.937 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-24 18:46:30.743 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-24 18:46:30.880 [info] Fetched fsConfig in 136.70095799997216ms
+2025-04-24 18:46:30.880 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-24 18:46:30.881 [info] File sync enabled status: true
+2025-04-24 18:46:30.881 [info] Starting sync of visible tabs
+2025-04-24 18:46:30.881 [info] Synced all visible tabs in 0.37298500002361834ms
+2025-04-24 18:46:31.213 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-24 18:46:31.222 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-24 18:46:31.360 [info] Fetched fsConfig in 146.74924100004137ms
+2025-04-24 18:46:31.360 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-24 18:46:31.361 [info] File sync enabled status: true
+2025-04-24 18:46:31.361 [info] Starting sync of visible tabs
+2025-04-24 18:46:31.361 [info] Synced all visible tabs in 0.7956240000203252ms
+2025-04-24 18:46:31.363 [info] Fetched fsConfig in 140.50918200000888ms
+2025-04-24 18:46:31.363 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-24 18:46:31.364 [info] File sync enabled status: true
+2025-04-24 18:46:31.364 [info] Starting sync of visible tabs
+2025-04-24 18:46:31.364 [info] Synced all visible tabs in 0.49429000000236556ms
+2025-04-24 18:47:44.379 [info] Handled visible editors change in 3.6338830000022426ms
+2025-04-24 18:47:45.091 [info] Uploaded file src/molecule/__init__.py modelVersion=1 in 457.75293999997666ms
+2025-04-24 18:47:45.092 [info] Handled visible editors change in 605.486733000027ms
+2025-04-24 18:47:46.236 [info] Uploaded file src/molecule/molecule.py modelVersion=2 in 141.8948429999873ms
+2025-04-24 18:47:46.237 [info] Uploaded file src/molecule/molecule.py modelVersion=2 in 127.57090600003721ms
+2025-04-24 18:47:46.315 [info] Uploaded file src/molecule/molecule.py modelVersion=4 in 126.22795299999416ms
+2025-04-24 18:47:46.319 [info] Uploaded file src/molecule/molecule.py modelVersion=4 in 134.72049699997297ms
+2025-04-24 18:47:47.136 [info] Handled visible editors change in 1.633717999968212ms
+2025-04-24 18:47:47.166 [info] Handled visible editors change in 3.797251000010874ms
+2025-04-24 18:48:00.119 [info] Uploaded file requirements.txt modelVersion=2 in 126.65425399999367ms
+2025-04-24 18:48:00.119 [info] Uploaded file requirements.txt modelVersion=2 in 124.54568600002676ms
+2025-04-24 18:48:00.212 [info] Uploaded file requirements.txt modelVersion=4 in 126.35955399996601ms
+2025-04-24 18:48:00.213 [info] Uploaded file requirements.txt modelVersion=4 in 124.23135900002671ms
+2025-04-24 18:49:01.496 [info] Uploaded file src/molecule/cluster.py modelVersion=3 in 331.9954799999832ms
+2025-04-24 18:49:01.498 [info] Uploaded file src/molecule/cluster.py modelVersion=2 in 407.2052380000241ms
+2025-04-24 18:49:01.500 [info] Uploaded file src/molecule/cluster.py modelVersion=2 in 410.7601049999939ms
+2025-04-24 18:49:02.335 [warning] Failed to sync changes for src/molecule/cluster.py, version=3, retrying (attempt 1) [invalid_argument] File length mismatch: FileLengthMismatch: New size would be: 979, but expected size is: 929
+2025-04-24 18:49:02.478 [warning] Failed to sync changes for src/molecule/cluster.py, version=3, retrying (attempt 2) [invalid_argument] File length mismatch: FileLengthMismatch: New size would be: 979, but expected size is: 929
+2025-04-24 18:49:02.882 [warning] Failed to sync changes for src/molecule/cluster.py, version=3, retrying (attempt 3) [invalid_argument] File length mismatch: FileLengthMismatch: New size would be: 979, but expected size is: 929
+2025-04-24 18:49:02.883 [error] Failed to sync changes for src/molecule/cluster.py, version=3, attempting full file sync [invalid_argument] File length mismatch: FileLengthMismatch: New size would be: 979, but expected size is: 929
+2025-04-24 18:49:03.007 [info] Uploaded file src/molecule/cluster.py modelVersion=3 in 124.20085399999516ms
+2025-04-24 18:49:03.358 [info] Handled visible editors change in 0.900275000021793ms
+2025-04-24 18:49:03.388 [info] Handled visible editors change in 1.7071549999527633ms
+2025-04-24 18:49:07.370 [info] Handled visible editors change in 1.739817000052426ms
+2025-04-24 18:49:07.396 [info] Handled visible editors change in 1.4926480000140145ms
+2025-04-24 18:49:10.397 [info] Uploaded file src/molecule/atom.py modelVersion=2 in 123.26474700000836ms
+2025-04-24 18:49:10.398 [info] Uploaded file src/molecule/atom.py modelVersion=2 in 121.83122100000037ms
+2025-04-24 18:49:10.460 [info] Uploaded file src/molecule/atom.py modelVersion=4 in 145.45416399999522ms
+2025-04-24 18:49:10.462 [info] Uploaded file src/molecule/atom.py modelVersion=4 in 145.4638869999908ms
+2025-04-24 18:49:12.352 [info] Handled visible editors change in 1.9760239999741316ms
+2025-04-24 18:49:12.384 [info] Handled visible editors change in 1.7195540000102483ms
+2025-04-24 18:49:17.490 [info] Synced file src/molecule/__init__.py modelVersion=4 in 132.97791399998823ms
+2025-04-24 18:49:19.463 [info] Handled visible editors change in 0.6511239999672398ms
+2025-04-24 18:49:19.486 [info] Handled visible editors change in 0.8833330000052229ms
+2025-04-24 18:50:28.968 [info] Handled visible editors change in 1.2728239999851212ms
+2025-04-24 18:50:29.003 [info] Handled visible editors change in 1.4225580000784248ms
+2025-04-24 18:51:12.703 [info] Handled visible editors change in 0.8736789999529719ms
+2025-04-24 18:51:12.723 [info] Handled visible editors change in 1.544093000004068ms
+2025-04-24 18:51:18.226 [info] Handled visible editors change in 0.9506539999274537ms
+2025-04-24 18:51:18.754 [info] Uploaded file src/visualization/__init__.py modelVersion=1 in 401.3014560000738ms
+2025-04-24 18:51:18.754 [info] Handled visible editors change in 457.56963599997107ms
+2025-04-24 18:51:24.840 [info] Uploaded file src/visualization/plotter.py modelVersion=2 in 125.01779099996202ms
+2025-04-24 18:51:24.841 [info] Uploaded file src/visualization/plotter.py modelVersion=2 in 128.86854700010736ms
+2025-04-24 18:51:24.881 [info] Uploaded file src/visualization/plotter.py modelVersion=4 in 128.60106400004588ms
+2025-04-24 18:51:24.883 [info] Uploaded file src/visualization/plotter.py modelVersion=4 in 126.62976899999194ms
+2025-04-24 18:51:25.471 [info] Handled visible editors change in 0.7771260000299662ms
+2025-04-24 18:51:25.500 [info] Handled visible editors change in 2.3336839999537915ms
+2025-04-24 18:51:29.297 [info] Uploaded file requirements.txt modelVersion=6 in 124.46599499997683ms
+2025-04-24 18:51:29.298 [info] Uploaded file requirements.txt modelVersion=6 in 123.90303599997424ms
+2025-04-24 18:51:29.306 [info] Uploaded file requirements.txt modelVersion=6 in 130.35704200004693ms
+2025-04-24 18:51:35.533 [info] Synced file src/visualization/__init__.py modelVersion=4 in 139.05297700001393ms
+2025-04-24 18:52:54.120 [info] Uploaded file scripts/test_plotting.py modelVersion=4 in 349.71830099995714ms
+2025-04-24 18:52:54.121 [info] Uploaded file scripts/test_plotting.py modelVersion=4 in 386.2306849999586ms
+2025-04-24 18:52:54.122 [info] Uploaded file scripts/test_plotting.py modelVersion=4 in 348.24177700001746ms
+2025-04-24 18:52:54.123 [info] Uploaded file scripts/test_plotting.py modelVersion=4 in 350.85527399997227ms
+2025-04-24 18:52:56.626 [info] Handled visible editors change in 0.8228289999533445ms
+2025-04-24 18:52:56.651 [info] Handled visible editors change in 1.2175940000452101ms
+2025-04-24 18:52:59.659 [info] Handled visible editors change in 1.705595999956131ms
+2025-04-24 18:52:59.682 [info] Handled visible editors change in 1.2877529999241233ms
+2025-04-24 18:53:01.934 [info] Handled visible editors change in 0.8734580000163987ms
+2025-04-24 18:53:01.960 [info] Handled visible editors change in 2.079260000027716ms
+2025-04-24 18:55:06.112 [info] Handled visible editors change in 1.6180200000526384ms
+2025-04-24 18:55:06.623 [info] Uploaded file src/molecule/atom.py modelVersion=4 in 367.3216859999811ms
+2025-04-24 18:55:06.623 [info] Handled visible editors change in 463.80317999992985ms
+2025-04-24 18:55:32.942 [info] Handled visible editors change in 0.8893450000323355ms
+2025-04-24 18:55:32.971 [info] Handled visible editors change in 2.4556099999463186ms
+2025-04-24 18:56:06.272 [info] Synced file src/visualization/plotter.py modelVersion=7 in 144.18252299993765ms
+2025-04-24 18:56:06.719 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-24 18:56:06.858 [info] Fetched fsConfig in 138.47962500003632ms
+2025-04-24 18:56:06.858 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-24 18:56:06.858 [info] File sync enabled status: true
+2025-04-24 18:56:06.858 [info] Starting sync of visible tabs
+2025-04-24 18:56:06.858 [info] Synced all visible tabs in 0.44281999999657273ms
+2025-04-24 18:56:12.831 [info] Synced file scripts/test_plotting.py modelVersion=6 in 127.08777199999895ms
+2025-04-24 18:56:25.014 [info] Handled visible editors change in 1.5087559999665245ms
+2025-04-24 18:56:25.057 [info] Handled visible editors change in 1.2739740000106394ms
+2025-04-24 18:56:41.403 [info] Synced file scripts/test_plotting.py modelVersion=7 in 117.54472999996506ms
+2025-04-24 18:56:54.774 [info] Synced file scripts/test_plotting.py modelVersion=8 in 128.99179999995977ms
+2025-04-24 18:57:00.814 [info] Synced file scripts/test_plotting.py modelVersion=9 in 120.62689199997112ms
+2025-04-24 18:57:04.855 [info] Synced file scripts/test_plotting.py modelVersion=15 in 149.7529639999848ms
+2025-04-24 18:57:05.584 [info] Synced file scripts/test_plotting.py modelVersion=16 in 122.25978500000201ms
+2025-04-24 18:57:07.467 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-24 18:57:07.609 [info] Fetched fsConfig in 141.59402800002135ms
+2025-04-24 18:57:07.609 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-24 18:57:07.610 [info] File sync enabled status: true
+2025-04-24 18:57:07.610 [info] Starting sync of visible tabs
+2025-04-24 18:57:07.610 [info] Synced all visible tabs in 0.514541000011377ms
+2025-04-24 18:58:40.374 [info] Uploaded file requirements.txt modelVersion=8 in 330.2884620000841ms
+2025-04-24 18:58:40.375 [info] Uploaded file requirements.txt modelVersion=8 in 369.5266380000394ms
+2025-04-24 18:58:40.377 [info] Uploaded file requirements.txt modelVersion=8 in 330.9714769999264ms
+2025-04-24 18:58:40.378 [info] Uploaded file requirements.txt modelVersion=8 in 154.63326999999117ms
+2025-04-24 18:58:40.380 [info] Uploaded file requirements.txt modelVersion=8 in 154.24876899993978ms
+2025-04-24 18:58:44.256 [info] Handled visible editors change in 0.6313610000070184ms
+2025-04-24 18:58:44.280 [info] Handled visible editors change in 1.2189829999115318ms
+2025-04-24 18:58:54.046 [info] Synced file src/molecule/atom.py modelVersion=7 in 125.0557549999794ms
+2025-04-24 18:58:54.379 [info] Synced file src/molecule/atom.py modelVersion=7 in 130.19624499999918ms
+2025-04-24 18:58:55.486 [info] Handled visible editors change in 0.6734960000030696ms
+2025-04-24 18:58:55.507 [info] Handled visible editors change in 1.249017999973148ms
+2025-04-24 18:58:59.161 [info] Synced file requirements.txt modelVersion=10 in 129.1746479999274ms
+2025-04-24 18:59:46.039 [info] Handled visible editors change in 1.8514320000540465ms
+2025-04-24 18:59:46.088 [info] Handled visible editors change in 1.893839000025764ms
+2025-04-24 19:00:48.517 [info] Handled visible editors change in 1.4272010000422597ms
+2025-04-24 19:00:48.554 [info] Handled visible editors change in 1.1216800000984222ms
+2025-04-24 19:01:19.779 [info] Handled visible editors change in 1.3058009999804199ms
+2025-04-24 19:01:19.803 [info] Handled visible editors change in 1.0703849999699742ms
+2025-04-24 19:01:22.306 [info] Uploaded file src/visualization/plotter.py modelVersion=8 in 387.4474830001127ms
+2025-04-24 19:01:22.310 [info] Uploaded file src/visualization/plotter.py modelVersion=8 in 395.1593269999139ms
+2025-04-24 19:01:22.365 [info] Handled visible editors change in 0.7077029999345541ms
+2025-04-24 19:01:22.389 [info] Handled visible editors change in 0.9641740000806749ms
+2025-04-24 19:01:59.943 [info] Handled visible editors change in 1.476380999898538ms
+2025-04-24 19:01:59.980 [info] Handled visible editors change in 1.472020999994129ms
+2025-04-24 19:03:55.246 [info] Uploaded file src/calculators/base_calculator.py modelVersion=2 in 415.21601799991913ms
+2025-04-24 19:03:55.247 [info] Uploaded file src/calculators/base_calculator.py modelVersion=2 in 445.450988000026ms
+2025-04-24 19:03:55.248 [info] Uploaded file src/calculators/base_calculator.py modelVersion=4 in 380.60040899994783ms
+2025-04-24 19:03:55.260 [info] Uploaded file src/calculators/base_calculator.py modelVersion=4 in 390.23614199995063ms
+2025-04-24 19:03:57.397 [info] Handled visible editors change in 0.9477770000230521ms
+2025-04-24 19:03:57.424 [info] Handled visible editors change in 0.9912749999202788ms
+2025-04-24 19:04:00.588 [info] Uploaded file src/calculators/__init__.py modelVersion=2 in 125.46692000003532ms
+2025-04-24 19:04:00.589 [info] Uploaded file src/calculators/__init__.py modelVersion=2 in 124.67419099994004ms
+2025-04-24 19:04:00.659 [info] Uploaded file src/calculators/__init__.py modelVersion=4 in 144.03690399997868ms
+2025-04-24 19:04:00.660 [info] Uploaded file src/calculators/__init__.py modelVersion=4 in 143.0660439999774ms
+2025-04-24 19:04:10.128 [info] Handled visible editors change in 1.3001470000017434ms
+2025-04-24 19:04:10.174 [info] Handled visible editors change in 1.2374030000064522ms
+2025-04-24 19:05:03.733 [info] Uploaded file src/calculators/distance_calculator.py modelVersion=4 in 272.63007299997844ms
+2025-04-24 19:05:03.734 [info] Uploaded file src/calculators/distance_calculator.py modelVersion=2 in 394.86891199997626ms
+2025-04-24 19:05:03.735 [info] Uploaded file src/calculators/distance_calculator.py modelVersion=2 in 349.95821499987505ms
+2025-04-24 19:05:03.736 [info] Uploaded file src/calculators/distance_calculator.py modelVersion=4 in 270.0524989999831ms
+2025-04-24 19:05:05.269 [info] Handled visible editors change in 0.7447620001621544ms
+2025-04-24 19:05:05.288 [info] Handled visible editors change in 1.267128000035882ms
+2025-04-24 19:05:13.580 [info] Synced file src/calculators/__init__.py modelVersion=6 in 126.81431300006807ms
+2025-04-24 19:06:26.801 [info] Synced file src/calculators/distance_calculator.py modelVersion=5 in 187.59318899991922ms
+2025-04-24 19:06:27.257 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-24 19:06:27.381 [info] Fetched fsConfig in 123.21700599999167ms
+2025-04-24 19:06:27.381 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-24 19:06:27.381 [info] File sync enabled status: true
+2025-04-24 19:06:27.381 [info] Starting sync of visible tabs
+2025-04-24 19:06:27.505 [info] Uploaded file src/calculators/distance_calculator.py modelVersion=6 in 123.02270299987867ms
+2025-04-24 19:06:27.505 [info] Synced all visible tabs in 124.12457099999301ms
+2025-04-24 19:06:27.938 [info] Synced file src/calculators/distance_calculator.py modelVersion=7 in 136.43191500008106ms
+2025-04-24 19:06:28.393 [info] Synced file src/calculators/distance_calculator.py modelVersion=8 in 132.3127169997897ms
+2025-04-24 19:06:28.899 [info] Synced file src/calculators/distance_calculator.py modelVersion=9 in 130.65971400006674ms
+2025-04-24 19:06:29.350 [info] Synced file src/calculators/distance_calculator.py modelVersion=10 in 232.96617900021374ms
+2025-04-24 19:06:29.724 [info] Synced file src/calculators/distance_calculator.py modelVersion=11 in 123.19449399993755ms
+2025-04-24 19:06:30.633 [info] Synced file src/calculators/distance_calculator.py modelVersion=12 in 119.14680200000294ms
+2025-04-24 19:06:31.034 [info] Synced file src/calculators/distance_calculator.py modelVersion=13 in 132.47072200011462ms
+2025-04-24 19:06:31.740 [info] Synced file src/calculators/distance_calculator.py modelVersion=14 in 128.25061200000346ms
+2025-04-24 19:06:42.987 [info] Synced file src/calculators/distance_calculator.py modelVersion=15 in 120.19076799997129ms
+2025-04-24 19:06:44.850 [info] Synced file src/calculators/distance_calculator.py modelVersion=16 in 121.97949800011702ms
+2025-04-24 19:06:45.616 [info] Synced file src/calculators/distance_calculator.py modelVersion=17 in 125.36302599986084ms
+2025-04-24 19:06:50.369 [info] Synced file src/calculators/distance_calculator.py modelVersion=19 in 123.2616009998601ms
+2025-04-24 19:06:50.665 [info] Synced file src/calculators/distance_calculator.py modelVersion=20 in 128.90610700007528ms
+2025-04-24 19:06:50.946 [info] Synced file src/calculators/distance_calculator.py modelVersion=21 in 119.72519599995576ms
+2025-04-24 19:06:51.496 [info] Synced file src/calculators/distance_calculator.py modelVersion=22 in 154.83064000005834ms
+2025-04-24 19:06:52.401 [info] Synced file src/calculators/distance_calculator.py modelVersion=23 in 134.4614109999966ms
+2025-04-24 19:06:52.829 [info] Synced file src/calculators/distance_calculator.py modelVersion=24 in 126.4779030000791ms
+2025-04-24 19:06:54.036 [info] Synced file src/calculators/distance_calculator.py modelVersion=25 in 129.9824610000942ms
+2025-04-24 19:06:55.592 [info] Synced file src/calculators/distance_calculator.py modelVersion=26 in 157.3657209998928ms
+2025-04-24 19:06:56.106 [info] Synced file src/calculators/distance_calculator.py modelVersion=27 in 126.17662700009532ms
+2025-04-24 19:06:56.831 [info] Synced file src/calculators/distance_calculator.py modelVersion=28 in 123.40152300009504ms
+2025-04-24 19:06:57.297 [info] Synced file src/calculators/distance_calculator.py modelVersion=29 in 127.6229240000248ms
+2025-04-24 19:06:57.910 [info] Synced file src/calculators/distance_calculator.py modelVersion=30 in 136.04676500009373ms
+2025-04-24 19:06:58.894 [info] Synced file src/calculators/distance_calculator.py modelVersion=31 in 131.29391400003806ms
+2025-04-24 19:06:59.804 [info] Synced file src/calculators/distance_calculator.py modelVersion=34 in 133.47174099995755ms
+2025-04-24 19:07:00.676 [info] Synced file src/calculators/distance_calculator.py modelVersion=35 in 125.27971200016327ms
+2025-04-24 19:07:01.870 [info] Synced file src/calculators/distance_calculator.py modelVersion=36 in 124.93445600010455ms
+2025-04-24 19:07:02.642 [info] Synced file src/calculators/distance_calculator.py modelVersion=41 in 132.82044499996118ms
+2025-04-24 19:07:04.443 [info] Synced file src/calculators/distance_calculator.py modelVersion=43 in 123.28689400013536ms
+2025-04-24 19:07:04.873 [info] Synced file src/calculators/distance_calculator.py modelVersion=44 in 122.85270099993795ms
+2025-04-24 19:07:08.498 [info] Synced file src/calculators/distance_calculator.py modelVersion=47 in 125.84809900005348ms
+2025-04-24 19:07:10.599 [info] Synced file src/calculators/distance_calculator.py modelVersion=49 in 126.899238999933ms
+2025-04-24 19:07:11.653 [info] Synced file src/calculators/distance_calculator.py modelVersion=50 in 133.48404000001028ms
+2025-04-24 19:07:19.571 [info] Synced file src/calculators/distance_calculator.py modelVersion=51 in 126.79749600007199ms
+2025-04-24 19:07:20.439 [info] Synced file src/calculators/distance_calculator.py modelVersion=58 in 137.36364299990237ms
+2025-04-24 19:07:20.913 [info] Synced file src/calculators/distance_calculator.py modelVersion=60 in 137.13216500007547ms
+2025-04-24 19:07:21.232 [info] Synced file src/calculators/distance_calculator.py modelVersion=61 in 120.06353700021282ms
+2025-04-24 19:07:23.708 [info] Synced file src/calculators/distance_calculator.py modelVersion=62 in 129.4381679999642ms
+2025-04-24 19:07:24.035 [info] Synced file src/calculators/distance_calculator.py modelVersion=63 in 126.57151599996723ms
+2025-04-24 19:07:24.402 [info] Synced file src/calculators/distance_calculator.py modelVersion=64 in 128.16266699996777ms
+2025-04-24 19:07:24.686 [info] Synced file src/calculators/distance_calculator.py modelVersion=65 in 128.2499629999511ms
+2025-04-24 19:07:25.130 [info] Synced file src/calculators/distance_calculator.py modelVersion=66 in 124.95079299993813ms
+2025-04-24 19:07:27.105 [info] Synced file src/calculators/distance_calculator.py modelVersion=67 in 183.41492900019512ms
+2025-04-24 19:07:32.551 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-24 19:07:32.678 [info] Fetched fsConfig in 127.19332899991423ms
+2025-04-24 19:07:32.678 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-24 19:07:32.679 [info] File sync enabled status: true
+2025-04-24 19:07:32.679 [info] Starting sync of visible tabs
+2025-04-24 19:07:32.776 [info] Synced file src/calculators/distance_calculator.py modelVersion=71 in 138.6455029998906ms
+2025-04-24 19:07:32.810 [info] Uploaded file src/calculators/distance_calculator.py modelVersion=71 in 125.85002899984829ms
+2025-04-24 19:07:32.810 [info] Synced all visible tabs in 131.71117899985984ms
+2025-04-24 19:07:34.349 [info] Synced file src/calculators/distance_calculator.py modelVersion=73 in 126.68991800001822ms
+2025-04-24 19:07:35.088 [info] Synced file src/calculators/distance_calculator.py modelVersion=76 in 140.91406400012784ms
+2025-04-24 19:07:39.352 [info] Synced file src/calculators/distance_calculator.py modelVersion=77 in 135.2044599999208ms
+2025-04-24 19:07:39.887 [info] Synced file src/calculators/distance_calculator.py modelVersion=78 in 123.10395299992524ms
+2025-04-24 19:07:40.606 [info] Synced file src/calculators/distance_calculator.py modelVersion=79 in 164.16634599980898ms
+2025-04-24 19:07:41.645 [info] Synced file src/calculators/distance_calculator.py modelVersion=80 in 140.01607999997213ms
+2025-04-24 19:07:49.494 [info] Synced file src/calculators/distance_calculator.py modelVersion=81 in 131.89403799991123ms
+2025-04-24 19:07:50.469 [info] Synced file src/calculators/distance_calculator.py modelVersion=82 in 126.01225799997337ms
+2025-04-24 19:07:51.821 [info] Synced file src/calculators/distance_calculator.py modelVersion=101 in 127.84060600004159ms
+2025-04-24 19:07:52.785 [info] Synced file src/calculators/distance_calculator.py modelVersion=103 in 178.1477719999384ms
+2025-04-24 19:07:53.235 [info] Synced file src/calculators/distance_calculator.py modelVersion=104 in 126.30969200003892ms
+2025-04-24 19:07:54.394 [info] Synced file src/calculators/distance_calculator.py modelVersion=110 in 127.01039399998263ms
+2025-04-24 19:07:57.655 [info] Synced file src/calculators/distance_calculator.py modelVersion=111 in 127.7866469998844ms
+2025-04-24 19:08:11.557 [info] Synced file src/calculators/distance_calculator.py modelVersion=112 in 148.71974999993108ms
+2025-04-24 19:08:17.535 [info] Synced file src/calculators/distance_calculator.py modelVersion=114 in 176.0187969999388ms
+2025-04-24 19:08:48.215 [info] Synced file src/calculators/distance_calculator.py modelVersion=116 in 118.849160999991ms
+2025-04-24 19:08:48.420 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-24 19:08:48.548 [info] Fetched fsConfig in 128.1370650001336ms
+2025-04-24 19:08:48.548 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-24 19:08:48.549 [info] File sync enabled status: true
+2025-04-24 19:08:48.549 [info] Starting sync of visible tabs
+2025-04-24 19:08:48.628 [info] Synced file src/calculators/distance_calculator.py modelVersion=118 in 118.76297000003979ms
+2025-04-24 19:08:48.683 [info] Uploaded file src/calculators/distance_calculator.py modelVersion=118 in 128.47573899989948ms
+2025-04-24 19:08:48.683 [info] Synced all visible tabs in 134.50981699978ms
+2025-04-24 19:08:52.859 [info] Synced file src/calculators/distance_calculator.py modelVersion=119 in 124.32459200010635ms
+2025-04-24 19:08:54.369 [info] Synced file src/calculators/distance_calculator.py modelVersion=120 in 205.57795500010252ms
+2025-04-24 19:08:55.123 [info] Synced file src/calculators/distance_calculator.py modelVersion=121 in 130.90382600016892ms
+2025-04-24 19:08:57.327 [info] Synced file src/calculators/distance_calculator.py modelVersion=122 in 142.01715700002387ms
+2025-04-24 19:09:02.487 [info] Synced file src/calculators/distance_calculator.py modelVersion=123 in 127.24092600005679ms
+2025-04-24 19:09:03.009 [info] Synced file src/calculators/distance_calculator.py modelVersion=127 in 131.9057380000595ms
+2025-04-24 19:09:03.543 [info] Synced file src/calculators/distance_calculator.py modelVersion=128 in 135.74498099996708ms
+2025-04-24 19:09:04.243 [info] Synced file src/calculators/distance_calculator.py modelVersion=129 in 125.00642400002107ms
+2025-04-24 19:09:05.083 [info] Synced file src/calculators/distance_calculator.py modelVersion=130 in 125.79257100005634ms
+2025-04-24 19:09:36.475 [info] Synced file src/calculators/distance_calculator.py modelVersion=135 in 124.1243479999248ms
+2025-04-24 19:09:37.547 [info] Synced file src/calculators/distance_calculator.py modelVersion=139 in 133.984804000007ms
+2025-04-24 19:09:37.842 [info] Synced file src/calculators/distance_calculator.py modelVersion=140 in 129.00860700011253ms
+2025-04-24 19:09:38.331 [info] Synced file src/calculators/distance_calculator.py modelVersion=143 in 134.36950500006787ms
+2025-04-24 19:09:39.270 [info] Synced file src/calculators/distance_calculator.py modelVersion=147 in 178.12388999992982ms
+2025-04-24 19:09:46.503 [info] Synced file src/calculators/distance_calculator.py modelVersion=148 in 133.3549939999357ms
+2025-04-24 19:09:47.742 [info] Synced file src/calculators/distance_calculator.py modelVersion=149 in 139.09654800011776ms
+2025-04-24 19:09:51.968 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-24 19:09:51.998 [info] Synced file src/calculators/distance_calculator.py modelVersion=154 in 126.11831500008702ms
+2025-04-24 19:09:52.090 [info] Fetched fsConfig in 122.38264099997468ms
+2025-04-24 19:09:52.091 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-24 19:09:52.091 [info] File sync enabled status: true
+2025-04-24 19:09:52.091 [info] Starting sync of visible tabs
+2025-04-24 19:09:52.218 [info] Uploaded file src/calculators/distance_calculator.py modelVersion=156 in 126.20175400003791ms
+2025-04-24 19:09:52.218 [info] Synced all visible tabs in 127.55504500004463ms
+2025-04-24 19:09:52.617 [info] Synced file src/calculators/distance_calculator.py modelVersion=157 in 189.64939899998717ms
+2025-04-24 19:09:54.020 [info] Synced file src/calculators/distance_calculator.py modelVersion=158 in 125.30407899990678ms
+2025-04-24 19:09:54.551 [info] Synced file src/calculators/distance_calculator.py modelVersion=159 in 126.08023299998604ms
+2025-04-24 19:09:58.506 [info] Synced file src/calculators/distance_calculator.py modelVersion=160 in 127.26889199996367ms
+2025-04-24 19:09:58.919 [info] Synced file src/calculators/distance_calculator.py modelVersion=161 in 117.31202900013886ms
+2025-04-24 19:09:59.817 [info] Synced file src/calculators/distance_calculator.py modelVersion=162 in 125.46765200002119ms
+2025-04-24 19:10:06.829 [info] Synced file src/calculators/distance_calculator.py modelVersion=163 in 119.2655809998978ms
+2025-04-24 19:10:07.237 [info] Synced file src/calculators/distance_calculator.py modelVersion=164 in 188.38646299997345ms
+2025-04-24 19:10:08.191 [info] Synced file src/calculators/distance_calculator.py modelVersion=165 in 127.79838599986397ms
+2025-04-24 19:10:08.564 [info] Synced file src/calculators/distance_calculator.py modelVersion=166 in 171.8583529999014ms
+2025-04-24 19:10:36.310 [info] Handled visible editors change in 1.32198500004597ms
+2025-04-24 19:10:36.673 [info] Uploaded file scripts/2_atoms_energy.py modelVersion=1 in 129.11568500008434ms
+2025-04-24 19:10:36.673 [info] Handled visible editors change in 240.76061199977994ms
+2025-04-24 19:10:47.452 [info] Handled visible editors change in 1.5035480000078678ms
+2025-04-24 19:10:47.729 [info] Uploaded file scripts/test_plotting.py modelVersion=16 in 125.79491499997675ms
+2025-04-24 19:10:47.729 [info] Handled visible editors change in 224.0113409999758ms
+2025-04-24 19:10:51.011 [info] Handled visible editors change in 1.8411870000418276ms
+2025-04-24 19:10:51.060 [info] Handled visible editors change in 1.6174249998293817ms
+2025-04-24 19:10:54.109 [info] Synced file scripts/2_atoms_energy.py modelVersion=3 in 127.05992200016044ms
+2025-04-24 19:10:54.371 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-24 19:10:54.512 [info] Fetched fsConfig in 140.46107399999164ms
+2025-04-24 19:10:54.512 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-24 19:10:54.512 [info] File sync enabled status: true
+2025-04-24 19:10:54.512 [info] Starting sync of visible tabs
+2025-04-24 19:10:54.616 [info] Synced file scripts/2_atoms_energy.py modelVersion=6 in 125.68915400002152ms
+2025-04-24 19:10:54.641 [info] Uploaded file scripts/2_atoms_energy.py modelVersion=6 in 125.14738199999556ms
+2025-04-24 19:10:54.641 [info] Synced all visible tabs in 129.0561559998896ms
+2025-04-24 19:10:55.220 [info] Synced file scripts/2_atoms_energy.py modelVersion=7 in 124.06680100015365ms
+2025-04-24 19:10:55.612 [info] Synced file scripts/2_atoms_energy.py modelVersion=8 in 124.32012300007045ms
+2025-04-24 19:10:56.954 [info] Synced file scripts/2_atoms_energy.py modelVersion=9 in 131.25625800015405ms
+2025-04-24 19:10:58.920 [info] Synced file scripts/2_atoms_energy.py modelVersion=10 in 127.25502999988385ms
+2025-04-24 19:10:59.783 [info] Synced file scripts/2_atoms_energy.py modelVersion=11 in 121.00669199996628ms
+2025-04-24 19:11:02.386 [info] Synced file scripts/2_atoms_energy.py modelVersion=12 in 127.36998800002038ms
+2025-04-24 19:11:05.420 [info] Synced file scripts/2_atoms_energy.py modelVersion=13 in 134.17283500009216ms
+2025-04-24 19:11:06.417 [info] Synced file scripts/2_atoms_energy.py modelVersion=14 in 126.6086020001676ms
+2025-04-24 19:11:08.133 [info] Synced file scripts/2_atoms_energy.py modelVersion=15 in 125.20877499994822ms
+2025-04-24 19:11:09.276 [info] Synced file scripts/2_atoms_energy.py modelVersion=16 in 140.04052999988198ms
+2025-04-24 19:11:21.126 [info] Handled visible editors change in 1.4435690001118928ms
+2025-04-24 19:11:21.169 [info] Handled visible editors change in 1.3688910000491887ms
+2025-04-24 19:11:44.036 [info] Synced file src/calculators/distance_calculator.py modelVersion=167 in 131.1957669998519ms
+2025-04-24 19:11:44.731 [info] Synced file src/calculators/distance_calculator.py modelVersion=170 in 129.51725800009444ms
+2025-04-24 19:11:45.096 [info] Synced file src/calculators/distance_calculator.py modelVersion=172 in 123.68457400007173ms
+2025-04-24 19:11:45.869 [info] Synced file src/calculators/distance_calculator.py modelVersion=173 in 136.3395020000171ms
+2025-04-24 19:11:48.236 [info] Handled visible editors change in 0.5897190000396222ms
+2025-04-24 19:11:48.266 [info] Handled visible editors change in 0.6628020000644028ms
+2025-04-24 19:12:04.199 [info] Handled visible editors change in 1.9292140000034124ms
+2025-04-24 19:12:04.245 [info] Handled visible editors change in 1.3216350001748651ms
+2025-04-24 19:12:20.458 [info] Synced file src/calculators/distance_calculator.py modelVersion=174 in 162.72073099995032ms
+2025-04-24 19:12:22.621 [info] Synced file src/calculators/distance_calculator.py modelVersion=178 in 125.64010200020857ms
+2025-04-24 19:12:23.492 [info] Synced file src/calculators/distance_calculator.py modelVersion=179 in 155.25502600008622ms
+2025-04-24 19:12:23.950 [info] Synced file src/calculators/distance_calculator.py modelVersion=180 in 192.79157299990766ms
+2025-04-24 19:12:27.262 [info] Synced file src/calculators/distance_calculator.py modelVersion=181 in 130.65485100005753ms
+2025-04-24 19:12:28.422 [info] Synced file src/calculators/distance_calculator.py modelVersion=182 in 125.19165599998087ms
+2025-04-24 19:12:32.379 [info] Synced file src/calculators/distance_calculator.py modelVersion=183 in 153.96427699993365ms
+2025-04-24 19:12:32.827 [info] Synced file src/calculators/distance_calculator.py modelVersion=184 in 128.19441400002688ms
+2025-04-24 19:12:34.266 [info] Synced file src/calculators/distance_calculator.py modelVersion=185 in 137.82725100009702ms
+2025-04-24 19:12:39.376 [info] Handled visible editors change in 1.001196000026539ms
+2025-04-24 19:12:39.411 [info] Handled visible editors change in 1.0276810000650585ms
+2025-04-24 19:12:49.229 [info] Handled visible editors change in 1.89412200008519ms
+2025-04-24 19:12:49.285 [info] Handled visible editors change in 1.210935000097379ms
+2025-04-24 19:12:54.461 [info] Synced file src/calculators/distance_calculator.py modelVersion=186 in 130.165485000005ms
+2025-04-24 19:12:54.900 [info] Synced file src/calculators/distance_calculator.py modelVersion=187 in 125.79229700006545ms
+2025-04-24 19:12:55.663 [info] Synced file src/calculators/distance_calculator.py modelVersion=188 in 124.9141940001864ms
+2025-04-24 19:13:03.525 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-24 19:13:03.666 [info] Fetched fsConfig in 141.14930299995467ms
+2025-04-24 19:13:03.666 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-24 19:13:03.666 [info] File sync enabled status: true
+2025-04-24 19:13:03.667 [info] Starting sync of visible tabs
+2025-04-24 19:13:03.667 [info] Synced all visible tabs in 0.14182999986223876ms
+2025-04-24 19:13:04.562 [info] Synced file src/calculators/distance_calculator.py modelVersion=190 in 129.28004500013776ms
+2025-04-24 19:13:04.960 [info] Synced file src/calculators/distance_calculator.py modelVersion=191 in 124.51053799991496ms
+2025-04-24 19:13:09.912 [info] Synced file src/calculators/distance_calculator.py modelVersion=193 in 191.28579899994656ms
+2025-04-24 19:13:12.553 [info] Synced file src/calculators/distance_calculator.py modelVersion=194 in 188.26627200003713ms
+2025-04-24 19:13:13.897 [info] Synced file src/calculators/distance_calculator.py modelVersion=201 in 144.28983799996786ms
+2025-04-24 19:13:15.102 [info] Synced file src/calculators/distance_calculator.py modelVersion=202 in 126.4267759998329ms
+2025-04-24 19:13:16.709 [info] Synced file src/calculators/distance_calculator.py modelVersion=209 in 128.19764400017448ms
+2025-04-24 19:13:18.620 [info] Synced file src/calculators/distance_calculator.py modelVersion=210 in 130.22492299997248ms
+2025-04-24 19:13:22.444 [info] Synced file src/calculators/distance_calculator.py modelVersion=211 in 128.0558360000141ms
+2025-04-24 19:14:10.535 [info] Handled visible editors change in 0.6392530000302941ms
+2025-04-24 19:14:10.833 [info] Uploaded file src/calculators/base_calculator.py modelVersion=4 in 160.43215200002305ms
+2025-04-24 19:14:10.833 [info] Handled visible editors change in 262.27537599997595ms
+2025-04-24 19:14:11.445 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-24 19:14:11.571 [info] Fetched fsConfig in 125.45074400003068ms
+2025-04-24 19:14:11.571 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-24 19:14:11.571 [info] File sync enabled status: true
+2025-04-24 19:14:11.571 [info] Starting sync of visible tabs
+2025-04-24 19:14:11.571 [info] Synced all visible tabs in 0.15463999984785914ms
+2025-04-24 19:14:48.326 [info] Synced file src/calculators/base_calculator.py modelVersion=5 in 120.02645000000484ms
+2025-04-24 19:14:48.673 [info] Synced file src/calculators/base_calculator.py modelVersion=5 in 126.01024700002745ms
+2025-04-24 19:14:52.581 [info] Handled visible editors change in 0.70471700001508ms
+2025-04-24 19:14:52.603 [info] Handled visible editors change in 0.8372490000911057ms
+2025-04-24 19:15:00.472 [info] Synced file src/calculators/distance_calculator.py modelVersion=212 in 137.4040639998857ms
+2025-04-24 19:16:28.564 [info] Handled visible editors change in 1.5549499997869134ms
+2025-04-24 19:16:28.619 [info] Handled visible editors change in 1.2299009999260306ms
+2025-04-24 19:16:34.383 [info] Handled visible editors change in 1.633295999839902ms
+2025-04-24 19:16:34.435 [info] Handled visible editors change in 1.4368469999171793ms
+2025-04-24 19:16:47.465 [info] Handled visible editors change in 1.743209999985993ms
+2025-04-24 19:16:47.998 [info] Uploaded file scripts/2_atoms_energy.py modelVersion=16 in 362.77609300008044ms
+2025-04-24 19:16:47.999 [info] Handled visible editors change in 482.57836199970916ms
+2025-04-24 19:18:23.190 [info] Uploaded file src/optimization/base_optimizer.py modelVersion=2 in 324.1189930001274ms
+2025-04-24 19:18:23.193 [info] Uploaded file src/optimization/base_optimizer.py modelVersion=2 in 351.43751500034705ms
+2025-04-24 19:18:23.194 [info] Uploaded file src/optimization/base_optimizer.py modelVersion=4 in 297.82639499986544ms
+2025-04-24 19:18:23.195 [info] Uploaded file src/optimization/base_optimizer.py modelVersion=4 in 297.3657430000603ms
+2025-04-24 19:18:28.810 [info] Uploaded file src/optimization/__init__.py modelVersion=4 in 125.27755500003695ms
+2025-04-24 19:18:28.811 [info] Uploaded file src/optimization/__init__.py modelVersion=4 in 122.98144599981606ms
+2025-04-24 19:18:28.824 [info] Uploaded file src/optimization/__init__.py modelVersion=4 in 125.51244400022551ms
+2025-04-24 19:18:28.825 [info] Uploaded file src/optimization/__init__.py modelVersion=4 in 124.64096200000495ms
+2025-04-24 19:19:26.181 [info] Synced file src/calculators/base_calculator.py modelVersion=6 in 147.62487199995667ms
+2025-04-24 19:19:26.540 [info] Synced file src/calculators/base_calculator.py modelVersion=6 in 123.32004999974743ms
+2025-04-24 19:19:29.717 [info] Handled visible editors change in 0.561966999899596ms
+2025-04-24 19:19:29.746 [info] Handled visible editors change in 0.8641339996829629ms
+2025-04-24 19:19:45.556 [info] Synced file src/calculators/distance_calculator.py modelVersion=213 in 129.91480299970135ms
+2025-04-24 19:19:46.140 [info] Synced file src/calculators/distance_calculator.py modelVersion=215 in 129.8028390002437ms
+2025-04-24 19:20:00.061 [info] Uploaded file src/optimization/gradient_descent.py modelVersion=2 in 123.99062399985269ms
+2025-04-24 19:20:00.063 [info] Uploaded file src/optimization/gradient_descent.py modelVersion=2 in 127.83993200026453ms
+2025-04-24 19:20:00.133 [info] Uploaded file src/optimization/gradient_descent.py modelVersion=4 in 128.4688679999672ms
+2025-04-24 19:20:00.133 [info] Uploaded file src/optimization/gradient_descent.py modelVersion=4 in 133.66328300023451ms
+2025-04-24 19:20:03.763 [info] Handled visible editors change in 0.5207359995692968ms
+2025-04-24 19:20:03.795 [info] Handled visible editors change in 1.300852000247687ms
+2025-04-24 19:20:06.624 [info] Uploaded file src/optimization/__init__.py modelVersion=3 in 127.30648400029168ms
+2025-04-24 19:20:06.624 [info] Uploaded file src/optimization/__init__.py modelVersion=3 in 124.37933599995449ms
+2025-04-24 19:20:06.625 [info] Uploaded file src/optimization/__init__.py modelVersion=3 in 126.49065100029111ms
+2025-04-24 19:20:52.381 [info] Handled visible editors change in 1.2899869997054338ms
+2025-04-24 19:20:52.683 [info] Uploaded file src/calculators/__init__.py modelVersion=6 in 131.2167820003815ms
+2025-04-24 19:20:52.683 [info] Handled visible editors change in 248.80337699968368ms
+2025-04-24 19:20:55.317 [info] Handled visible editors change in 0.47187400003895164ms
+2025-04-24 19:20:55.339 [info] Handled visible editors change in 0.8418519999831915ms
+2025-04-24 19:21:06.901 [info] Handled visible editors change in 1.426542999688536ms
+2025-04-24 19:21:06.963 [info] Handled visible editors change in 1.528407999780029ms
+2025-04-24 19:22:07.041 [info] Uploaded file scripts/2_atoms_energy.py modelVersion=17 in 361.98190400004387ms
+2025-04-24 19:22:07.045 [info] Uploaded file scripts/2_atoms_energy.py modelVersion=17 in 339.1710000000894ms
+2025-04-24 19:22:07.046 [info] Uploaded file scripts/2_atoms_energy.py modelVersion=18 in 172.68863000022247ms
+2025-04-24 19:22:10.833 [info] Handled visible editors change in 1.0136710000224411ms
+2025-04-24 19:22:10.862 [info] Handled visible editors change in 1.5633499999530613ms
+2025-04-24 19:23:34.033 [info] Uploaded file src/molecule/atom.py modelVersion=8 in 346.3703209999949ms
+2025-04-24 19:23:34.034 [info] Uploaded file src/molecule/atom.py modelVersion=8 in 349.16487400000915ms
+2025-04-24 19:23:34.113 [info] Uploaded file src/molecule/atom.py modelVersion=9 in 147.7002920000814ms
+2025-04-24 19:23:34.766 [info] Synced file src/molecule/atom.py modelVersion=11 in 130.92714900011197ms
+2025-04-24 19:23:45.105 [info] Handled visible editors change in 1.8792670001275837ms
+2025-04-24 19:23:45.147 [info] Handled visible editors change in 0.9634829997085035ms
+2025-04-24 19:23:54.909 [info] Handled visible editors change in 0.8044149996712804ms
+2025-04-24 19:23:54.947 [info] Handled visible editors change in 1.5753820003010333ms
+2025-04-24 19:24:12.758 [info] Handled visible editors change in 1.5687039997428656ms
+2025-04-24 19:25:09.547 [info] Handled visible editors change in 1.789801999926567ms
+2025-04-24 19:25:15.506 [info] Synced file scripts/2_atoms_energy.py modelVersion=19 in 335.41082199988887ms
+2025-04-24 19:25:15.938 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-24 19:25:16.084 [info] Fetched fsConfig in 145.6776959998533ms
+2025-04-24 19:25:16.084 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-24 19:25:16.084 [info] File sync enabled status: true
+2025-04-24 19:25:16.084 [info] Starting sync of visible tabs
+2025-04-24 19:25:16.218 [info] Uploaded file scripts/2_atoms_energy.py modelVersion=20 in 128.37184499995783ms
+2025-04-24 19:25:16.218 [info] Synced all visible tabs in 134.0021369997412ms
+2025-04-24 19:25:16.343 [info] Synced file scripts/2_atoms_energy.py modelVersion=20 in 137.42879099957645ms
+2025-04-24 19:25:17.092 [info] Synced file scripts/2_atoms_energy.py modelVersion=21 in 121.49402899993584ms
+2025-04-24 19:25:17.980 [info] Synced file scripts/2_atoms_energy.py modelVersion=23 in 134.01791500020772ms
+2025-04-24 19:25:21.566 [info] Synced file scripts/2_atoms_energy.py modelVersion=24 in 119.0193950003013ms
+2025-04-24 19:25:25.522 [info] Handled visible editors change in 1.1036790004000068ms
+2025-04-24 19:25:25.831 [info] Uploaded file src/calculators/distance_calculator.py modelVersion=215 in 136.77337200008333ms
+2025-04-24 19:25:25.831 [info] Handled visible editors change in 273.3705299999565ms
+2025-04-24 19:25:47.411 [info] Synced file src/calculators/distance_calculator.py modelVersion=216 in 124.99143399996683ms
+2025-04-24 19:25:48.573 [info] Synced file src/calculators/distance_calculator.py modelVersion=217 in 130.41460100002587ms
+2025-04-24 19:25:50.021 [info] Synced file src/calculators/distance_calculator.py modelVersion=218 in 130.84576100017875ms
+2025-04-24 19:25:50.961 [info] Handled visible editors change in 0.7415670002810657ms
+2025-04-24 19:25:50.997 [info] Handled visible editors change in 0.9171989997848868ms
+2025-04-24 19:26:09.222 [info] Handled visible editors change in 1.923462999984622ms

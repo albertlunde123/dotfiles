@@ -1,0 +1,92 @@
+\documentclass[working, oneside]{../../Preambles/tuftebook}
+\input{../../Preambles/colors}
+\input{../../Preambles/preamble}
+\input{../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{8 - Scalar Fields and Causality}
+
+Let us consider an expectation value of two fields in the vacuum
+\begin{align*}
+D(x, y) = \langle 0 | \phi(x) \phi(y) | 0 \rangle,
+\end{align*}
+where $x$ and $y$ are four-vectors (we suppress the space-time indices for simplicity). We use the field expansion for a real field, $\phi$, which has the form
+\begin{align*}
+\phi = \int \frac{d^3 \mathbf{p}}{(2\pi)^3} \frac{1}{\sqrt{2 \omega_\mathbf{p}}} \left[ e^{-ipx} a_\mathbf{p} + e^{ipx} a_\mathbf{p}^\dagger \right],
+\end{align*}
+where $\omega_\mathbf{p} = \sqrt{\mathbf{p}^2 + m^2}$.
+
+\begin{exercise}[1]
+Show that
+\begin{align*}
+    D(x, y) = D(x - y) = \int \frac{d^3 \mathbf{p}}{(2\pi)^3} \frac{1}{ 2 \omega_\mathbf{p}} e^{-ip(x - y)},
+\end{align*}
+and argue that this quantity is a Lorentz scalar, i.e., it is invariant under Lorentz transformations.
+\end{exercise}
+Lets plug it in and see what happens. We can pull the integrals and the constants out,
+\begin{align*}
+    D\left( x,y \right) &= \int \frac{d^3\mathbf{p}}{\left( 2\pi \right) ^{3}} \frac{1}{\sqrt{ 2\omega_{\mathbf{p}}}} \int \frac{d^3\mathbf{q}}{\left( 2\pi \right) ^{3}} \frac{1}{\sqrt{ 2\omega_{\mathbf{q}}}} \left<0 \right|  \left( e^{-ipx}a_{\mathbf{p}}+e^{ipx}a_{\mathbf{p}}^\dagger \right) \left(  e^{-iqy}a_{\mathbf{q}}+e^{iqy }a_{\mathbf{q}}^\dagger \right)   \left|0 \right>
+.\end{align*}
+Recall that 
+\[
+    \left<0 \right|a_{\mathbf{p} }^\dagger = 0 \quad, \quad a_{\mathbf{p}} \left|0 \right = 0 
+.\] 
+So mulitplying the parenthesis out, we only have a single term that survives
+\begin{align*}
+    D\left( x,y \right) &= \int \frac{d^3\mathbf{p}}{\left( 2\pi \right) ^{3}} \frac{1}{\sqrt{2\omega_{\mathbf{p}}} } \int \frac{d^3\mathbf{q}}{\left( 2\pi \right) ^{3}} \frac{1}{\sqrt{2\omega_{\mathbf{q}}} } \left<0 \right| a_{\mathbf{p}}a_{\mathbf{q}}^\dagger e^{-i\left( px - qy \right) } \left|0 \right> \\
+                        &= \int \frac{d^3\mathbf{p}}{\left( 2\pi \right) ^{3}} \frac{1}{\sqrt{2\omega_{\mathbf{p}}}} \int \frac{d^3\mathbf{q}}{\left( 2\pi \right) ^{3}} \frac{1}{\sqrt{2\omega_{\mathbf{q}}}} \left<0 \right| a_{\mathbf{q}}^\dagger a_{\mathbf{p}} + \delta^{3}\left( p - q \right)   \left|0 \right> e^{-i\left( px - qy \right) }\\
+                        &= \int \frac{d^3\mathbf{p}}{\left( 2\pi \right) ^{3}} \frac{1}{\sqrt{ 2\omega_{\mathbf{p}}}} \int \frac{d^3\mathbf{q}}{\left( 2\pi \right) ^{3}} \frac{1}{\sqrt{ 2\omega_{\mathbf{q}}}}  \delta^{3}\left( p - q \right) e^{-i\left( px - qy \right) }\\
+ &= \int \frac{d^3\mathbf{p}}{\left( 2\pi \right) ^{3}} \frac{1}{2\omega_{\mathbf{p}}}  e^{-ip\left(x - y \right)}
+.\end{align*}
+\newpage
+\begin{exercise}[2]
+Show that
+\begin{align*}
+\left[ \phi(x), \phi(y) \right] = D(x - y) - D(y - x).
+\end{align*}
+\end{exercise}
+This is just computation, so lets go ahead and do that.
+\begin{align*}
+    \left[ \phi \left( x \right) ,\phi \left( y \right)  \right] &= 
+    \int \frac{d^3\mathbf{p}}{\left( 2\pi \right) ^{3}} \frac{1}{\sqrt{ 2\omega_{\mathbf{p}}}} \int \frac{d^3\mathbf{q}}{\left( 2\pi \right) ^{3}} \frac{1}{\sqrt{ 2\omega_{\mathbf{q}}}} \left[ e^{-ipx}a_{\mathbf{p}}+e^{ipx}a_{\mathbf{p}}^\dagger  ,   e^{-iqy}a_{\mathbf{q}}+e^{iqy }a_{\mathbf{q}}^\dagger \right]\\
+    &=\int \frac{d^3\mathbf{p}}{\left( 2\pi \right) ^{3}} \frac{1}{\sqrt{ 2\omega_{\mathbf{p}}}} \int \frac{d^3\mathbf{q}}{\left( 2\pi \right) ^{3}} \frac{1}{\sqrt{ 2\omega_{\mathbf{q}}}} \left(   \left[ e^{-ipx}a_{\mathbf{p}}  ,   e^{iqy }a_{\mathbf{q}}^\dagger \right] + \left[   e^{ipx}a_{\mathbf{p}}^\dagger,e^{-iqy}a_{\mathbf{q}} \right]\right) \\
+    &=\int \frac{d^3\mathbf{p}}{\left( 2\pi \right) ^{3}} \frac{1}{\sqrt{ 2\omega_{\mathbf{p}}}} \int \frac{d^3\mathbf{q}}{\left( 2\pi \right) ^{3}} \frac{1}{\sqrt{ 2\omega_{\mathbf{q}}}} \left(   \left[ a_{\mathbf{p}}  ,   a_{\mathbf{q}}^\dagger \right]e^{-i(px -qy)} + \left[   a_{\mathbf{p}}^\dagger,a_{\mathbf{q}} \right]e^{-i(qy-px)}\right)\\ 
+    &=\int \frac{d^3\mathbf{p}}{\left( 2\pi \right) ^{3}} \frac{1}{ 2\omega_{\mathbf{p}}} \left(e^{-ip(x -y)} +e^{-ip(y-x)}\right) 
+.\end{align*}
+\begin{exercise}[3]
+Show that if $(x - y)^2 < 0$ then $\left[ \phi(x), \phi(y) \right] = 0$. (Hint: First argue that in this case a Lorentz transformation can be found that takes $(x_0 - y_0)$ to $-(x_0 - y_0) = (y_0 - x_0$).
+\end{exercise}
+When we spatial separation we can find a reference where the events happen simultaneously. Lets call this transform $L_{0}$. Applying this to the four vector $x-y$, we get
+ \[
+L_{0}\left( x-y \right) =
+\begin{bmatrix}
+    0 \\
+    \vec{x}' - \vec{y}' \\
+\end{bmatrix} = x' -y'
+.\] 
+Since the lorentz transform is linear,
+\[
+L_0 \left( y-x \right) = -L_0\left( x- y \right) =
+\begin{bmatrix}
+    0 \\
+    \vec{y}' - \vec{x}' \\
+\end{bmatrix} = y' - x'
+.\] 
+Now, since $D$ is lorentz invariant we have that,
+\[
+D\left( x-y \right) = D\left( x'-y' \right) = \int \frac{d^3\mathbf{p}}{\left( 2\pi \right) ^3} \frac{1}{2\omega_{\mathbf{p}}}e^{-i\mathbf{p}\left( \vec{x}' - \vec{y}' \right) }
+.\] 
+Now lets a look at the commutator in the transformed frame,
+\begin{align*}
+ D\left( x'-y' \right) - D\left( y' - x'\right) = \int \frac{d^3\mathbf{p}}{\left( 2\pi \right) ^3} \frac{1}{2\omega_{\mathbf{p}}}e^{-i\mathbf{p}\left( \vec{x}' - \vec{y}' \right) } - \int \frac{d^3\mathbf{q}}{\left( 2\pi \right) ^3} \frac{1}{2\omega_{\mathbf{q}}}e^{-i\mathbf{q}\left( \vec{y}' - \vec{x}' \right) }
+.\end{align*}
+We can do a substitution $\mathbf{q} \to \mathbf{-p}$, and noting that $\omega_{-\mathbf{p}} = \omega_{\mathbf{p}}$, we end up with the same integrals with the signs flipped,
+\[
+ = \int \frac{d^3\mathbf{p}}{\left( 2\pi \right) ^3} \frac{1}{2\omega_{\mathbf{p}}}e^{-i\mathbf{p}\left( \vec{x}' - \vec{y}' \right) } - \int \frac{d^3\mathbf{p}}{\left( 2\pi \right) ^3} \frac{1}{2\omega_{\mathbf{p}}}e^{-i\mathbf{p}\left( \vec{x}' - \vec{y}' \right) }=0
+.\] 
+\begin{exercise}[4]
+Argue that you have now shown that causality is preserved for scalar fields.
+\end{exercise}
+\end{document}

@@ -1,0 +1,386 @@
+\documentclass[working, oneside]{../../Preambles/tuftebook}
+\input{../../Preambles/colors}
+\input{../../Preambles/preamble}
+\input{../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{Opgave 3 - Klein-Gordon Field in Space-Time}
+\begin{exercise}[3.1]
+The previous problem showed how to quantize the Klein-Gordon field in the 
+Schrödinger picture of quantum mechanics where the operators are independent 
+of time while the state vectors carry all the time-dependence. Here we will 
+consider the (equivalent) Heisenberg picture where the state vectors are 
+time-independent and the operators carry the time-dependence. The definition 
+of an operator in the Heisenberg picture is straightforward
+\[
+\mathcal{O}_H(x) = \mathcal{O}_H(x,t) = e^{iHt} \mathcal{O}_S(x) e^{-iHt}, \tag{30}
+.\]
+\color{foreground} 
+where $\mathcal{O}_S(x)$ is an operator in the Schrödinger picture and $H$ is the 
+Hamiltonian operator which we assume has no explicit time-dependence in this 
+problem. Assume that $\mathcal{O}$ does not have any explicit dependence on time $t$. 
+Derive the Heisenberg equation of motion - Klein-Gordon Field in Space-Time
+\[
+i \frac{\partial }{\partial t} \mathcal{O}_H = \left[ \mathcal{O}_H, H \right] 
+.\] 
+\end{exercise}
+\begin{solution}
+\begin{align*}
+    i\frac{\partial}{\partial t} \left( e^{i\hat{H}t} \hat{O}(x) e^{-i\hat{H}t} \right) &= i\hat{H}e^{i\hat{H}t}\hat{O}\left( x \right) e^{-i\hat{H}t} +e^{i\hat{H}t}\hat{O}\left( x \right)\left( -i\hat{H} \right)  e^{-i\hat{H}t}  \\
+&= -i \left( \hat{H} \hat{O}_H - \hat{O}_H \hat{H} \right) \\
+&= [\hat{O}_H, \hat{H}]
+\end{align*}
+\end{solution}
+\begin{exercise}[3.2]
+The quantized version of the Hamiltonian for the Klein-Gordon field follows 
+from Eq. (8) above and is:
+\[
+H = \int d^3x \left( \pi(x, t)^\dagger \pi(x, t) 
++ \nabla \phi(x, t)^\dagger \cdot \nabla \phi(x, t) 
++ m^2 \phi(x, t)^\dagger \phi(x, t) \right). \tag{32}
+\]
+
+Calculate \( [\phi(x, t), H] \) and show that:
+\[
+i \frac{\partial}{\partial t} \phi(x, t) = i \pi(x, t)^\dagger. \tag{33}
+\]
+
+You will need the equal-time commutator in Eq. (11) and the fact that all 
+combinations like \( [\phi, \pi^\dagger] = 0 \) vanish.
+
+\end{exercise}
+\begin{solution}
+Calculate,
+\[
+[\phi(x, t), H]
+\]
+
+where
+\[
+H = \int d^3x \left( \pi^\dagger \pi + \nabla \phi^\dagger \cdot \nabla \phi + m^2 \phi^\dagger \phi \right)
+\]
+
+Step-by-step:
+\[
+[\phi, H] = \int d^3x \left( [\phi, \pi^\dagger \pi] + [\phi, \nabla \phi^\dagger \cdot \nabla \phi] + [\phi, m^2 \phi^\dagger \phi] \right)
+\]
+
+The second and third terms are zero:
+\[
+[\phi, H] = \int d^3x [\phi, \pi^\dagger \pi] = \int d^3x \left( \pi^\dagger [\phi, \pi] + [\phi, \pi^\dagger] \pi \right)
+\]
+
+Using the canonical commutation relation \( [\phi(x), \pi(x')] = i \delta^3(x - x') \), we get:
+\[
+[\phi, H] = \int d^3x \pi^\dagger i \delta^3(x - x') = i \pi^\dagger(x', t)
+\]
+
+We also know that:
+\[
+i \frac{\partial}{\partial t} \phi(x, t) = [\phi(x, t), H] = i \pi^\dagger(x', t)
+\]
+\end{solution}
+\begin{exercise}[3.3]
+3) By calculating the commutator \( [\pi(x, t), H] \), show that:
+\[
+i \frac{\partial}{\partial t} \pi(x, t) = -i \left( -\nabla^2 + m^2 \right) \phi(x, t)^\dagger. \tag{34}
+\]
+
+(Hint: You will need to do partial integration and throw away a boundary term 
+which we assume vanishes at infinity.)
+\end{exercise}
+\begin{solution}
+We do a similar calculation as the one before, but since the terms with gradient dont commute with $\pi$, we do partial integration to collect the gradients $\phi ^\dagger$, which we then prove commutes with $\pi$.
+\end{solution}
+\begin{exercise}[3.4]
+Use the results of 2) and 3) to show that the field operator $\phi(x,t)$ obeys the Klein-Gordon equation.
+\end{exercise}
+\begin{solution}
+\begin{align*}
+-i\frac{\partial^2}{\partial t^2} \phi(x,t) &= i \frac{\partial}{\partial t} \pi(x,t) = -i(-\nabla^2 + m^2)\phi(x,t), \\
+\frac{\partial^2}{\partial t^2} \phi(x,t) - (-\nabla^2 + m^2)\phi(x,t) &= 0, \\
+\left( \frac{\partial^2}{\partial t^2} - \nabla^2 + m^2 \right)\phi(x,t) &= 0, \\
+\left( \partial_\mu \partial^\mu + m^2 \right)\phi(x,t) &= 0.
+\end{align*}
+\end{solution}
+\begin{exercise}[3.5]
+Consider now the expansion of the field operator in modes, i.e.
+$$\phi(x) = \int \frac{d^3p}{(2\pi)^3}\frac{1}{\sqrt{2\omega_p}}(a_pe^{ip\cdot x} + c_p^\dagger e^{-ip\cdot x}).$$
+We would now like to use the creation and annihilation operators for the modes, $a_p$, $a_p^\dagger$, $c_p$, $c_p^\dagger$, to obtain the time-dependence explicitly. Since in the expansion they are the only quantities that are operators, all we need is to determine how they evolve in time in the Heisenberg picture. \\
+Use the commutator relations like those in Eq. (28) to deduce the relations
+
+$$H^na_p = a_p(H - \omega_p)^n$$
+
+for any integer $n$. (Hint: Start with $n = 1$.) Deduce an analogous relation for $a_p^\dagger$ where the minus becomes a plus on the right-hand side. Argue that identical relations can be deduced for the $c_p$ and $c_p^\dagger$ operators.
+\end{exercise}
+\begin{solution}
+
+We shall use induction. Let’s start by showing \( n = 1 \):
+
+\begin{align*}
+H a_p &= a_p H - \omega_p a_p, \\
+&= a_p (H - \omega_p),
+\end{align*}
+
+where I have used the commutator.
+
+We now assume that it holds for \( n \) i.e. $H^na_p = a_p \left( H - \omega_p \right)^{n} $, and want to show that this implies it holds for \( n+1 \):
+
+\begin{align*}
+H^{n+1} a_p &= H \left( H^n a_p \right), \\
+&= H \left( a_p (H - \omega_p)^n \right), \\
+&= \left( H a_p \right) (H - \omega_p)^n, \\
+&= a_p (H - \omega_p) (H - \omega_p)^n, \\
+&= a_p (H - \omega_p)^{n+1}.
+\end{align*}
+
+Trivial to show that:
+
+\[
+H^n a_p^\dagger = a_p^\dagger (H + \omega_p)^n.
+\]
+\end{solution}
+\begin{exercise}[3.6]
+Use the result of 5) to show that,
+\[
+e^{iHt}a_{p}e^{iHt}=a_{p}e^{-i\omega_p}
+.\] 
+and similar equations for $a_{p}^\dagger$ and the $c$s.
+\end{exercise}
+\begin{solution}
+We write this as an infinite series:
+\begin{align*}
+e^{iHt} a_p e^{-iHt} &= \sum_{n=0}^\infty \frac{(iHt)^n}{n!} a_p \sum_{n=0}^\infty \frac{(-iHt)^n}{n!}, \\
+&= \sum_{n=0}^\infty \frac{(iHt)^n}{n!} H^n a_p \sum_{n=0}^\infty \frac{(-iHt)^n}{n!}, \\
+&= a_p \sum_{n=0}^\infty \frac{(it)^n}{n!} (H - \omega_p)^n \sum_{n=0}^\infty \frac{(-iHt)^n}{n!}, \\
+&= a_p e^{i(H - \omega_p)t} e^{-iHt}, \\
+&= a_p e^{-i\omega_p t}.
+\end{align*}
+
+Trivial to show for \( a_p^\dagger \).
+\end{solution}
+
+\begin{exercise}[7]
+Show that the field operator in the Heisenberg picture can be written in the elegant form
+\begin{align*}
+    \phi(\mathbf{x}, t) = \int \frac{d^3p}{(2\pi)^3} \frac{1}{\sqrt{2\omega_p}} \left( a_p e^{-ip \cdot x} + c_p^\dagger e^{ip \cdot x} \right), \tag{38}
+\end{align*}
+where \( p = p^\mu = (\omega_p, \mathbf{p}) \), \( x = x^\mu = (t, \mathbf{x}) \), and \( p \cdot x \) denotes the contraction of the two four-vectors, i.e. \( p \cdot x = p^\mu x_\mu \).
+
+Notice how the field operator in the Heisenberg picture in Eq. (38) is an expansion in modes that correspond to the solutions of the free Klein-Gordon equation (plane waves with argument \( p \cdot x \)). This is a very important result when doing perturbation calculations in quantum field theories.
+\end{exercise}
+\begin{solution}
+\begin{align*}
+\phi(x, t) = \int \frac{d^3p}{(2\pi)^3 \sqrt{2\omega_p}} \left( a_p e^{-i p \cdot x} + c_p^\dagger e^{i p \cdot x} \right)
+\end{align*}
+where $p = p^\mu = (\omega_p, \vec{p})$, $x = x^\mu = (t, \vec{x})$ and $p \cdot x$ denotes the contraction.
+
+We just multiply it in on both sides:
+\begin{align*}
+\phi(x, t) = e^{iHt} \phi(x) e^{-iHt} = \int \frac{d^3p}{(2\pi)^3 \sqrt{2\omega_p}} e^{iHt} \left( a_p e^{i \vec{p} \cdot \vec{x}} + c_p^\dagger e^{-i \vec{p} \cdot \vec{x}} \right) e^{-iHt}
+\end{align*}
+Each of these hug $a_p$ and $c_p^\dagger$ respectively, so they produce energy/time terms.
+\begin{align*}
+= \int \frac{d^3p}{(2\pi)^3 \sqrt{2\omega_p}} \left( a_p e^{-i \omega_p t} e^{i \vec{p} \cdot \vec{x}} + c_p^\dagger e^{i \omega_p t} e^{-i \vec{p} \cdot \vec{x}} \right)
+\end{align*}
+Note $p^\mu x_\mu = (\omega_p t, -(\vec{p} \cdot \vec{x}))$ (since there is a metric tensor hidden)
+\begin{align*}
+= \int \frac{d^3p}{(2\pi)^3 \sqrt{2\omega_p}} \left( a_p e^{-i p^\mu x_\mu} + c_p^\dagger e^{i p^\mu x_\mu} \right)
+\end{align*}
+\end{solution}
+\begin{exercise}[8]
+The energy \( \omega_p = \sqrt{\mathbf{p}^2 + m^2} > 0 \) is positive by definition. Argue that if the exponential factors in Eq. (38) are interpreted as single-particle wave functions, they would correspond to states with positive and negative energies respectively. (Hint: Consider the time-evolution (phase) factor for a stationary state in the Schrödinger equation.)
+\end{exercise}
+\begin{solution}
+Lets interpret the wave functions as single particle wave functions
+\begin{align*}
+\Psi(x,t) &= e^{- ip^{\mu }x_{\mu}} \\
+&= e^{i (\vec{p} \cdot \vec{x})} e^{-i \omega_p t} \\
+&= \Psi(x) e^{-i \omega_p t}.
+\end{align*}
+Then if we interpret $\omega_p$ as an energy, this corresponds to a positive energy solution.
+
+We can see this by use of the Schrödinger equation
+\begin{align*}
+i \frac{\partial}{\partial t} \Psi(x,t) &= i \frac{\partial}{\partial t} \Psi(x) e^{-i \omega_p t} \\
+&= \omega_p \Psi(x) e^{-i \omega_p t} \\
+&= \omega_p \Psi(x,t)
+\end{align*}
+$\omega_p > 0$
+\end{solution}
+\begin{exercise}[9]
+Combine the notion of particles and anti-particles with the positive and negative energy solutions in the expansion of the field operator, and argue (following Richard Feynman) that the destruction of a particle with four-momentum \( p^\mu \) (and thus positive energy) is equivalent to the creation of an anti-particle with four-momentum \( -p^\mu \) (and negative energy), and vice versa.
+
+Feynman pushed the analogy a bit further by stating that negative energy solutions corresponds to positive energy anti-particles propagating backwards in time. However, when using the most common momentum-space approach to diagramatic perturbation theory this distinction and interpretation is not important, so in modern presentations this is typically either not discussed or only briefly mentioned.
+\end{exercise}
+
+\begin{exercise}[10]
+Define the three-momentum operator
+\begin{align*}
+    \mathbf{P} = -\int d^3x \left[ \pi(\mathbf{x}, t)^\dagger \left( \nabla \phi(\mathbf{x}, t) \right)^\dagger + \left( \nabla \phi(\mathbf{x}, t) \right) \pi(\mathbf{x}, t) \right]. \tag{39}
+\end{align*}
+The operator has been properly symmetrized since we work with complex fields. Show that
+\begin{align*}
+    \mathbf{P} = \int \frac{d^3p}{(2\pi)^3} \mathbf{p} \left( a_p^\dagger a_p + c_p^\dagger c_p \right), \tag{40}
+\end{align*}
+where \( \mathbf{p} \) is the three-momentum.
+\end{exercise}
+\begin{solution}
+Define the three-momentum operator
+\begin{align*}
+P = \int d^3x \left[ \pi(x,t)^\dagger (\nabla \phi(x,t)) + \nabla \phi(x,t) \pi(x,t) \right]
+\end{align*}
+We should probably do this in a couple of steps
+\begin{align*}
+\nabla \phi(x,t) &= \int \frac{d^3p}{(2\pi)^3} \frac{1}{\sqrt{2\omega_p}} i \vec{p} \left( a_p e^{-i p \cdot x} + c_p^\dagger e^{i p \cdot x} \right) \\
+\pi(x,t) &= i \int \frac{d^3p}{(2\pi)^3} \sqrt{\frac{\omega_p}{2}} \left( a_p^\dagger e^{i p \cdot x} - c_p e^{-i p \cdot x} \right)
+\end{align*}
+Alright, now lets compute the right-hand side.
+\begin{align*}
+-&\int d^3x \int d^3q \int d^3p \frac{1}{2(2\pi)^6} \vec{p} \left( a_p e^{-i p \cdot x} + c_p^\dagger e^{i p \cdot x} \right) \left( a_q^\dagger e^{i q \cdot x} - c_q e^{-i q \cdot x} \right) \\
+-&= \int d^3x \int d^3q \int d^3p \frac{i}{2(2\pi)^6} \vec{p} \left( a_p a_q^\dagger e^{i(q-p) \cdot x} - a_p c_q e^{-i(q+p) \cdot x} \right. \\
+&\qquad \left. + c_p^\dagger a_q^\dagger e^{i(q+p) \cdot x} - c_p^\dagger c_q e^{i(p-q) \cdot x} \right)
+\end{align*}
+Now, we need to be a bit careful here as $p, q, x$ are now four vectors. So we shall do the following rewrite before continuing
+\begin{align*}
+(q-p)^\mu x_\mu = ((w_p - w_q)t - (\vec{q} - \vec{p}) \cdot \vec{x})
+\end{align*}
+Having done this we can apply the $x$ integral. But lets just start by writing it
+\begin{align*}
+&= - \int d^3x \int d^3q \int d^3p \frac{1}{2} \frac{1}{(2\pi)^6} \vec{p} \left( a_p a_q^\dagger e^{-i(\vec{q} - \vec{p}) \cdot \vec{x}} e^{i(w_p - w_q)t} \right. \\
+&\qquad - a_p c_q e^{i(\vec{q} + \vec{p}) \cdot \vec{x}} e^{-i(w_p + w_q)t} + c_p^\dagger a_q^\dagger e^{-i(\vec{q} + \vec{p}) \cdot \vec{x}} e^{i(w_p + w_q)t} \\
+&\qquad \left. - c_p^\dagger c_q e^{-i(\vec{p} - \vec{q}) \cdot \vec{x}} e^{i(w_q - w_p)t} \right)
+\end{align*}
+We apply the $x$ integral. This yields delta functions, and a factor of $2\pi^{3}$
+\begin{align*}
+&= - \int d^3p \int d^3q \frac{1}{2} \frac{1}{(2\pi)^3} \vec{p} \left( a_p a_q^\dagger \delta^3(\vec{q} - \vec{p}) e^{i(w_p - w_q)t} - a_p c_q \delta^3(\vec{p} + \vec{q}) e^{-i(w_p + w_q)t} \right. \\
+&\qquad \left. + c_p^\dagger a_q^\dagger \delta^3(\vec{p} + \vec{q}) e^{i(w_p + w_q)t} - c_p^\dagger c_q \delta^3(\vec{q} - \vec{p}) e^{i(w_q - w_p)t} \right)
+\end{align*}
+
+Now we can resolve the q integral.
+\begin{align*}
+&= - \int d^3p \frac{1}{2} \frac{1}{(2\pi)^3} \vec{p} \left( a_p a_p^\dagger - a_p c_{-p} e^{-i(w_p + w_p)t} + c_p^\dagger a_{-p}^\dagger e^{i(w_p + w_p)t} - c_p^\dagger c_p \right)
+\end{align*}
+At this point we cant reduce the RHS anymore, so lets proceed with the LHS
+\begin{align*}
+&\int d^3x \left[ \pi^\dagger(x,t) \nabla \phi(x,t) \right] \\
+&= - \int d^3x \int d^3q' \int d^3p' \frac{1}{2} \frac{1}{(2\pi)^6} \vec{p}' \left[ \left( a_{q'} e^{-i q' \cdot x} - c_{q'}^\dagger e^{i q' \cdot x} \right) \left( a_{p'}^\dagger e^{i p' \cdot x} + c_{p'} e^{-i p' \cdot x} \right) \right] \\
+&= - \int d^3x \int d^3q' \int d^3p' \frac{1}{2} \frac{1}{(2\pi)^6} \vec{p}' \left( a_{q'} a_{p'}^\dagger e^{i(q'-p') \cdot x} + a_{q'} c_{p'} e^{-i(q'+p') \cdot x} \right. \\
+&\quad \left. - c_{q'}^\dagger a_{p'}^\dagger e^{i(q'+p') \cdot x} - c_{q'}^\dagger c_{p'} e^{i(p'-q') \cdot x} \right)
+\end{align*}
+We apply the x-integral
+\begin{align*}
+&= - \int d^3q' \int d^3p' \frac{1}{2}\frac{1}{2\pi^{3}} \vec{p}' \left( a_{q'} a_{p'}^\dagger \delta^3(\vec{q'} - \vec{p}') e^{i(w_{q'} - w_{p'})t} + a_{q'} c_{p'} \delta^3(\vec{q'} + \vec{p}') e^{-i(w_{q'} + w_{p'})t} \right. \\
+&\quad \left. - c_{q'}^\dagger a_{p'}^\dagger \delta^3(\vec{q'} + \vec{p}') e^{i(w_{q'} + w_{p'})t} - c_{q'}^\dagger c_{p'} \delta^3(\vec{q'} - \vec{p}') e^{i(w_{p'} - w_{q'})t} \right)
+\end{align*}
+Resolve the q' integral
+\begin{align*}
+&= \int \frac{1}{2} \frac{1}{(2\pi)^3} \vec{p}' \left( a_{p'} a_{p'}^\dagger + a_{-p'} c_{p'} e^{-i(w_{p'} + w_{p'})t} - c_{-p'}^\dagger a_{p'}^\dagger e^{i(w_{p'} + w_{p'})t} - c_{p'}^\dagger c_{p'} \right)
+\end{align*}
+Okay, now we can collect them. We pull the minus sign and $\frac{1}{2} \frac{i}{(2\pi)^3}$ outside.
+\begin{align*}
+P &= (-1) \frac{1}{2} \frac{i}{(2\pi)^3} \left( \int d^3p \vec{p} (a_p a_p^\dagger - a_{-p} c_p e^{-i(2w_p)t} + c_{-p}^\dagger a_p^\dagger e^{i(2w_p)t} - c_p^\dagger c_p) \right. \\
+&\qquad \left. + \int d^3p' \vec{p}' (a_{p'} a_{p'}^\dagger + a_{p'} c_{-p'} e^{-i(2w_{p'})t} + c_{p'}^\dagger a_{-p'}^\dagger e^{i(w_{p'}2t)} - c_{p'}^\dagger c_{p'}) \right)
+\end{align*}
+Now before finishing up note some stuff.
+\begin{align*}
+a_p a_p^\dagger = - a_p^\dagger a_p + \delta^3(0)
+\end{align*}
+So we can switch by flipping the sign for free under the integral
+\begin{align*}
+\text{Also } a_{-p} c_p = c_{-p} a_p \text{ under the integral}
+\end{align*}
+We can also by linearity $p \rightarrow p'$ for free. We can therefore see immediately
+\begin{align*}
+P = \int \frac{d^3p}{(2\pi)^3} \vec{p} (a_p^\dagger a_p + c_p^\dagger c_p)
+\end{align*}
+\end{solution}
+\begin{exercise}[11]
+Show that $[P, a_p^\dagger] = p a_p^\dagger$ and $[P, a_p] = -p a_p$. Use these relations to show that
+\begin{align*}
+P^n a_p^\dagger &= a_p^\dagger (P + p)^n \text{ and }
+P^n a_p = a_p (P - p)^n,
+\end{align*}
+for any integer $n$. Finally, derive the translation identities
+\begin{align*}
+e^{-i P \cdot x} a_p e^{i P \cdot x} = a_p e^{i p \cdot x} \text{ and }
+e^{-i P \cdot x} a_p^\dagger e^{i P \cdot x} = a_p^\dagger e^{-i p \cdot x}.
+\end{align*}
+Argue that identical relations hold for the $c_p$ and $c_p^\dagger$ operators.
+\end{exercise}
+\begin{solution}
+\begin{align*}
+[P, a_p^\dagger] &= \int \frac{d^3p'}{(2\pi)^3} \vec{p}' [(a_{p'}^\dagger a_{p'} + c_{p'}^\dagger c_{p'}), a_p^\dagger] \\
+&= \int \frac{d^3p'}{(2\pi)^3} \vec{p}' [a_{p'}^\dagger a_{p'}, a_p^\dagger] \\
+&= \int \frac{d^3p'}{(2\pi)^3} \vec{p}' a_{p'}^\dagger \delta^3(p' - p) \\
+&= \vec{p} a_p^\dagger
+\end{align*}
+
+Show,
+\begin{align*}
+P^n a_p^\dagger = a_p^\dagger (P + \vec{p})^n
+\end{align*}
+
+Show for $n = 1$.
+\begin{align*}
+P a_p^\dagger &= a_p^\dagger P + \vec{p} a_p^\dagger \\
+&= a_p^\dagger (P + \vec{p})
+\end{align*}
+
+Assume $n$ show $\Rightarrow n+1$
+\begin{align*}
+P^{n+1} a_p^\dagger &= P (P^n a_p^\dagger) \\
+&= P (a_p^\dagger (P + \vec{p})^n) \\
+&= (P a_p^\dagger) (P + \vec{p})^n \\
+&= a_p^\dagger (P + \vec{p})^{n+1}
+\end{align*}
+And for the last equality, we use the Baker-Campbell-Hausdorff lemma
+\begin{align*}
+e^{-i P \cdot x} a_p^\dagger e^{i P \cdot x} &= \sum_{n=0}^\infty \frac{- [\left( iP\cdot x \right)^{n} , a_p^\dagger] }{n!} 
+\end{align*}
+Where the numerator is an $n$-times nested commutator,
+\[
+\left[ \left( iP\cdot x \right) ^{n}, a_{p}^\dagger \right] = a_p^\dagger + [i(P \cdot x), a_p^\dagger] + \frac{ [i(P \cdot x), [i(P \cdot x), a_p^\dagger]] }{2!} + \dots
+.\] 
+I will use induction to prove the form of the $n$-th term. We start by showing $n=1$
+\begin{align*}
+[i(P \cdot x), a_p^\dagger] &= -i x \cdot [P, a_p^\dagger] = -i x \cdot p a_p^\dagger
+\end{align*}
+And now we make an assumption on $n$,
+\begin{align*}
+[i(P \cdot x)^{n}, a_p^\dagger]= (-i x \cdot p)^n a_p^\dagger
+\end{align*}
+And prove that that this implies $n+1$.
+\begin{align*}
+[[i P \cdot x)^{n+1}, a_p^\dagger] &= [i P \cdot x, [i P \cdot x)^n, a_p^\dagger]] \\
+&= [i P \cdot x, (ix \cdot p)^n a_p^\dagger] \\
+&= (ix \cdot p)^n [i P \cdot x, a_p^\dagger] \\
+&= (ix \cdot p)^{n+1} a_p^\dagger
+\end{align*}
+Insert.
+\begin{align*}
+\sum_{n=0}^\infty \frac{-[[i P \cdot x)^n, a_p^\dagger]}{n!} &= \sum_{n=0}^\infty \frac{-i x \cdot p}{n!} a_p^\dagger \\
+&= a_p^\dagger e^{-ix \cdot p}
+\end{align*}
+\end{solution}
+\begin{exercise}[12]
+Define the four-momentum operator $P^\mu = (H, P)$. Using the relations above show that the $\phi$ field can be translated in space and time by
+\begin{align*}
+\phi(x,t) = e^{i P^\mu x_\mu} \phi(0,0) e^{-i P^\mu x_\mu},
+\end{align*}
+where $x^\mu = (t, x)$.
+\end{exercise}
+\begin{solution}
+\begin{align*}
+e^{i P^\mu x_\mu} \phi(0,0) e^{-i P^\mu x_\mu} &= e^{i P^\mu x_\mu} \int \frac{d^3p}{(2\pi)^3} k (a_p + c_p^\dagger) e^{i P^\mu x_\mu} \\
+&= e^{i H t} e^{i P \cdot x} \int \frac{d^3p}{(2\pi)^3} k (a_p + c_p^\dagger) e^{i P \cdot x} e^{i H t}.
+\end{align*}
+Apply the relations,
+\begin{align*}
+\int \frac{d^3p}{(2\pi)^3} k (a_p e^{i p \cdot x - i w_p t} + c_p^\dagger e^{-i p \cdot x + i w_p t}) &= \phi(x,t)
+\end{align*}
+The only thing worth considering here, is why I can move momentum term inside the integral.
+\end{solution}
+\end{document}

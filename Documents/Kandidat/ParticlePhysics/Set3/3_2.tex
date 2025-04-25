@@ -1,0 +1,64 @@
+\documentclass[working, oneside]{../../../Preambles/tuftebook}
+\input{../../../Preambles/colors}
+\input{../../../Preambles/preamble}
+\input{../../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{2 - Solutions of the Dirac Equations and the Polarization Sum}
+
+\begin{exercise}[4]
+Consider now the non-zero momentum case and let \( p^\mu = (E, \mathbf{p}) \). We will take \( E > 0 \) from now on. Show that \( \psi = u(p) e^{-i p x} \) and \( \psi = v(p) e^{i p x} \), where \( u \) and \( v \) are 4-spinors, are solutions of the Dirac equation when \( (\not{p} - m) u(p) = 0 \) and \( (\not{p} + m) v(p) = 0 \). Notice that since we assume \( E > 0 \), the \( u(p) \) solutions may be called positive energy solutions and the \( v(p) \) solutions may be called negative energy solutions.
+\end{exercise}
+
+\begin{exercise}[5]
+Next show that \( u(p) = (\not{p} + m) u(0) \) and \( v(p) = (\not{p} - m) v(0) \) are solutions. Here \( u(0) \) and \( v(0) \) are momentum independent functions. What other quantum number must \( u(0) \) and \( v(0) \) depend on?
+\end{exercise}
+
+\begin{exercise}[6]
+Now we write
+\begin{align*}
+u_s(0)
+&= \begin{pmatrix} \chi_s \\ 0 \end{pmatrix} \quad \text{and} \quad v_s(0) = \begin{pmatrix} 0 \\ \chi_{-s} \end{pmatrix}, \tag{12}
+\end{align*}
+where \( \chi_s \) is a 2-spinor spin one-half wave function and \( s = \pm 1 \) denotes the two orthogonal spin states along some direction in space. Notice the minus sign on the 2-spinor in the \( v_s(0) \) part (it is connected to the anticommutation relations of fermion fields). We do not need to specify a quantization axis for the spin at this point and we keep it completely general. Show that
+\begin{align*}
+u_s(p)
+&= \begin{pmatrix} (E + m) \chi_s \\ \boldsymbol{\sigma} \cdot \mathbf{p} \chi_s \end{pmatrix} \quad \text{and} \quad v_s(p) = \begin{pmatrix} - \boldsymbol{\sigma} \cdot \mathbf{p} \chi_{-s} \\ -(E + m) \chi_{-s} \end{pmatrix}, \tag{13}
+\end{align*}
+are solutions for positive and negative energy states.
+\end{exercise}
+
+\begin{exercise}[7]
+We also need to normalize the Dirac 4-spinor solutions appropriately. The four-current for a Dirac spinor field is \( \psi \gamma^\mu \psi \), where \( \overline{\psi} = \psi^\dagger \gamma^0 \). Show that the density (which is the zeroth component) is simply \( \rho = \psi^\dagger \psi \). Consider
+\begin{align*}
+\psi
+&= u_s(p) e^{-i p x}, \tag{14}
+\end{align*}
+and show that \( \int d^3x \rho = 2E (m + E) V \). Argue (without doing more calculations) that if we had taken \( v_s(p) \) instead of \( u_s(p) \) we get the same result.
+\end{exercise}
+
+\begin{exercise}[8]
+Show that the properly normalized \( \left( \int d^3x \psi^\dagger \psi = 1 \right) \) 4-spinors may be written in the form
+\begin{align*}
+u_s(p)
+&= \sqrt{E + m} \begin{pmatrix} \chi_s \\ \frac{\boldsymbol{\sigma} \cdot \mathbf{p} \chi_s}{E + m} \end{pmatrix} \quad \text{and} \quad v_s(p) = \sqrt{E + m} \begin{pmatrix} \frac{\boldsymbol{\sigma} \cdot \mathbf{p} \chi_{-s}}{E + m} \\ \chi_{-s} \end{pmatrix}, \tag{15}
+\end{align*}
+and that this produces the positive and negative energy solutions of the form
+\begin{align*}
+\psi_+
+&= \frac{1}{\sqrt{2EV}} u_s(p) e^{-i p x} \quad \text{and} \quad \psi_- = \frac{1}{\sqrt{2EV}} v_s(p) e^{i p x}. \tag{16}
+\end{align*}
+Here we have insisted that the total wave functions, \( \psi_+ \) and \( \psi_- \), carry normalization factors similar to scalar wave functions \( (1 / \sqrt{2EV}) \) such that all the details of the fermionic nature and the Dirac equation are completely contained in the \( u \) and \( v \) factors.
+\end{exercise}
+
+\begin{exercise}[9]
+Using the explicit form of the 4-spinors in Eq. (15) show the important and extremely useful completeness relations
+\begin{align*}
+\sum_s u_s(p) \overline{u_s(p)}
+&= \not{p} + m \quad \text{and} \quad \sum_s v_s(p) \overline{v_s(p)} = \not{p} - m. \tag{17}
+\end{align*}
+\end{exercise}
+
+\end{document}

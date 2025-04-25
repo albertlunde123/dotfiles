@@ -1,0 +1,372 @@
+2025-04-24 18:47:37.628 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-04-24 18:47:37.628 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/home/albert/Documents/Kandidat/MoleculeOptimization/.pixi/envs'
+	at Object.readdirSync (node:fs:1507:26)
+	at t.readdirSync (node:electron/js2c/node_init:2:13703)
+	at /home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:586747
+	at /home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:586938
+	at Array.map (<anonymous>)
+	at d.initWatchers (/home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:586656)
+	at async d.ensureWatchersReady (/home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:543067)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/albert/Documents/Kandidat/MoleculeOptimization/.pixi/envs'
+}
+2025-04-24 18:47:37.628 [error] Dir "/home/albert/Documents/Kandidat/MoleculeOptimization/.pixi/envs" is not watchable (directory does not exist)
+2025-04-24 18:47:37.628 [info] Default formatter is set to null for workspace /home/albert/Documents/Kandidat/MoleculeOptimization
+2025-04-24 18:47:37.628 [info] Starting Environment refresh
+2025-04-24 18:47:37.628 [info] Starting Environment refresh
+2025-04-24 18:47:37.628 [info] > pixi --version
+2025-04-24 18:47:37.628 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2025-04-24 18:47:37.628 [info] > hatch env show --json
+2025-04-24 18:47:37.628 [info] cwd: .
+2025-04-24 18:47:37.654 [info] Environments refresh finished (event): 904 milliseconds
+2025-04-24 18:47:37.654 [info] Environments refresh paths discovered: 904 milliseconds
+2025-04-24 18:47:37.655 [info] Environments refresh finished (event): 903 milliseconds
+2025-04-24 18:47:37.655 [info] Environments refresh paths discovered: 903 milliseconds
+2025-04-24 18:47:37.658 [info] Environment refresh took 909 milliseconds
+2025-04-24 18:47:37.662 [info] Environment refresh took 908 milliseconds
+2025-04-24 18:47:37.679 [info] > pyenv which python
+2025-04-24 18:47:37.679 [info] cwd: .
+2025-04-24 18:47:37.715 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2025-04-24 18:47:37.735 [info] Python interpreter path: /bin/python3
+2025-04-24 18:47:37.748 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2025-04-24 18:47:37.805 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2025-04-24 18:47:39.062 [info] Starting Pylance language server.
+2025-04-24 18:47:47.290 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/molecule/molecule.py
+2025-04-24 18:47:59.349 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]',
+  version: {
+    raw: '3.10.12',
+    major: 3,
+    minor: 10,
+    patch: 12,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.10.12 64-bit',
+  detailedDisplayName: 'Python 3.10.12 64-bit',
+  type: undefined
+} /home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py /home/albert/Documents/Kandidat/MoleculeOptimization/requirements.txt
+2025-04-24 18:47:59.349 [info] > /bin/python3 ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py ./requirements.txt
+2025-04-24 18:47:59.397 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]',
+  version: {
+    raw: '3.10.12',
+    major: 3,
+    minor: 10,
+    patch: 12,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.10.12 64-bit',
+  detailedDisplayName: 'Python 3.10.12 64-bit',
+  type: undefined
+} /home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py /home/albert/Documents/Kandidat/MoleculeOptimization/requirements.txt
+2025-04-24 18:47:59.397 [info] > /bin/python3 ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py ./requirements.txt
+2025-04-24 18:47:59.453 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]',
+  version: {
+    raw: '3.10.12',
+    major: 3,
+    minor: 10,
+    patch: 12,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.10.12 64-bit',
+  detailedDisplayName: 'Python 3.10.12 64-bit',
+  type: undefined
+} /home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py /home/albert/Documents/Kandidat/MoleculeOptimization/requirements.txt
+2025-04-24 18:47:59.453 [info] > /bin/python3 ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py ./requirements.txt
+2025-04-24 18:47:59.565 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]',
+  version: {
+    raw: '3.10.12',
+    major: 3,
+    minor: 10,
+    patch: 12,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.10.12 64-bit',
+  detailedDisplayName: 'Python 3.10.12 64-bit',
+  type: undefined
+} /home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py /home/albert/Documents/Kandidat/MoleculeOptimization/requirements.txt
+2025-04-24 18:47:59.565 [info] > /bin/python3 ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py ./requirements.txt
+2025-04-24 18:48:00.834 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]',
+  version: {
+    raw: '3.10.12',
+    major: 3,
+    minor: 10,
+    patch: 12,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.10.12 64-bit',
+  detailedDisplayName: 'Python 3.10.12 64-bit',
+  type: undefined
+} /home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py /home/albert/Documents/Kandidat/MoleculeOptimization/requirements.txt
+2025-04-24 18:48:00.834 [info] > /bin/python3 ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py ./requirements.txt
+2025-04-24 18:48:15.425 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/molecule/molecule.py
+2025-04-24 18:49:02.190 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/molecule/cluster.py
+2025-04-24 18:49:09.706 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]',
+  version: {
+    raw: '3.10.12',
+    major: 3,
+    minor: 10,
+    patch: 12,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.10.12 64-bit',
+  detailedDisplayName: 'Python 3.10.12 64-bit',
+  type: undefined
+} /home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py /home/albert/Documents/Kandidat/MoleculeOptimization/requirements.txt
+2025-04-24 18:49:09.707 [info] > /bin/python3 ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py ./requirements.txt
+2025-04-24 18:49:11.356 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/molecule/atom.py
+2025-04-24 18:49:17.355 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/molecule/__init__.py
+2025-04-24 18:49:17.903 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/molecule/cluster.py
+2025-04-24 18:49:41.940 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/molecule/atom.py
+2025-04-24 18:51:15.976 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/molecule/__init__.py
+2025-04-24 18:51:26.191 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/visualization/plotter.py
+2025-04-24 18:51:29.472 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]',
+  version: {
+    raw: '3.10.12',
+    major: 3,
+    minor: 10,
+    patch: 12,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.10.12 64-bit',
+  detailedDisplayName: 'Python 3.10.12 64-bit',
+  type: undefined
+} /home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py /home/albert/Documents/Kandidat/MoleculeOptimization/requirements.txt
+2025-04-24 18:51:29.472 [info] > /bin/python3 ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py ./requirements.txt
+2025-04-24 18:51:35.371 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/visualization/__init__.py
+2025-04-24 18:52:54.831 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/scripts/test_plotting.py
+2025-04-24 18:52:56.329 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/visualization/plotter.py
+2025-04-24 18:52:58.824 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]',
+  version: {
+    raw: '3.10.12',
+    major: 3,
+    minor: 10,
+    patch: 12,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.10.12 64-bit',
+  detailedDisplayName: 'Python 3.10.12 64-bit',
+  type: undefined
+} /home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py /home/albert/Documents/Kandidat/MoleculeOptimization/requirements.txt
+2025-04-24 18:52:58.824 [info] > /bin/python3 ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py ./requirements.txt
+2025-04-24 18:53:01.114 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/visualization/__init__.py
+2025-04-24 18:53:04.463 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/scripts/test_plotting.py
+2025-04-24 18:53:13.402 [info] Send text to terminal: /bin/python3 /home/albert/Documents/Kandidat/MoleculeOptimization/scripts/test_plotting.py
+2025-04-24 18:54:38.754 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/scripts/test_plotting.py
+2025-04-24 18:56:06.841 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/visualization/plotter.py
+2025-04-24 18:56:13.049 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/scripts/test_plotting.py
+2025-04-24 18:56:20.782 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/visualization/plotter.py
+2025-04-24 18:56:47.945 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/scripts/test_plotting.py
+2025-04-24 18:57:09.139 [info] Send text to terminal: /bin/python3 /home/albert/Documents/Kandidat/MoleculeOptimization/scripts/test_plotting.py
+2025-04-24 18:57:09.329 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/scripts/test_plotting.py
+2025-04-24 18:58:40.223 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]',
+  version: {
+    raw: '3.10.12',
+    major: 3,
+    minor: 10,
+    patch: 12,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.10.12 64-bit',
+  detailedDisplayName: 'Python 3.10.12 64-bit',
+  type: undefined
+} /home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py /home/albert/Documents/Kandidat/MoleculeOptimization/requirements.txt
+2025-04-24 18:58:40.223 [info] > /bin/python3 ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py ./requirements.txt
+2025-04-24 18:58:45.728 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]',
+  version: {
+    raw: '3.10.12',
+    major: 3,
+    minor: 10,
+    patch: 12,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.10.12 64-bit',
+  detailedDisplayName: 'Python 3.10.12 64-bit',
+  type: undefined
+} /home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py /home/albert/Documents/Kandidat/MoleculeOptimization/requirements.txt
+2025-04-24 18:58:45.728 [info] > /bin/python3 ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py ./requirements.txt
+2025-04-24 18:58:54.223 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/molecule/atom.py
+2025-04-24 18:58:59.206 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]',
+  version: {
+    raw: '3.10.12',
+    major: 3,
+    minor: 10,
+    patch: 12,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.10.12 64-bit',
+  detailedDisplayName: 'Python 3.10.12 64-bit',
+  type: undefined
+} /home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py /home/albert/Documents/Kandidat/MoleculeOptimization/requirements.txt
+2025-04-24 18:58:59.206 [info] > /bin/python3 ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py ./requirements.txt
+2025-04-24 18:59:38.130 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/molecule/atom.py
+2025-04-24 19:01:21.274 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]',
+  version: {
+    raw: '3.10.12',
+    major: 3,
+    minor: 10,
+    patch: 12,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.10.12 64-bit',
+  detailedDisplayName: 'Python 3.10.12 64-bit',
+  type: undefined
+} /home/albert/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py /home/albert/Documents/Kandidat/MoleculeOptimization/requirements.txt
+2025-04-24 19:01:21.274 [info] > /bin/python3 ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/installed_check.py ./requirements.txt
+2025-04-24 19:01:22.928 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/visualization/plotter.py
+2025-04-24 19:01:52.415 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/visualization/plotter.py
+2025-04-24 19:02:02.191 [info] Send text to terminal: /bin/python3 /home/albert/Documents/Kandidat/MoleculeOptimization/scripts/test_plotting.py
+2025-04-24 19:03:55.926 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/calculators/base_calculator.py
+2025-04-24 19:04:01.582 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/calculators/__init__.py
+2025-04-24 19:04:05.278 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/calculators/base_calculator.py
+2025-04-24 19:04:12.143 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/calculators/__init__.py
+2025-04-24 19:05:04.472 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/calculators/distance_calculator.py
+2025-04-24 19:05:13.445 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/calculators/__init__.py
+2025-04-24 19:05:52.856 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/calculators/distance_calculator.py
+2025-04-24 19:11:10.777 [info] Send text to terminal: /bin/python3 /home/albert/Documents/Kandidat/MoleculeOptimization/scripts/2_atoms_energy.py
+2025-04-24 19:11:10.978 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/scripts/2_atoms_energy.py
+2025-04-24 19:11:49.134 [info] Send text to terminal: /bin/python3 /home/albert/Documents/Kandidat/MoleculeOptimization/scripts/2_atoms_energy.py
+2025-04-24 19:12:35.116 [info] Send text to terminal: /bin/python3 /home/albert/Documents/Kandidat/MoleculeOptimization/src/calculators/distance_calculator.py
+2025-04-24 19:12:35.336 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/calculators/distance_calculator.py
+2025-04-24 19:12:40.725 [info] Send text to terminal: /bin/python3 /home/albert/Documents/Kandidat/MoleculeOptimization/scripts/2_atoms_energy.py
+2025-04-24 19:14:48.518 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/calculators/base_calculator.py
+2025-04-24 19:14:50.481 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/calculators/base_calculator.py
+2025-04-24 19:15:00.768 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/calculators/distance_calculator.py
+2025-04-24 19:15:02.473 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/calculators/distance_calculator.py
+2025-04-24 19:16:48.619 [info] Send text to terminal: /bin/python3 /home/albert/Documents/Kandidat/MoleculeOptimization/scripts/2_atoms_energy.py
+2025-04-24 19:18:23.971 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/optimization/base_optimizer.py
+2025-04-24 19:18:29.799 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/optimization/__init__.py
+2025-04-24 19:19:26.405 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/calculators/base_calculator.py
+2025-04-24 19:19:39.405 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/calculators/base_calculator.py
+2025-04-24 19:19:46.690 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/calculators/distance_calculator.py
+2025-04-24 19:20:01.134 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/optimization/gradient_descent.py
+2025-04-24 19:20:06.457 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/calculators/distance_calculator.py
+2025-04-24 19:20:06.950 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/optimization/__init__.py
+2025-04-24 19:20:54.395 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/calculators/__init__.py
+2025-04-24 19:21:00.691 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/optimization/gradient_descent.py
+2025-04-24 19:21:08.472 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/optimization/__init__.py
+2025-04-24 19:22:07.479 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/scripts/2_atoms_energy.py
+2025-04-24 19:22:31.776 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/scripts/2_atoms_energy.py
+2025-04-24 19:22:40.446 [info] Send text to terminal: /bin/python3 /home/albert/Documents/Kandidat/MoleculeOptimization/scripts/2_atoms_energy.py
+2025-04-24 19:23:35.054 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/molecule/atom.py
+2025-04-24 19:23:46.899 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/src/molecule/atom.py
+2025-04-24 19:23:56.140 [info] Send text to terminal: /bin/python3 /home/albert/Documents/Kandidat/MoleculeOptimization/scripts/2_atoms_energy.py
+2025-04-24 19:25:52.022 [info] Send text to terminal: /bin/python3 /home/albert/Documents/Kandidat/MoleculeOptimization/scripts/2_atoms_energy.py
+2025-04-24 19:25:52.248 [info] Discover tests for workspace name: MoleculeOptimization - uri: /home/albert/Documents/Kandidat/MoleculeOptimization/scripts/2_atoms_energy.py

@@ -97,7 +97,7 @@ def construct_relative_path():
 	# get home path
 	home_path = vim.eval('expand("~")')
 	# get path to Preambles
-	preambles_path = os.path.join(home_path, 'Documents', 'Latex', 'Preambles')
+	preambles_path = os.path.join(home_path, 'Documents', 'Preambles')
 	# construct relative path
 	relative_path = os.path.relpath(preambles_path, current_file_path)
 	# replace backslashes with forward slashes
@@ -168,6 +168,22 @@ context "math()"
 snippet aa "alpha" iA
 \alpha
 endsnippet
+
+context "math()"
+snippet eta "alpha" iA
+\eta 
+endsnippet
+
+context "math()"
+snippet Tr "alpha" iA
+\text{Tr}\left[$1\right]$0
+endsnippet
+
+context "math()"
+snippet tau "tau" iA
+\tau
+endsnippet
+
 context "math()"
 snippet xri "alpha" iA
 \xrightarrow{$0}
@@ -186,6 +202,11 @@ endsnippet
 context "math()"
 snippet vec "alpha" iA
 \vec{$1}$0
+endsnippet
+
+context "math()"
+snippet dag "alpha" iA
+\dagger
 endsnippet
 
 context "math()"
@@ -239,7 +260,7 @@ endsnippet
 
 context "math()"
 snippet dd "diff" iA
-\frac{\partial}{\partial $1}
+\partial
 endsnippet
 
 context "math()"
@@ -282,10 +303,10 @@ snippet SS "frame" iA
 \mathcal{$1}$0
 endsnippet
 
-context "math()"
-snippet dot "frame" iA
-\dot{$1}$0
-endsnippet
+# context "math()"
+# snippet dot "frame" iA
+# \dot{$1}$0
+# endsnippet
 
 context "math()"
 snippet doot "frame" iA
@@ -304,12 +325,12 @@ endsnippet
 
 context "math()"
 snippet bf "epsilon" iA
-\bm{$1}$0
+\mathbf{$1}$0
 endsnippet
 
 context "math()"
-snippet hh "diff" iA
-\hbar
+snippet thh "diff" iA
+\theta 
 endsnippet
 
 context "math()"
@@ -351,6 +372,10 @@ snippet bff "bold text" iA
 \textbf{$0}
 endsnippet
 
+snippet TT "bold text" iA
+\texttt{$1}$0
+endsnippet
+
 snippet table "Table environment" b
  \begin{table}[${1:htpb}]
 	\centering
@@ -389,6 +414,12 @@ snippet desc "Description" b
 \end{description}
 endsnippet
 
+snippet code "code environment" b
+\begin{lstlisting}
+$0
+\end{lstlisting}
+endsnippet
+
 snippet pac "Package" b
 \usepackage[${1:options}]{${2:package}}$0
 endsnippet
@@ -408,7 +439,12 @@ endsnippet
 
 context "math()"
 snippet II "iff" Ai
-\mid
+\mathbb{I}
+endsnippet
+
+context "math()"
+snippet not "iff" Ai
+\not{$1}$0
 endsnippet
 
 snippet mk "Math" wA
@@ -429,8 +465,7 @@ endsnippet
 snippet ali "Align" bA
 \begin{align*}
 	${1:${VISUAL}}
-.\end{align*}
-\color{foreground} $0
+.\end{align*}$0
 endsnippet
 
 
@@ -645,13 +680,8 @@ snippet ism "rho" iA
 endsnippet
 
 context "math()"
-snippet theta "theta" i
-\theta 
-endsnippet
-
-context "math()"
 snippet phi "phi" iA
-\phi 
+\phi
 endsnippet
 
 context "math()"
@@ -879,11 +909,12 @@ snippet set "set" wA
 \\{$1\\} $0
 endsnippet
 
+context "math()"
 snippet || "mid" iA
  \mid 
 endsnippet
 
-
+context "math()"
 snippet notin "not in " iA
 \not\in 
 endsnippet
@@ -893,38 +924,47 @@ snippet inn "in " iA
 \in 
 endsnippet
 
+context "math()"
 snippet NN "n" iA
 \N
 endsnippet
 
+context "math()"
 snippet Nn "cap" iA
 \cap 
 endsnippet
 
+context "math()"
 snippet UU "cup" iA
 \cup 
 endsnippet
 
+context "math()"
 snippet uuu "bigcup" iA
 \bigcup_{${1:i \in ${2: I}}} $0
 endsnippet
 
+context "math()"
 snippet nnn "bigcap" iA
 \bigcap_{${1:i \in ${2: I}}} $0
 endsnippet
 
+context "math()"
 snippet OO "emptyset" iA
 \Omega
 endsnippet
 
+context "math()"
 snippet RR "real" iA
 \mathbb{R}
 endsnippet
 
+context "math()"
 snippet ZZ "real" iA
 \mathbb{Z}
 endsnippet
 
+context "math()"
 snippet NN "natural" iA
 \mathbb{N}
 endsnippet
@@ -965,10 +1005,6 @@ snippet case "cases" wA
 \begin{cases}
 	$1
 \end{cases}
-endsnippet
-
-snippet SI "SI" iA
-\SI{$1}{$2}
 endsnippet
 
 snippet bigfun "Big function" iA
@@ -1021,7 +1057,7 @@ snippet HH "H" iA
 endsnippet
 
 snippet DD "D" iA
-\mathbb{D}
+\Delta
 endsnippet
 
 # vim:ft=snippets

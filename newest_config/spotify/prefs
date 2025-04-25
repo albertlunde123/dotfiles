@@ -1,0 +1,15 @@
+autologin.canonical_username="11122270555"
+autologin.blob="gKHHt/0rdnrd0qQJQF9Sk+ieilpFAgMC9s28Gmq1BzNAwbkTLeAiIKh2n3hFX0TYgZGihnbJ3B8wUz02UwDl8g7qIiu/11Nh5Q/kSV5REsQ6356h6Omuz1TS+pp+WC7XFyGbMkeeKGXRfZrAiL+C0R2SQAUhHryWQjFBgq9k8JPa+xpGi2VhXaBl9Kl9fhKjZulLy7dPGZUQZP+IJZLvS5qNWgYiDIBkSLboyA+ZoEDNAbUZmSf5+ggKWN04WWMnJx2nh/WDmeg+jb5F/ZxXCg9itjqHPyi6tW4RwaRN2n8="
+autologin.saved_credentials="{\"11122270555\":[\"11122270555\",\"gKHHt/0rdnrd0qQJQF9Sk+ieilpFAgMC9s28Gmq1BzNAwbkTLeAiIKh2n3hFX0TYgZGihnbJ3B8wUz02UwDl8g7qIiu/11Nh5Q/kSV5REsQ6356h6Omuz1TS+pp+WC7XFyGbMkeeKGXRfZrAiL+C0R2SQAUhHryWQjFBgq9k8JPa+xpGi2VhXaBl9Kl9fhKjZulLy7dPGZUQZP+IJZLvS5qNWgYiDIBkSLboyA+ZoEDNAbUZmSf5+ggKWN04WWMnJx2nh/WDmeg+jb5F/ZxXCg9itjqHPyi6tW4RwaRN2n8=\"]}"
+es.send-on-startup=true
+core.clock_delta=0
+app.window.position.x=271
+autologin.username="11122270555"
+app.enable-chrome-runtime=true
+app.window.position.saved=true
+app.window.position.height=1278
+app.window.position.y=176
+storage.last-location="/home/albert/.cache/spotify/Storage"
+app.window.state.saved=true
+app.window.position.width=2018
+app.last-launched-version="1.2.37.701.ge66eb7bc"

@@ -1,0 +1,101 @@
+
+# ~/.config/alacritty/alacritty.yml
+
+# Window configuration
+window:
+  # Window padding (pixels)
+  # Corresponds to Kitty's window_padding_width
+  padding:
+    x: 15
+    y: 15
+
+  # Decorations: 'full', 'none'. 'full' includes title bar (managed by WM).
+  # 'none' might be useful in tiling WMs if you don't want title bars.
+  # Default is 'full'.
+  # decorations: full
+
+  # Startup Mode (Windowed, Maximized, Fullscreen)
+  # startup_mode: Windowed
+
+  # Note: Actual window border width around Alacritty is controlled
+  # by your Window Manager (Qtile), not Alacritty itself.
+
+# Scrolling configuration
+scrolling:
+  # Number of lines of history/scrollback.
+  # Setting to 0 effectively disables scrollback, similar to no scrollbar.
+  history: 0
+  # multiplier: 3 # How many lines to scroll per mouse wheel tick
+
+# Font configuration
+font:
+  # Normal (default) font face
+  normal:
+    # Font family
+    # Ensure "Hack Nerd Font" is installed and the name is correct.
+    family: Hack Nerd Font
+    # style: Regular # Optional: Specify style if needed
+
+  # Bold font face (Alacritty might derive this if not specified)
+  # bold:
+  #   family: Hack Nerd Font
+  #   style: Bold
+
+  # Italic font face (Alacritty might derive this if not specified)
+  # italic:
+  #   family: Hack Nerd Font
+  #   style: Italic
+
+  # Font size in points
+  size: 16.0
+
+  # Offset adjusts glyph spacing (rarely needed)
+  # offset:
+  #   x: 0
+  #   y: 0
+
+  # Glyph offset adjusts specific character positioning (rarely needed)
+  # glyph_offset:
+  #   x: 0
+  #   y: 0
+
+# Bell configuration
+bell:
+  # Visual bell animation ('Ease', 'EaseOut', 'Linear', 'None')
+  animation: None
+  # Duration in milliseconds (0 disables effectively)
+  duration: 0
+  # Bell color (if animation wasn't None)
+  # color: '0xffffff'
+  # Command to execute for audible bell (None disables)
+  # This is the primary way to disable the audio bell.
+  command: None
+
+# Colors (using Alacritty's default theme unless you specify)
+# colors:
+#   # Default colors
+#   primary:
+#     background: '0x1d1f21' # Example background
+#     foreground: '0xc5c8c6' # Example foreground
+#
+#   # Cursor colors
+#   cursor:
+#     text: '0x1d1f21'
+#     cursor: '0xc5c8c6'
+#
+#   # Normal colors
+#   normal:
+#     black:   '0x1d1f21'
+#     red:     '0xcc6666'
+#     # ... other colors
+#
+#   # Bright colors
+#   bright:
+#     black:   '0x969896'
+#     red:     '0xcc6666'
+#     # ... other colors
+
+# Add other sections like key_bindings, mouse, selection as needed.
+# key_bindings:
+#   - { key: V, mods: Control|Shift, action: Paste }
+#   - { key: C, mods: Control|Shift, action: Copy }

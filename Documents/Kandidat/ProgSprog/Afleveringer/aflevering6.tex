@@ -1,0 +1,57 @@
+\documentclass[working, oneside]{../../../Preambles/tuftebook}
+\input{../../../Preambles/colors}
+\input{../../../Preambles/preamble}
+\input{../../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{Handin 6}
+\begin{exercise}[121]
+Implement a generic sort function that can sort any list of objects that are comparable (meaning that they inherit from Comparable). Use either merge sort from exercise 56 or quicksort from week 7. Instead of comparing elements using '<', use the compareTo method
+\end{exercise}
+\begin{solution}
+Generalizing the sort from integers to comparable classes, is a relatively simple task. First we replace all the parameters types of the functions  \texttt{split, merge, length} and \texttt{mergeSort} by the general type \texttt{[T]}. In \texttt{merge} we call \texttt{compareTo}, since this is a function defined for $Comparable$ objects, we require that \texttt{T} is inherited from \texttt{Comparable[T]}.
+\end{solution}
+\begin{exercise}[122]
+Implement the filter and zip methods of Stream. (Some design choices to consider: Do your methods compute the head or the tail first in each step? Can you avoid computing the stream elements multiple times?) Then run the code and check that it works as expected. Also, explain how primes and fibs2 work.
+\end{exercise}
+\begin{solution}
+\begin{lstlisting}
+def filter(p: T => Boolean): Stream[T] = this match {
+    case SNil => SNil
+    case SCons(x, xs) =>
+      val f = x()
+      if (p(f)) SCons(() => f, () => xs().filter(p)) else xs().filter(p)
+  }
+\end{lstlisting}
+\begin{lstlisting}
+def zip[U](ys: Stream[U]): Stream[(T, U)] = (this, ys) match {
+    case (SNil, SNil) => SNil
+    case (_, SNil) => SNil
+    case (SNil, _) => SNil
+    case (SCons(x, xi), SCons(y, yi)) => SCons(() => (x(), y()), () => xi().zip(yi()))
+  }
+\end{lstlisting}
+\end{solution}
+\begin{exercise}[127]
+The inverse of foldRight is unfoldRight. For streams, unfoldRight looks as follows:
+\begin{lstlisting}
+def unfoldRight[A, S](z: S, f: S => Option[(A, S)]): Stream[A] =
+  f(z) match {
+    case Some((h, s)) => SCons(() => h, () => unfoldRight(s, f))
+    case None => SNil
+  }
+\end{lstlisting}
+The foldRight operation traverses a given stream, whereas unfoldRight can produce streams. Use unfoldRight to re-implement the streams ones, nats, and fibs more concisely. In each case, your solution should consist of a single call to unfoldRight, which then takes care of building the stream.
+\end{exercise}
+\begin{solution}
+\begin{lstlisting}
+val ones1: Stream[Int] = unfoldRight(1, (i: Int) => Some((i, i)))
+
+val nats1: Stream[Int] = unfoldRight(0, (i: Int) => (Some(i, i+1)))
+
+val fibs1: Stream[Int] = unfoldRight((1,1), (i: Int, j: Int) => Some((i+j, (i+j, i))))
+\end{lstlisting}
+\end{solution}
+\end{document}

@@ -1,0 +1,150 @@
+\documentclass[working, oneside]{../../Preambles/tuftebook}
+\input{../../Preambles/colors}
+\input{../../Preambles/preamble}
+\input{../../Preambles/theorem_styles}
+
+\newenvironment{SimpleBox}[1]{%
+  \begin{mdframed}%
+    \noindent\textbf{#1}\\[1ex]
+}{%
+  \end{mdframed}%
+}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{Aflevering 5 - 10 ECTS}
+\begin{exercise}[1 - BCNF]
+Consider the relation $R = \left\{ A, B, C, D, E, F, G, H, I, J \right\} $ and the set of functional dependencies,
+\begin{align*}
+    F = \{ \{& A, B  \} \to \{ C \} ,\\
+    \{ & A \} \to \{ D, E\}, \\
+    \{ & B \} \to \{ F \}, \\
+    \{ & C \} \to \{ B \}, \\
+    \{ & F \} \to \{ G, H \}, \\
+\{ & D \} \to \{ I, J \}\} 
+.\end{align*}
+\end{exercise}
+\begin{subexercise}{a}
+Decompose $R$ to BCNF.
+\end{subexercise}
+We start from where we finished in the previous handin, with the following decomposed relations,
+\begin{align*}
+    R_{11} &= \left\{ A, D, E \right\}, \quad&\text{key }A \\
+    R_{12} &= \left\{ D, I, J \right\}, \quad&\text{key }D \\ 
+    R_{21} &= \left\{ B, F \right\}, \quad&\text{key }B \\
+    R_{22} &= \left\{ F, G, H \right\}, \quad&\text{key }F \\
+    R_3 &= \left\{ A, B, C \right\}, \quad&\text{key }A, B 
+.\end{align*}
+Lets remind ourselves of the conditions that BCNF have to satisfy,
+\begin{SimpleBox}{BCNF:}
+    For all $X \to B \in F^{+}$ 
+    \begin{align*}
+        &B \subseteq X \quad \text{or}\\
+        &X \text{ is a superkey}
+    .\end{align*}
+\end{SimpleBox}
+We see that this is satisfied for $R_{11}, R_{12}, R_{21}, R_{22}$, the only functional dependencies we have here, are the ones given by the primary keys. (We also see that this definiton of a trivial dependency differs from the one we saw earlier...). $R_3$ on the other hand violates the requirement, as $\left\{ C \right\} \to \left\{ B \right\} $ is neither trivial nor a key. To fix this we use algorithm $15.5$,
+\begin{SimpleBox}{Algorithm 15.5}
+Find a functional dependency $X \to Y$ in $R$ that violates BCNF and replace $R$ by two relation schemas $ \left( R - Y \right) $ and $X \cup Y$.
+\end{SimpleBox}
+Applying this, we get two new relations,
+\begin{align*}
+    R_{31} &= \left\{ C \right\} \cup \left\{ B \right\} = \left\{ B, C \right\} \quad \text{key }C\\
+    R_{32} &= R_3 - \left\{ B \right\} = \left\{ A, C \right\} \quad \text{key }A,C
+.\end{align*}
+These relations both satisfy BCNF.
+\begin{subexercise}{b}
+Is your decomposition lossless for BCNF? Please provide your steps.
+\end{subexercise}
+The argument is completely analagous to the ones I made in the previous handin. Lets recall what lossless means,
+\begin{SimpleBox}{Property NJB}
+    A Decomposition $D = \left\{ R_1, R_2 \right\} $ is lossless with respect to a set of functional dependencies $F$ on$R$  if,
+    \begin{align*}
+        \left( R_1 \cap R_2 \right) &\to \left( R_1 - R_2 \right)  \in F^{+}\quad\text{or}\\
+        \left( R_1 \cap R_2 \right) &\to \left( R_2 - R_1 \right)  \in F^{+}
+    .\end{align*}
+\end{SimpleBox}
+We essentially have to check all combinations. In the end we see that it holds for all the relations in our decomposition. I'll just show a few for good measure,
+\begin{align*}
+    \left( R_{31} \cap R_{32} \right) &= \left\{ C \right\}  \to \left\{ B \right\} = \left( R_{31} - R_{32} \right)  \quad\quad \text{is in }F^{+}\\
+    \left( R_{31} \cap R_{11} \right) &= \left\{ A \right\} \to \left\{ D, E \right\} = \left( R_{11}-R_{31} \right) \quad \text{is in }F^{+}
+.\end{align*}
+\begin{subexercise}{3}
+Is your decomposition dependency preserving?
+\end{subexercise}
+In our final decompostion $R_3 \to R_{31}, R_{32}$, we lost the functional dependency $\left\{ A, B \right\} \to  \left\{ C \right\} $. There is no way to recover this so,
+\[
+\bigcup_i F_{R_i} \neq F
+.\] 
+The functional dependencies on our decomposed relations do not combine to yield the original functional dependencies. Therefore our decomposition is not dependency preserving.
+\begin{exercise}[2 - Multi-valued Dependency]
+Check whether the following multi-valued dependencies,
+\begin{align*}
+    \text{star\_name} &\to \to \text{street}, \text{city}\\
+    \text{movie\_title} &\to \to \text{star\_name}
+.\end{align*}
+hold for the current data.
+\end{exercise}
+When we have some multivalued dependency (MVD) $X \to \to Y$ it means that $Y$ is allowed to vary independently of the other attributes in $R$. So for the dependency to hold, it is required that whenever we see some pair of tuples $ \left( x_1, y_1, z_1 \right) $ and $\left( x_1, y_2, z_2 \right) $, we should also see a pair where the $y$s have been interchanged. The $\text{star\_name} \to \to \text{street}, \text{city}$, does make sense intuitively. We would expect the street and city of properties owned by an actor to be independent of any movies they have acted in. We do in fact see this in the data. Mark Hamill has two adresses and has appeared in two movies, and the data is repeated as it should be. The remaining actors, have eiher only a single address or been in a single movie, so they satisfy the dependency trivially. The MVD then holds for the data.\\
+For the second dependency $\text{movie\_title} \to \to \text{star\_name}$, we see that we have tuples
+\begin{table}[htpb]
+    \centering
+    \caption{Excerpt of the data.}
+    \label{tab:label}
+    \begin{tabular}{c|c|c|c}
+        star\_name & \ldots & movie\_title & year \\ \hline
+        Mark Hamill & \ldots & Star Wars & 1977 \\
+        Mark Hamill & \ldots & Star Wars & 1980 \\
+        Carrie Fisher & \ldots & Star Wars & 1977 \\
+    \end{tabular}
+\end{table} \\
+Since for a given movie, actor names should be independent of the other attributes, we would expect to see a tuple (Carrie Fisher,\ldots , Star Wars, 1980). Since we don't the MVD is violated.
+\begin{exercise}[3 - NGO]
+As we noticed, our NGO Database was suffering from redundancy as the same person would
+be inserted multiple times if they support multiple NGOs, and thereby we could potentially
+have update and insertion anomalies. Therefore, we create two new relations, Supporter
+\end{exercise}
+\begin{subexercise}{a - Update}
+Update level, as the number of donations the supporter made to the NGO, for all entries in Supports using a single update command.
+\end{subexercise}
+I made use of the following command,
+\begin{lstlisting}
+UPDATE Supports AS s
+SET s.level = (
+    SELECT COUNT(d.amount)
+    from Donations AS d
+    WHERE d.email = s.email AND d.ngo_name = s.ngo_name
+);
+\end{lstlisting}
+We use UPDATE to specify the relation we are changing, and then SET to specify level. We then count the number of donations by counting the number of rows in donation the email and ngo match.
+\begin{subexercise}{b - Trigger}
+Ensure that the 'level' of an NGO supporter is updated correspondingly whenever they make a donation to the NGO. Remember that level is defined to be the number of times a supporter has donated to the NGO. We assume that you cannot undo a donation, and therefore level cannot decrease.
+\end{subexercise}
+\begin{lstlisting}
+CREATE TRIGGER UpdateLevel
+    AFTER INSERT ON Donations
+    REFERENCING NEW AS nD
+    FOR EACH ROW
+BEGIN
+    UPDATE Supports as s
+    SET s.level = s.level + 1
+    WHERE nD.email = s.email AND nD.ngo_name = s.ngo_name);
+END
+\end{lstlisting}
+We create a trigger that fires on insertions into Donations. We then increment the level of the supporter whos email and ngo\_name match the ones in the inserted donation.
+\begin{subexercise}{c - Indexes}
+Create an index on Supports on the attribute ngo\_name, so it is faster for an NGO to retrieve
+its supporters.\\
+- What type of index will this be (primary or secondary)? if secondary, will it be dense,
+clustering or not?\\
+- Let’s make an assumption that this index is a 2-level clustered B-tree index; to find all the supporters of KDG, how many I/O operations would I need to do using this index? Describe what other assumptions you had to make to come up with this
+answer.
+\end{subexercise}
+The SQL command for this is very simple,
+\begin{lstlisting}
+CREATE INDEX index_ngo_name
+ON Supports (ngo_name);
+\end{lstlisting}
+Since the primary key for Supports is (ngo\_name, email), this index is a secondary index, as it does not contain the entire primary key. From my understanding, mySQL creates an index for the primary key, and orders the data on the disk according to this index. As a result the data isnt ordered according to our new secondary index. Since it isnt ordered, we cant do clustering, so the index will have to be dense. We instead assume that it is a 2-level clustered B-tree index. Then our tree has a root level and a leaf level. We start by reading the root node, this is 1 I/O. We then find leaf-node that contains our KDG data, and fetch the data, this i 1 I/O more. Assuming the lead nodes are large enough to contain all of the KDG data, we only have to read a single leaf node. Under these assumptions, it takes a total of 2 I/O operations to read the data.
+\end{document}

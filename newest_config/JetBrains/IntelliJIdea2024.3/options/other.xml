@@ -1,0 +1,71 @@
+<application>
+  <component name="FileEditorProviderManager">{}</component>
+  <component name="LangManager">
+    <option name="languageName" value="JAVA" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontSize" value="13.0" />
+    <option name="ideScale" value="1.25" />
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "FindSplitterProportion": "0.33010697",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "4",
+    "LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/aggregators": "IU-243.23654.153",
+    "MarketplacePluginsSearchHistory": "scala",
+    "NewProjectWizard.addSampleCodeState": "false",
+    "NewProjectWizard.generateOnboardingTips": "false",
+    "NextRunPlatformUpdateBuild": "IU-243.26053.27",
+    "NextRunPlatformUpdateSelfBuild": "IU-243.23654.153",
+    "NextRunPlatformUpdateVersion": "2024.3.5",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.llm.installer.activate.toolwindow": "true",
+    "RunOnceActivity.llm.show.ai.promotion.window.on.start": "true",
+    "ai.promo.window.was.actually.shown": "true",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "IntelliJ",
+    "com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor": "Sources",
+    "defaultJdkConfigured": "true",
+    "enter_selection_count": "5",
+    "evlsprt.243": "194a4d7e580",
+    "evlsprt3.243": "3",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "243.23654.153",
+    "file.gist.reindex.count": "1",
+    "fileTypeChangedCounter": "10",
+    "fontSizeToResetConsole": "13.0",
+    "fontSizeToResetEditor": "13.0",
+    "ignore.ide.script.launcher.used": "true",
+    "input.method.disabler.muted": "true",
+    "installed.kotlin.plugin.version": "243.23654.153-IJ",
+    "jdk.selected.JAVA_MODULE": "23",
+    "llm.installer.last.toolwindow.state": "LLM_INSTALLER",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "org.jetbrains.sbt.project.template.wizard.ScalaNewProjectWizardMultiStep.selectedStep": "IntelliJ",
+    "previousColorScheme": "_@user_High contrast",
+    "project.wizard.group": "NPW.simple-project.Scala",
+    "registry.to.advanced.settings.migration.build": "IU-243.23654.153",
+    "scala.last.updated": "1745486745858",
+    "thinClient.ws": "true",
+    "ts.lib.d.ts.version": "5.6.3"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/albert/IdeaProjects/MiniScalaOld8",
+      "/home/albert/IdeaProjects/MiniscalaOld5"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+</application>

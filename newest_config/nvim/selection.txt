@@ -1,1 +1,1 @@
-ConfFigure("conf1.png")
+   ★ main_window.py

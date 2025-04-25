@@ -1,0 +1,80 @@
+2025-04-08 16:48:21.924 [info] (Client) Pylance async client (2024.8.1) started with python extension (2024.12.3)
+2025-04-08 16:48:22.542 [info] [Info  - 4:48:22 PM] (507802) Pylance language server 2024.8.1 (pyright version 1.1.373, commit ee424479) starting
+2025-04-08 16:48:22.542 [info] [Info  - 4:48:22 PM] (507802) Server root directory: file:///home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2025-04-08 16:48:22.547 [info] [Info  - 4:48:22 PM] (507802) Starting service instance "pyqt_drawing_app"
+2025-04-08 16:48:22.602 [info] [Info  - 4:48:22 PM] (507802) Setting pythonPath for service "pyqt_drawing_app": "/bin/python3"
+2025-04-08 16:48:22.602 [info] [Info  - 4:48:22 PM] (507802) Setting environmentName for service "pyqt_drawing_app": "3.10.12 (global)"
+2025-04-08 16:48:22.604 [info] [Info  - 4:48:22 PM] (507802) No include entries specified; assuming /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app
+2025-04-08 16:48:22.605 [info] [Info  - 4:48:22 PM] (507802) Auto-excluding **/node_modules
+2025-04-08 16:48:22.605 [info] [Info  - 4:48:22 PM] (507802) Auto-excluding **/__pycache__
+2025-04-08 16:48:22.605 [info] [Info  - 4:48:22 PM] (507802) Auto-excluding **/.*
+2025-04-08 16:48:22.636 [info] [Info  - 4:48:22 PM] (507802) Assuming Python version 3.10.12.final.0
+2025-04-08 16:48:22.809 [info] [Info  - 4:48:22 PM] (507802) Found 36 source files
+2025-04-08 16:48:23.286 [info] [Info  - 4:48:23 PM] (507802) Background analysis(1) root directory: file:///home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2025-04-08 16:48:23.290 [info] [Info  - 4:48:23 PM] (507802) Background analysis(1) started
+2025-04-08 16:48:23.782 [info] [Info  - 4:48:23 PM] (507802) Indexer background runner(2) root directory: file:///home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist (index)
+2025-04-08 16:48:23.782 [info] [Info  - 4:48:23 PM] (507802) Indexing(2) started
+2025-04-08 16:48:26.037 [info] [Info  - 4:48:26 PM] (507802) [BG(1)] Long operation: analyzing: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/canvas_widget.py (2496ms)
+2025-04-08 16:48:26.744 [info] [Info  - 4:48:26 PM] (507802) [IDX(2)] Long operation: scan packages file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app (2632ms)
+2025-04-08 16:48:26.745 [info] [Info  - 4:48:26 PM] (507802) scanned(2) 461 files over 1 exec env
+2025-04-08 16:48:32.072 [info] [Info  - 4:48:32 PM] (507802) [IDX(2)] Long operation: parsing: file:///home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist/bundled/stubs/pandas/core/api.pyi (2572ms)
+2025-04-08 16:48:32.349 [info] [Info  - 4:48:32 PM] (507802) [IDX(2)] Long operation: indexing: file:///home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist/bundled/stubs/pandas/__init__.pyi (2886ms)
+2025-04-08 16:48:38.654 [info] [Info  - 4:48:38 PM] (507802) [IDX(2)] Long operation: index execution environment file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app (11358ms)
+2025-04-08 16:48:38.694 [info] [Info  - 4:48:38 PM] (507802) [IDX(2)] Long operation: index packages file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app (11413ms)
+2025-04-08 16:48:38.695 [info] [Info  - 4:48:38 PM] (507802) indexed(2) 319 files over 1 exec env
+2025-04-08 16:48:38.918 [info] [Info  - 4:48:38 PM] (507802) Indexing finished(2).
+2025-04-08 16:48:57.785 [info] [Info  - 4:48:57 PM] (507802) Setting pythonPath for service "pyqt_drawing_app": "/bin/python3"
+2025-04-08 16:48:57.788 [info] [Info  - 4:48:57 PM] (507802) Setting environmentName for service "pyqt_drawing_app": "3.10.12 (global)"
+2025-04-08 16:48:57.788 [info] [Info  - 4:48:57 PM] (507802) No include entries specified; assuming /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app
+2025-04-08 16:48:57.788 [info] [Info  - 4:48:57 PM] (507802) Auto-excluding **/node_modules
+2025-04-08 16:48:57.788 [info] [Info  - 4:48:57 PM] (507802) Auto-excluding **/__pycache__
+2025-04-08 16:48:57.789 [info] [Info  - 4:48:57 PM] (507802) Auto-excluding **/.*
+2025-04-08 16:48:57.844 [info] [Info  - 4:48:57 PM] (507802) Assuming Python version 3.10.12.final.0
+2025-04-08 16:48:58.032 [info] [Info  - 4:48:58 PM] (507802) Found 36 source files
+2025-04-08 16:48:59.004 [info] [Info  - 4:48:59 PM] (507802) Indexer background runner(3) root directory: file:///home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist (index)
+2025-04-08 16:48:59.005 [info] [Info  - 4:48:59 PM] (507802) Indexing(3) started
+2025-04-08 16:48:59.978 [info] [Info  - 4:48:59 PM] (507802) scanned(3) 461 files over 1 exec env
+2025-04-08 16:49:00.375 [info] [Info  - 4:49:00 PM] (507802) indexed(3) 319 files over 1 exec env
+2025-04-08 16:49:00.532 [info] [Info  - 4:49:00 PM] (507802) Indexing finished(3).
+2025-04-08 16:50:59.692 [info] [Info  - 4:50:59 PM] (507802) Setting pythonPath for service "pyqt_drawing_app": "/bin/python3"
+2025-04-08 16:50:59.692 [info] [Info  - 4:50:59 PM] (507802) Setting environmentName for service "pyqt_drawing_app": "3.10.12 (global)"
+2025-04-08 16:50:59.693 [info] [Info  - 4:50:59 PM] (507802) No include entries specified; assuming /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app
+2025-04-08 16:50:59.693 [info] [Info  - 4:50:59 PM] (507802) Auto-excluding **/node_modules
+2025-04-08 16:50:59.693 [info] [Info  - 4:50:59 PM] (507802) Auto-excluding **/__pycache__
+2025-04-08 16:50:59.694 [info] [Info  - 4:50:59 PM] (507802) Auto-excluding **/.*
+2025-04-08 16:50:59.737 [info] [Info  - 4:50:59 PM] (507802) Assuming Python version 3.10.12.final.0
+2025-04-08 16:50:59.894 [info] [Info  - 4:50:59 PM] (507802) Found 36 source files
+2025-04-08 16:51:01.470 [info] [Info  - 4:51:01 PM] (507802) Indexer background runner(4) root directory: file:///home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist (index)
+2025-04-08 16:51:01.470 [info] [Info  - 4:51:01 PM] (507802) Indexing(4) started
+2025-04-08 16:51:02.540 [info] [Info  - 4:51:02 PM] (507802) [BG(1)] Long operation: checking: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/canvas_widget.py (2002ms)
+2025-04-08 16:51:02.540 [info] [Info  - 4:51:02 PM] (507802) [BG(1)] Long operation: analyzing: file:///home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app/canvas_widget.py (2519ms)
+2025-04-08 16:51:03.155 [info] [Info  - 4:51:03 PM] (507802) scanned(4) 461 files over 1 exec env
+2025-04-08 16:51:03.652 [info] [Info  - 4:51:03 PM] (507802) indexed(4) 319 files over 1 exec env
+2025-04-08 16:51:03.836 [info] [Info  - 4:51:03 PM] (507802) Indexing finished(4).
+2025-04-08 16:51:04.493 [info] [Info  - 4:51:04 PM] (507802) Setting pythonPath for service "pyqt_drawing_app": "/bin/python3"
+2025-04-08 16:51:04.497 [info] [Info  - 4:51:04 PM] (507802) Setting environmentName for service "pyqt_drawing_app": "3.10.12 (global)"
+2025-04-08 16:51:04.497 [info] [Info  - 4:51:04 PM] (507802) No include entries specified; assuming /home/albert/Projects/pyqt-drawing-app/pyqt_drawing_app
+2025-04-08 16:51:04.497 [info] [Info  - 4:51:04 PM] (507802) Auto-excluding **/node_modules
+2025-04-08 16:51:04.497 [info] [Info  - 4:51:04 PM] (507802) Auto-excluding **/__pycache__
+2025-04-08 16:51:04.497 [info] [Info  - 4:51:04 PM] (507802) Auto-excluding **/.*
+2025-04-08 16:51:04.571 [info] [Info  - 4:51:04 PM] (507802) Assuming Python version 3.10.12.final.0
+2025-04-08 16:51:04.821 [info] [Info  - 4:51:04 PM] (507802) Found 36 source files
+2025-04-08 16:51:05.966 [info] [Info  - 4:51:05 PM] (507802) Indexer background runner(5) root directory: file:///home/albert/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist (index)
+2025-04-08 16:51:05.966 [info] [Info  - 4:51:05 PM] (507802) Indexing(5) started
+2025-04-08 16:51:07.041 [info] [Info  - 4:51:07 PM] (507802) scanned(5) 461 files over 1 exec env
+2025-04-08 16:51:07.644 [info] [Info  - 4:51:07 PM] (507802) indexed(5) 319 files over 1 exec env
+2025-04-08 16:51:07.823 [info] [Info  - 4:51:07 PM] (507802) Indexing finished(5).
+2025-04-08 17:50:23.417 [info] [Info  - 5:50:23 PM] (507802) Found 37 source files
+2025-04-08 17:50:31.703 [info] [Info  - 5:50:31 PM] (507802) Found 38 source files
+2025-04-08 21:48:06.579 [info] [Info  - 9:48:06 PM] (507802) Found 39 source files
+2025-04-08 21:48:13.024 [info] [Info  - 9:48:13 PM] (507802) Found 40 source files
+2025-04-08 21:49:42.711 [info] [Info  - 9:49:42 PM] (507802) Found 41 source files
+2025-04-08 21:49:47.427 [info] [Info  - 9:49:47 PM] (507802) Found 40 source files
+2025-04-08 21:50:13.383 [info] [Info  - 9:50:13 PM] (507802) Found 41 source files
+2025-04-08 21:50:24.703 [info] [Info  - 9:50:24 PM] (507802) Found 42 source files
+2025-04-08 21:50:34.216 [info] [Info  - 9:50:34 PM] (507802) Found 41 source files
+2025-04-08 21:50:35.662 [info] [Info  - 9:50:35 PM] (507802) Found 40 source files
+2025-04-08 21:50:39.211 [info] [Info  - 9:50:39 PM] (507802) Found 41 source files
+2025-04-08 21:51:42.376 [info] [Info  - 9:51:42 PM] (507802) Found 42 source files
+2025-04-08 21:52:11.951 [info] [Info  - 9:52:11 PM] (507802) Found 41 source files
+2025-04-08 21:52:16.308 [info] [Info  - 9:52:16 PM] (507802) Found 40 source files

@@ -1,0 +1,15 @@
+2025/04/25-11:25:46.961 4 Reusing MANIFEST /home/albert/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2025/04/25-11:25:46.962 4 Recovering log #1155
+2025/04/25-11:25:46.962 4 Reusing old log /home/albert/.config/google-chrome/Default/Session Storage/001155.log 
+2025/04/25-12:34:18.066 6 Level-0 table #1159: started
+2025/04/25-12:34:18.073 6 Level-0 table #1159: 23716 bytes OK
+2025/04/25-12:34:18.080 6 Delete type=0 #1155
+2025/04/25-12:34:18.081 6 Compacting 4@0 + 1@1 files
+2025/04/25-12:34:18.153 6 Generated table #1160@0: 22748 keys, 757751 bytes
+2025/04/25-12:34:18.153 6 Compacted 4@0 + 1@1 files => 757751 bytes
+2025/04/25-12:34:18.158 6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/25-12:34:18.160 6 Delete type=2 #1156
+2025/04/25-12:34:18.161 6 Delete type=2 #1154
+2025/04/25-12:34:18.161 6 Delete type=2 #1152
+2025/04/25-12:34:18.161 6 Delete type=2 #1149
+2025/04/25-12:34:18.161 6 Delete type=2 #1159

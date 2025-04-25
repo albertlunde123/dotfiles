@@ -1,0 +1,52 @@
+2024-06-04 13:53:20.163 [info] MainController: starting nvim: /usr/bin/nvim -N --embed --cmd source /home/albert/.vscode/extensions/asvetliakov.vscode-neovim-1.15.0/runtime/vscode-neovim.vim
+2024-06-04 13:53:20.423 [info] MainController: Nvim info: {
+  configFile: '/home/albert/.config/nvim/init.lua',
+  logFile: '/home/albert/.local/state/nvim/log',
+  nvimVersion: {
+    api_prerelease: false,
+    minor: 11,
+    build: null,
+    major: 0,
+    prerelease: true,
+    api_compatible: 0,
+    patch: 0,
+    api_level: 12
+  },
+  configDir: '/home/albert/.config/nvim'
+}
+2024-06-04 13:53:20.471 [info] MessagesManager: Loading treesitter.lua
+2024-06-04 13:53:20.546 [info] MessagesManager: vim.tbl_add_reverse_lookup is deprecated. Run ":checkhealth vim.deprecated" for more information
+2024-06-04 13:53:29.917 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1003
+2024-06-04 13:55:33.126 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1004
+2024-06-04 13:57:20.420 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1005
+2024-06-04 13:57:21.597 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1006
+2024-06-04 14:01:55.780 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1007
+2024-06-04 14:01:56.206 [info] MessagesManager: E382: Cannot write, 'buftype' option is set
+2024-06-04 14:01:58.154 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1008
+2024-06-04 14:02:40.271 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1009
+2024-06-04 14:02:40.566 [info] MessagesManager: 1 change; before #7  4 seconds ago
+2024-06-04 14:02:41.004 [info] MessagesManager: 1 more line; before #6  25 seconds ago
+2024-06-04 14:02:41.416 [info] MessagesManager: 1 more line; before #5  33 seconds ago
+2024-06-04 14:02:41.871 [info] MessagesManager: 14 fewer lines; before #4  82 seconds ago
+2024-06-04 14:02:56.661 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1010
+2024-06-04 14:02:59.030 [info] MessagesManager: 1 line less; before #11  1 second ago
+2024-06-04 14:02:59.174 [info] MessagesManager: 1 line less; before #10  2 seconds ago
+2024-06-04 14:03:02.701 [info] MessagesManager: 1 line less; before #10  2 seconds ago
+2024-06-04 14:03:17.328 [info] MessagesManager: 14 more lines
+2024-06-04 14:03:25.226 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1011
+2024-06-04 14:03:26.244 [info] MessagesManager: E382: Cannot write, 'buftype' option is set
+2024-06-04 14:03:27.315 [info] MessagesManager: E382: Cannot write, 'buftype' option is set
+2024-06-04 14:03:29.435 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1012
+2024-06-04 14:03:32.115 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1013
+2024-06-04 14:03:48.649 [info] MessagesManager: 11 lines >ed 1 time
+2024-06-04 14:03:52.373 [info] MessagesManager: 3 lines >ed 1 time
+2024-06-04 14:03:55.644 [info] MessagesManager: 3 lines >ed 1 time
+2024-06-04 14:03:59.085 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1014
+2024-06-04 14:04:01.208 [info] MessagesManager: E382: Cannot write, 'buftype' option is set
+2024-06-04 14:04:02.105 [info] MessagesManager: E382: Cannot write, 'buftype' option is set
+2024-06-04 14:04:03.146 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1015
+2024-06-04 14:04:37.150 [info] MessagesManager: 18 more lines
+2024-06-04 14:05:00.865 [info] MessagesManager: 18 more lines
+2024-06-04 14:05:05.068 [info] MessagesManager: 19 lines >ed 1 time
+2024-06-04 14:05:13.910 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1016
+2024-06-04 14:05:14.803 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1017

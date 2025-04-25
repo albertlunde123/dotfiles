@@ -1,0 +1,22 @@
+2024-06-17 14:36:59.842 [info] MainController: starting nvim: /usr/bin/nvim -N --embed --cmd source /home/albert/.vscode/extensions/asvetliakov.vscode-neovim-1.15.0/runtime/vscode-neovim.vim
+2024-06-17 14:37:00.249 [warning] DocumentChangeManager: Can't get last known neovim content for vscode://schemas/settings/user, skipping
+2024-06-17 14:37:00.649 [info] MainController: Nvim info: {
+  configFile: '/home/albert/.config/nvim/init.lua',
+  logFile: '/home/albert/.local/state/nvim/log',
+  nvimVersion: {
+    api_prerelease: false,
+    minor: 11,
+    build: null,
+    major: 0,
+    prerelease: true,
+    api_compatible: 0,
+    patch: 0,
+    api_level: 12
+  },
+  configDir: '/home/albert/.config/nvim'
+}
+2024-06-17 14:37:00.786 [info] MessagesManager: Loading treesitter.lua
+2024-06-17 14:37:00.904 [info] MessagesManager: vim.tbl_add_reverse_lookup is deprecated. Run ":checkhealth vim.deprecated" for more information
+2024-06-17 14:37:02.530 [warning] DocumentChangeManager: Can't get last known neovim content for vscode://schemas/settings/user, skipping
+2024-06-17 14:37:03.692 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1003
+2024-06-17 14:37:26.443 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1004

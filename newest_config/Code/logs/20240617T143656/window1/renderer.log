@@ -1,0 +1,8 @@
+2024-06-17 14:36:58.455 [info] Started local extension host with pid 1264791.
+2024-06-17 14:36:58.527 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): extensionsAny, newSymbolNamesProvider, interactive, chatProvider, codeActionAI, findTextInFiles, findFiles2, textSearchProvider, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, mappedEditsProvider, aiRelatedInformation, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, contribSourceControlInputBoxMenu, authLearnMore, testObserver, aiTextSearchProvider
+product.json (WINS): interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver
+2024-06-17 14:36:58.543 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
+2024-06-17 14:36:59.107 [info] Started local extension host with pid 1264849.
+2024-06-17 14:37:01.749 [error] [Extension Host] [extension] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-06-17 14:37:02.714 [info] [perf] Render performance baseline is 107ms

@@ -1,0 +1,48 @@
+{
+    "workbench.colorTheme": "Tokyo Night",
+    "editor.cursorStyle": "block",
+    "editor.lineNumbers": "relative",
+    "editor.fontFamily": "'Hack Nerd', 'Regular'",
+    "editor.fontLigatures": true,
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": false,
+    "files.autoSave": "onFocusChange",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.smoothScrolling": true,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },// Disables the layout control icon at the top right
+    "workbench.layoutControl.enabled": false, 
+    // Enables an infinite amount of editors and disables
+    // the useless "Open Editors" panel in the explorer.
+    "explorer.openEditors.visible": 0,
+    "explorer.autoReveal": false,
+    // Sets the sidebar location to the right
+    "workbench.sideBar.location": "right",
+    // Disables the useless minimap to the right of our code
+    "editor.minimap.enabled": false,
+    "workbench.tree.indent": 12,
+    "workbench.tree.renderIndentGuides": "none",
+    // OPTIONAL: Hides the sidebar completely.
+    // If you choose to enable this, you can still
+    // access it using keyboard shortcuts instead.
+    // Ex: Control Shift E for Explorer
+    // Control Shift G for Version Control
+    // Control Shift X for extensions, etc.
+    "workbench.activityBar.visible": false,
+    "editor.fontSize": 20,
+// Removes the close tab button. Use Control + W instead.
+    "workbench.editor.tabCloseButton": "off",
+        // Removes the useless "breadcrumbs" tree below our tabs
+    "breadcrumbs.enabled": false,
+    "editor.overviewRulerBorder": false,
+    // Add some padding to the top and bottom of our file
+    "editor.padding.bottom": 14,
+    "editor.padding.top": 14,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.codeLens": false,
+    // OPTIONAL: Removes the glyph margin for breakpoints
+    // and other symbols that most people don't use.
+    // If you use those things, feel free to enable this!
+    "editor.glyphMargin": false,
+}

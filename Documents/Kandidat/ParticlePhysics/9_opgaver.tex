@@ -1,0 +1,111 @@
+\documentclass[working, oneside]{../../Preambles/tuftebook}
+\input{../../Preambles/colors}
+\input{../../Preambles/preamble}
+\input{../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{9 - Propagators and the Hidden Causality Term}
+
+When deriving the propagators using the equation of motion approach, we obtain some very straightforward expressions for the Green's function or two-point function. However, that derivation tends to hide the fact that there is a causality requirement in the time-ordering (operator with smallest time acts to the right first and so on). Here we will look at this in more detail.
+
+\begin{exercise}[1]
+Show that the vacuum expectation value of the two-point time-ordered product of scalar fields can be written in the form
+\begin{align*}
+    \langle 0 | T \left[ \phi(x_1) \phi(x_2) \right] | 0 \rangle &= \int \frac{d^3 \mathbf{p}}{(2\pi)^3} \frac{1}{2 \omega_\mathbf{p}} [ \theta(t_1 - t_2) e^{-i \omega_\mathbf{p} (t_1 - t_2)} e^{i \mathbf{p} \cdot (\mathbf{x}_1 - \mathbf{x}_2)} \\
+&+ \theta(t_2 - t_1) e^{-i \omega_\mathbf{p} (t_2 - t_1)} e^{i \mathbf{p} \cdot (\mathbf{x}_2 - \mathbf{x}_1)} ],
+\end{align*}
+where $\omega_\mathbf{p} = \sqrt{\mathbf{p}^2 + m^2}$.
+\end{exercise}
+
+\begin{exercise}[2]
+Use contour integration to show that one can represent the Heaviside step function in the following form
+\begin{align*}
+\theta(t) = i \int_{-\infty}^\infty \frac{dz}{2\pi} \frac{e^{-izt}}{z + i\epsilon},
+\end{align*}
+where $\epsilon$ is an infinitesimal small positive number, i.e., $\epsilon \to 0^+$. Now show that
+\begin{align*}
+\theta(t) e^{-i \omega_\mathbf{p} t} = i \int_{-\infty}^\infty \frac{dz}{2\pi} \frac{e^{-izt}}{z - (\omega_\mathbf{p} - i\epsilon)}.
+\end{align*}
+\end{exercise}
+\begin{solution}
+We change this to a countour integral. where the loop we construct runs over the real line, and then loops back around in the imaginary plane. For $t>0$, the loop goes through the negative side. Notice that $\theta \left( t \right) $ has a pole at $t = -i\epsilon$. We can rewrite integral in the following way,
+\begin{align*}
+\oint_{\gamma} \frac{dz}{2\pi} \frac{e^{-izt}}{z + i\epsilon} =
+\int_{-\infty}^{\infty} \frac{dz}{2\pi} \frac{e^{-izt}}{z + i\epsilon} +
+\int_{arc} \frac{dz}{2\pi} \frac{e^{-izt}}{z + i\epsilon} 
+\end{align*}
+To solve the lefthand side we can use the residual theorem,
+\[
+\oint_{\gamma} dz f\left( z \right) = \pm 2\pi i \sum_n \text{Res}\left[ f\left( z \right)  \right] _{z = z_n}
+.\] 
+where $z_n$ are the poles, and the residue is everything in $f$, without the part that gives rise to the pole. We can then compute the integral,
+\begin{align*}
+    i\oint_{\gamma} \frac{dz}{2\pi} \frac{e^{-izt}}{z + i\epsilon} &= \left( i \right) -2\pi i \left[ \frac{e^{-izt}}{2\pi} \right]_{z = -i\epsilon} \\
+    &= 2\pi \left( \frac{e^{\epsilon t}}{2\pi} \right) = e^{\epsilon t}
+.\end{align*}
+as $\epsilon \to 0$, the value of this integral approaches $1$. Lets now look at the second integral,
+ \begin{align*}
+     \int_{arc} \frac{dz}{2\pi} \frac{e^{-izt}}{z + i\epsilon} &= \int_{\pi}^{2\pi}d\theta \lim_{R \to \infty} R \left( \frac{e^{-iRt\left( \cos\left( \theta  \right) + i\sin\left( \theta  \right)  \right) }}{R\left( \cos\left( \theta  \right) + i\sin\left( \theta  \right)  \right) } \right) \\
+&=   \int_{\pi}^{2\pi}d\theta \lim_{R \to \infty} R \left( \frac{e^{-iRt\cos\theta }e^{Rt\sin \theta }   }{R\left( \cos\left( \theta  \right) + i\sin\left( \theta  \right)  \right) } \right) 
+.\end{align*}
+This integral goes to zero as $R \to \infty$ as $\sin \theta < 0$ for $\theta \in \left( \pi, 2\pi \right) $. For $t<0$ we do the same, except the loop will now run through the positive side. We then have no poles, so the contour integral is zero, and the integral along the half circle is zero again. \\
+And now for the second integral
+\begin{align*}
+    i \oint \frac{dz}{2\pi} \frac{e^{-izt}}{z - \left( \omega_{\mathbf{p}} - i\epsilon
+    \right) } = i 2\pi Res\left[ \frac{e^{-izt}}{2\pi} \right] _{z = \omega_{\mathbf{p}} - i\epsilon} = e^{-i\omega_{\mathbf{p}}t}e^{\epsilon t} = e^{-i\omega_{\mathbf{p}}t}
+.\end{align*}
+for $\epsilon \to 0$. The arc integral is still zero, so we get the desired result.
+\end{solution}
+\begin{exercise}[3]
+Use the result of 1) and 2) to show that
+\begin{align*}
+\langle 0 | T \left[ \phi(x_1) \phi(x_2) \right] | 0 \rangle = \int \frac{d^4 p}{(2\pi)^4} \frac{i}{2 \omega_\mathbf{p}} \left[ \frac{e^{-ip \cdot (x_1 - x_2)}}{p_0 - (\omega_\mathbf{p} - i\epsilon)} + \frac{e^{ip \cdot (x_1 - x_2)}}{p_0 - (\omega_\mathbf{p} - i\epsilon)} \right],
+\end{align*}
+where the four-vector is $p = (p_0, \mathbf{p})$ as usual.
+\end{exercise}
+We can use the result of 5.1 week 1, to rewrite the integral,
+\[
+\int \frac{d^{3}\mathbf{p}}{\left( 2\pi \right) ^3}\frac{1}{2\omega_{\mathbf{p}}} \left( 
+    i \int_{-\infty}^\infty \frac{dz}{2\pi} \frac{e^{-iz\left( t_1-t_2 \right) }}{z - (\omega_\mathbf{p} - i\epsilon)} e^{i\mathbf{p}\cdot \left( \mathbf{x_1}-\mathbf{x_2} \right)} 
+    + 
+    i \int_{-\infty}^\infty \frac{dz}{2\pi} \frac{e^{-iz\left( t_2-t_1 \right) }}{z - (\omega_\mathbf{p} - i\epsilon)} e^{i\mathbf{p}\cdot \left( \mathbf{x_2}-\mathbf{x_1} \right)} 
+\right)
+.\] 
+and now we'll do a change of variables $z \to  p_0$, this allows us to collect the integrals,
+\begin{align*}
+&=  \int \frac{d^{4}\mathbf{p}}{\left( 2\pi \right)^4} \frac{i}{2\omega_{\mathbf{p}}} \left( 
+    \frac{e^{-ip_0\left( t_1-t_2 \right)}}{p_0 - (\omega_\mathbf{p} - i\epsilon)} e^{i\mathbf{p}\cdot \left( \mathbf{x_1}-\mathbf{x_2} \right)} 
+    + 
+    \frac{e^{-ip_0\left( t_2-t_1 \right)}}{p_0 - (\omega_\mathbf{p} - i\epsilon)} e^{i\mathbf{p}\cdot \left( \mathbf{x_2}-\mathbf{x_1} \right)} 
+\right) \\
+& = \int \frac{d^4 p}{(2\pi)^4} \frac{i}{2 \omega_\mathbf{p}} \left[ \frac{e^{-ip \cdot (x_1 - x_2)}}{p_0 - (\omega_\mathbf{p} - i\epsilon)} + \frac{e^{ip \cdot (x_1 - x_2)}}{p_0 - (\omega_\mathbf{p} - i\epsilon)} \right],
+\end{align*}
+
+\begin{exercise}[4]
+Substitute the four-vector $p \to -p$ in the second term in the expression in 3) and show that
+\begin{align*}
+\langle 0 | T \left[ \phi(x_1) \phi(x_2) \right] | 0 \rangle = \int \frac{d^4 p}{(2\pi)^4} e^{-ip \cdot (x_1 - x_2)} \frac{i}{p_0^2 - (\omega_\mathbf{p} - i\epsilon)^2},
+\end{align*}
+where the four-vector is $p = (p_0, \mathbf{p})$ as usual.
+\end{exercise}
+Well just calculate the summed fractions,
+\begin{align*}
+    \frac{1}{p_0 - \left( \omega_\mathbf{p} - i\epsilon \right) } + \frac{1}{-p_0 - \left( \omega_\mathbf{p} - i\epsilon \right) } &= \frac{-2\left( \omega_{\mathbf{p}} - i\epsilon \right) }{\left( p_0 - \omega_{\mathbf{p}} + i\epsilon \right)\left( -p_0 - \omega_{\mathbf{p}} + i\epsilon \right)  } \\
+    &= \frac{-2\left( \omega_{\mathbf{p}}-i\epsilon \right) }{-p_0^2 - p_0\omega_{\mathbf{p}} + p_0i\epsilon + p_0\omega_{\mathbf{p}} +\omega_{\mathbf{p}}^2 -\omega_{\mathbf{p}}i\epsilon - p_0i\epsilon - i\epsilon\omega_{\mathbf{p}} -\epsilon^2} \\
+&= \frac{-2\left( \omega_p - i\epsilon \right) }{-p_0^2 + \omega_p^2 - \epsilon^2 -2i\epsilon\omega_p} \\
+&= \frac{2\left( \omega_p - i\epsilon \right) }{p_0^2 - \left( \omega_p - i\epsilon \right)^2 } \\
+.\end{align*}
+mulitplying through by $i /2\omega_p$ yields,
+\[
+\frac{i - \frac{i\epsilon}{\omega_p} }{p_0^2 - \left( \omega_p - i\epsilon \right)^2 } 
+.\] 
+\begin{exercise}[5]
+Finally, argue that this result can be expressed as
+\begin{align*}
+\langle 0 | T \left[ \phi(x_1) \phi(x_2) \right] | 0 \rangle = \int \frac{d^4 p}{(2\pi)^4} e^{-ip \cdot (x_1 - x_2)} \frac{i}{p^2 - m^2 + i\epsilon},
+\end{align*}
+since $\epsilon$ is infinitesimal. So the propagator really comes with a positive imaginary part which we usually do not write or care to much about since it drops out of most calculations. But in principle it is always present.
+\end{exercise}
+\end{document}

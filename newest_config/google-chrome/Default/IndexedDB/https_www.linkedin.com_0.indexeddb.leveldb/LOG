@@ -1,0 +1,6 @@
+2025/02/06-16:06:13.346 28ec Creating DB /home/albert/.config/google-chrome/Default/IndexedDB/https_www.linkedin.com_0.indexeddb.leveldb since it was missing.
+2025/02/06-16:06:13.369 28ec Reusing MANIFEST /home/albert/.config/google-chrome/Default/IndexedDB/https_www.linkedin.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/06-16:06:16.627 28ec Level-0 table #5: started
+2025/02/06-16:06:16.631 28ec Level-0 table #5: 1241 bytes OK
+2025/02/06-16:06:16.637 28ec Delete type=0 #3
+2025/02/06-16:06:16.638 28f0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

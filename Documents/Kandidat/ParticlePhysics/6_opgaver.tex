@@ -1,0 +1,145 @@
+\documentclass[working, oneside]{../../Preambles/tuftebook}
+\input{../../Preambles/colors}
+\input{../../Preambles/preamble}
+\input{../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{6 - Time Ordered Operators and the Klein-Gordon Equation}
+
+Consider a real scalar field operator, $\hat{\phi}(x, t)$, in one dimension ($x$ is a single number, not a vector!) for simplicity with mass $m$. The Klein-Gordon wave equation is assumed to hold for the field operator as well, and it can be written
+$$
+\left( \frac{\partial^2}{\partial t^2} - \frac{\partial^2}{\partial x^2} + m^2 \right) \hat{\phi}(x, t) = 0.
+$$
+
+\begin{exercise}[1]
+Prove that
+\begin{align*}
+T \left[ \hat{\phi}(x_1, t_1) \hat{\phi}(x_2, t_2) \right] = \theta(t_1 - t_2) \hat{\phi}(x_1, t_1) \hat{\phi}(x_2, t_2) + \theta(t_2 - t_1) \hat{\phi}(x_2, t_2) \hat{\phi}(x_1, t_1),
+\end{align*}
+where $\theta$ is the Heaviside step function.
+\end{exercise}
+\begin{solution}
+Let's recall the time-ordering operator:
+\begin{align*}
+T \left[ \hat{\phi}(x_1, t_1) \hat{\phi}(x_2, t_2) \right]
+&= \begin{cases}
+\hat{\phi}(x_1, t_1) \hat{\phi}(x_2, t_2) & t_1 > t_2 \\
+\hat{\phi}(x_2, t_2) \hat{\phi}(x_1, t_1) & t_2 > t_1
+\end{cases}
+\end{align*}
+
+So it's clearly true!
+
+\end{solution}
+
+\begin{exercise}[2]
+Show that
+\begin{align*}
+\frac{d}{dx} \theta(x - a) = \delta(x - a)
+\end{align*}
+\end{exercise}
+\begin{solution}
+Let $x > a$ then
+\begin{align*}
+\frac{d}{dx} \Theta(x-a)
+&= \frac{d}{dx} 1 = 0
+\end{align*}
+for $x < a$ then
+\begin{align*}
+\frac{d}{dx} \Theta(x-a)
+&= \frac{d}{dx} 0 = 0
+\end{align*}
+We will try to show that the derivative at $x=a$ is infinity
+\begin{align*}
+\lim_{\epsilon \to 0} \frac{f(a+\epsilon) - f(a-\epsilon)}{\epsilon}
+&= \lim_{\epsilon \to 0} \frac{\Theta(a+\epsilon-a) - \Theta(a-\epsilon-a)}{\epsilon} \\
+&= \lim_{\epsilon \to 0} \frac{\Theta(\epsilon) - \Theta(-\epsilon)}{\epsilon} \\
+&= \lim_{\epsilon \to 0} \frac{1}{\epsilon} = \infty
+\end{align*}
+\end{solution}
+\begin{exercise}[3]
+Use the previous results and the commutator $\left[ \hat{\phi}(x_1, t), \hat{\phi}(x_2, t) \right] = 0$ to show that
+\begin{align*}
+\frac{\partial}{\partial t_1} \left\{ T \left[ \hat{\phi}(x_1, t_1) \hat{\phi}(x_2, t_2) \right] \right\} = \theta(t_1 - t_2) \left( \frac{\partial \hat{\phi}(x_1, t_1)}{\partial t_1} \right) \hat{\phi}(x_2, t_2) + \theta(t_2 - t_1) \hat{\phi}(x_2, t_2) \left( \frac{\partial \hat{\phi}(x_1, t_1)}{\partial t_1} \right),
+\end{align*}
+\end{exercise}
+\begin{solution}
+For any equal times $\left[ \hat{\phi}(x_1, t), \hat{\phi}(x_2, t) \right] = 0$
+\begin{align*}
+\frac{\partial}{\partial t_1} \left\{ T \left[ \hat{\phi}(x_1, t_1) \hat{\phi}(x_2, t_2) \right] \right\}
+&= \frac{\partial}{\partial t_1} \left( \Theta(t_1 - t_2) \hat{\phi}(x_1, t_1) \hat{\phi}(x_2, t_2) + \Theta(t_2 - t_1) \hat{\phi}(x_2, t_2) \hat{\phi}(x_1, t_1) \right) \\
+&= \delta(t_1 - t_2) \hat{\phi}(x_1, t_1) \hat{\phi}(x_2, t_2) + \Theta(t_1 - t_2) \frac{\partial \hat{\phi}(x_1, t_1)}{\partial t_1} \hat{\phi}(x_2, t_2) \\
+&+ \delta(t_2 - t_1) \hat{\phi}(x_2, t_2) \hat{\phi}(x_1, t_1) + \Theta(t_2 - t_1) \hat{\phi}(x_2, t_2) \frac{\partial \hat{\phi}(x_1, t_1)}{\partial t_1}
+\end{align*}
+The $\delta$-function is symmetric and the fields commute so we get the desired result.
+\end{solution}
+
+\begin{exercise}[4]
+Using the related commutator $\left[ \hat{\phi}(x_1, t), \frac{\partial \hat{\phi}(x_2, t)}{\partial t} \right] = i \delta(x_1 - x_2)$ show
+\begin{align*}
+\frac{\partial^2}{\partial t_1^2} \left\{ T \left[ \hat{\phi}(x_1, t_1) \hat{\phi}(x_2, t_2) \right] \right\} = -i \delta(x_1 - x_2) \delta(t_1 - t_2) + T \left[ \frac{\partial^2 \hat{\phi}(x_1, t_1)}{\partial t_1^2} \hat{\phi}(x_2, t_2) \right],
+\end{align*}
+\end{exercise}
+\begin{solution}
+\begin{align*}
+\frac{\partial^2}{\partial t_1^2} \left\{ T \left[ \hat{\phi}(x_1, t_1) \hat{\phi}(x_2, t_2) \right] \right\}
+&= \frac{\partial}{\partial t_1} \left( \Theta(t_1 - t_2) \frac{\partial \hat{\phi}(x_1, t_1)}{\partial t_1} \hat{\phi}(x_2, t_2) + \Theta(t_2 - t_1) \hat{\phi}(x_2, t_2) \frac{\partial \hat{\phi}(x_1, t_1)}{\partial t_1} \right) \\
+&= \delta(t_1 - t_2) \frac{\partial \hat{\phi}(x_1, t_1)}{\partial t_1} \hat{\phi}(x_2, t_2) + \Theta(t_1 - t_2) \frac{\partial^2 \hat{\phi}(x_1, t_1)}{\partial t_1^2} \hat{\phi}(x_2, t_2) \\
+&- \delta(t_2 - t_1) \hat{\phi}(x_2, t_2) \frac{\partial \hat{\phi}(x_1, t_1)}{\partial t_1} + \Theta(t_2 - t_1) \hat{\phi}(x_2, t_2) \frac{\partial^2 \hat{\phi}(x_1, t_1)}{\partial t_1^2}
+\end{align*}
+Now flipping the first term costs a commutator and if we are smart with the sign the terms will cancel. The second part is just the Time-Ordering operator
+\begin{align*}
+&= -i \delta(x_1 - x_2) \delta(t_1 - t_2) + T \left[ \frac{\partial^2 \hat{\phi}(x_1, t_1)}{\partial t_1^2}, \hat{\phi}(x_2, t_2) \right]
+\end{align*}
+\end{solution}
+
+\begin{exercise}[5]
+Argue that the above demonstrates that the so-called two-point function, $T \left[ \hat{\phi}(x_1, t_1) \hat{\phi}(x_2, t_2) \right]$, obeys
+\begin{align*}
+\left( \frac{\partial^2}{\partial t_1^2} - \frac{\partial^2}{\partial x_1^2} + m^2 \right) T \left[ \hat{\phi}(x_1, t_1) \hat{\phi}(x_2, t_2) \right] = -i \delta(x_1 - x_2) \delta(t_1 - t_2),
+\end{align*}
+which implies that the two-point function is in fact the *Green's function* for the Klein-Gordon equation. The derivation here is easily generalized to three dimensions of space.
+\end{exercise}
+\begin{solution}
+Argue that the above demonstrates that the so-called two-point function, $T \left[ \hat{\phi}(x_1, t_1) \hat{\phi}(x_2, t_2) \right]$, obeys
+\begin{align*}
+\left( \frac{\partial^2}{\partial t_1^2} - \frac{\partial^2}{\partial x_1^2} + m^2 \right) T \left[ \hat{\phi}(x_1, t_1) \hat{\phi}(x_2, t_2) \right] = -i \delta(x_1 - x_2) \delta(t_1 - t_2).
+\end{align*}
+
+Let’s calculate:
+\begin{align*}
+\left( - \frac{\partial^2}{\partial x_1^2} + m^2 \right) T \left[ \hat{\phi}(x_1, t_1) \hat{\phi}(x_2, t_2) \right]
+&= \Theta(t_1 - t_2) \left( - \frac{\partial^2}{\partial x_1^2} + m^2 \right) \hat{\phi}(x_1, t_1) \hat{\phi}(x_2, t_2) \\
+&\quad + \Theta(t_2 - t_1) \left( - \frac{\partial^2}{\partial x_1^2} + m^2 \right) \hat{\phi}(x_2, t_2) \hat{\phi}(x_1, t_1).
+\end{align*}
+Now we know that the $\hat{\phi}$'s commute, so we can pull them outside:
+\begin{align*}
+&= \left( \Theta(t_1 - t_2) + \Theta(t_2 - t_1) \right) \left( - \frac{\partial^2}{\partial x_1^2} + m^2 \right) \hat{\phi}(x_1, t_1) \hat{\phi}(x_2, t_2).
+\end{align*}
+Rearrange a bit:
+\begin{align*}
+\left( - \frac{\partial^2}{\partial x_1^2} \hat{\phi}(x_1, t_1) + m^2 \hat{\phi}(x_1, t_1) \right) \left( \Theta(t_1 - t_2) + \Theta(t_2 - t_1) \right) \hat{\phi}(x_2, t_2).
+\end{align*}
+Let’s include the time derivative:
+\begin{align*}
+\left( \frac{\partial^2}{\partial t_1^2} - \frac{\partial^2}{\partial x_1^2} + m^2 \right) T \left[ \hat{\phi}(x_1, t_1) \hat{\phi}(x_2, t_2) \right]
+&= -i \delta(x_1 - x_2) \delta(t_1 - t_2) + T \left[ \frac{\partial^2 \hat{\phi}(x_1, t_1)}{\partial t_1^2}, \hat{\phi}(x_2, t_2) \right] \\
+&\quad + \left( - \frac{\partial^2}{\partial x_1^2} + m^2 \right) \hat{\phi}(x_1, t_1) \left( \Theta(t_1 - t_2) + \Theta(t_2 - t_1) \right) \hat{\phi}(x_2, t_2).
+\end{align*}
+Expand the time-ordering operator:
+\begin{align*}
+&= -i \delta(x_1 - x_2) \delta(t_1 - t_2) + \Theta(t_1 - t_2) \frac{\partial^2 \hat{\phi}(x_1, t_1)}{\partial t_1^2} \hat{\phi}(x_2, t_2) \\
+&\quad + \Theta(t_2 - t_1) \hat{\phi}(x_2, t_2) \frac{\partial^2 \hat{\phi}(x_1, t_1)}{\partial t_1^2} + \text{ the rest.}
+\end{align*}
+What we see here is that we may commute the differential terms, and we can then collect everything:
+\begin{align*}
+&= -i \delta(x_1 - x_2) \delta(t_1 - t_2) + \left( \left( \frac{\partial^2}{\partial t_1^2} - \frac{\partial^2}{\partial x_1^2} + m^2 \right) \hat{\phi}(x_1, t_1) \right) \left( \Theta(t_1 - t_2) + \Theta(t_2 - t_1) \right) \hat{\phi}(x_2, t_2).
+\end{align*}
+Since $\hat{\phi}$ satisfies the Klein-Gordon equation, the second term is zero. And we get the desired result,
+\[
+\left( \frac{\partial^2}{\partial t_1^2} - \frac{\partial^2}{\partial x_1^2} + m^2 \right) T\left[ \hat{\phi }\left( x_1, t_1 \right) \hat{\phi }\left( x_2, t_2 \right)  \right] = -i\delta\left( x_1- x_2 \right) \delta\left( t_1-t_2 \right) 
+.\] 
+\end{solution}
+\end{document}

@@ -1,0 +1,38 @@
+2025-04-11 16:30:59.716 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-11 16:30:59.716 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-11 16:30:59.717 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-11 16:30:59.717 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-11 16:30:59.717 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-11 16:30:59.718 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-11 16:30:59.718 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-11 16:30:59.719 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-11 16:30:59.719 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-11 16:30:59.763 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-11 16:30:59.763 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-11 16:30:59.764 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-11 16:30:59.764 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-11 16:30:59.764 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-11 16:31:00.766 [info] Started local extension host with pid 3100322.
+2025-04-11 16:31:01.835 [error] Extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-11 16:31:01.835 [error] Extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-11 16:31:01.835 [error] Extension 'ms-python.python' wants API proposal 'terminalShellIntegration' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-11 16:31:01.848 [info] Placing extension(s) vscodevim.vim on a separate extension host.
+2025-04-11 16:31:02.511 [info] Started local extension host with pid 3100385.
+2025-04-11 16:31:04.675 [warning] No search provider registered for scheme: file, waiting
+2025-04-11 16:31:05.110 [error] [Extension Host] (node:3100322) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-04-11 16:31:05.476 [error] [Extension Host] (node:3100385) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-04-11 16:31:07.775 [info] [perf] Render performance baseline is 62ms
+2025-04-11 16:59:12.481 [error] [internal] Stream closed with error code NGHTTP2_REFUSED_STREAM: ConnectError: [internal] Stream closed with error code NGHTTP2_REFUSED_STREAM
+    at t (vscode-file://vscode-app/tmp/.mount_CursorKE9Tkd/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2405:131870)
+    at async Object.cppConfig (vscode-file://vscode-app/tmp/.mount_CursorKE9Tkd/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async sEi.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/tmp/.mount_CursorKE9Tkd/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4987:1073)
+    at async sEi.fastPeriodicallyReloadCppConfig (vscode-file://vscode-app/tmp/.mount_CursorKE9Tkd/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4987:803) [internal] Stream closed with error code NGHTTP2_REFUSED_STREAM
+2025-04-12 02:03:05.703 [error] Failed to fetch: TypeError: Failed to fetch
+    at MQe.refreshMembershipType (vscode-file://vscode-app/tmp/.mount_CursorKE9Tkd/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:132216) Failed to fetch
+2025-04-12 11:33:09.977 [error] [internal]: ConnectError: [internal]
+    at t (vscode-file://vscode-app/tmp/.mount_CursorKE9Tkd/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2405:131870)
+    at async Object.getTeams (vscode-file://vscode-app/tmp/.mount_CursorKE9Tkd/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async MQe.getTeams (vscode-file://vscode-app/tmp/.mount_CursorKE9Tkd/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:137451)
+    at async MQe.refreshMembershipType (vscode-file://vscode-app/tmp/.mount_CursorKE9Tkd/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:131378) [internal]

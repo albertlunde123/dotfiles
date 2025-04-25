@@ -1,0 +1,26 @@
+2025-04-23 17:22:23.739 [error] Failed to check if file sync is enabled for user {}
+2025-04-23 17:22:23.739 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-23 17:22:23.739 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-23 17:22:23.740 [info] [registerEventListeners] Registering event listeners
+2025-04-23 17:22:25.007 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-23 17:22:25.011 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-23 17:22:25.129 [info] Fetched fsConfig in 120.75542599999972ms
+2025-04-23 17:22:25.129 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-23 17:22:25.132 [info] Fetched fsConfig in 121.18439399999988ms
+2025-04-23 17:22:25.132 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-23 17:22:25.133 [info] File sync enabled status: false
+2025-04-23 17:22:25.169 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-23 17:22:25.169 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-23 17:22:25.169 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-23 17:22:25.169 [info] File sync enabled status: false
+2025-04-23 17:22:26.062 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-23 17:22:26.062 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-23 17:22:26.062 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-23 17:22:26.062 [info] File sync enabled status: false
+2025-04-23 17:22:26.063 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-23 17:22:26.063 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-23 17:22:26.063 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-23 17:22:26.063 [info] File sync enabled status: false
+2025-04-23 17:22:26.176 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-23 17:22:26.176 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-23 17:22:26.176 [error] Failed to fetch fsConfig File sync is disabled

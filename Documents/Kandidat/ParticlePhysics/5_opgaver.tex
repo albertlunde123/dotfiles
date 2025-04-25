@@ -1,0 +1,127 @@
+\documentclass[working, oneside]{../../Preambles/tuftebook}
+\input{../../Preambles/colors}
+\input{../../Preambles/preamble}
+\input{../../Preambles/theorem_styles}
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\thispagestyle{fancy}
+\chapter{5 - The Time-Ordering Operator}
+
+Consider the expansion of the quantum mechanical time evolution operator in the interaction picture
+\begin{align*}
+U(t, t_0)
+&= 1 - i \int_{t_0}^t dt_1 H_I(t_1) + (-i)^2 \int_{t_0}^t dt_1 \int_{t_0}^{t_1} dt_2 H_I(t_1) H_I(t_2) + \dots, \tag{58}
+\end{align*}
+where \( t_0 < t \).
+
+\begin{exercise}[1]
+Remembering that \( H_I \) is an operator, argue that the operators in the third term in Eq. (58) is correctly ordered as it stands.
+\end{exercise}
+
+\begin{exercise}[2]
+Show that for any operator, \( A(t) \), we have
+\begin{align*}
+\int_{t_0}^t dt_1 \int_{t_0}^{t_1} dt_2 A(t_1) A(t_2)
+&= \frac{1}{2} \int_{t_0}^t dt_1 \int_{t_0}^t dt_2 T[A(t_1) A(t_2)], \tag{59}
+\end{align*}
+where we have defined the time-ordering operator by
+\begin{align*}
+T[A(t_1) A(t_2)]
+&= \begin{cases}
+A(t_1) A(t_2) & \text{for } t_1 > t_2 \\
+A(t_2) A(t_1) & \text{for } t_2 > t_1
+\end{cases} \tag{60}
+\end{align*}
+\end{exercise}
+\begin{solution}
+\begin{align*}
+\frac{1}{2} \int_{t_0}^t \int_{t_0}^t dt_1 dt_2 T[A(t_1) A(t_2)]
+&= \frac{1}{2} \int_{t_0}^t \int_{t_0}^t dt_1 dt_2 \theta(t_1 - t_2) A(t_1) A(t_2) + \theta(t_2 - t_1) A(t_2) A(t_1)
+\end{align*}
+Split the integrals
+\begin{align*}
+&= \frac{1}{2} \left( \int_{t_0}^t \int_{t_0}^{t} dt_1 dt_2 \theta(t_1 - t_2) A(t_1) A(t_2) + \int_{t_0}^t dt_1\int_{t_0}^{t}dt_2 \theta(t_2 - t_1) A(t_2) A(t_1) \right)
+\end{align*}
+Change of variables \( t_1 \leftrightarrow t_2 \) and apply the heaviside
+\begin{align*}
+&= \frac{1}{2} \int_{t_0}^t \int_{t_0}^{t_1} 2 A(t_1) A(t_2)
+\end{align*}
+\end{solution}
+\begin{exercise}[3]
+Write \( U(t, t_0) \) from Eq. (58) using the result of problem 2).
+\end{exercise}
+\begin{solution}
+    \[
+    U\left( t, t_0 \right) = 1 -i \int ^{t}_{t_0}dt_1 T\left( H_I\left( t_1 \right)  \right) + \frac{1}{2} \left( -i \right) ^2 \int ^{t}_{t_0}dt_1 \int ^{t}_{t_0}dt_2T\left[ H_I\left( t_1 \right) H_I\left( t_2 \right)  \right] 
+    .\] 
+\end{solution}
+
+More generally, the time-ordering operator with \( n \) terms orders the terms according to the ordering of their time argument, i.e.,
+\begin{align*}
+T[A_1(t_1) A_2(t_2) A_3(t_3) \dots A_n(t_n)]
+&= A_1(t_1) A_2(t_2) A_3(t_3) \dots A_n(t_n) \tag{61}
+\end{align*}
+if \( t_1 > t_2 > t_3 > \dots > t_n \), and it reorders if some other order is applied. For example
+\begin{align*}
+T[A_1(t_1) A_2(t_2) A_3(t_3)]
+&= A_2(t_2) A_1(t_1) A_3(t_3) \tag{62}
+\end{align*}
+if \( t_2 > t_1 > t_3 \). Basically, it ensures that the operator with the earliest time acts first on the state to the right. This is what we want when discussing \( U(t, t_0) \).
+
+\begin{exercise}[4]
+Prove the general expansion
+\begin{align*}
+U(t, t_0)
+&= \sum_{n=0}^\infty \frac{(-i)^n}{n!} \int_{t_0}^t dt_1 \dots \int_{t_0}^t dt_n T[H_I(t_1) \dots H_I(t_n)]. 
+\end{align*}
+(Hint: Look at a particular term of nth order and prove that
+\begin{align*}
+\int_{t_0}^t dt_1 \dots \int_{t_0}^t dt_n T[H_I(t_1) \dots H_I(t_n)]
+&= n! \int_{t_0}^t dt_1 \int_{t_0}^{t_1} dt_2 \dots \int_{t_0}^{t_{n-1}} dt_n H_I(t_1) H_I(t_2) \dots H_I(t_n) 
+\end{align*}
+by splitting the integration region according to the ordering of \( t_1, t_2, \dots, t_n \).)
+\end{exercise}
+We have shown this for $n=1$ and $n = 2$. We will now assume that it is true for  $n$ and show that this implies $n+1$. Lets start by taking a look at the Time-Ordering Operator, and what happens when we pull out a single term. According to the definition,
+ \begin{align*}
+    T\left[ H_{I}\left( t_1 \right) \cdots H_{I}\left( t_n \right) H_{I}\left( t_{n+1} \right)  \right] = \begin{cases}
+        H_I\left( t_1 \right) T\left[ H_{I}\left( t_2 \right) \cdots H_{I}\left( t_n \right) H_{I}\left( t_{n+1} \right)  \right] \quad & t_1 > t_2, \ldots t_1 > t_{n+1}\\
+        \vdots \\
+        H_I\left( t_n \right) T\left[ H_{I}\left( t_1 \right) \cdots H_{I}\left( t_{n-1} \right) H_{I}\left( t_{n+1} \right)  \right] \quad & t_n > t_1, \ldots t_n > t_{n+1}\\
+        H_I\left( t_{n+1} \right) T\left[ H_{I}\left( t_1 \right) \cdots H_{I}\left( t_{n-1} \right) H_{I}\left( t_{n} \right)  \right] \quad & t_{n+1} > t_1, \ldots t_{n+1} > t_{n}
+    \end{cases}
+.\end{align*}
+The requirement, that a given variable $t_i$ should be greater than all the other indices can be seen as the product of a bunch of different heaviside functions. So if we pick out the case where $t_k$ is the latest index, then than term can be written,
+\[
+\prod^{n+1}_{i=1, i \neq k}\theta \left(t_k - t_i  \right) H_I\left( t_k \right) T\left[ H_I\left( t_1 \right) \cdots \overline{H_I\left( t_k \right) }\cdots H_I\left( t_n+1 \right)  \right]  
+.\] 
+Where the overline signifies that we arent including the $k$th as it has been pulled out. To account for all the different combinations, we perform a sum over them,
+ \[
+    T\left[ H_{I}\left( t_1 \right) \cdots H_{I}\left( t_n \right) H_{I}\left( t_{n+1} \right)  \right] = \sum^{n+1}_{k = 1}\prod^{n+1}_{i=k, i \neq k}\theta \left(t_k - t_i  \right) H_I\left( t_k \right) T\left[ H_I\left( t_1 \right) \cdots \overline{H_I\left( t_k \right) }\cdots H_I\left( t_n+1 \right)  \right]  
+.\] 
+Lets insert this into the integral,
+\begin{align*}
+&=\int_{t_0}^t dt_1 \dots \int_{t_0}^t dt_n T[H_I(t_1) \dots H_I(t_n)] \\
+&=\int_{t_0}^t dt_1 \dots \int_{t_0}^t dt_{n+1}\sum^{n+1}_{k = 1}\prod^{n+1}_{i=1, i \neq k}\theta \left(t_k - t_i  \right) H_I\left( t_k \right) T\left[ H_I\left( t_1 \right) \cdots \overline{H_I\left( t_k \right) }\cdots H_I\left( t_n+1 \right)  \right]  
+.\end{align*}
+At this point we have a whole bunch of integrals, they all have the same limits and they are symmetric in the sense, that the order we perform the integration in doesnt matter. So we are allowed to make substitutions and reorder things. For each of the $n+1$ integrals, we shall do the subsitution $t_1 \leftrightarrow t_k$, this gives us the following,
+\begin{align*}
+=\int_{t_0}^t dt_1 \dots \int_{t_0}^t dt_{n+1}\sum^{n+1}_{k = 1}\prod^{n+1}_{i=2}\theta \left(t_1 - t_i  \right) H_I\left( t_1 \right) T\left[ H_I\left( t_2 \right) \cdots H_I\left( t_n+1 \right)  \right]  
+.\end{align*}
+Now, every term in the sum is identical, so we get a factor of $n+1$, which we can move out. The $H_I\left( t_1 \right) $ factor can be moved all the way out as well and the heaviside functions can be distributed on the integrals.
+\[
+= \left( n+1 \right) \int^{t}_{t_0} dt_1H_{I}\left( t_1 \right)  \int_{t}^{t_0} dt_2 \theta \left( t_1 - t_2 \right) \cdots \int_{t}^{t_0} dt_{n+1}\theta \left( t_1 - t_{n+1} \right) T\left[ H_I\left( t_2 \right) \cdots H_I\left( t_n+1 \right)  \right]  
+.\] 
+Now we can apply the heavisides to change the limits of integration,
+\[
+= \left( n+1 \right) \int_{t}^{t_0} dt_1H_{I}\left( t_1 \right) \left(    \int^{t_1}_{t_0} dt_2   \cdots \int^{t_1}_{t_0} dt_{n+1} T\left[ H_I\left( t_2 \right) \cdots H_I\left( t_n+1 \right)  \right]  \right)
+.\] 
+And we can apply the inductive hypothesis to the stuff contained in the parenthesis,
+\[
+= \left( n+1 \right) \int^{t}_{t_0} dt_1H_{I}\left( t_1 \right) \left(  n!  \int^{t_1}_{t_0} dt_2   \cdots \int^{t_n}_{t_0} dt_{n+1} H_I\left( t_2 \right) \cdots H_I\left( t_n+1 \right)   \right)
+.\] 
+And moving around we see that we have shown the inductive step,
+\[
+= \left( n+1 \right)! \int^{t}_{t_0} dt_1  \int^{t_1}_{t_0} dt_2   \cdots \int^{t_n}_{t_0} dt_{n+1} H_{I}\left( t_1 \right)H_I\left( t_2 \right) \cdots H_I\left( t_n+1 \right)
+.\] 
+\end{document}
